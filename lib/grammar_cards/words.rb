@@ -35,7 +35,7 @@ module GrammarCards
       end
 
       def english_regular_plural
-        if @english =~ /.*[ni]ty$/i
+        if @english =~ /.*[^aeiou]y$/i
           @english.sub(/y$/, 'ies')
         else
           "#{@english}s"
