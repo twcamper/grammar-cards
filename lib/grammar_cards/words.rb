@@ -1,6 +1,21 @@
 # encoding: utf-8
 module GrammarCards
   module Words
+    class DefiniteArticle
+      attr_reader :english
+
+      def initialize(gender, number)
+        @english = 'the'
+        @gender = gender
+        @number = number
+      end
+
+      def spanish
+        {:m => {:s => 'él', :p =>'los'},
+         :f =>{:s => 'la', :p => 'las'}}[@gender][@number]
+      end
+    end
+
     class Noun
 
       attr_reader :spanish, :english, :gender

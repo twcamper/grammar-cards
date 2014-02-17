@@ -284,5 +284,32 @@ module GrammarCards
         end
       end
     end
+
+    describe DefiniteArticle do
+      context "masculine singular" do
+        let(:article) { DefiniteArticle.new(:m, :s) }
+        it("should return Spanish") { expect(article.spanish).to eq 'él'}
+        it("should return English") { expect(article.english).to eq 'the'}
+      end
+
+      context "masculine plural" do
+        let(:article) { DefiniteArticle.new(:m, :p) }
+        it("should return Spanish") { expect(article.spanish).to eq 'los'}
+        it("should return English") { expect(article.english).to eq 'the'}
+      end
+
+      context "feminine singular" do
+        let(:article) { DefiniteArticle.new(:f, :s) }
+        it("should return Spanish") { expect(article.spanish).to eq 'la'}
+        it("should return English") { expect(article.english).to eq 'the'}
+      end
+
+      context "feminine plural" do
+        let(:article) { DefiniteArticle.new(:f, :p) }
+        it("should return Spanish") { expect(article.spanish).to eq 'las'}
+        it("should return English") { expect(article.english).to eq 'the'}
+      end
+
+    end
   end
 end
