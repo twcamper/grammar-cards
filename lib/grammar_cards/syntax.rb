@@ -16,6 +16,19 @@ module GrammarCards
 
     class PossessiveAdjectivalNounPhrase
 
+      def initialize(noun, owner)
+        @noun, @owner = noun, owner
+        @adj = GrammarCards::Words::PossessiveAdjective.new(@owner, {:gender => @noun.gender, :number => @noun.number})
+      end
+
+      def spanish
+        @adj.spanish + ' ' + @noun.spanish
+      end
+
+      def english
+        @adj.english + ' ' + @noun.english
+      end
+
     end
   end
 end
