@@ -288,7 +288,7 @@ module GrammarCards
     describe DefiniteArticle do
       context "masculine singular" do
         let(:article) { DefiniteArticle.new(:m, :s) }
-        it("should return Spanish") { expect(article.spanish).to eq 'él'}
+        it("should return Spanish") { expect(article.spanish).to eq 'el'}
         it("should return English") { expect(article.english).to eq 'the'}
       end
 
