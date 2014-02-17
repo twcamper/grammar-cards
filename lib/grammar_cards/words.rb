@@ -18,21 +18,30 @@ module GrammarCards
 
     class Noun
 
-      attr_reader :spanish, :english, :gender
-
-      def initialize(data)
+      attr_reader :gender
+      attr_accessor :number
+      def initialize(data, number=nil)
         fields = data.split(/\s+/)
-        @spanish, @spanish_irregular_plural = parse(fields[0])
+        @spanish_singular, @spanish_irregular_plural = parse(fields[0])
         @gender = fields[1].to_sym
-        @english, @english_irregular_plural = parse(fields[2])
+        @english_singular, @english_irregular_plural = parse(fields[2])
+        @number = number
       end
 
-      def spanish_plural
-        @spanish_irregular_plural || spanish_regular_plural
+      def spanish
+        if @number == :p
+          @spanish_irregular_plural || spanish_regular_plural
+        else
+          @spanish_singular
+        end
       end
 
-      def english_plural
-        @english_irregular_plural || english_regular_plural
+      def english
+        if @number == :p
+          @english_irregular_plural || english_regular_plural
+        else
+          @english_singular
+        end
       end
 
       private
@@ -41,19 +50,19 @@ module GrammarCards
       end
 
       def spanish_regular_plural
-          ending = if @spanish =~ /.*[aeiou]$/i
+          ending = if @spanish_singular =~ /.*[aeiou]$/i
                      's'
                    else
                      'es'
                    end
-        "#{@spanish}#{ending}"
+        "#{@spanish_singular}#{ending}"
       end
 
       def english_regular_plural
-        if @english =~ /.*[^aeiou]y$/i
-          @english.sub(/y$/, 'ies')
+        if @english_singular =~ /.*[^aeiou]y$/i
+          @english_singular.sub(/y$/, 'ies')
         else
-          "#{@english}s"
+          "#{@english_singular}s"
         end
       end
 
