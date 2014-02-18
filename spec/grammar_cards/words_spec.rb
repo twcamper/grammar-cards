@@ -224,27 +224,27 @@ module GrammarCards
     describe Noun do
       context "gender" do
         it "should know it's a boy" do
-          noun = Noun.new "sistema m system"
+          noun = Noun.new(:esp => "sistema", :gen => :m, :eng => "system")
           expect(noun.gender).to eq :m
         end
         it "should know it's a girl" do
-          noun = Noun.new "pared f wall"
+          noun = Noun.new(:esp => "pared", :gen => :f, :eng => "wall")
           expect(noun.gender).to eq :f
         end
       end
       context "number" do
         it "should know it's singular" do
-          noun = Noun.new("sistema m system", :s)
+          noun = Noun.new(:esp => "sistema", :gen => :m, :eng => "system", :num => :s)
           expect(noun.number).to eq :s
         end
         it "should know it's plural" do
-          noun = Noun.new("pared f wall", :p)
+          noun = Noun.new(:esp => "pared", :gen => :f, :eng => "wall", :num => :p)
           expect(noun.number).to eq :p
         end
       end
       context "regular Spanish, regular English" do
         context "singular" do
-          let( :noun) { Noun.new("libro m book", :s) }
+          let( :noun) { Noun.new(:esp => "libro", :gen => :m, :eng => "book", :num => :s) }
           it "should return a singular Spanish noun" do
             expect(noun.spanish).to eq 'libro'
           end
@@ -253,7 +253,7 @@ module GrammarCards
           end
         end
         context "plural" do
-          let( :noun) { Noun.new("libro m book", :p) }
+          let( :noun) { Noun.new(:esp => "libro", :gen => :m, :eng => "book", :num => :p) }
           it "should pluralize a regular Spanish noun" do
             expect(noun.spanish).to eq 'libros'
           end
@@ -264,33 +264,33 @@ module GrammarCards
       end
       context "irregular Spanish" do
         it "should return a singular noun" do
-          n = Noun.new("lápiz|lápices m pencil", :s)
+          n = Noun.new(:esp => "lápiz|lápices", :gen => :m, :eng => "pencil", :num => :s)
           expect(n.spanish).to eq 'lápiz'
         end
         it "should return a plural noun" do
-          n = Noun.new("lápiz|lápices m pencil", :p)
+          n = Noun.new(:esp => "lápiz|lápices", :gen => :m, :eng => "pencil", :num => :p)
           expect(n.spanish).to eq 'lápices'
         end
       end
       context "irregular English" do
         it "should return a singular noun" do
-          n = Noun.new("patata f potato|potatoes", :s)
+          n = Noun.new(:esp => "patata", :gen => :f, :eng => "potato|potatoes", :num => :s)
           expect(n.english).to eq 'potato'
         end
         it "should return a plural noun" do
-          n = Noun.new("patata f potato|potatoes", :p)
+          n = Noun.new(:esp => "patata", :gen => :f, :eng => "potato|potatoes", :num => :p)
           expect(n.english).to eq 'potatoes'
         end
       end
       context "Spanish -es" do
         it "should return a plural noun" do
-          n = Noun.new("hospital m hospital", :p)
+          n = Noun.new(:esp => "hospital", :gen => :m, :eng => "hospital", :num => :p)
           expect(n.spanish).to eq 'hospitales'
         end
       end
       context "English -ies" do
         it "should return a plural noun" do
-          n = Noun.new("certidumbre m certainty", :p)
+          n = Noun.new(:esp => "certidumbre", :gen => :m, :eng => "certainty", :num => :p)
           expect(n.english).to eq 'certainties'
         end
       end

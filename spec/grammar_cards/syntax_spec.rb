@@ -6,13 +6,13 @@ module GrammarCards
 
     describe PossessiveNounPhrase do
       it "should return Spanish for feminine plural noun, 3rd masculine plural owner" do
-        noun = GrammarCards::Words::Noun.new("pluma f pen", :p)
+        noun = GrammarCards::Words::Noun.new(:esp => "pluma", :gen => :f, :eng => "pen", :num => :p)
         phrase = PossessiveNounPhrase.spanish(noun, :per => 3, :gen => :m, :num => :p)
         expect(phrase).to eq 'las plumas de ellos'
       end
 
       it "should return Spanish for  masculine singular noun, 2nd singular owner" do
-        noun = GrammarCards::Words::Noun.new("libro m book", :s)
+        noun = GrammarCards::Words::Noun.new(:esp => "libro", :gen => :m, :eng => "book",:num => :s)
         phrase = PossessiveNounPhrase.spanish(noun, :per => 2, :num => :s)
         expect(phrase).to eq 'el libro de Ud.'
       end
@@ -23,7 +23,7 @@ module GrammarCards
         context "1st plural owner" do
           let(:phrase) do
             PossessiveAdjectivalNounPhrase.new(
-              GrammarCards::Words::Noun.new("casa f house", :s),
+              GrammarCards::Words::Noun.new(:esp => "casa", :gen => :f, :eng => "house", :num => :s),
               :per => 1, :num => :p
             )
           end
@@ -37,7 +37,7 @@ module GrammarCards
         context "2nd singular familiar owner" do
           let(:phrase) do
             PossessiveAdjectivalNounPhrase.new(
-              GrammarCards::Words::Noun.new("casa f house", :s),
+              GrammarCards::Words::Noun.new(:esp => "casa", :gen => :f, :eng => "house", :num => :s),
               :per => 2, :num => :s, :reg => :familiar
             )
           end
@@ -52,11 +52,11 @@ module GrammarCards
 
       context "plural noun" do
         context "feminine noun" do
-          let(:n) { GrammarCards::Words::Noun.new("ciudad f city", :p) }
+          let(:n) { GrammarCards::Words::Noun.new(:esp => "ciudad", :gen => :f, :eng => "city", :num => :p) }
           context "3rd plural masculine owner" do
           let(:phrase) do
             PossessiveAdjectivalNounPhrase.new(
-              GrammarCards::Words::Noun.new("ciudad f city", :p),
+              GrammarCards::Words::Noun.new(:esp => "ciudad", :gen => :f, :eng => "city", :num => :p),
               :per => 3, :num => :p, :gen => :m
             )
           end
@@ -72,7 +72,7 @@ module GrammarCards
           context "2nd plural familiar owner" do
           let(:phrase) do
             PossessiveAdjectivalNounPhrase.new(
-              GrammarCards::Words::Noun.new("mapa m map", :p),
+              GrammarCards::Words::Noun.new(:esp => "mapa", :gen => :m, :eng => "map", :num => :p),
               :per => 2, :num => :p, :reg => :familiar
             )
           end

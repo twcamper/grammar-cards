@@ -20,12 +20,11 @@ module GrammarCards
 
       attr_reader :gender
       attr_accessor :number
-      def initialize(data, number=nil)
-        fields = data.split(/\s+/)
-        @spanish_singular, @spanish_irregular_plural = parse(fields[0])
-        @gender = fields[1].to_sym
-        @english_singular, @english_irregular_plural = parse(fields[2])
-        @number = number
+      def initialize(attrs)
+        @spanish_singular, @spanish_irregular_plural = parse(attrs[:esp])
+        @gender = attrs[:gen]
+        @english_singular, @english_irregular_plural = parse(attrs[:eng])
+        @number = attrs[:num]
       end
 
       def spanish
