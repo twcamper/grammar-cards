@@ -7,13 +7,13 @@ module GrammarCards
     describe PossessiveNounPhrase do
       it "should return Spanish for feminine plural noun, 3rd masculine plural owner" do
         noun = GrammarCards::Words::Noun.new("pluma f pen", :p)
-        phrase = PossessiveNounPhrase.spanish(noun, :person => 3, :gender => :m, :number => :p)
+        phrase = PossessiveNounPhrase.spanish(noun, :per => 3, :gen => :m, :num => :p)
         expect(phrase).to eq 'las plumas de ellos'
       end
 
       it "should return Spanish for  masculine singular noun, 2nd singular owner" do
         noun = GrammarCards::Words::Noun.new("libro m book", :s)
-        phrase = PossessiveNounPhrase.spanish(noun, :person => 2, :number => :s)
+        phrase = PossessiveNounPhrase.spanish(noun, :per => 2, :num => :s)
         expect(phrase).to eq 'el libro de Ud.'
       end
     end
@@ -24,7 +24,7 @@ module GrammarCards
           let(:phrase) do
             PossessiveAdjectivalNounPhrase.new(
               GrammarCards::Words::Noun.new("casa f house", :s),
-              :person => 1, :number => :p
+              :per => 1, :num => :p
             )
           end
           it "should return 'nuestra casa'" do
@@ -38,7 +38,7 @@ module GrammarCards
           let(:phrase) do
             PossessiveAdjectivalNounPhrase.new(
               GrammarCards::Words::Noun.new("casa f house", :s),
-              :person => 2, :number => :s, :register => :familiar
+              :per => 2, :num => :s, :reg => :familiar
             )
           end
           it "should return 'tu casa'" do
@@ -57,7 +57,7 @@ module GrammarCards
           let(:phrase) do
             PossessiveAdjectivalNounPhrase.new(
               GrammarCards::Words::Noun.new("ciudad f city", :p),
-              :person => 3, :number => :p, :gender => :m
+              :per => 3, :num => :p, :gen => :m
             )
           end
             it "should return 'sus ciudades'" do
@@ -73,7 +73,7 @@ module GrammarCards
           let(:phrase) do
             PossessiveAdjectivalNounPhrase.new(
               GrammarCards::Words::Noun.new("mapa m map", :p),
-              :person => 2, :number => :p, :register => :familiar
+              :per => 2, :num => :p, :reg => :familiar
             )
           end
             it "should return 'vuestros mapas'" do

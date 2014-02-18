@@ -34,8 +34,8 @@ module GrammarCards
       context "1st singular owner, singular noun: (mi)" do
         before do
           @adj = PossessiveAdjective.new(
-            {:person => 1, :number => :s},
-            {:number => :s}
+            {:per => 1, :num => :s},
+            {:num => :s}
           )
         end
         it("should return Spanish") { expect(@adj.spanish).to eq 'mi' }
@@ -45,8 +45,8 @@ module GrammarCards
       context "1st singular owner, pluaral noun: (mis)" do
         before do
           @adj = PossessiveAdjective.new(
-            {:person => 1, :number => :s},
-            {:number => :p}
+            {:per => 1, :num => :s},
+            {:num => :p}
           )
         end
         it("should return Spanish") { expect(@adj.spanish).to eq 'mis' }
@@ -57,8 +57,8 @@ module GrammarCards
         context "masculine noun" do
           before do
             @adj = PossessiveAdjective.new(
-              {:person => 1, :number => :p},
-              {:number => :s, :gender => :m}
+              {:per => 1, :num => :p},
+              {:num => :s, :gen => :m}
             )
           end
           it("should return Spanish") { expect(@adj.spanish).to eq 'nuestro' }
@@ -67,8 +67,8 @@ module GrammarCards
         context "feminine noun" do
           before do
             @adj = PossessiveAdjective.new(
-              {:person => 1, :number => :p},
-              {:number => :s, :gender => :f}
+              {:per => 1, :num => :p},
+              {:num => :s, :gen => :f}
             )
           end
           it("should return Spanish") { expect(@adj.spanish).to eq 'nuestra' }
@@ -80,8 +80,8 @@ module GrammarCards
         context "masculine noun" do
           before do
             @adj = PossessiveAdjective.new(
-              {:person => 1, :number => :p},
-              {:number => :p, :gender => :m}
+              {:per => 1, :num => :p},
+              {:num => :p, :gen => :m}
             )
           end
           it("should return Spanish") { expect(@adj.spanish).to eq 'nuestros' }
@@ -90,8 +90,8 @@ module GrammarCards
         context "feminine noun" do
           before do
             @adj = PossessiveAdjective.new(
-              {:person => 1, :number => :p},
-              {:number => :p, :gender => :f}
+              {:per => 1, :num => :p},
+              {:num => :p, :gen => :f}
             )
           end
           it("should return Spanish") { expect(@adj.spanish).to eq 'nuestras' }
@@ -102,8 +102,8 @@ module GrammarCards
       context "2nd singular familiar owner, singular noun: (tu)" do
         before do
           @adj = PossessiveAdjective.new(
-            {:person => 2, :number => :s, :register => :familiar},
-            {:number => :s}
+            {:per => 2, :num => :s, :reg => :familiar},
+            {:num => :s}
           )
         end
         it("should return Spanish") { expect(@adj.spanish).to eq 'tu' }
@@ -112,8 +112,8 @@ module GrammarCards
       context "2nd singular familiar owner, plural noun: (tus)" do
         before do
           @adj = PossessiveAdjective.new(
-            {:person => 2, :number => :s, :register => :familiar},
-            {:number => :p}
+            {:per => 2, :num => :s, :reg => :familiar},
+            {:num => :p}
           )
         end
         it("should return Spanish") { expect(@adj.spanish).to eq 'tus' }
@@ -123,8 +123,8 @@ module GrammarCards
         context "masculine noun" do
           before do
             @adj = PossessiveAdjective.new(
-              {:person => 2, :number => :p, :register => :familiar},
-              {:number => :s, :gender => :m}
+              {:per => 2, :num => :p, :reg => :familiar},
+              {:num => :s, :gen => :m}
             )
           end
           it("should return Spanish") { expect(@adj.spanish).to eq 'vuestro' }
@@ -133,8 +133,8 @@ module GrammarCards
         context "feminine noun" do
           before do
             @adj = PossessiveAdjective.new(
-              {:person => 2, :number => :p, :register => :familiar},
-              {:number => :s, :gender => :f}
+              {:per => 2, :num => :p, :reg => :familiar},
+              {:num => :s, :gen => :f}
             )
           end
           it("should return Spanish") { expect(@adj.spanish).to eq 'vuestra' }
@@ -145,8 +145,8 @@ module GrammarCards
         context "masculine noun" do
           before do
             @adj = PossessiveAdjective.new(
-              {:person => 2, :number => :p, :register => :familiar},
-              {:number => :p, :gender => :m}
+              {:per => 2, :num => :p, :reg => :familiar},
+              {:num => :p, :gen => :m}
             )
           end
           it("should return Spanish") { expect(@adj.spanish).to eq 'vuestros' }
@@ -155,8 +155,8 @@ module GrammarCards
         context "feminine noun" do
           before do
             @adj = PossessiveAdjective.new(
-              {:person => 2, :number => :p, :register => :familiar},
-              {:number => :p, :gender => :f}
+              {:per => 2, :num => :p, :reg => :familiar},
+              {:num => :p, :gen => :f}
             )
           end
           it("should return Spanish") { expect(@adj.spanish).to eq 'vuestras' }
@@ -166,8 +166,8 @@ module GrammarCards
       context "2nd formal owner, singular noun: (su)" do
         before do
           @adj = PossessiveAdjective.new(
-            {:person => 2, :register => :formal},
-            {:number => :s}
+            {:per => 2, :reg => :formal},
+            {:num => :s}
           )
         end
         it("should return Spanish") { expect(@adj.spanish).to eq 'su' }
@@ -176,8 +176,8 @@ module GrammarCards
       context "2nd formal owner, plural noun: (sus)" do
         before do
           @adj = PossessiveAdjective.new(
-            {:person => 2, :register => :formal},
-            {:number => :p}
+            {:per => 2, :reg => :formal},
+            {:num => :p}
           )
         end
         it("should return Spanish") { expect(@adj.spanish).to eq 'sus' }
@@ -187,8 +187,8 @@ module GrammarCards
       context "3rd person owner, singular noun: (su)" do
         before do
           @adj = PossessiveAdjective.new(
-            {:person => 2, :register => :formal},
-            {:number => :s}
+            {:per => 2, :reg => :formal},
+            {:num => :s}
           )
         end
         it("should return Spanish") { expect(@adj.spanish).to eq 'su' }
@@ -197,8 +197,8 @@ module GrammarCards
       context "3rd person owner, plural noun: (sus)" do
         before do
           @adj = PossessiveAdjective.new(
-            {:person => 2, :register => :formal},
-            {:number => :p}
+            {:per => 2, :reg => :formal},
+            {:num => :p}
           )
         end
         it("should return Spanish") { expect(@adj.spanish).to eq 'sus' }
@@ -207,15 +207,15 @@ module GrammarCards
 
       context "English 3rd person owner" do
         it "should return 'his'" do
-          @adj = PossessiveAdjective.new( {:person => 3, :gender => :m, :number => :s}, {})
+          @adj = PossessiveAdjective.new( {:per => 3, :gen => :m, :num => :s}, {})
           expect(@adj.english).to eq 'his'
         end
         it "should return 'her'" do
-          @adj = PossessiveAdjective.new( {:person => 3, :gender => :f, :number => :s}, {})
+          @adj = PossessiveAdjective.new( {:per => 3, :gen => :f, :num => :s}, {})
           expect(@adj.english).to eq 'her'
         end
         it "should return 'their'" do
-          @adj = PossessiveAdjective.new( {:person => 3, :number => :p }, {})
+          @adj = PossessiveAdjective.new( {:per => 3, :num => :p }, {})
           expect(@adj.english).to eq 'their'
         end
       end

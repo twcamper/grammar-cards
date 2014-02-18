@@ -77,15 +77,15 @@ module GrammarCards
       attr_reader :owner, :owned
 
       def spanish
-        stem = if owner[:person] == 1
-                 first_person(owner[:number], owned[:gender])
-               elsif owner[:person] == 2 && owner[:register] == :familiar
-                 second_person_familiar(owner[:number], owned[:gender])
+        stem = if owner[:per] == 1
+                 first_person(owner[:num], owned[:gen])
+               elsif owner[:per] == 2 && owner[:reg] == :familiar
+                 second_person_familiar(owner[:num], owned[:gen])
                else
                  'su'
                end
 
-        owned[:number] == :s ? stem : "#{stem}s"
+        owned[:num] == :s ? stem : "#{stem}s"
       end
 
       def first_person(number, gender)
@@ -99,16 +99,16 @@ module GrammarCards
       end
 
       def english
-        case owner[:person]
+        case owner[:per]
         when 1
-          {:s => 'my', :p => 'our'}[owner[:number]]
+          {:s => 'my', :p => 'our'}[owner[:num]]
         when 2
           'your'
         when 3
-          if owner[:number] == :p
+          if owner[:num] == :p
             'their'
           else
-            {:m => 'his', :f => 'her'}[owner[:gender]]
+            {:m => 'his', :f => 'her'}[owner[:gen]]
           end
         end
       end

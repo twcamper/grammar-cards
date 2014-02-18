@@ -9,7 +9,7 @@ module GrammarCards
         phrase += noun.spanish
         phrase += " de"
         phrase += " "
-        phrase += GrammarCards::Words::PossessivePronoun.spanish(owner[:person], owner[:number], owner[:gender])
+        phrase += GrammarCards::Words::PossessivePronoun.spanish(owner[:per], owner[:num], owner[:gen])
       end
       extend PossessiveNounPhrase
     end
@@ -18,7 +18,7 @@ module GrammarCards
 
       def initialize(noun, owner)
         @noun, @owner = noun, owner
-        @adj = GrammarCards::Words::PossessiveAdjective.new(@owner, {:gender => @noun.gender, :number => @noun.number})
+        @adj = GrammarCards::Words::PossessiveAdjective.new(@owner, {:gen => @noun.gender, :num => @noun.number})
       end
 
       def spanish

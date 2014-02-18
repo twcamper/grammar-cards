@@ -6,7 +6,7 @@ module GrammarCards
     context 'simple front, simple back' do
       before do
         n = GrammarCards::Words::Noun.new("sistema m system", :p)
-        @card = Card.new(n, {:person => 1, :number => :s})
+        @card = Card.new(n, {:per => 1, :num => :s})
       end
       it "should say 'my systems' on the front" do
         expect(@card.front).to eq 'my systems'
@@ -20,7 +20,7 @@ module GrammarCards
     context 'annotated front, annotated back' do
       before do
         n = GrammarCards::Words::Noun.new("país m country", :p)
-        @card = Card.new(n, {:person => 3, :gender => :f, :number => :p})
+        @card = Card.new(n, {:per => 3, :gen => :f, :num => :p})
       end
       it "should say 'their countries (f)' on the front" do
         expect(@card.front).to eq 'their countries (f)'
