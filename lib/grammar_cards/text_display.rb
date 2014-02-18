@@ -7,14 +7,16 @@ module GrammarCards
     def self.view(deck_size)
       Curses.init_screen
       begin
-        Curses.cbreak
-        Curses.noecho
-        Curses.curs_set 0
+        Curses.cbreak      # user input is immediately available to the program
+        Curses.noecho      # don't echo keyboard input
+        Curses.curs_set 0  # invisible cursor; keeps line centering code simple below
+
         yield View.new deck_size
+
       rescue Exception => e
       ensure
-        Curses.close_screen
-        if e
+        Curses.close_screen # IMPORTANT!!  Without, the terminal will be messed up after termination.
+        if e  # curses has it's own stderr, so we have to wait to write anything the user can see
           STDERR.puts e
           STDERR.puts e.backtrace
         end
