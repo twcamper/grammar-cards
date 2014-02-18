@@ -1,0 +1,123 @@
+---
+# mi
+- - :num: :s
+  - :per: 1
+    :num: :s
+# mis
+- - :num: :p
+  - :per: 1
+    :num: :s
+# nuestro
+- - :num: :s
+    :gen: :m
+  - :per: 1
+    :num: :p
+# nuestra
+- - :num: :s
+    :gen: :f
+  - :per: 1
+    :num: :p
+# nuestros
+- - :num: :p
+    :gen: :m
+  - :per: 1
+    :num: :p
+# nuestras
+- - :num: :p
+    :gen: :f
+  - :per: 1
+    :num: :p
+# tu
+- - :num: :s
+  - :per: 2
+    :num: :s
+    :reg: :familiar
+# tus
+- - :num: :p
+  - :per: 2
+    :num: :s
+    :reg: :familiar
+# vuestro
+- - :num: :s
+    :gen: :m
+  - :per: 2
+    :num: :p
+    :reg: :familiar
+# vuestra
+- - :num: :s
+    :gen: :f
+  - :per: 2
+    :num: :p
+    :reg: :familiar
+# vuestros
+- - :num: :p
+    :gen: :m
+  - :per: 2
+    :num: :p
+    :reg: :familiar
+# vuestras
+- - :num: :p
+    :gen: :f
+  - :per: 2
+    :num: :p
+    :reg: :familiar
+# su/de Ud.
+- - :num: :s
+  - :per: 2
+    :num: :s
+    :reg: :formal
+# su/de Ud.
+- - :num: :p
+  - :per: 2
+    :num: :s
+    :reg: :formal
+# su/de Uds.
+- - :num: :s
+  - :per: 2
+    :num: :p
+    :reg: :formal
+# su/de Uds.
+- - :num: :p
+  - :per: 2
+    :num: :p
+    :reg: :formal
+# su/de él
+- - :num: :s
+  - :per: 3
+    :num: :s
+    :gen: :m
+# su/de ella
+- - :num: :s
+  - :per: 3
+    :num: :s
+    :gen: :f
+# sus/de él
+- - :num: :p
+  - :per: 3
+    :num: :s
+    :gen: :m
+# sus/de ella
+- - :num: :p
+  - :per: 3
+    :num: :s
+    :gen: :f
+# sus/de ellos
+- - :num: :s
+  - :per: 3
+    :num: :p
+    :gen: :m
+# sus/de ellas
+- - :num: :s
+  - :per: 3
+    :num: :p
+    :gen: :f
+# sus/de ellos
+- - :num: :p
+  - :per: 3
+    :num: :p
+    :gen: :m
+# sus/de ellas
+- - :num: :p
+  - :per: 3
+    :num: :p
+    :gen: :f
