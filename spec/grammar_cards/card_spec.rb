@@ -5,8 +5,8 @@ module GrammarCards
   describe Card do
     context 'simple front, simple back' do
       before do
-        n = GrammarCards::Words::Noun.new(:num => :p, :esp => "sistema", :gen => :m, :eng => "system")
-        @card = Card.new(n, {:per => 1, :num => :s})
+        n ={:esp => "sistema", :gen => :m, :eng => "system"}
+        @card = Card.new(n, [{:num => :p}, {:per => 1, :num => :s}])
       end
       it "should say 'my systems' on the front" do
         expect(@card.front).to eq 'my systems'
@@ -19,8 +19,8 @@ module GrammarCards
 
     context 'annotated front, annotated back' do
       before do
-        n = GrammarCards::Words::Noun.new(:num => :p, :esp => "país", :gen => :m, :eng => "country")
-        @card = Card.new(n, {:per => 3, :gen => :f, :num => :p})
+        n = {:esp => "país", :gen => :m, :eng => "country"}
+        @card = Card.new(n, [{:num => :p}, {:per => 3, :gen => :f, :num => :p}])
       end
       it "should say 'their countries (f)' on the front" do
         expect(@card.front).to eq 'their countries (f)'

@@ -14,6 +14,7 @@ module GrammarCards
           break unless view.continue?
           view.show_back(card.back)
           completed += 1
+          GrammarCards::CardLogger.log card
           break unless view.continue?
         end
       end
