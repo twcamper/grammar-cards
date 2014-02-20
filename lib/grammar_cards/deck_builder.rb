@@ -17,18 +17,6 @@ module GrammarCards
       shuffled
     end
 
-    def log_data
-      @@log_data ||= GrammarCards::CardLogger.read_log_file
-    end
-
-    def random_noun(structure_record)
-      list = candidate_list(structure_record)
-      list[rand(list.size)]
-    end
-    def debug(s)
-      File.open('debug', "a") {|f| f.puts s }
-    end
-
     # m, f, or both
     def nouns_by_gender(gender)
       @@noun_data ||= Psych.load_file(NOUN_FILE)
@@ -42,33 +30,26 @@ module GrammarCards
       end
 
     end
+
+    # nouns unused in past runs by the current structure
+    def unused_nouns(structure_record, noun_superset)
+      (@@log_file ||= GrammarCards::CardLogger::LogFile.new).
+        nouns_unused_by(structure_record, noun_superset)
+    end
+
     def candidate_list(structure_record)
-      # debug structure_record.inspect
-      used_nouns = []
-      i = log_data.index do |item|
-        item[0] == structure_record[0] && item[1] == structure_record[1]
-      end
-      # debug "index '#{i}'"
-      if i
-        used_nouns = log_data[i][2] || []
-      end
+      unused_nouns(structure_record, nouns_by_gender(structure_record[0][:gen]))
+    end
 
-      nouns = nouns_by_gender(structure_record[0][:gen])
-      diff = nouns - used_nouns
-
-      if diff.empty? # all nouns have been used
-        log_data[i][2] = []
-        GrammarCards::CardLogger.dump log_data
-        nouns
-      else
-        diff
-      end
+    def random_noun(structure_record)
+      list = candidate_list(structure_record)
+      list[rand(list.size)]
     end
 
     def build
       deck = []
-      shuffle_structures.each do |record|
-        deck << Card.new(random_noun(record), record)
+      shuffle_structures.each do |structure_record|
+        deck << Card.new(random_noun(structure_record), structure_record)
       end
       deck
     end
