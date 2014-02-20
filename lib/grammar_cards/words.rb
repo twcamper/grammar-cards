@@ -58,8 +58,13 @@ module GrammarCards
       end
 
       def english_regular_plural
-        if @english_singular =~ /.*[^aeiou]y$/i
+        case @english_singular
+        when /.*[^aeiou]y$/i
           @english_singular.sub(/y$/, 'ies')
+        when /.*(x|ch|s|z)$/
+          @english_singular += "es"
+        when /.*fe?$/
+          @english_singular.sub(/fe?$/, 'ves')
         else
           "#{@english_singular}s"
         end

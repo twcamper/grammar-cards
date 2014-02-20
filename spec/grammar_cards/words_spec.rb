@@ -294,6 +294,34 @@ module GrammarCards
           expect(n.english).to eq 'certainties'
         end
       end
+      context "English -es" do
+        it "should return 'taxes'" do
+          n = Noun.new(:esp => "impuesto", :gen => :m, :eng => "tax", :num => :p)
+          expect(n.english).to eq 'taxes'
+        end
+        it "should return 'churches'" do
+          n = Noun.new(:esp => "iglesia", :gen => :f, :eng => "church", :num => :p)
+          expect(n.english).to eq 'churches'
+        end
+        it "should return 'addresses'" do
+          n = Noun.new(:esp => "direccíon", :gen => :f, :eng => "address", :num => :p)
+          expect(n.english).to eq 'addresses'
+        end
+        it "should return 'buzzes'" do
+          n = Noun.new(:esp => "zumbido", :gen => :m, :eng => "buzz", :num => :p)
+          expect(n.english).to eq 'buzzes'
+        end
+      end
+      context "English -ves" do
+        it "should return 'elves'" do
+          n = Noun.new(:esp => "elfo", :gen => :f, :eng => "elf", :num => :p)
+          expect(n.english).to eq 'elves'
+        end
+        it "should return 'knives'" do
+          n = Noun.new(:esp => "cuchillo", :gen => :m, :eng => "knife", :num => :p)
+          expect(n.english).to eq 'knives'
+        end
+      end
     end
 
     describe DefiniteArticle do
