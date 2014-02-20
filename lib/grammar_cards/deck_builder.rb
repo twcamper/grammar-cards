@@ -38,12 +38,22 @@ module GrammarCards
     end
 
     def candidate_list(structure_record)
-      unused_nouns(structure_record, nouns_by_gender(structure_record[0][:gen]))
+      unused = unused_nouns(structure_record, nouns_by_gender(structure_record[0][:gen]))
+      if (diff = unused - used_in_this_deck).empty?
+        unused
+      else
+        diff
+      end
+    end
+
+    def used_in_this_deck
+      @@used_in_this_deck ||= []
     end
 
     def random_noun(structure_record)
       list = candidate_list(structure_record)
-      list[rand(list.size)]
+      used_in_this_deck << list[rand(list.size)]
+      used_in_this_deck.last
     end
 
     def build
