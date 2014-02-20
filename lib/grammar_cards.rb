@@ -1,6 +1,7 @@
 # encoding: utf-8
 gem 'psych'
 require 'psych'  # YAML implementation
+require 'fileutils'
 
 require_relative 'grammar_cards/words'
 require_relative 'grammar_cards/syntax'

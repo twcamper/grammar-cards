@@ -36,6 +36,7 @@ module GrammarCards
     end
 
     def dump(log_data)
+      FileUtils.mkdir LOG_PATH unless File.exist? LOG_PATH
       File.write(LOG_FILE, Psych.dump(log_data))
     end
 
