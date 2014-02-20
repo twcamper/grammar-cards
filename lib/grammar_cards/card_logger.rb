@@ -3,7 +3,7 @@
 module GrammarCards
   module CardLogger
 
-    LOG_PATH = File.expand_path('../data', File.dirname($0))
+    LOG_PATH = File.expand_path('../log', File.dirname($0))
     LOG_FILE = File.join(LOG_PATH, "nouns-used-per-structure.yml")
 
     class LogFile

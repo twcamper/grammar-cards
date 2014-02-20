@@ -29,8 +29,20 @@ module GrammarCards
       File.open('debug', "a") {|f| f.puts s }
     end
 
-    def candidate_list(structure_record)
+    # m, f, or both
+    def nouns_by_gender(gender)
       @@noun_data ||= Psych.load_file(NOUN_FILE)
+      case gender
+      when :m
+        @@masculine ||= @@noun_data.select {|n| n[:gen] == :m}
+      when :f
+        @@feminine  ||= @@noun_data.select {|n| n[:gen] == :f}
+      else
+        @@noun_data
+      end
+
+    end
+    def candidate_list(structure_record)
       # debug structure_record.inspect
       used_nouns = []
       i = log_data.index do |item|
@@ -41,16 +53,13 @@ module GrammarCards
         used_nouns = log_data[i][2] || []
       end
 
-      raw_list = if structure_record[0][:gen]
-        @@noun_data.select {|n| n[:gen] == structure_record[0][:gen] }
-      else
-        @@noun_data
-      end
-      diff = raw_list - used_nouns
+      nouns = nouns_by_gender(structure_record[0][:gen])
+      diff = nouns - used_nouns
 
       if diff.empty? # all nouns have been used
+        log_data[i][2] = []
         GrammarCards::CardLogger.dump log_data
-        raw_list
+        nouns
       else
         diff
       end
