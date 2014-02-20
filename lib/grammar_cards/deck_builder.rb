@@ -58,8 +58,10 @@ module GrammarCards
 
     def build
       deck = []
-      shuffle_structures.each do |structure_record|
-        deck << Card.new(random_noun(structure_record), structure_record)
+      shuffle_structures.each_with_index do |structure_record, i|
+        deck << Card.new(random_noun(structure_record),
+                         structure_record,
+                        i + 1)
       end
       deck
     end

@@ -82,11 +82,28 @@ module GrammarCards
         @win.addstr "#{number} / #{@total}"
       end
 
+      def get_mac_char
+        while ((ch = @win.getch).kind_of?(Fixnum) && ch == 27) do
+          @win.getch  # swallow wide characters
+          @win.getch
+        end
+        ch
+      end
+
       def show_front(s)
         vert = (self.class.height / 2 ) - 2
         @win.setpos(vert, 0)
         write_center(s)
         @win.refresh
+
+        case get_mac_char
+        when /^[q]$/i
+          :quit
+        when /^[bpu]$/i
+          :prev
+        when /^[nsf]$/i
+          :skip
+        end
       end
 
       def show_back(s)
@@ -96,10 +113,13 @@ module GrammarCards
         @win.setpos(rule_line_vert + 2, 0)
         write_center(s)
         @win.refresh
-      end
 
-      def continue?
-        @win.getch !~ /^[qQ]$/
+        case get_mac_char
+        when /^[q]$/i
+          :quit
+        when /^[bpu]$/i
+          :prev
+        end
       end
 
     end

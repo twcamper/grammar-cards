@@ -2,8 +2,8 @@
 module GrammarCards
   class Card
 
-    attr_accessor :structure_data, :noun_data
-    def initialize(noun_data, structure_data)
+    attr_accessor :structure_data, :noun_data, :sequence_number
+    def initialize(noun_data, structure_data, seq)
       @noun_data      = noun_data
       @owner          = structure_data[1]
       @structure_data = structure_data
@@ -12,6 +12,17 @@ module GrammarCards
                                                       :gen => noun_data[:gen],
                                                       :num => structure_data[0][:num])
       @phrase         = GrammarCards::Syntax::PossessiveAdjectivalNounPhrase.new(@noun, @owner)
+      @sequence_number = seq
+      @logged = false
+    end
+
+    def logged?
+      @logged
+    end
+
+    def set_logged
+      @logged = true
+      @logged.freeze
     end
 
     def front

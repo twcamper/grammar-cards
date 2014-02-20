@@ -4,18 +4,39 @@ module GrammarCards
   module DeckRunner
 
     def run
-      deck = GrammarCards::DeckBuilder.build
+      deck = GrammarCards::Deck.new
 
       completed = 0
       TextDisplay.view(deck.size) do |view|
-        deck.each_with_index do |card, i|
-          view.new_card(i + 1)
-          view.show_front(card.front)
-          break unless view.continue?
-          view.show_back(card.back)
-          completed += 1
-          GrammarCards::CardLogger.log card
-          break unless view.continue?
+        card = deck.next
+        while (card) do
+          view.new_card(card.sequence_number)
+
+          case view.show_front(card.front)
+          when :quit
+            break
+          when :prev
+            card = deck.prev
+            next
+          when :skip
+            card = deck.next
+            next
+          end
+
+          case view.show_back(card.back)
+          when :quit
+            break
+          when :prev
+            card = deck.prev
+          else
+            unless card.logged?
+              completed += 1
+              GrammarCards::CardLogger.log card
+              card.set_logged
+            end
+            card = deck.next
+          end
+
         end
       end
 
