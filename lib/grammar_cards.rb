@@ -4,6 +4,7 @@ require 'psych'  # YAML implementation
 require 'fileutils'
 
 require_relative 'grammar_cards/words'
+require_relative 'grammar_cards/numbers'
 require_relative 'grammar_cards/syntax'
 require_relative 'grammar_cards/annotations'
 require_relative 'grammar_cards/card'
