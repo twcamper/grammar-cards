@@ -61,6 +61,7 @@ module GrammarCards
                           self.class.left)
         @win.attrset Curses::A_BOLD
         @win.color_set COLOR_PAIR
+        @win.keypad true  # enables Key::UP, Key::PPAGE, etc
       end
 
       def write_center(s)
@@ -82,44 +83,18 @@ module GrammarCards
         @win.addstr "#{number} / #{@total}"
       end
 
-      # $ gem install ncursesw
-      # Building native extensions.  This could take a while...
-        # ERROR:  Error installing ncursesw:
-        # ERROR: Failed to Buildingild gem native extension.
-
-                # /Users/twcamper/.rvm/rubies/ruby-1.9.3-p484/bin/ruby extconf.rb
-      # checking for unistd.h... yes
-      # checking for locale.h... yes
-      # checking for ncursesw/curses.h... no
-      # checking for ncurses.h... yes
-      # checking for wmove() in -lncursesw... no
-      # checking for wmove() in -lpdcurses... no
-      # *** extconf.rb failed ***#
-      #
-      # Curses on my Mac sees many nav. keys (up arrow, page down, etc)
-      # as a sequence of 3 separate characters on the stream.
-      # Possibly due to a lack of wide character support?
-      # ( see above issue with lib 'ncursesw' )
-      def get_mac_char
-        while ((ch = @win.getch).kind_of?(Fixnum) && ch == 27) do
-          @win.getch  # swallow wide characters
-          @win.getch
-        end
-        ch
-      end
-
       def show_front(s)
         vert = (self.class.height / 2 ) - 2
         @win.setpos(vert, 0)
         write_center(s)
         @win.refresh
 
-        case get_mac_char
+        case @win.getch
         when /^[q]$/i
           :quit
-        when /^[bpu]$/i
+        when Key::LEFT, Key::UP, Key::PPAGE, /^[bpu]$/i
           :prev
-        when /^[nsf]$/i
+        when Key::RIGHT, Key::NPAGE, /^[nsf]$/i
           :skip
         end
       end
@@ -132,10 +107,10 @@ module GrammarCards
         write_center(s)
         @win.refresh
 
-        case get_mac_char
+        case @win.getch
         when /^[q]$/i
           :quit
-        when /^[bpu]$/i
+        when Key::LEFT, Key::UP, Key::PPAGE, /^[bpu]$/i
           :prev
         end
       end
