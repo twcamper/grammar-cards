@@ -35,7 +35,7 @@ module GrammarCards
 
         # nouns unused in past runs by the current structure
         def unused_nouns(structure_record, noun_superset)
-          (@@log_file ||= GrammarCards::CardLogger::LogFile.new).
+          (@@log_file ||= GrammarCards::Cards::PossessiveAdjectiveLogger::LogFile.new).
             nouns_unused_by(structure_record, noun_superset)
         end
 
@@ -61,7 +61,7 @@ module GrammarCards
         def build
           deck = []
           shuffle_structures.each_with_index do |structure_record, i|
-            deck << Card.new(random_noun(structure_record),
+            deck << Cards::PossessiveAdjective.new(random_noun(structure_record),
                              structure_record,
                              i + 1)
           end
