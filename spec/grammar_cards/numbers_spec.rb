@@ -46,6 +46,12 @@ module GrammarCards
       it "should translate 1000" do
         expect(Numbers.spanish_words_for(1000)).to eq 'mil'
       end
+      it "should translate 1009" do
+        expect(Numbers.spanish_words_for(1009)).to eq 'mil nueve'
+      end
+      it "should translate 1492" do
+        expect(Numbers.spanish_words_for(1492)).to eq 'mil cuatrocientos noventa y dos'
+      end
       it "should translate 6000" do
         expect(Numbers.spanish_words_for(6000)).to eq 'seis mil'
       end

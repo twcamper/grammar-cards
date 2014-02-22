@@ -69,7 +69,11 @@ module GrammarCards
 
     def thousand_to_999999(n)
       return MIL if n == 1000
-      thousands = "#{less_than_1000(n / 1000)} #{MIL}"
+      if n < 2000
+        thousands = MIL
+      else
+        thousands = "#{less_than_1000(n / 1000)} #{MIL}"
+      end
       if n % 1000 == 0
         thousands
       else
