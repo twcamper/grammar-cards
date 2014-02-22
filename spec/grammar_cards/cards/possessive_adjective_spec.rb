@@ -8,7 +8,7 @@ module GrammarCards
       context 'simple front, simple back' do
         before do
           n ={:esp => "sistema", :gen => :m, :eng => "system"}
-          @card = PossessiveAdjective.new(n, [{:num => :p}, {:per => 1, :num => :s}], 0)
+          @card = PossessiveAdjective.new(n, [{:num => :p}, {:per => 1, :num => :s}])
         end
         it "should say 'my systems' on the front" do
           expect(@card.front).to eq 'my systems'
@@ -22,7 +22,7 @@ module GrammarCards
       context 'annotated front, annotated back' do
         before do
           n = {:esp => "país", :gen => :m, :eng => "country"}
-          @card = PossessiveAdjective.new(n, [{:num => :p}, {:per => 3, :gen => :f, :num => :p}], 0)
+          @card = PossessiveAdjective.new(n, [{:num => :p}, {:per => 3, :gen => :f, :num => :p}])
         end
         it "should say 'their countries (f)' on the front" do
           expect(@card.front).to eq 'their countries (f)'
@@ -36,9 +36,10 @@ module GrammarCards
       context "properties" do
         before do
           n = {:esp => "país", :gen => :m, :eng => "country"}
-          @card = PossessiveAdjective.new(n, [{:num => :p}, {:per => 3, :gen => :f, :num => :p}], 9)
+          @card = PossessiveAdjective.new(n, [{:num => :p}, {:per => 3, :gen => :f, :num => :p}])
         end
         it "should know its sequence number" do
+          @card.sequence_number = 9
           expect(@card.sequence_number).to eq 9
         end
         it "should know if it's been logged yet" do

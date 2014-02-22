@@ -1,6 +1,7 @@
 # encoding: utf-8
 require_relative 'deck/runner'
 require_relative 'deck/builders/possessive_adjectives'
+require_relative 'deck/builders/numbers'
 
 module GrammarCards
   module Deck
@@ -30,25 +31,33 @@ module GrammarCards
           bigger = decks[1]
           smaller = decks[0]
         end
-        ratio = (bigger.to_f / smaller.to_f).round
-        (bigger.size + smaller.size).times do
+        ratio = (bigger.size.to_f / smaller.size.to_f).round
+        total = bigger.size + smaller.size
+        i = 0
+        while i < total do
           ratio.times do
             composite_deck << bigger.shift
+            i += 1
           end
-          composite << smaller.shift
+          composite_deck << smaller.shift
+          i += 1
         end
-        composite += bigger unless bigger.empty?
+        composite_deck += bigger unless bigger.empty?
       else
         composite_deck = decks.flatten
       end
 
-      Deck.new composite_deck
+      # nils are likely since we don't guard against shifting off of empty arrays above
+      Deck.new composite_deck.compact
     end
     class Deck
 
       def initialize(cards)
         raise "Empty deck" if cards.empty?
-        @cards = cards
+        @cards = cards.map.with_index do |card, i|
+          card.sequence_number = i + 1
+          card
+        end
         @index = -1
       end
 

@@ -62,8 +62,7 @@ module GrammarCards
           deck = []
           shuffle_structures.each_with_index do |structure_record, i|
             deck << Cards::PossessiveAdjective.new(random_noun(structure_record),
-                             structure_record,
-                             i + 1)
+                             structure_record)
           end
           deck
         end

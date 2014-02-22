@@ -3,6 +3,7 @@ require_relative '../lib/grammar_cards'
 
 GrammarCards::Deck.run(
   GrammarCards::Deck.build(
-    :PossessiveAdjectives
+    :PossessiveAdjectives,
+    :Numbers
 )
 )
