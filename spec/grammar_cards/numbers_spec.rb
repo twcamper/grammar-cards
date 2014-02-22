@@ -77,5 +77,17 @@ module GrammarCards
         expect(Numbers.spanish_words_for(999999)).to eq 'novecientos noventa y nueve mil novecientos noventa y nueve'
       end
     end
+
+    describe "#equation" do
+      it "should solve and translate '12 + 432'" do
+        expect(Numbers.equation(12, 432, :+)).to eq 'doce más cuatrocientos treinta y dos son cuatrocientos cuarenta y cuatro'
+      end
+      it "should solve and translate '10 - 55'" do
+        expect(Numbers.equation(10, 55, :-)).to eq 'diez menos cincuenta y cinco son menos cuarenta y cinco'
+      end
+      it "should solve and translate '300 - 55'" do
+        expect(Numbers.equation(300, 55, :-)).to eq 'trescientos menos cincuenta y cinco son doscientos cuarenta y cinco'
+      end
+    end
   end
 end

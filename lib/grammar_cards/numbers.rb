@@ -1,24 +1,9 @@
 # encoding: utf-8
+
 module GrammarCards
   module Numbers
-    CERO, UNO, DOS, TRES, CUATRO, CINCO = 'cero', 'uno', 'dos', 'tres', 'cuatro','cinco'
-    SEIS, SIETE, OCHO, NUEVE, DIEZ = 'seis', 'siete', 'ocho', 'nueve', 'diez'
-    ONCE, DOCE, TRECE, CATORCE, QUINCE = 'once', 'doce', 'trece', 'catorce', 'quince'
-    DIECISEIS, DIECISIETE, DIECIOCHO, DIECINUEVE = 'dieciséis', 'diecisiete', 'dieciocho', 'diecinueve'
-    VEINTE       = 'veinte'
-    VEINTIUNO    = 'veinti' + UNO
-    VEINTIDOS    = 'veinti' + DOS
-    VEINTITRES   = 'veinti' + TRES
-    VEINTICUATRO = 'veinti' + CUATRO
-    VEINTICINCO  = 'veinti' + CINCO
-    VEINTISEIS   = 'veinti' + SEIS
-    VEINTISIETE  = 'veinti' + SIETE
-    VEINTIOCHO   = 'veinti' + OCHO
-    VEINTINUEVE  = 'veinti' + NUEVE
-    TREINTA, CUARENTA, CINCUENTA, SEISENTA, SETENTA, OCHENTA, NOVENTA = 'treinta', 'cuarenta', 'cincuenta', 'sesenta', 'setenta', 'ochenta', 'noventa'
-    CIEN, CIENTO = 'cien', 'ciento'
-    DOSCIENTOS, TRESCIENTOS, CUATROCIENTOS, QUINIENTOS = 'doscientos', 'trescientos', 'cuatrocientos', 'quinientos'
-    SEISCIENTOS, SETECIENTOS, OCHOCIENTOS, NOVECIENTOS = 'seiscientos', 'setecientos', 'ochocientos', 'novecientos'
+    CERO = 'cero'
+    CIEN = 'cien'
     MIL = 'mil'
 
     def spanish_words_for(n)
@@ -29,15 +14,25 @@ module GrammarCards
       end
     end
 
+    def equation(op1, op2, operator)
+      result = op1.send(operator, op2)
+      eq = "#{spanish_words_for(op1)} #{operator_word(operator)} #{spanish_words_for(op2)}"
+      eq << " son "
+      eq << "menos " if result < 0
+      eq << spanish_words_for(result.abs)
+    end
+
+    private
+
     def zero_to_29(n)
-      [CERO, UNO, DOS, TRES, CUATRO, CINCO, SEIS, SIETE, OCHO, NUEVE, DIEZ,
-        ONCE, DOCE, TRECE, CATORCE, QUINCE, DIECISEIS, DIECISIETE, DIECIOCHO, DIECINUEVE,
-        VEINTE, VEINTIUNO, VEINTIDOS, VEINTITRES, VEINTICUATRO, VEINTICINCO, VEINTISEIS,
-        VEINTISIETE, VEINTIOCHO, VEINTINUEVE][n]
+      [CERO, 'uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve', 'diez',
+        'once', 'doce', 'trece', 'catorce', 'quince', 'dieciséis', 'diecisiete', 'dieciocho', 'diecinueve',
+        'veinte', 'veintiuno', 'veintidos', 'veintitres', 'veinticuatro', 'veinticinco', 'veintiseis',
+        'veintisiete', 'veintiocho', 'veintinueve'][n]
     end
 
     def by_10(n)
-      [CERO, DIEZ, VEINTE, TREINTA, CUARENTA, CINCUENTA, SEISENTA, SETENTA, OCHENTA, NOVENTA ][n]
+      [CERO, 'diez', 'veinte', 'treinta', 'cuarenta', 'cincuenta', 'sesenta', 'setenta', 'ochenta', 'noventa' ][n]
     end
 
     def less_than_100(n)
@@ -83,9 +78,14 @@ module GrammarCards
     end
 
     def by_100(n)
-      [CERO, CIENTO, DOSCIENTOS, TRESCIENTOS, CUATROCIENTOS, QUINIENTOS,
-        SEISCIENTOS, SETECIENTOS, OCHOCIENTOS, NOVECIENTOS][n]
+      [CERO, 'ciento', 'doscientos', 'trescientos', 'cuatrocientos', 'quinientos',
+        'seiscientos', 'setecientos', 'ochocientos', 'novecientos'][n]
     end
+
+    def operator_word(sym)
+      {:- => 'menos', :+ => 'más'}[sym]
+    end
+
     extend Numbers
   end
 end
