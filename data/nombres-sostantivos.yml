@@ -12,11 +12,20 @@
   :esp: clima
   :eng: climate
 - :gen: :f
+  :esp: cocina
+  :eng: kitchen
+- :gen: :m
+  :esp: comedor
+  :eng: dining room
+- :gen: :f
   :esp: conversación
   :eng: conversation
 - :gen: :m
   :esp: cuaderno
   :eng: notebook
+- :gen: :m
+  :esp: cuarto
+  :eng: room
 - :gen: :f
   :esp: dirección
   :eng: address
@@ -74,6 +83,9 @@
 - :gen: :m
   :esp: país
   :eng: country
+- :gen: :m
+  :esp: piso
+  :eng: floor
 - :gen: :f
   :esp: pluma
   :eng: pen
