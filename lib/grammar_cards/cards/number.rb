@@ -1,4 +1,6 @@
 # encoding: utf-8
+require 'active_support/number_helper'
+
 module GrammarCards
   module Cards
     class Number
@@ -20,7 +22,7 @@ module GrammarCards
       end
 
       def front
-        @n.to_s
+        ActiveSupport::NumberHelper.number_to_delimited(@n, :delimiter => ".")
       end
 
       def back
