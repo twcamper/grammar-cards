@@ -29,10 +29,9 @@ module GrammarCards
             when :prev
               card = deck.prev
             else
-              unless card.logged?
+              unless card.done?
                 completed += 1
-                GrammarCards::CardLogger.log card
-                card.set_logged
+                card.mark_done
               end
               card = deck.next
             end

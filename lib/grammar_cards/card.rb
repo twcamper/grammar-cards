@@ -13,16 +13,17 @@ module GrammarCards
                                                       :num => structure_data[0][:num])
       @phrase         = GrammarCards::Syntax::PossessiveAdjectivalNounPhrase.new(@noun, @owner)
       @sequence_number = seq
-      @logged = false
+      @done = false
     end
 
-    def logged?
-      @logged
+    def done?
+      @done
     end
 
-    def set_logged
-      @logged = true
-      @logged.freeze
+    def mark_done
+      @done = true
+      @done.freeze
+      GrammarCards::CardLogger.log self
     end
 
     def front
