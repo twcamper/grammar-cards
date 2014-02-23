@@ -1,5 +1,14 @@
 ---
 - :gen: :f
+  :esp: alacena
+  :eng: closet
+- :gen: :f
+  :esp: alfombra
+  :eng: rug
+- :gen: :f
+  :esp: almohada
+  :eng: pillow
+- :gen: :f
   :esp: casa
   :eng: house
 - :gen: :f
@@ -15,6 +24,9 @@
   :esp: cocina
   :eng: kitchen
 - :gen: :m
+  :esp: colgador
+  :eng: hanger
+- :gen: :m
   :esp: comedor
   :eng: dining room
 - :gen: :f
@@ -24,6 +36,9 @@
   :esp: cuaderno
   :eng: notebook
 - :gen: :m
+  :esp: cuadro
+  :eng: picture
+- :gen: :m
   :esp: cuarto
   :eng: room
 - :gen: :f
@@ -32,6 +47,12 @@
 - :gen: :m
   :esp: día
   :eng: day
+- :gen: :m
+  :esp: edificio
+  :eng: building
+- :gen: :m
+  :esp: espejo
+  :eng: mirror
 - :gen: :f
   :esp: hermana
   :eng: sister
@@ -56,6 +77,9 @@
 - :gen: :f
   :esp: luz|luces
   :eng: light
+- :gen: :f
+  :esp: lámpara
+  :eng: lamp
 - :gen: :m
   :esp: lápiz|lápices
   :eng: pencil
@@ -108,11 +132,17 @@
   :esp: silla
   :eng: chair
 - :gen: :m
+  :esp: sillón
+  :eng: easy chair
+- :gen: :m
   :esp: sistema
   :eng: system
 - :gen: :f
   :esp: sociedad
   :eng: society
+- :gen: :m
+  :esp: sofá
+  :eng: couch
 - :gen: :f
   :esp: solución
   :eng: solution
