@@ -25,11 +25,11 @@ module GrammarCards
           @card = PossessiveAdjective.new(n, [{:num => :p}, {:per => 3, :gen => :f, :num => :p}])
         end
         it "should say 'their countries (f)' on the front" do
-          expect(@card.front).to eq 'their countries (f)'
+          expect(@card.front).to eq "their countries\n(f)"
         end
 
         it "should say 'sus países (los países de ellas)' on the back" do
-          expect(@card.back).to eq 'sus países (los países de ellas)'
+          expect(@card.back).to eq "sus países\n(los países de ellas)"
         end
       end
 

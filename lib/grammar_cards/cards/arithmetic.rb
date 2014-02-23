@@ -7,7 +7,7 @@ module GrammarCards
 
       def initialize(left_operand, right_operand, operator)
         @math = "#{format_number(left_operand)} #{operator} #{format_number(right_operand)}"
-        @spanish = GrammarCards::Numbers.equation(left_operand, right_operand, operator)
+        @spanish_array = GrammarCards::Numbers.equation(left_operand, right_operand, operator)
         @done = false
       end
 
@@ -20,7 +20,7 @@ module GrammarCards
       end
 
       def back
-        @spanish
+        @spanish_array.join "\n"
       end
     end
   end

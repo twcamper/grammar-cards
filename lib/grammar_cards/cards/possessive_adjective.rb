@@ -25,7 +25,7 @@ module GrammarCards
       def front
         s = @phrase.english
         if note = GrammarCards::Annotations.disambiguate_owner(@owner)
-          s += " (#{note})"
+          s += "\n(#{note})"
         end
         s
       end
@@ -33,7 +33,7 @@ module GrammarCards
       def back
         s = @phrase.spanish
         if s =~ /^sus?\s/
-          s += " (#{GrammarCards::Syntax::PossessiveNounPhrase.spanish(@noun, @owner)})"
+          s += "\n(#{GrammarCards::Syntax::PossessiveNounPhrase.spanish(@noun, @owner)})"
         end
         s
       end

@@ -7,19 +7,24 @@ module GrammarCards
     MIL = 'mil'
 
     def spanish_words_for(n)
-      if n < 1000
-        less_than_1000(n)
+      value = n.abs
+      s = if value < 1000
+        less_than_1000(value)
       else
-        thousand_to_999999(n)
+        thousand_to_999999(value)
       end
+
+      n < 0 ? "menos #{s}" : s
     end
 
     def equation(op1, op2, operator)
       result = op1.send(operator, op2)
-      eq = "#{spanish_words_for(op1)} #{operator_word(operator)} #{spanish_words_for(op2)}"
-      eq << " son "
-      eq << "menos " if result < 0
-      eq << spanish_words_for(result.abs)
+      eq = []
+      eq << spanish_words_for(op1)
+      eq << operator_word(operator)
+      eq << spanish_words_for(op2)
+      eq << "son"
+      eq << spanish_words_for(result)
     end
 
     private

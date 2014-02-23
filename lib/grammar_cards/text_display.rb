@@ -96,6 +96,11 @@ module GrammarCards
         write_center(s)
       end
 
+      def write_lines(y, x, a)
+        @win.setpos(y, x)
+        a.each {|line| write_center line }
+      end
+
       def write_center(s)
         @win.addstr s.center(CardView.width)
       end
@@ -125,8 +130,10 @@ module GrammarCards
       end
 
       def write_front
-        y = (CardView.height / 2 ) - 2
-        write_line(y, 0, @card.front)
+        lines = @card.front.split "\n"
+        offset = 1 + lines.size
+        y = (CardView.height / 2 ) - offset
+        write_lines(y, 0, lines)
       end
 
       def write_horizontal_rule
@@ -141,7 +148,7 @@ module GrammarCards
 
       def write_back
         hr_y = write_horizontal_rule
-        write_line(hr_y + 2, 0, @card.back)
+        write_lines(hr_y + 2, 0, @card.back.split("\n"))
         @back_shown = true
       end
 
