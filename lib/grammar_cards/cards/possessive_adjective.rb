@@ -1,10 +1,9 @@
 # encoding: utf-8
 module GrammarCards
   module Cards
-    class PossessiveAdjective
+    class PossessiveAdjective < CardBase
 
       attr_reader :structure_data, :noun_data
-      attr_accessor :sequence_number
       def initialize(noun_data, structure_data)
         @noun_data      = noun_data
         @owner          = structure_data[1]
@@ -15,10 +14,6 @@ module GrammarCards
                                                         :num => structure_data[0][:num])
         @phrase         = GrammarCards::Syntax::PossessiveAdjectivalNounPhrase.new(@noun, @owner)
         @done = false
-      end
-
-      def done?
-        @done
       end
 
       def mark_done
