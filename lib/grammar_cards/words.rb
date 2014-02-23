@@ -49,7 +49,7 @@ module GrammarCards
       end
 
       def spanish_regular_plural
-          ending = if @spanish_singular =~ /.*[aeiou]$/i
+          ending = if @spanish_singular =~ /.*[áaeiou]$/i
                      's'
                    else
                      'es'
@@ -62,7 +62,7 @@ module GrammarCards
         when /.*[^aeiou]y$/i
           @english_singular.sub(/y$/, 'ies')
         when /.*(x|ch|s|z)$/
-          @english_singular += "es"
+          @english_singular + "es"
         when /.*fe?$/
           @english_singular.sub(/fe?$/, 'ves')
         else

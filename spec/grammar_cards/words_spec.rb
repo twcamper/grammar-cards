@@ -282,6 +282,12 @@ module GrammarCards
           expect(n.english).to eq 'potatoes'
         end
       end
+      context "Spanish final accent" do
+        it "should return 'sofás'" do
+          n = Noun.new(:esp => "sofá", :gen => :m, :eng => "sofa", :num => :p)
+          expect(n.spanish).to eq 'sofás'
+        end
+      end
       context "Spanish -es" do
         it "should return a plural noun" do
           n = Noun.new(:esp => "hospital", :gen => :m, :eng => "hospital", :num => :p)
