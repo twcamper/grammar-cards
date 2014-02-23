@@ -110,8 +110,10 @@ module GrammarCards
         case @win.getch
         when /^[q]$/i
           :quit
-        when Key::LEFT, Key::UP, Key::PPAGE, /^[bpu]$/i
+        when Key::LEFT, Key::PPAGE, /^[bpu]$/i
           :prev
+        when Key::UP
+          :review
         end
       end
 

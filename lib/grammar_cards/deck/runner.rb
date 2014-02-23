@@ -28,6 +28,8 @@ module GrammarCards
               break
             when :prev
               card = deck.prev
+            when :review
+              next
             else
               unless card.done?
                 completed += 1
