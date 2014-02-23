@@ -10,9 +10,9 @@ module GrammarCards
         TextDisplay.view(deck.size) do |view|
           card = deck.next
           while (card) do
-            view.new_card(card.sequence_number)
+            view.new_card(card)
 
-            case view.show_front(card.front)
+            case view.show_front
             when :quit
               break
             when :prev
@@ -23,7 +23,7 @@ module GrammarCards
               next
             end
 
-            case view.show_back(card.back)
+            case view.show_back
             when :quit
               break
             when :prev

@@ -31,7 +31,7 @@ module GrammarCards
       end
     end
 
-    module StaticMethods
+    module WindowSize
       def height
         Curses.lines * 0.6
       end
@@ -50,46 +50,108 @@ module GrammarCards
     end
 
     class View
-      include Curses
-      extend StaticMethods
 
       def initialize(total)
         @total = total
-        @win = Window.new(self.class.height,
-                          self.class.width,
-                          self.class.top,
-                          self.class.left)
+      end
+
+      def new_card(card)
+        @card_view = CardView.new(card, @total)
+      end
+
+      def show_front
+        @card_view.show_front
+      end
+
+      def show_back
+        @card_view.show_back
+      end
+
+    end
+
+    class CardView
+      include Curses
+      extend WindowSize
+
+      def initialize(card, deck_total)
+        @card = card
+        @deck_total = deck_total
+        new_window
+        write_stats_line
+      end
+
+      def new_window
+        @win = Window.new(CardView.height,
+                          CardView.width,
+                          CardView.top,
+                          CardView.left)
         @win.attrset Curses::A_BOLD
         @win.color_set COLOR_PAIR
         @win.keypad true  # enables Key::UP, Key::PPAGE, etc
+        paint_window
+      end
+
+      def write_line(y, x, s)
+        @win.setpos(y, x)
+        write_center(s)
       end
 
       def write_center(s)
-        @win.addstr s.center(self.class.width)
+        @win.addstr s.center(CardView.width)
       end
 
       def paint_window
-        self.class.height.to_i.times do |i|
+        CardView.height.to_i.times do |i|
           # uses background color arg to Curses.init_pair
           write_center " "
         end
       end
 
-      def new_card(number)
-        @win.clear
-        paint_window
-        @win.setpos(self.class.height - 2,
-                    self.class.width  - 10 )
-        @win.addstr "#{number} / #{@total}"
+      def write_stats_line
+        @win.setpos(CardView.height - 2,
+                    CardView.width  - 10 )
+        @win.addstr "#{@card.sequence_number} / #{@deck_total}"
       end
 
-      def show_front(s)
-        vert = (self.class.height / 2 ) - 2
-        @win.setpos(vert, 0)
-        write_center(s)
-        @win.refresh
+      def redraw
+        @win.clear
+        @win.close
+        clear
+        refresh
+        new_window
+        write_stats_line
+        write_front
+        write_back if @back_shown
+      end
 
-        case @win.getch
+      def write_front
+        y = (CardView.height / 2 ) - 2
+        write_line(y, 0, @card.front)
+      end
+
+      def write_horizontal_rule
+        hr_length = [@card.front.length, @card.back.length].max
+        if hr_length > CardView.width
+          hr_length = CardView.width - 2
+        end
+        rule_line_y = (CardView.height / 2 )
+        write_line(rule_line_y, 0, "-" * hr_length)
+        rule_line_y
+      end
+
+      def write_back
+        hr_y = write_horizontal_rule
+        write_line(hr_y + 2, 0, @card.back)
+        @back_shown = true
+      end
+
+      def show_front
+        write_front
+        while (ch = @win.getch) == Key::RESIZE do
+          redraw
+        end
+
+        case ch
         when /^[q]$/i
           :quit
         when Key::LEFT, Key::UP, Key::PPAGE, /^[bpu]$/i
@@ -99,15 +161,13 @@ module GrammarCards
         end
       end
 
-      def show_back(s)
-        rule_line_vert = (self.class.height / 2 )
-        @win.setpos(rule_line_vert, 0)
-        write_center("-" * s.length)
-        @win.setpos(rule_line_vert + 2, 0)
-        write_center(s)
-        @win.refresh
+      def show_back
+        write_back
+        while (ch = @win.getch) == Key::RESIZE do
+          redraw
+        end
 
-        case @win.getch
+        case ch
         when /^[q]$/i
           :quit
         when Key::LEFT, Key::PPAGE, /^[bpu]$/i
