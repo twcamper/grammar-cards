@@ -1,24 +1,37 @@
 # encoding: utf-8
+require 'date'
 
 module GrammarCards
   module Deck
     module Builders
       module Numbers
+        extend DeckHelper
 
         def build
           numbers = []
-          4.times do
+          2.times do
             numbers << rand(1000) + 100
           end
-          numbers << rand(255)
-          5.times do
+          4.times do
             numbers << rand(998999) + 1000
           end
 
-          numbers.map do |n|
+          deck = numbers.map do |n|
             GrammarCards::Cards::Number.new n
           end
+          deck << GrammarCards::Cards::Arithmetic.new(rand(100) + 1900, rand(99), random_operator)
+          deck << GrammarCards::Cards::Arithmetic.new(1492, Date.today.day, :+)
+          2.times do
+            deck << GrammarCards::Cards::Arithmetic.new(rand(100), rand(50), random_operator)
+          end
+
+          shuffle deck
         end
+
+        def random_operator
+          [:-, :+][rand(2)]
+        end
+
         extend Numbers
       end
     end

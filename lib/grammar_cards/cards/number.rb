@@ -1,5 +1,4 @@
 # encoding: utf-8
-require 'active_support/number_helper'
 
 module GrammarCards
   module Cards

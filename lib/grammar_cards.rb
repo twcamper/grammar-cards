@@ -3,6 +3,10 @@ gem 'psych'
 require 'psych'  # YAML implementation
 require 'fileutils'
 
+require 'active_support/number_helper'
+# quiet an ActiveSupport warning
+I18n.enforce_available_locales = true
+
 require_relative 'grammar_cards/words'
 require_relative 'grammar_cards/numbers'
 require_relative 'grammar_cards/syntax'

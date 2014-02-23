@@ -4,19 +4,14 @@ module GrammarCards
   module Deck
     module Builders
       module PossessiveAdjectives
+        extend DeckHelper
 
         DATA_PATH = File.expand_path('../data', File.dirname($0))
         NOUN_FILE = File.join(DATA_PATH, "nombres-sostantivos.yml")
         POSSESSIVE_ADJECTIVE_STRUCTURE_FILE = File.join(DATA_PATH, "adjetivos-posesivos.yml")
 
         def shuffle_structures
-          ordered_structures = Psych.load_file(POSSESSIVE_ADJECTIVE_STRUCTURE_FILE)
-
-          shuffled = []
-          until ordered_structures.empty?
-            shuffled << ordered_structures.delete_at(rand(ordered_structures.size))
-          end
-          shuffled
+          shuffle Psych.load_file(POSSESSIVE_ADJECTIVE_STRUCTURE_FILE)
         end
 
         # m, f, or both
