@@ -23,11 +23,13 @@ module GrammarCards
       end
 
       def front
-        s = @phrase.english
-        if note = GrammarCards::Annotations.disambiguate_owner(@owner)
-          s += "\n(#{note})"
+        unless @s
+          @s = @phrase.english
+          if note = GrammarCards::Characters.disambiguate_owner(@owner)
+            @s += "\n(#{note})"
+          end
         end
-        s
+        @s
       end
 
       def back

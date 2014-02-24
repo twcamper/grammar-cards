@@ -19,7 +19,7 @@ module GrammarCards
         end
       end
 
-      context 'annotated front, annotated back' do
+      pending 'annotated front, annotated back' do
         before do
           n = {:esp => "país", :gen => :m, :eng => "country"}
           @card = PossessiveAdjective.new(n, [{:num => :p}, {:per => 3, :gen => :f, :num => :p}])
