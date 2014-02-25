@@ -9,7 +9,7 @@ module GrammarCards
         phrase += noun.spanish
         phrase += " de"
         phrase += " "
-        phrase += GrammarCards::Words::PossessivePronoun.spanish(owner[:per], owner[:num], owner[:gen])
+        phrase += GrammarCards::Words::PersonalPronoun.spanish(owner)
       end
       extend PossessiveNounPhrase
     end

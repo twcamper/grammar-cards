@@ -13,7 +13,7 @@ module GrammarCards
 
       it "should return Spanish for  masculine singular noun, 2nd singular owner" do
         noun = GrammarCards::Words::Noun.new(:esp => "libro", :gen => :m, :eng => "book",:num => :s)
-        phrase = PossessiveNounPhrase.spanish(noun, :per => 2, :num => :s)
+        phrase = PossessiveNounPhrase.spanish(noun, :per => 2, :reg => :formal, :num => :s)
         expect(phrase).to eq 'el libro de Ud.'
       end
     end

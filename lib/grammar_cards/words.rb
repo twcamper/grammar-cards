@@ -118,20 +118,32 @@ module GrammarCards
       end
 
     end
-    module PossessivePronoun
-      def spanish(person, number, gender=nil)
-        if person == 2
-          {:s => 'Ud.', :p => 'Uds.'}[number]
-        else
+    module PersonalPronoun
+      def spanish(noun)
+        pp = case noun[:per]
+        when 1
+          {:s => 'yo', :p => 'nosotros'}[noun[:num]]
+        when 2
+          raise 'register required for 2nd person' unless noun[:reg]
+          {:formal => {:s => 'Ud.', :p => 'Uds.'},
+           :familiar => {:s => 'tú', :p => 'vosotros'}}[noun[:reg]][noun[:num]]
+        when 3
           {:s => {:m => 'él', :f => 'ella'},
-           :p => {:m => 'ellos', :f => 'ellas'}}[number][gender]
+           :p => {:m => 'ellos', :f => 'ellas'}}[noun[:num]][noun[:gen]]
         end
+        if pp =~ /osotros$/ && noun[:gen] == :f
+          pp.sub!(/os$/, 'as')
+        end
+        pp
       end
 
-      extend PossessivePronoun
+      extend PersonalPronoun
     end
 
     module RegularVerb
+      def spanish(infinitive, subject)
+        send(infinitive.slice(-2,2).to_sym, infinitive, subject)
+      end
       def ar(esp, subject)
         ending = case subject[:per]
         when 1

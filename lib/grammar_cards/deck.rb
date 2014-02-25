@@ -3,6 +3,7 @@ require_relative 'deck/deck_helper'
 require_relative 'deck/runner'
 require_relative 'deck/builders/possessive_adjectives'
 require_relative 'deck/builders/numbers'
+require_relative 'deck/builders/regular_verbs'
 
 module GrammarCards
   module Deck

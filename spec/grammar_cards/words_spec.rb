@@ -3,29 +3,54 @@ require 'spec_helper'
 
 module GrammarCards
   module Words
-    describe PossessivePronoun, "#spanish" do
-      it "should return 2nd person singular" do
-        expect(PossessivePronoun.spanish(2, :s)).to eq 'Ud.'
+    describe PersonalPronoun, "#spanish" do
+      context "1st person" do
+        it "should return 'yo'" do
+          expect(PersonalPronoun.spanish(:per => 1, :num => :s)).to eq 'yo'
+        end
+        it "should return 'nosotros'" do
+          expect(PersonalPronoun.spanish(:per => 1, :num => :p, :gen => :m)).to eq 'nosotros'
+        end
+        it "should return 'nosotras'" do
+          expect(PersonalPronoun.spanish(:per => 1, :num => :p, :gen => :f)).to eq 'nosotras'
+        end
+      end
+      context "2nd person" do
+        it "should return 'tú'" do
+          expect(PersonalPronoun.spanish(:per => 2, :reg => :familiar, :num => :s)).to eq 'tú'
+        end
+        it "should return 'vosotros'" do
+          expect(PersonalPronoun.spanish(:per => 2, :reg => :familiar, :num => :p, :gen => :m)).to eq 'vosotros'
+        end
+        it "should return 'vosotras'" do
+          expect(PersonalPronoun.spanish(:per => 2, :reg => :familiar, :num => :p, :gen => :f)).to eq 'vosotras'
+        end
+
+        it "should return 'Ud.'" do
+          expect(PersonalPronoun.spanish(:per => 2, :reg => :formal, :num => :s)).to eq 'Ud.'
+        end
+
+        it "should return 'Uds.'" do
+          expect(PersonalPronoun.spanish(:per => 2, :reg => :formal, :num => :p)).to eq 'Uds.'
+        end
       end
 
-      it "should return 2nd person plural" do
-        expect(PossessivePronoun.spanish(2, :p)).to eq 'Uds.'
-      end
+      context "3rd person" do
+        it "should return 'él'" do
+          expect(PersonalPronoun.spanish(:per => 3,:num => :s,:gen => :m)).to eq 'él'
+        end
 
-      it "should return 3rd person masculine singular" do
-        expect(PossessivePronoun.spanish(3, :s, :m)).to eq 'él'
-      end
+        it "should return 'ella'" do
+          expect(PersonalPronoun.spanish(:per => 3,:num => :s,:gen => :f)).to eq 'ella'
+        end
 
-      it "should return 3rd person feminine singular" do
-        expect(PossessivePronoun.spanish(3, :s, :f)).to eq 'ella'
-      end
+        it "should return 'ellas'" do
+          expect(PersonalPronoun.spanish(:per => 3,:num => :p,:gen => :f)).to eq 'ellas'
+        end
 
-      it "should return 3rd person feminine plural" do
-        expect(PossessivePronoun.spanish(3, :p, :f)).to eq 'ellas'
-      end
-
-      it "should return 3rd person masculine plural" do
-        expect(PossessivePronoun.spanish(3, :p, :m)).to eq 'ellos'
+        it "should return 'ellos'" do
+          expect(PersonalPronoun.spanish(:per => 3,:num => :p,:gen => :m)).to eq 'ellos'
+        end
       end
 
     end
