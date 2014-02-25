@@ -131,5 +131,47 @@ module GrammarCards
       extend PossessivePronoun
     end
 
+    module RegularVerb
+      def ar(esp, subject)
+        ending = case subject[:per]
+        when 1
+          {:s => 'o', :p => 'amos'}[subject[:num]]
+        when 2
+          {:s => {:familiar => 'as', :formal => 'a'},
+           :p => {:familiar => 'áis', :formal => 'an'}}[subject[:num]][subject[:reg]]
+        when 3
+          {:s => 'a', :p => 'an'}[subject[:num]]
+        end
+
+        esp.sub(/ar$/, ending)
+      end
+      def er(esp, subject)
+        ending = case subject[:per]
+        when 1
+          {:s => 'o', :p => 'emos'}[subject[:num]]
+        when 2
+          {:s => {:familiar => 'es', :formal => 'e'},
+           :p => {:familiar => 'éis', :formal => 'en'}}[subject[:num]][subject[:reg]]
+        when 3
+          {:s => 'e', :p => 'en'}[subject[:num]]
+        end
+
+        esp.sub(/er$/, ending)
+      end
+      def ir(esp, subject)
+        ending = case subject[:per]
+        when 1
+          {:s => 'o', :p => 'imos'}[subject[:num]]
+        when 2
+          {:s => {:familiar => 'es', :formal => 'e'},
+           :p => {:familiar => 'ís', :formal => 'en'}}[subject[:num]][subject[:reg]]
+        when 3
+          {:s => 'e', :p => 'en'}[subject[:num]]
+        end
+
+        esp.sub(/ir$/, ending)
+      end
+      extend RegularVerb
+    end
   end
 end

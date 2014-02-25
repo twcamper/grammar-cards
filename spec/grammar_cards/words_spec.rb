@@ -356,5 +356,83 @@ module GrammarCards
       end
 
     end
+
+    describe RegularVerb do
+      describe "#ar" do
+        it "should return 'hablo'" do
+          expect(RegularVerb.ar("hablar", :per => 1, :num => :s)).to eq 'hablo'
+        end
+        it "should return 'hablas'" do
+          expect(RegularVerb.ar("hablar", :per => 2, :num => :s, :reg => :familiar)).to eq 'hablas'
+        end
+        it "should return 'habla'" do
+          expect(RegularVerb.ar("hablar", :per => 2, :num => :s, :reg => :formal)).to eq 'habla'
+          expect(RegularVerb.ar("hablar", :per => 3, :num => :s, :gen => :m)).to eq 'habla'
+          expect(RegularVerb.ar("hablar", :per => 3, :num => :s, :gen => :f)).to eq 'habla'
+        end
+
+        it "should return 'hablamos'" do
+          expect(RegularVerb.ar("hablar", :per => 1, :num => :p)).to eq 'hablamos'
+        end
+        it "should return 'habláis'" do
+          expect(RegularVerb.ar("hablar", :per => 2, :num => :p, :reg => :familiar)).to eq 'habláis'
+        end
+        it "should return 'hablan'" do
+          expect(RegularVerb.ar("hablar", :per => 2, :num => :p, :reg => :formal)).to eq 'hablan'
+          expect(RegularVerb.ar("hablar", :per => 3, :num => :p, :gen => :m)).to eq 'hablan'
+          expect(RegularVerb.ar("hablar", :per => 3, :num => :p, :gen => :f)).to eq 'hablan'
+        end
+      end
+      describe "#er" do
+        it "should return 'como'" do
+          expect(RegularVerb.er("comer", :per => 1, :num => :s)).to eq 'como'
+        end
+        it "should return 'comes'" do
+          expect(RegularVerb.er("comer", :per => 2, :num => :s, :reg => :familiar)).to eq 'comes'
+        end
+        it "should return 'come'" do
+          expect(RegularVerb.er("comer", :per => 2, :num => :s, :reg => :formal)).to eq 'come'
+          expect(RegularVerb.er("comer", :per => 3, :num => :s, :gen => :m)).to eq 'come'
+          expect(RegularVerb.er("comer", :per => 3, :num => :s, :gen => :f)).to eq 'come'
+        end
+
+        it "should return 'comemos'" do
+          expect(RegularVerb.er("comer", :per => 1, :num => :p)).to eq 'comemos'
+        end
+        it "should return 'coméis'" do
+          expect(RegularVerb.er("comer", :per => 2, :num => :p, :reg => :familiar)).to eq 'coméis'
+        end
+        it "should return 'comen'" do
+          expect(RegularVerb.er("comer", :per => 2, :num => :p, :reg => :formal)).to eq 'comen'
+          expect(RegularVerb.er("comer", :per => 3, :num => :p, :gen => :m)).to eq 'comen'
+          expect(RegularVerb.er("comer", :per => 3, :num => :p, :gen => :f)).to eq 'comen'
+        end
+      end
+      describe "#ir" do
+        it "should return 'vivo'" do
+          expect(RegularVerb.ir("vivir", :per => 1, :num => :s)).to eq 'vivo'
+        end
+        it "should return 'vives'" do
+          expect(RegularVerb.ir("vivir", :per => 2, :num => :s, :reg => :familiar)).to eq 'vives'
+        end
+        it "should return 'vive'" do
+          expect(RegularVerb.ir("vivir", :per => 2, :num => :s, :reg => :formal)).to eq 'vive'
+          expect(RegularVerb.ir("vivir", :per => 3, :num => :s, :gen => :m)).to eq 'vive'
+          expect(RegularVerb.ir("vivir", :per => 3, :num => :s, :gen => :f)).to eq 'vive'
+        end
+
+        it "should return 'vivemos'" do
+          expect(RegularVerb.ir("vivir", :per => 1, :num => :p)).to eq 'vivimos'
+        end
+        it "should return 'vivís'" do
+          expect(RegularVerb.ir("vivir", :per => 2, :num => :p, :reg => :familiar)).to eq 'vivís'
+        end
+        it "should return 'viven'" do
+          expect(RegularVerb.ir("vivir", :per => 2, :num => :p, :reg => :formal)).to eq 'viven'
+          expect(RegularVerb.ir("vivir", :per => 3, :num => :p, :gen => :m)).to eq 'viven'
+          expect(RegularVerb.ir("vivir", :per => 3, :num => :p, :gen => :f)).to eq 'viven'
+        end
+      end
+    end
   end
 end
