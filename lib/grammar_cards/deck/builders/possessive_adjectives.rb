@@ -7,8 +7,8 @@ module GrammarCards
         extend DeckHelper
 
         DATA_PATH = File.expand_path('../data', File.dirname($0))
-        NOUN_FILE = File.join(DATA_PATH, "nombres-sostantivos.yml")
-        POSSESSIVE_ADJECTIVE_STRUCTURE_FILE = File.join(DATA_PATH, "adjetivos-posesivos.yml")
+        NOUN_FILE = File.join(DATA_PATH, "lexis", "nombres-sostantivos.yml")
+        POSSESSIVE_ADJECTIVE_STRUCTURE_FILE = File.join(DATA_PATH, "structure", "adjetivos-posesivos.yml")
 
         def shuffle_structures
           shuffle Psych.load_file(POSSESSIVE_ADJECTIVE_STRUCTURE_FILE)
