@@ -9,6 +9,7 @@ module GrammarCards
         pronoun = GrammarCards::Words::PersonalPronoun.spanish(subject)
         @front = "#{verb[:eng]}\n\n(#{pronoun})"
         @back  = "#{pronoun} #{GrammarCards::Words::RegularVerb.spanish(verb[:esp], subject)}\n\n(#{verb[:esp]})"
+        @done = false
       end
 
     end

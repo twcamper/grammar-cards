@@ -19,6 +19,7 @@ module GrammarCards
           deck = numbers.map do |n|
             GrammarCards::Cards::Number.new n
           end
+          deck << GrammarCards::Cards::Time.new( random_clock)
           deck << GrammarCards::Cards::Arithmetic.new(rand(100) + 1900, rand(99), random_operator)
           deck << GrammarCards::Cards::Arithmetic.new(1492, Date.today.day, :+)
           2.times do
@@ -28,6 +29,9 @@ module GrammarCards
           shuffle deck
         end
 
+        def random_clock
+          [12, 24][rand(2)]
+        end
         def random_operator
           [:-, :+][rand(2)]
         end
