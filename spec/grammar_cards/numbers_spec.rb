@@ -89,5 +89,26 @@ module GrammarCards
         expect(Numbers.equation(300, 55, :-)).to eq ["trescientos", "menos", "cincuenta y cinco", "son", "doscientos cuarenta y cinco"]
       end
     end
+
+    describe "#time" do
+      it "should say 1:30" do
+        expect(Numbers.time(1, 30)).to eq 'Es la una y media'
+      end
+      it "should say 2:30" do
+        expect(Numbers.time(2, 30)).to eq 'Son las dos y media'
+      end
+      it "should say 3:15" do
+        expect(Numbers.time(3, 15)).to eq 'Son las tres y cuarto'
+      end
+      it "should say 12:59" do
+        expect(Numbers.time(12, 59)).to eq 'Son las doce y cincuenta y nueve'
+      end
+      it "should say 8:45" do
+        expect(Numbers.time(8, 45)).to eq 'Son las nueve menos cuarto'
+      end
+      it "should say 13:14" do
+        expect(Numbers.time(13, 14)).to eq 'Son las trece y catorce'
+      end
+    end
   end
 end

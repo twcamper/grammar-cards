@@ -18,8 +18,7 @@ module GrammarCards
       def back
         time = ::Time.now
         h = time.strftime(@hour_format).to_i
-        s = ( h == 1 ?  "Es la" : "Son las" )
-        s << " #{GrammarCards::Numbers.spanish_words_for(h)} y #{GrammarCards::Numbers::spanish_words_for(time.min)}"
+        GrammarCards::Numbers.time h, time.min
       end
     end
   end

@@ -27,6 +27,20 @@ module GrammarCards
       eq << spanish_words_for(result)
     end
 
+    def time(h, m)
+      s = ( h == 1 ?  "Es la" : "Son las" )
+      case m
+      when 15
+        s << " #{spanish_words_for(h)} y cuarto"
+      when 45
+        s << " #{spanish_words_for(h + 1)} menos cuarto"
+      when 30
+        s << " #{spanish_words_for(h)} y media"
+      else
+        s << " #{spanish_words_for(h)} y #{spanish_words_for(m)}"
+      end.sub(/ la uno /, " la una ")
+
+    end
     private
 
     def zero_to_29(n)
