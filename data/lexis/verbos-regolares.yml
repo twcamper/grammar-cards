@@ -1,20 +1,30 @@
 ---
 - :esp: abrazar
   :eng: hug
+- :esp: abrir
+  :eng: open
 - :esp: adivinar
   :eng: guess
 - :esp: andar
   :eng: walk
 - :esp: apagar
   :eng: turn_off
+- :esp: aprender
+  :eng: learn
 - :esp: arreglar
   :eng: fix
+- :esp: asisitir
+  :eng: attend
 - :esp: ayudar
   :eng: help
 - :esp: bailar
   :eng: dance
 - :esp: bajar
   :eng: get_off|down
+- :esp: barrer
+  :eng: sweep
+- :esp: beber
+  :eng: drink
 - :esp: besar
   :eng: kiss
 - :esp: buscar
@@ -31,14 +41,28 @@
   :eng: chat
 - :esp: cocinar
   :eng: cook
+- :esp: comer
+  :eng: eat
+- :esp: compartir
+  :eng: share
 - :esp: comprar
   :eng: buy
-- :esp: conversar
-  :eng: talk
+- :esp: comprender
+  :eng: comprehend
+- :esp: consistir
+  :eng: consist
 - :esp: contestar
   :eng: answer
+- :esp: conversar
+  :eng: talk
+- :esp: correr
+  :eng: run
+- :esp: creer
+  :eng: believe
 - :esp: cuidar
   :eng: take_care_of
+- :esp: deber
+  :eng: owe|must|should
 - :esp: dejar
   :eng: leave
 - :esp: descansar
@@ -55,6 +79,10 @@
   :eng: enter
 - :esp: entregar
   :eng: deliver|hand_in
+- :esp: esconder
+  :eng: hide
+- :esp: escribir
+  :eng: write
 - :esp: escuchar
   :eng: listen
 - :esp: esperar
@@ -77,8 +105,12 @@
   :eng: store|put_away
 - :esp: hablar
   :eng: speak|talk
+- :esp: insistir
+  :eng: insist
 - :esp: lavar
   :eng: wash
+- :esp: leer
+  :eng: read
 - :esp: limpiar
   :eng: clean
 - :esp: llamar
@@ -105,14 +137,20 @@
   :eng: swim
 - :esp: necesitar
   :eng: need
+- :esp: ocurrir
+  :eng: occur|happen
 - :esp: pagar
   :eng: pay
 - :esp: pasar
   :eng: pass
 - :esp: patinar
   :eng: skate
+- :esp: permitir
+  :eng: permit|allow
 - :esp: pintar
   :eng: paint
+- :esp: platicar
+  :eng: chat
 - :esp: practicar
   :eng: practice
 - :esp: preguntar
@@ -121,20 +159,38 @@
   :eng: present|introduce
 - :esp: prestar
   :eng: lend|loan
+- :esp: prohibir
+  :eng: prohibit|forbid
+- :esp: prometer
+  :eng: promise
+- :esp: quedar
+  :eng: be_located
 - :esp: quemar
   :eng: burn
+- :esp: recibir
+  :eng: receive
 - :esp: regalar
   :eng: give_a_gift
 - :esp: regresar
   :eng: return
+- :esp: responder
+  :eng: respond
 - :esp: revisar
   :eng: review|check
 - :esp: robar
   :eng: steal|rob
+- :esp: romper
+  :eng: break
+- :esp: saber
+  :eng: know
 - :esp: sacar
   :eng: pull_out|take_out|take_pictures/photos
 - :esp: saludar
   :eng: greet|salute
+- :esp: solicitar
+  :eng: apply_for
+- :esp: subir
+  :eng: climb|go_up
 - :esp: sudar
   :eng: sweat
 - :esp: terminar
@@ -151,71 +207,13 @@
   :eng: use
 - :esp: variar
   :eng: vary
+- :esp: vender
+  :eng: sell
 - :esp: verificar
   :eng: verify
 - :esp: viajar
   :eng: travel
 - :esp: visitar
   :eng: visit
-- :esp: aprender
-  :eng: learn
-- :esp: barrer
-  :eng: sweep
-- :esp: beber
-  :eng: drink
-- :esp: comer
-  :eng: eat
-- :esp: comprender
-  :eng: comprehend
-- :esp: correr
-  :eng: run
-- :esp: creer
-  :eng: believe
-- :esp: deber
-  :eng: owe|must|should
-- :esp: esconder
-  :eng: hide
-- :esp: leer
-  :eng: read
-- :esp: mandar
-  :eng: send
-- :esp: platicar
-  :eng: chat
-- :esp: prometer
-  :eng: promise
-- :esp: quedar
-  :eng: be_located
-- :esp: responder
-  :eng: respond
-- :esp: romper
-  :eng: break
-- :esp: saber
-  :eng: know
-- :esp: solicitar
-  :eng: apply_for
-- :esp: vender
-  :eng: sell
-- :esp: abrir
-  :eng: open
-- :esp: asisitir
-  :eng: attend
-- :esp: compartir
-  :eng: share
-- :esp: consistir
-  :eng: consist
-- :esp: escribir
-  :eng: write
-- :esp: insistir
-  :eng: insist
-- :esp: ocurrir
-  :eng: occur|happen
-- :esp: permitir
-  :eng: permit|allow
-- :esp: prohibir
-  :eng: prohibit|forbid
-- :esp: recibir
-  :eng: receive
-- :esp: subir
-  :eng: climb|go_up
 - :esp: vivir
   :eng: live
