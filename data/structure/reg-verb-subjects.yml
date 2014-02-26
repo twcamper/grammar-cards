@@ -11,14 +11,14 @@
   :num: :s
   :reg: :familiar
 - :per: 2
-  :num: :p
+  :num: :s
   :reg: :formal
 # do extra 2nd plural fam
 - :per: 2
-  :num: :s
+  :num: :p
   :reg: :familiar
 - :per: 2
-  :num: :s
+  :num: :p
   :reg: :familiar
 #
 - :per: 2
