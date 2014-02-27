@@ -4,13 +4,13 @@ module GrammarCards
   module Cards
     class RegularVerb < CardBase
 
-      attr_reader :front, :back, :structure_data, :word_data
-      def initialize(verb, subject)
-        pronoun = GrammarCards::Words::PersonalPronoun.spanish(subject)
+      attr_reader :front, :back, :verb_form, :word_data
+      def initialize(verb, verb_form)
+        pronoun = GrammarCards::Words::PersonalPronoun.random_pronoun_for(verb_form)
         @front = "#{verb[:eng]}\n\n(#{pronoun})"
-        @back  = "#{pronoun} #{GrammarCards::Words::RegularVerb.spanish(verb[:esp], subject)}\n\n(#{verb[:esp]})"
-        @structure_data = [subject]
-        @word_data = verb[:esp]
+        @back  = "#{pronoun} #{GrammarCards::Words::RegularVerb.spanish(verb[:esp], verb_form)}\n\n(#{verb[:esp]})"
+        @verb_form = verb_form
+        @word_data = verb
         @done = false
       end
 

@@ -137,52 +137,69 @@ module GrammarCards
         pp
       end
 
+      def random_pronoun_for(verb_form)
+        case verb_form
+        when 0
+          'yo'
+        when 1
+          ['nosotros', 'nosotras'][rand(2)]
+        when 2
+          'tú'
+        when 3
+          ['vosotros', 'vosotras'][rand(2)]
+        when 4
+          ['él', 'ella', 'Ud.'][rand(3)]
+        when 5
+          ['ellos', 'ellas', 'Uds.'][rand(3)]
+        else
+          raise "invalid verb form number #{verb_form}"
+        end
+      end
+
       extend PersonalPronoun
     end
 
     module RegularVerb
+      AR_ENDINGS = ['o', 'amos', 'as', 'áis', 'a', 'an']
+      ER_ENDINGS = ['o', 'emos', 'es', 'éis', 'e', 'en']
+      IR_ENDINGS = ['o', 'imos', 'es', 'ís', 'e', 'en']
+
       def spanish(infinitive, subject)
-        send(infinitive.slice(-2,2).to_sym, infinitive, subject)
+        form = subject.kind_of?(String) ? verb_form_for(subject) : subject
+        send(infinitive.slice(-2,2).to_sym, infinitive, form)
       end
-      def ar(esp, subject)
-        ending = case subject[:per]
-        when 1
-          {:s => 'o', :p => 'amos'}[subject[:num]]
-        when 2
-          {:s => {:familiar => 'as', :formal => 'a'},
-           :p => {:familiar => 'áis', :formal => 'an'}}[subject[:num]][subject[:reg]]
-        when 3
-          {:s => 'a', :p => 'an'}[subject[:num]]
-        end
 
-        esp.sub(/ar$/, ending)
-      end
-      def er(esp, subject)
-        ending = case subject[:per]
-        when 1
-          {:s => 'o', :p => 'emos'}[subject[:num]]
-        when 2
-          {:s => {:familiar => 'es', :formal => 'e'},
-           :p => {:familiar => 'éis', :formal => 'en'}}[subject[:num]][subject[:reg]]
-        when 3
-          {:s => 'e', :p => 'en'}[subject[:num]]
+      def verb_form_for(pronoun_string)
+        case pronoun_string
+        when /^yo$/i
+          0
+        when /^nosotr[oa]s$/i
+          1
+        when /^t[úu]$/i
+          2
+        when /^vosotr[oa]s$/i
+          3
+        when /^([ée]l|ella|ud\.|usted)$/i, /^[ée]l\/ella\/(ud\.|usted)$/i
+          4
+        when /^(ellos|ellas|uds\.|ustedes)$/i, /^ellos\/ellas\/(uds\.|ustedes)$/i
+          5
+        else
+          raise "No verb form match for #{pronoun_string}"
         end
-
-        esp.sub(/er$/, ending)
       end
-      def ir(esp, subject)
-        ending = case subject[:per]
-        when 1
-          {:s => 'o', :p => 'imos'}[subject[:num]]
-        when 2
-          {:s => {:familiar => 'es', :formal => 'e'},
-           :p => {:familiar => 'ís', :formal => 'en'}}[subject[:num]][subject[:reg]]
-        when 3
-          {:s => 'e', :p => 'en'}[subject[:num]]
-        end
 
-        esp.sub(/ir$/, ending)
+      def ar(esp, form)
+        esp.sub(/ar$/, AR_ENDINGS[form])
       end
+
+      def er(esp, form)
+        esp.sub(/er$/, ER_ENDINGS[form])
+      end
+
+      def ir(esp, form)
+        esp.sub(/ir$/, IR_ENDINGS[form])
+      end
+
       extend RegularVerb
     end
   end

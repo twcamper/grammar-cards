@@ -7,27 +7,53 @@ module GrammarCards
       module RegularVerbs
         extend DeckHelper
 
-        DATA_PATH = File.expand_path('../data', File.dirname($0))
-        VERB_FILE = File.join(DATA_PATH, "lexis", "verbos-regolares.yml")
-        SUBJECT_STRUCTURE_FILE = File.join(DATA_PATH, "structure", "reg-verb-subjects.yml")
+        class Builder
 
-        def subjects
-          @@subject ||= shuffle(Psych.load_file(SUBJECT_STRUCTURE_FILE))
-        end
+          DATA_PATH = File.expand_path('../data', File.dirname($0))
+          VERB_FORMS = [0, 1, 2, 3, 4, 5]
 
-        def verb_data
-          @@verb_data ||= Psych.load_file(VERB_FILE)
+          def initialize(verb_type)
+            @verbs = Psych.load_file(File.join(DATA_PATH, "lexis", "verbos-regolares-#{verb_type}.yml"))
+            @log_file = GrammarCards::Cards::RegularVerbLogger::LogFile.new verb_type
+          end
+
+          def unused_verbs(form)
+            @log_file.words_unused_by(form, @verbs)
+          end
+
+          def candidate_list(verb_form)
+            unused = unused_verbs(verb_form)
+            if (diff = unused - used_in_this_deck).empty?
+              unused
+            else
+              diff
+            end
+          end
+
+          def used_in_this_deck
+            @used_in_this_deck ||= []
+          end
+
+          def random_verb(verb_form)
+            list = candidate_list(verb_form)
+            used_in_this_deck << list[rand(list.size)]
+            used_in_this_deck.last
+          end
+
+          def build
+            deck = []
+            VERB_FORMS.each do |form|
+              deck << GrammarCards::Cards::RegularVerb.new(random_verb(form), form)
+            end
+            deck
+          end
         end
 
         def build
-          deck = []
-          ['ar', 'er', 'ir'].each do |ending|
-            verbs = verb_data.select {|v| v[:esp] =~ /#{ending}$/}
+          deck = Builder.new(:ar).build +
+                 Builder.new(:er).build +
+                 Builder.new(:ir).build
 
-            subjects.each do |s|
-              deck << GrammarCards::Cards::RegularVerb.new(verbs[rand(verbs.size)], s)
-            end
-          end
           shuffle deck
         end
 
