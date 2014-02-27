@@ -1,38 +1,29 @@
 ---
 - :per: 1
   :num: :s
-# do extra 1st plural
 - :per: 1
   :num: :p
-- :per: 1
-  :num: :p
-#
 - :per: 2
   :num: :s
   :reg: :familiar
-- :per: 2
-  :num: :s
-  :reg: :formal
-# do extra 2nd plural fam
-- :per: 2
-  :num: :p
-  :reg: :familiar
+# - :per: 2
+  # :num: :s
+  # :reg: :formal
 - :per: 2
   :num: :p
   :reg: :familiar
-#
-- :per: 2
-  :num: :p
-  :reg: :formal
+# - :per: 2
+  # :num: :p
+  # :reg: :formal
 - :per: 3
   :num: :s
   :gen: :m
-- :per: 3
-  :num: :s
-  :gen: :f
-- :per: 3
-  :num: :p
-  :gen: :m
+# - :per: 3
+  # :num: :s
+  # :gen: :f
+# - :per: 3
+  # :num: :p
+  # :gen: :m
 - :per: 3
   :num: :p
   :gen: :f
