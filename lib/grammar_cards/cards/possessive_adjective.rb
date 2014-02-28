@@ -26,7 +26,7 @@ module GrammarCards
         unless @s
           @s = @phrase.english
           if note = GrammarCards::Characters.disambiguate_owner(@owner)
-            @s += "\n(#{note})"
+            @s += "\n\n(#{note})"
           end
         end
         @s
@@ -35,7 +35,7 @@ module GrammarCards
       def back
         s = @phrase.spanish
         if s =~ /^sus?\s/
-          s += "\n(#{GrammarCards::Syntax::PossessiveNounPhrase.spanish(@noun, @owner)})"
+          s += "\n\n(#{GrammarCards::Syntax::PossessiveNounPhrase.spanish(@noun, @owner)})"
         end
         s
       end
