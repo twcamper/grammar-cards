@@ -36,7 +36,7 @@
 - :esp: contestar
   :eng: answer
 - :esp: conversar
-  :eng: talk
+  :eng: talk|converse
 - :esp: cuidar
   :eng: take_care_of
 - :esp: dejar
@@ -114,11 +114,11 @@
 - :esp: pintar
   :eng: paint
 - :esp: platicar
-  :eng: chat
+  :eng: chat(mx)
 - :esp: practicar
   :eng: practice
 - :esp: preguntar
-  :eng: ask(questions)
+  :eng: ask
 - :esp: presentar
   :eng: present|introduce
 - :esp: prestar
@@ -136,7 +136,7 @@
 - :esp: robar
   :eng: steal|rob
 - :esp: sacar
-  :eng: pull_out|take_out|take_pictures/photos
+  :eng: pull_out|take_out|take_pictures
 - :esp: saludar
   :eng: greet|salute
 - :esp: solicitar
