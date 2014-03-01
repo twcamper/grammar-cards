@@ -36,6 +36,8 @@ module GrammarCards
         s << " #{spanish_words_for(h + 1)} menos cuarto"
       when 30
         s << " #{spanish_words_for(h)} y media"
+      when 0
+        s << " #{spanish_words_for(h)}"
       else
         s << " #{spanish_words_for(h)} y #{spanish_words_for(m)}"
       end.sub(/ la uno /, " la una ")

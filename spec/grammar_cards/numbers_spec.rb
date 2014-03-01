@@ -91,6 +91,9 @@ module GrammarCards
     end
 
     describe "#time" do
+      it "should say 9:00" do
+        expect(Numbers.time(9, 0)).to eq 'Son las nueve'
+      end
       it "should say 1:30" do
         expect(Numbers.time(1, 30)).to eq 'Es la una y media'
       end
