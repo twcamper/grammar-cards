@@ -60,7 +60,7 @@ SET default_with_oids = false;
 CREATE TABLE gerund (
     infinitive character varying NOT NULL,
     gerund character varying NOT NULL,
-    gerund_english character varying
+    english character varying
 );
 
 
@@ -72,7 +72,7 @@ CREATE TABLE gerund (
 
 CREATE TABLE infinitive (
     infinitive character varying NOT NULL,
-    infinitive_english character varying
+    english character varying
 );
 
 
@@ -84,7 +84,7 @@ CREATE TABLE infinitive (
 
 CREATE TABLE mood (
     mood character varying NOT NULL,
-    mood_english character varying
+    english character varying
 );
 
 
@@ -97,7 +97,7 @@ CREATE TABLE mood (
 CREATE TABLE pastparticiple (
     infinitive character varying NOT NULL,
     pastparticiple character varying NOT NULL,
-    pastparticiple_english character varying
+    english character varying
 );
 
 
@@ -109,7 +109,7 @@ CREATE TABLE pastparticiple (
 
 CREATE TABLE tense (
     tense character varying NOT NULL,
-    tense_english character varying
+    english character varying
 );
 
 
@@ -123,13 +123,13 @@ CREATE TABLE verbs (
     infinitive character varying NOT NULL,
     mood character varying NOT NULL,
     tense character varying NOT NULL,
-    verb_english character varying,
-    form_1s character varying,
-    form_2s character varying,
-    form_3s character varying,
-    form_1p character varying,
-    form_2p character varying,
-    form_3p character varying
+    english character varying,
+    s1 character varying,
+    s2 character varying,
+    s3 character varying,
+    p1 character varying,
+    p2 character varying,
+    p3 character varying
 );
 
 
@@ -139,7 +139,7 @@ CREATE TABLE verbs (
 -- Data for Name: gerund; Type: TABLE DATA; Schema: public; Owner: -
 --
 
-COPY gerund (infinitive, gerund, gerund_english) FROM stdin;
+COPY gerund (infinitive, gerund, english) FROM stdin;
 abandonar	abandonando	abandoning
 abordar	abordando	boarding
 abortar	abortando	aborting
@@ -786,7 +786,7 @@ esperar	esperando	hoping
 -- Data for Name: infinitive; Type: TABLE DATA; Schema: public; Owner: -
 --
 
-COPY infinitive (infinitive, infinitive_english) FROM stdin;
+COPY infinitive (infinitive, english) FROM stdin;
 abandonar	to abandon, leave behind, desert; to quit, give up
 abordar	to board, get on [plane, bus, etc.]; to approach, accost [a person]
 abortar	to abort, cause to miscarry; to have a miscarriage
@@ -1434,7 +1434,7 @@ esperar	t o   h o p e
 -- Data for Name: mood; Type: TABLE DATA; Schema: public; Owner: -
 --
 
-COPY mood (mood, mood_english) FROM stdin;
+COPY mood (mood, english) FROM stdin;
 Indicativo	Indicative
 Subjuntivo	Subjunctive
 Imperativo Afirmativo	Imperative Affirmative
@@ -1448,7 +1448,7 @@ Imperativo Negativo	Imperative Negative
 -- Data for Name: pastparticiple; Type: TABLE DATA; Schema: public; Owner: -
 --
 
-COPY pastparticiple (infinitive, pastparticiple, pastparticiple_english) FROM stdin;
+COPY pastparticiple (infinitive, pastparticiple, english) FROM stdin;
 abandonar	abandonado	abandoned
 abordar	abordado	boarded
 abortar	abortado	aborted
@@ -2095,7 +2095,7 @@ esperar	esperado	hoped
 -- Data for Name: tense; Type: TABLE DATA; Schema: public; Owner: -
 --
 
-COPY tense (tense, tense_english) FROM stdin;
+COPY tense (tense, english) FROM stdin;
 Presente	Present
 Futuro	Future
 Imperfecto	Imperfect
@@ -2115,7 +2115,7 @@ Condicional perfecto	Conditional Perfect
 -- Data for Name: verbs; Type: TABLE DATA; Schema: public; Owner: -
 --
 
-COPY verbs (infinitive, mood, tense, verb_english, form_1s, form_2s, form_3s, form_1p, form_2p, form_3p) FROM stdin;
+COPY verbs (infinitive, mood, tense, english, s1, s2, s3, p1, p2, p3) FROM stdin;
 abandonar	Indicativo	Presente	I abandon, am abandoning	abandono	abandonas	abandona	abandonamos	abandonáis	abandonan
 abandonar	Indicativo	Futuro	I will abandon	abandonaré	abandonarás	abandonará	abandonaremos	abandonaréis	abandonarán
 abandonar	Indicativo	Imperfecto	I was abandoning, used to abandon, abandoned	abandonaba	abandonabas	abandonaba	abandonábamos	abandonabais	abandonaban

@@ -1,12 +1,12 @@
-SELECT i.infinitive AS infinitive, i.infinitive_english AS english
+SELECT i.infinitive AS infinitive, i.english AS english
 FROM infinitive i, verbs v
 WHERE i.infinitive = v.infinitive
 AND v.tense = 'Presente' AND v.mood = 'Indicativo'
 AND i.infinitive ~ 'ir$'
-AND v.form_1s = regexp_replace(i.infinitive, 'ir$', 'o')
-AND v.form_2s = regexp_replace(i.infinitive, 'ir$', 'es')
-AND v.form_3s = regexp_replace(i.infinitive, 'ir$', 'e')
-AND v.form_1p = regexp_replace(i.infinitive, 'ir$', 'imos')
-AND v.form_2p = regexp_replace(i.infinitive, 'ir$', 'ís')
-AND v.form_3p = regexp_replace(i.infinitive, 'ir$', 'en')
+AND v.s1 = regexp_replace(i.infinitive, 'ir$', 'o')
+AND v.s2 = regexp_replace(i.infinitive, 'ir$', 'es')
+AND v.s3 = regexp_replace(i.infinitive, 'ir$', 'e')
+AND v.p1 = regexp_replace(i.infinitive, 'ir$', 'imos')
+AND v.p2 = regexp_replace(i.infinitive, 'ir$', 'ís')
+AND v.p3 = regexp_replace(i.infinitive, 'ir$', 'en')
 ORDER BY 1;
