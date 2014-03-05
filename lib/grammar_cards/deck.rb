@@ -25,6 +25,7 @@ module GrammarCards
     def build(*builders)
       composite_deck = []
       decks = builders.map { |b| Builders.const_get(b).build}
+      GrammarCards::Verbs.disconnect_db
 
       if decks.size > 1
         if decks[0].size > decks[1].size

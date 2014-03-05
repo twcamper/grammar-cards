@@ -7,14 +7,13 @@ module GrammarCards
       module Infinitives
         extend DeckHelper
 
-          DATA_PATH = File.expand_path('../data', File.dirname($0))
+        DATA_PATH = File.expand_path('../data', File.dirname($0))
 
         def build
           deck = []
-          ['ar', 'er', 'ir'].each do |verb_type|
-            verbs = Psych.load_file(File.join(DATA_PATH, "lexis", "verbos-regolares-#{verb_type}.yml"))
-            verbs.each do |pair|
-              deck << GrammarCards::Cards::Infinitive.new(pair[:eng], pair[:esp])
+          Dir["#{DATA_PATH}/lexis/verbs/*"].each do |file|
+            File.read(file).split.each do |verb|
+              deck << GrammarCards::Cards::Infinitive.new(GrammarCards::Verbs.english(verb), verb)
             end
           end
           shuffle deck
