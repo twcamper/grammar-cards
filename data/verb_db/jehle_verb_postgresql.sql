@@ -1091,7 +1091,7 @@ escribir	to write
 escuchar	to listen to, hear
 esquiar	to ski
 establecer	to establish
-estar	to be
+estar	to be (condition, location, state)
 estimar	to estimate; to appraise; to esteem, respect
 estudiar	to study
 evacuar	to evacuate, empty
@@ -1357,7 +1357,7 @@ sentarse	to sit down, seat oneself
 sentir	to feel, regret
 sentirse	to feel
 señalar	to point out, point to, indicate; to signal; to mark
-ser	to be
+ser	to be (essence)
 servir	to serve
 significar	to signify, mean
 simbolizar	to symbolize, represent, stand for
