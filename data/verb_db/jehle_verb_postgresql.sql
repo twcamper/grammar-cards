@@ -788,7 +788,7 @@ esperar	esperando	hoping
 
 COPY infinitive (infinitive, english) FROM stdin;
 abandonar	to abandon, leave behind, desert; to quit, give up
-abordar	to board, get on [plane, bus, etc.]; to approach, accost [a person]
+abordar	to board, get on (plane, bus, etc.); to approach, accost (a person)
 abortar	to abort, cause to miscarry; to have a miscarriage
 abrazar	to hug, embrace
 abrir	to open
@@ -798,12 +798,12 @@ abusar	to go too far, take advantage
 acabar	to finish, end
 acampar	to camp, encamp, go camping
 aceptar	to accept, approve; to agree to
-acercar	to bring near[er], move [something] nearer
+acercar	to bring near(er), move (something) nearer
 acercarse	to approach
 acompañar	to accompany, go with, escort
 aconsejar	to advise
 acontecer	to happen, occur, come about
-acordar	to decide, resolve, agree [on]
+acordar	to decide, resolve, agree (on)
 acordarse	to remember
 acortar	to shorten
 acostar	to put to bed
@@ -815,10 +815,10 @@ adivinar	to guess, fortell, prophesy; to guess correctly
 admirar	to admire, respect, look up to
 admitir	to admit, accept, allow, recognize
 adorar	to adore, worship
-adornar	to adorn; to decorate, embellish; to garnish [food]
+adornar	to adorn; to decorate, embellish; to garnish (food)
 advertir	to notice, observe, advise, warn
 afeitar	to shave
-afeitarse	to shave [oneself]
+afeitarse	to shave
 afirmar	to make firm, steady, strengthen; to affirm, state, assert
 afligir	to afflict, to grieve, to pain, to distress
 agorar	to predict, prophesy
@@ -828,7 +828,7 @@ aguantar	to put up with, endure, bear, stand
 ahorcar	to hang
 ahorrar	to save
 alcanzar	to reach, catch, catch up to, catch up with
-alegrar	to make happy, cheer [up], gladden
+alegrar	to make happy, cheer (up), gladden
 alegrarse	to be glad, happy; to become/get happy; to rejoice
 alentar	to encourage, cheer, inspire, bolster up
 aliviar	to alleviate, ease, lessen, lighthen, relieve
@@ -849,7 +849,7 @@ apostar	to bet, wager
 apoyar	to support, hold up, prop up; to back
 apreciar	to appreciate, value, esteem, estimate, notice
 aprender	to learn
-apretar	to be too tight; to squeeze; to tighten [up]; to press [down/against]
+apretar	to be too tight; to squeeze; to tighten (up); to press (down/against)
 aprobar	to pass
 arreglar	to arrange, settle, fix up, repair, tidy up
 arrepentirse	to repent, be repentant, regret
@@ -858,7 +858,7 @@ asistir	to attend
 asociar	to associate; to pool, put together
 aspirar	to breath in, inhale; to suck in; to aspirate; to aspire
 asustar	to frighten, scare, startle
-asustarse	to be frightened [oneself]
+asustarse	to be frightened (oneself)
 atacar	to attack
 atender	to attend to, pay attention to
 atraer	to attract, draw, lure
@@ -871,9 +871,9 @@ avisar	to warn, inform, notify
 ayudar	to help
 bajar	to lower, go down, descend, download
 bañar	to give a bath
-bañarse	to take a bath, bathe [oneself]
+bañarse	to take a bath, bathe (oneself)
 barrer	to sweep, sweep clean, sweep out, sweep away
-batir	to beat, hammer, pound [on]
+batir	to beat, hammer, pound (on)
 bautizar	to baptize, christen
 beber	to drink
 bendecir	to bless, foretell, forecast
@@ -884,30 +884,30 @@ brindar	to toast
 broncearse	to get a suntan, tan
 bucear	to skin-dive; to dive under water; to dive
 burlar	to deceive, trick; to seduce
-burlarse	to mock, ridicule, make fun of [someone/something]
+burlarse	to mock, ridicule, make fun of
 buscar	to search for, look for
 caber	to fit
 caer	to fall
 calcular	to calculate, compute, add up
-calentar	to heat [up], warm [up]
+calentar	to heat (up), warm (up)
 calentarse	to heat up, warm up
 callar	to keep quiet about, pass over in silence; to hush
-callarse	to keep quiet , be quiet, shut up, be silent, remain silent
+callarse	to keep/be quiet, shut up, be silent, remain silent
 calmar	to calm (down), quiet, soothe
-calmarse	to calm down [oneself]
+calmarse	to calm down (oneself)
 caminar	to walk, go
-cancelar	to cancel; to wipe out, write off [debt]
+cancelar	to cancel; to wipe out, write off (debt)
 cansar	to tire, tire out, fatigue, wear out
 cansarse	to get tired, get worn out, get weary
 caracterizar	to characterize
 cargar	to load, load up; to charge
 casar	to marry, join in marriage, join in wedlock
-casarse	to marry [someone], get married [to someone]
+casarse	to marry (someone), get married (to someone)
 castigar	to punish, penalize, castigate
 causar	to cause; to create, make
 cazar	to hunt, represent, stand for
 celebrar	to celebrate; to praise, applaud
-cenar	to eat supper, have supper; to eat dinner, have dinner; to dine; to have for supper [or dinner]
+cenar	to dine; eat/have supper/dinner; eat/have for supper/dinner
 censurar	to censor; to censure, criticize, blame
 cepillar	to brush
 cerrar	to close, shut
@@ -916,9 +916,9 @@ charlar	to chat, talk
 chismear	to gossip
 chocar	to shock; to startle; to be suprising, startling; to collide, crash
 civilizar	to civilize
-clarificar	to clarify, illuminate, light [up], brighten
+clarificar	to clarify, illuminate, light (up), brighten
 clasificar	to classify, grade, rate, sort
-cobrar	to charge [a price]; to cash [a check]; to collect, receive [an amount]
+cobrar	to charge (a price); to cash (a check); to collect, receive (an amount)
 cocinar	to cook; to do the cooking
 coger	to catch, grasp, take hold of
 colgar	to hang, hang up, be hanging, be suspended
@@ -932,21 +932,21 @@ componer	to compose, make up, put together
 comprar	to buy, purchase
 comprender	to understand, comprehend
 comunicar	to communicate, transmit, tell, pass on
-comunicarse	to communicate [e.g., with someone], be in touch, correspond; to be transmitted
+comunicarse	to communicate (e.g., with someone), be in touch, correspond; to be transmitted
 condenar	to condemn, convict, sentence
 conducir	to drive, conduct
 confesar	to confess
 confiar	to trust, be trusting, entrust
 confirmar	to confirm, corroborate, endorse
-compartir	to share; to divide [up]
+compartir	to share; to divide (up)
 confiscar	to confiscate
 conjugar	to conjugate
 conocer	to know
 conquistar	to conquer, overcome, win
 conseguir	to get, obtain
-consentir	to consent to; to allow, permit; to tolerate, put up with; to admit; to agree, consent
+consentir	to consent(to); to allow, permit; to tolerate, put up with; to admit
 conservar	to preserve, conserve; to keep, retain
-consistir	to consist [of], be composed [of]
+consistir	to consist (of), be composed (of)
 constituir	to constitute
 construir	to build, construct
 consumir	to consume, eat, use upe
@@ -969,10 +969,10 @@ cortar	to cut
 coser	to sew, sew up; to stitch, stitch up
 costar	to cost
 crear	to create; to make
-crecer	to grow [up]
+crecer	to grow (up)
 creer	to believe
 criar	to raise
-criarse	to grow [up]; to be brought up
+criarse	to grow (up); to be brought up
 criticar	to criticize
 crucificar	to crucify
 cruzar	to cross
@@ -980,17 +980,17 @@ cubrir	to cover
 cuidar	to take care of, look after
 culpar	to blame, accuse; to condemn
 cultivar	to cultivate; to grow
-cumplir	to fulfil, carry out; to reach [
-curar	to cure; to treat, dress [a wound]
+cumplir	to complete, fulfill, carry out; to reach
+curar	to cure; to treat, dress (a wound)
 dar	to give
 deber	to owe; must, should, ought to
 decidir	to decide, settle, resolve
 decidirse	to decide, make up one's mind
 decir	to say, tell
-declarar	to declare, state; to bid [in cards]
+declarar	to declare, state; to bid (in cards)
 decorar	to decorate, adorn
 dedicar	to dedicate
-dedicarse	to devote oneself, dedicate oneself, go in for, take up [carrer/interest in something]
+dedicarse	to devote oneself, dedicate oneself, go in for, take up (carrer/interest in something)
 defender	to defend
 dejar	to leave, abandon; to let, allow
 demostrar	to demonstrate, show
@@ -1002,7 +1002,7 @@ desagradar	to displease, be displeasing
 desagradecer	to be unthankful for, to be unappreciative of
 desaparecer	to disappear
 desayunar	to eat breakfast, have breakfast
-descansar	to rest, take a rest; to support, lean [on
+descansar	to rest, take a rest; to support, lean (on)
 descender	to descend, lower
 describir	to describe
 descubrir	to discover
@@ -1031,23 +1031,23 @@ distribuir	to distribute, hand out, send out, give out
 divertir	to amuse, entertain
 divertirse	to have fun, have a good time, enjoy oneself
 divorciar	to divorce
-divorciarse	to get divorced [from somebody]
-doblar	to double; to turn [a corner, to the right, etc.]; to fold, crease
+divorciarse	to get divorced (from somebody)
+doblar	to double; to turn (a corner, to the right, etc.); to fold, crease
 doler	to hurt, pain, ache
 dormir	to sleep
 dormirse	to go to sleep, fall asleep
 duchar	to douche
-ducharse	to take a shower, shower [oneself]
+ducharse	to take a shower, shower (oneself)
 dudar	to doubt
 durar	to last, go on, continue
 echar	to throw, cast, fling, hurl, pitch, toss
-echarse	to throw, fling, hurl [oneself]
+echarse	to throw, fling, hurl (oneself)
 educar	to educate; to bring up
 efectuar	to effect, carry out, bring about
-ejercer	to exercise, wield [power, influence, etc.]; to practice [a profession]; to manage, conduct [a businsess]
+ejercer	to exercise, wield (power, influence, etc.); to practice (a profession); to manage, conduct (a businsess)
 elegir	to elect, choose
 eliminar	to eliminate, remove, get rid of
-emborrachar	to make drunk, intoxicate; to get [someone] drunk
+emborrachar	to make drunk, intoxicate; to get (someone) drunk
 emborracharse	to get drunk, become drunk
 emigrar	to emigrate; to migrate
 empezar	to begin, start
@@ -1071,13 +1071,13 @@ enriquecerse	to get rich
 enseñar	to teach, instruct, train, educate
 ensuciar	to dirty
 entender	to understand
-enterarse	to find out [about something], to learn [of something])
+enterarse	to find out (about something), to learn (of something))
 entrar	to enter, go in, come in
 entregar	to deliver, hand over
 entretener	to entertain, amuse
 entrevistar	to interview
-entusiasmar	to excite; to fill with excitement [or enthusiasm]
-entusiasmarse	to get excited, become excited [filled with excitement or enthusiasm]
+entusiasmar	to excite; to fill with excitement (or enthusiasm)
+entusiasmarse	to get excited, become excited (filled with excitement or enthusiasm)
 envejecer	to age, make old, grow old, get old
 envejecerse	to get old, age
 enviar	to send
@@ -1086,7 +1086,7 @@ equivocarse	to make a mistake
 errar	to err, make an error
 escoger	to choose, select, pick
 esconder	to hide, conceal
-esconderse	to hide [oneself], be hidden
+esconderse	to hide (oneself), be hidden
 escribir	to write
 escuchar	to listen to, hear
 esquiar	to ski
@@ -1128,7 +1128,7 @@ graduar	to graduate
 graduarse	to graduate
 gritar	to shout, yell, scream, cry out
 gruñir	to grunt, growl
-guardar	to guard, watch over, protect, take care of; to keep, hold on to; to put away, store away
+guardar	to store/save, guard, watch over, protect, take care of; to keep
 guiar	to guide
 gustar	to please, be pleasing
 haber	there to be
@@ -1154,7 +1154,7 @@ insistir	to insist
 instalar	to install; to set up, erect
 insultar	to insult
 intentar	to try, attempt
-interesar	to interest, be of interest [to]
+interesar	to interest, be of interest (to)
 interpretar	to interpret; to translate
 introducir	to introduce, insert
 invadir	to invade, overrun
@@ -1175,7 +1175,7 @@ lamentar	to lament, regret, feel sorry about
 lanzar	to throw, hurl, cast, fling
 lastimar	to hurt, injure, harm; to pity; to move to pity
 lavar	to wash
-lavarse	to wash [oneself], to wash up
+lavarse	to wash (oneself), to wash up
 leer	to read
 legalizar	to legalize, make lawful
 levantar	to raise, to lift
@@ -1195,18 +1195,18 @@ mandar	to order
 manejar	to drive
 mantener	to maintain, get
 maquillar	to put make-up on
-maquillarse	to put on make-up [on oneself]
-marcar	to mark, stamp, to show, indicate; to dial [e.g., a phone]
+maquillarse	to put on make-up (on oneself)
+marcar	to mark, stamp, to show, indicate; to dial (e.g., a phone)
 masticar	to chew
 matar	to kill, slay, slaughter
 matricular	to register
-matricularse	to register, enroll, matriculate [oneself]
+matricularse	to register, enroll, matriculate (oneself)
 medir	to measure, be
 mentir	to lie
 merecer	to deserve, merit
-merendar	to have a[n afternoon] snack, have as a snack
-meter	to put [in], place, insert
-mezclar	to mix, mix up, mix together, blend; to combine, merge, shuffle
+merendar	to have a(n afternoon) snack, have as a snack
+meter	to put (in), place, insert
+mezclar	to mix (up/together), blend; to combine, merge, shuffle
 mirar	to watch, look at
 modificar	to modify, change
 molestar	to bother, annoy, inconovenience, put out, upset
@@ -1214,9 +1214,9 @@ montar	to mount, to get on, to ride
 morir	to die
 mostrar	to show
 mover	to move
-moverse	to move [oneself]
+moverse	to move (oneself)
 mudar(se)	to change, alter; to move
-mudarse	to move [=change residence]
+mudarse	to move house
 nacer	to be born
 nadar	to swim
 navegar	to navigate, sail
@@ -1237,15 +1237,15 @@ oír	to hear
 oler	to smell
 olvidar	to forget
 olvidarse	to forget
-oponer	to pit [A against B], set up [A in opposition to B], play off [A against B]
-oponerse	to put on [clothing]; to put/place [oneself]; to turn/get/become
+oponer	to pit (A against B), set up (A in opposition to B), play off (A against B)
+oponerse	to put on (clothing); to put/place (oneself); to turn/get/become
 organizar	to organize
 padecer	to suffer
 pagar	to pay, pay for
 parar	to stop, halt
 parecer	to seem, appear
 participar	to participate, take part in; to share in; to inform, notify
-pasar	to pass, pass by, go; to pass on, hand; to spend [time]; to happen
+pasar	to pass, pass by, go; to pass on, hand; to spend (time); to happen
 patinar	to skate; to slide, skid
 pedir	to request, ask for
 pegar	to stick, glue, hit
@@ -1268,7 +1268,7 @@ planchar	to iron, press; to do the ironing
 plantar	to plant
 poder	to be able, can
 poner	to put, place, set
-ponerse	to put on [clothing]; to put/place [oneself]; to turn/get/become
+ponerse	to put on (clothing); to put/place (oneself); to turn/get/become
 practicar	to practice
 predecir	to predict, foretell, forecast
 preferir	to prefer
@@ -1292,27 +1292,27 @@ publicar	to publish
 purificar	to purify
 quebrar	to break, smash; to fail, go bankrupt
 quebrarse	to break, smash, get broken
-quedar	to stay, remain, be left; to be [indicating location]
-quedarse	to stay [behind], remain [behind]
+quedar	to stay, remain, be left; to be (indicating location)
+quedarse	to stay (behind), remain (behind)
 quejarse	to complain
-quemar	to burn [up], set on fire, scald, scorch; to be burning hot
-quemarse	to burn [oneself], to burn up, burn down
+quemar	to burn (up), set on fire, scald, scorch; to be burning hot
+quemarse	to burn (oneself), to burn up, burn down
 querer	to want, love
 realizar	to achieve, attain, accomplish, realize
 rechazar	to reject; to push back, repel
 recibir	to receive; to welcome, greet
-reciclar	to recycle; to retrain [a person]
+reciclar	to recycle; to retrain (a person)
 recoger	to pick up
 recomendar	to recommend
 reconocer	to recognize
 recordar	to remember, remind
 reducir	to reduce
-regalar	to give [as a gift]; to present; to give away; to treat royally, pamper
+regalar	to give (as a gift); to present; to give away; to treat royally, pamper
 regar	to water, irrigate, wash, sprinkle, spray
 regatear	to haggle (over), bargain (over)
 regir	to rule, govern, be in charge of, be at the head of
 registrar	to register, record; to search
-registrarse	to register [oneself]
+registrarse	to register (oneself)
 regresar	to return, go back
 regular	to regulate, adjust, control
 rehusar	to refuse
@@ -1333,8 +1333,8 @@ resolver	to solve, resolve
 respetar	to respect
 respirar	to breathe, breathe in, inhale
 responder	to respond, answer, reply to
-resultar	to turn out (to be), prove [to be], ensue
-revelar	to reveal, disclose; to develop [film]
+resultar	to turn out (to be), prove (to be), ensue
+revelar	to reveal, disclose; to develop (film)
 rezar	to pray
 robar	to rob, steal, burgle, break into
 rogar	to plead, beg, ask for
@@ -1379,12 +1379,12 @@ suspirar	to sigh
 sustituir	to substitute, replace
 tañer	to play
 tapar	to cover; to put the lid on, put the cap on, put the stopper in
-tardar	to delay, take a long time, be long, be slow [in doing something]
+tardar	to delay, take a long time, be long, be slow (in doing something)
 temer	to fear
 tener	to have
 teñir	to dye, tint, tinge, color, stain
 terminar	to finish, end
-tirar	to throw, hurl; to shoot, fire; to throw away; to pull [out]
+tirar	to throw, hurl; to shoot, fire; to throw away; to pull (out)
 tocar	to touch; to play
 tomar	to take, drink
 torcer	to twist, bend, warp, wring, sprain
@@ -1421,10 +1421,10 @@ vomitar	to vomit, throw up, bring up
 votar	to vote
 yacer	to lie
 zambullirse	to dive, plunge
-besar	k i s s
-bailar	d a n c e
-presentar	t o   i n t r o d u c e
-esperar	t o   h o p e
+besar	kiss
+bailar	dance
+presentar	to introduce
+esperar	to hope
 \.
 
 
@@ -5590,24 +5590,24 @@ cultivar	Subjuntivo	Futuro perfecto	I will have cultivated	hubiere cultivado	hub
 cultivar	Subjuntivo	Pluscuamperfecto	I had cultivated	hubiera cultivado	hubieras cultivado	hubiera cultivado	hubiéramos cultivado	hubierais cultivado	hubieran cultivado
 cultivar	Imperativo Afirmativo	Presente	Cultivate! Don't cultivate!		cultiva	cultivad		cultive	cultiven
 cultivar	Imperativo Negativo	Presente	Cultivate! Don't cultivate!		no cultives	no cultivéis		no cultive	no cultiven
-cumplir	Indicativo	Presente	I fulfil, am fulfilling	cumplo	cumples	cumple	cumplimos	cumplís	cumplen
-cumplir	Indicativo	Futuro	I will fulfil	cumpliré	cumplirás	cumplirá	cumpliremos	cumpliréis	cumplirán
-cumplir	Indicativo	Imperfecto	I was fulfilling, used to fulfil, fulfilled	cumplía	cumplías	cumplía	cumplíamos	cumplíais	cumplían
+cumplir	Indicativo	Presente	I fulfill, am fulfilling	cumplo	cumples	cumple	cumplimos	cumplís	cumplen
+cumplir	Indicativo	Futuro	I will fulfill	cumpliré	cumplirás	cumplirá	cumpliremos	cumpliréis	cumplirán
+cumplir	Indicativo	Imperfecto	I was fulfilling, used to fulfill, fulfilled	cumplía	cumplías	cumplía	cumplíamos	cumplíais	cumplían
 cumplir	Indicativo	Pretérito	I fulfilled	cumplí	cumpliste	cumplió	cumplimos	cumplisteis	cumplieron
-cumplir	Indicativo	Condicional	I would fulfil	cumpliría	cumplirías	cumpliría	cumpliríamos	cumpliríais	cumplirían
+cumplir	Indicativo	Condicional	I would fulfill	cumpliría	cumplirías	cumpliría	cumpliríamos	cumpliríais	cumplirían
 cumplir	Indicativo	Presente perfecto	I have fulfilled	he cumplido	has cumplido	ha cumplido	hemos cumplido	habéis cumplido	han cumplido
 cumplir	Indicativo	Futuro perfecto	I will have fulfilled	habré cumplido	habrás cumplido	habrá cumplido	habremos cumplido	habréis cumplido	habrán cumplido
 cumplir	Indicativo	Pluscuamperfecto	I had fulfilled	había cumplido	habías cumplido	había cumplido	habíamos cumplido	habíais cumplido	habían cumplido
 cumplir	Indicativo	Pretérito anterior	I had fulfilled	hube cumplido	hubiste cumplido	hubo cumplido	hubimos cumplido	hubisteis cumplido	hubieron cumplido
 cumplir	Indicativo	Condicional perfecto	I would have fulfilled	habría cumplido	habrías cumplido	habría cumplido	habríamos cumplido	habríais cumplido	habrían cumplido
-cumplir	Subjuntivo	Presente	I fulfil, am fulfilling	cumpla	cumplas	cumpla	cumplamos	cumpláis	cumplan
+cumplir	Subjuntivo	Presente	I fulfill, am fulfilling	cumpla	cumplas	cumpla	cumplamos	cumpláis	cumplan
 cumplir	Subjuntivo	Imperfecto	I fulfilled, was fulfilling	cumpliera	cumplieras	cumpliera	cumpliéramos	cumplierais	cumplieran
-cumplir	Subjuntivo	Futuro	I will fulfil	cumpliere	cumplieres	cumpliere	cumpliéremos	cumpliereis	cumplieren
+cumplir	Subjuntivo	Futuro	I will fulfill	cumpliere	cumplieres	cumpliere	cumpliéremos	cumpliereis	cumplieren
 cumplir	Subjuntivo	Presente perfecto	I have fulfilled, fulfilled	haya cumplido	hayas cumplido	haya cumplido	hayamos cumplido	hayáis cumplido	hayan cumplido
 cumplir	Subjuntivo	Futuro perfecto	I will have fulfilled	hubiere cumplido	hubieres cumplido	hubiere cumplido	hubiéremos cumplido	hubiereis cumplido	hubieren cumplido
 cumplir	Subjuntivo	Pluscuamperfecto	I had fulfilled	hubiera cumplido	hubieras cumplido	hubiera cumplido	hubiéramos cumplido	hubierais cumplido	hubieran cumplido
-cumplir	Imperativo Afirmativo	Presente	Fulfil! Don't fulfil!		cumple	cumplid		cumpla	cumplan
-cumplir	Imperativo Negativo	Presente	Fulfil! Don't fulfil!		no cumplas	no cumpláis		no cumpla	no cumplan
+cumplir	Imperativo Afirmativo	Presente	Fulfill! Don't fulfill!		cumple	cumplid		cumpla	cumplan
+cumplir	Imperativo Negativo	Presente	Fulfill! Don't fulfill!		no cumplas	no cumpláis		no cumpla	no cumplan
 curar	Indicativo	Presente	I cure, am curing	curo	curas	cura	curamos	curáis	curan
 curar	Indicativo	Futuro	I will cure	curaré	curarás	curará	curaremos	curaréis	curarán
 curar	Indicativo	Imperfecto	I was curing, used to cure, cured	curaba	curabas	curaba	curábamos	curabais	curaban
