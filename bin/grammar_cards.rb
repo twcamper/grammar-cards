@@ -4,7 +4,7 @@ require_relative '../lib/grammar_cards'
 module GrammarCards
   module CLI
     DECKS = if ARGV.empty?
-              GrammarCards::Deck::Builders.constants
+              [:PossessiveAdjectives, :Numbers]
             else
               ARGV.map {|arg| arg.to_sym}
             end

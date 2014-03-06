@@ -11,11 +11,13 @@ module GrammarCards
 
         def build
           deck = []
+          db = GrammarCards::Verbs.new
           Dir["#{DATA_PATH}/lexis/verbs/*"].each do |file|
             File.read(file).split.each do |verb|
-              deck << GrammarCards::Cards::Infinitive.new(GrammarCards::Verbs.english(verb), verb)
+              deck << GrammarCards::Cards::Infinitive.new(db.english(verb), verb)
             end
           end
+          db.disconnect
           shuffle deck
         end
 

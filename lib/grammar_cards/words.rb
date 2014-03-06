@@ -139,17 +139,17 @@ module GrammarCards
 
       def random_pronoun_for(verb_form)
         case verb_form
-        when 0
+        when 0, :s1
           'yo'
-        when 1
+        when 1, :p1
           ['nosotros', 'nosotras'][rand(2)]
-        when 2
+        when 2, :s2
           'tú'
-        when 3
+        when 3, :p2
           ['vosotros', 'vosotras'][rand(2)]
-        when 4
+        when 4, :s3
           ['él', 'ella', 'Ud.'][rand(3)]
-        when 5
+        when 5, :p3
           ['ellos', 'ellas', 'Uds.'][rand(3)]
         else
           raise "invalid verb form number #{verb_form}"

@@ -3,7 +3,7 @@ require_relative 'deck/deck_helper'
 require_relative 'deck/runner'
 require_relative 'deck/builders/possessive_adjectives'
 require_relative 'deck/builders/numbers'
-require_relative 'deck/builders/regular_verbs'
+require_relative 'deck/builders/conjugations'
 require_relative 'deck/builders/infinitives'
 
 module GrammarCards
@@ -25,7 +25,6 @@ module GrammarCards
     def build(*builders)
       composite_deck = []
       decks = builders.map { |b| Builders.const_get(b).build}
-      GrammarCards::Verbs.disconnect_db
 
       if decks.size > 1
         if decks[0].size > decks[1].size
