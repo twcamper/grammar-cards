@@ -139,17 +139,17 @@ module GrammarCards
 
       def random_pronoun_for(verb_form)
         case verb_form
-        when 0, :s1
+        when :s1
           'yo'
-        when 1, :p1
+        when :p1
           ['nosotros', 'nosotras'][rand(2)]
-        when 2, :s2
+        when :s2
           'tú'
-        when 3, :p2
+        when :p2
           ['vosotros', 'vosotras'][rand(2)]
-        when 4, :s3
+        when :s3
           ['él', 'ella', 'Ud.'][rand(3)]
-        when 5, :p3
+        when :p3
           ['ellos', 'ellas', 'Uds.'][rand(3)]
         else
           raise "invalid verb form number #{verb_form}"
@@ -159,48 +159,5 @@ module GrammarCards
       extend PersonalPronoun
     end
 
-    module RegularVerb
-      AR_ENDINGS = ['o', 'amos', 'as', 'áis', 'a', 'an']
-      ER_ENDINGS = ['o', 'emos', 'es', 'éis', 'e', 'en']
-      IR_ENDINGS = ['o', 'imos', 'es', 'ís', 'e', 'en']
-
-      def spanish(infinitive, subject)
-        form = subject.kind_of?(String) ? verb_form_for(subject) : subject
-        send(infinitive.slice(-2,2).to_sym, infinitive, form)
-      end
-
-      def verb_form_for(pronoun_string)
-        case pronoun_string
-        when /^yo$/i
-          0
-        when /^nosotr[oa]s$/i
-          1
-        when /^t[úu]$/i
-          2
-        when /^vosotr[oa]s$/i
-          3
-        when /^([ée]l|ella|ud\.|usted)$/i, /^[ée]l\/ella\/(ud\.|usted)$/i
-          4
-        when /^(ellos|ellas|uds\.|ustedes)$/i, /^ellos\/ellas\/(uds\.|ustedes)$/i
-          5
-        else
-          raise "No verb form match for #{pronoun_string}"
-        end
-      end
-
-      def ar(esp, form)
-        esp.sub(/ar$/, AR_ENDINGS[form])
-      end
-
-      def er(esp, form)
-        esp.sub(/er$/, ER_ENDINGS[form])
-      end
-
-      def ir(esp, form)
-        esp.sub(/ir$/, IR_ENDINGS[form])
-      end
-
-      extend RegularVerb
-    end
   end
 end

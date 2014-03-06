@@ -6,22 +6,22 @@ module GrammarCards
     describe PersonalPronoun do
       describe "#random_pronoun_for" do
         it "it should return 'yo' for 0" do
-          expect(PersonalPronoun.random_pronoun_for(0)).to eq 'yo'
+          expect(PersonalPronoun.random_pronoun_for(:s1)).to eq 'yo'
         end
         it "it should return 'nosotros' or 'nosotras' for 1" do
-          expect(PersonalPronoun.random_pronoun_for(1)).to match /^nosotr[oa]s$/
+          expect(PersonalPronoun.random_pronoun_for(:p1)).to match /^nosotr[oa]s$/
         end
         it "it should return 'tú' for 2" do
-          expect(PersonalPronoun.random_pronoun_for(2)).to eq 'tú'
+          expect(PersonalPronoun.random_pronoun_for(:s2)).to eq 'tú'
         end
         it "it should return 'vosotros' or 'vosotras' for 3" do
-          expect(PersonalPronoun.random_pronoun_for(3)).to match /^vosotr[oa]s$/
+          expect(PersonalPronoun.random_pronoun_for(:p2)).to match /^vosotr[oa]s$/
         end
         it "it should return 'él' or 'ella' or 'Ud.' for 4" do
-          expect(PersonalPronoun.random_pronoun_for(4)).to match /^(él|ella|Ud\.)$/
+          expect(PersonalPronoun.random_pronoun_for(:s3)).to match /^(él|ella|Ud\.)$/
         end
         it "it should return 'ellos' or 'ellas' or 'Uds.' for 5" do
-          expect(PersonalPronoun.random_pronoun_for(5)).to match /^(ellos|ellas|Uds\.)$/
+          expect(PersonalPronoun.random_pronoun_for(:p3)).to match /^(ellos|ellas|Uds\.)$/
         end
       end
       describe "#spanish" do
@@ -404,128 +404,5 @@ module GrammarCards
 
     end
 
-    describe RegularVerb do
-      describe "#verb_form_for" do
-        it "should return 0" do
-          expect(RegularVerb.verb_form_for('yo')).to eq 0
-        end
-        it "should return 1" do
-          expect(RegularVerb.verb_form_for('nosotros')).to eq 1
-          expect(RegularVerb.verb_form_for('nosotras')).to eq 1
-        end
-        it "should return 2" do
-          expect(RegularVerb.verb_form_for('tú')).to eq 2
-        end
-
-        it "should return 3" do
-          expect(RegularVerb.verb_form_for('vosotros')).to eq 3
-          expect(RegularVerb.verb_form_for('vosotras')).to eq 3
-        end
-        it "should return 4" do
-          expect(RegularVerb.verb_form_for('él')).to eq 4
-          expect(RegularVerb.verb_form_for('ella')).to eq 4
-          expect(RegularVerb.verb_form_for('Ud.')).to eq 4
-          expect(RegularVerb.verb_form_for('Usted')).to eq 4
-          expect(RegularVerb.verb_form_for('él/ella/Ud.')).to eq 4
-        end
-        it "should return 5" do
-          expect(RegularVerb.verb_form_for('ellos')).to eq 5
-          expect(RegularVerb.verb_form_for('ellas')).to eq 5
-          expect(RegularVerb.verb_form_for('Uds.')).to eq 5
-          expect(RegularVerb.verb_form_for('Ustedes')).to eq 5
-          expect(RegularVerb.verb_form_for('ellos/ellas/Uds.')).to eq 5
-        end
-      end
-      describe "#spanish" do
-        context "verb form number input" do
-          it "should return 'escribimos' for 1" do
-            expect(RegularVerb.spanish("escribir", 1)).to eq 'escribimos'
-          end
-        end
-        context "pronoun input" do
-          context "ar" do
-            it "should return 'hablo'" do
-              expect(RegularVerb.spanish("hablar", 'yo')).to eq 'hablo'
-            end
-            it "should return 'hablas'" do
-              expect(RegularVerb.spanish("hablar", 'tú')).to eq 'hablas'
-            end
-            it "should return 'habla'" do
-              expect(RegularVerb.spanish("hablar", 'él')).to eq 'habla'
-              expect(RegularVerb.spanish("hablar", 'ella')).to eq 'habla'
-              expect(RegularVerb.spanish("hablar", 'Ud.')).to eq 'habla'
-            end
-
-            it "should return 'hablamos'" do
-              expect(RegularVerb.spanish("hablar", 'nosotros')).to eq 'hablamos'
-              expect(RegularVerb.spanish("hablar", 'nosotras')).to eq 'hablamos'
-            end
-            it "should return 'habláis'" do
-              expect(RegularVerb.spanish("hablar", 'vosotros')).to eq 'habláis'
-              expect(RegularVerb.spanish("hablar", 'vosotras')).to eq 'habláis'
-            end
-            it "should return 'hablan'" do
-              expect(RegularVerb.spanish("hablar", 'ellos')).to eq 'hablan'
-              expect(RegularVerb.spanish("hablar", 'ellas')).to eq 'hablan'
-              expect(RegularVerb.spanish("hablar", 'Uds.')).to eq 'hablan'
-            end
-          end
-          context "er" do
-            it "should return 'como'" do
-              expect(RegularVerb.spanish("comer", 'yo')).to eq 'como'
-            end
-            it "should return 'comes'" do
-              expect(RegularVerb.spanish("comer", 'tú')).to eq 'comes'
-            end
-            it "should return 'come'" do
-              expect(RegularVerb.spanish("comer", 'él')).to eq 'come'
-              expect(RegularVerb.spanish("comer", 'ella')).to eq 'come'
-              expect(RegularVerb.spanish("comer", 'Ud.')).to eq 'come'
-            end
-
-            it "should return 'comemos'" do
-              expect(RegularVerb.spanish("comer", 'nosotros')).to eq 'comemos'
-              expect(RegularVerb.spanish("comer", 'nosotras')).to eq 'comemos'
-            end
-            it "should return 'coméis'" do
-              expect(RegularVerb.spanish("comer", 'vosotros')).to eq 'coméis'
-              expect(RegularVerb.spanish("comer", 'vosotras')).to eq 'coméis'
-            end
-            it "should return 'comen'" do
-              expect(RegularVerb.spanish("comer", 'ellos')).to eq 'comen'
-              expect(RegularVerb.spanish("comer", 'ellas')).to eq 'comen'
-              expect(RegularVerb.spanish("comer", 'Uds.')).to eq 'comen'
-            end
-          end
-          context "ir" do
-            it "should return 'vivo'" do
-              expect(RegularVerb.spanish("vivir", 'yo')).to eq 'vivo'
-            end
-            it "should return 'vives'" do
-              expect(RegularVerb.spanish("vivir", 'tú')).to eq 'vives'
-            end
-            it "should return 'vive'" do
-              expect(RegularVerb.spanish("vivir", 'él')).to eq 'vive'
-              expect(RegularVerb.spanish("vivir", 'ella')).to eq 'vive'
-              expect(RegularVerb.spanish("vivir", 'Ud.')).to eq 'vive'
-            end
-
-            it "should return 'vivemos'" do
-              expect(RegularVerb.spanish("vivir", 'nosotros')).to eq 'vivimos'
-              expect(RegularVerb.spanish("vivir", 'nosotras')).to eq 'vivimos'
-            end
-            it "should return 'vivís'" do
-              expect(RegularVerb.spanish("vivir", 'vosotros')).to eq 'vivís'
-              expect(RegularVerb.spanish("vivir", 'vosotras')).to eq 'vivís'
-            end
-            it "should return 'viven'" do
-              expect(RegularVerb.spanish("vivir", 'ellos')).to eq 'viven'
-              expect(RegularVerb.spanish("vivir", 'ellas')).to eq 'viven'
-              expect(RegularVerb.spanish("vivir", 'Uds.')).to eq 'viven'
-            end
-          end
-        end
-      end
-    end
   end
 end
