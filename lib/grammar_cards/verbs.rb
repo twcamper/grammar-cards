@@ -22,7 +22,7 @@ module GrammarCards
                         AND   v.tense      = '#{tense}'
                         AND   v.mood       = '#{mood}'
                         AND   i.infinitive = '#{inf}';")
-      raise "No data for '#{inf}'" if result.values.empty?
+      raise "No data for '#{tense}','#{mood}', '#{inf}', '#{form}'" if result.values.empty?
       {eng: result.first["english"], esp: result.first["conjugation"], inf: inf}
     end
 

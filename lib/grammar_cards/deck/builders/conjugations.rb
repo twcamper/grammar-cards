@@ -10,7 +10,6 @@ module GrammarCards
         DATA_PATH = File.join(File.expand_path('../data', File.dirname($0)), "lexis", "verbs")
         class Builder
 
-
           VERB_FORMS = [:s1, :s2, :s3, :p1, :p2, :p3]
 
           def initialize(tense, mood, file_name, db)
@@ -38,15 +37,22 @@ module GrammarCards
 
           def random_verb(verb_form)
             list = candidate_list(verb_form)
-            used_in_this_deck << list[rand(list.size)]
-            used_in_this_deck.last
+
+            # some columns are empty for certain forms of certain verbs
+            # e.g. 'you snow' isn't populated
+            verb_data = {esp: ''}
+            while verb_data[:esp].empty? do
+              candidate = list.delete_at(rand(list.size))
+              verb_data = @db.form_data(@tense, @mood, candidate, verb_form)
+            end
+            used_in_this_deck << candidate
+            verb_data
           end
 
           def build
             cards = []
             VERB_FORMS.each do |form|
-              verb_data = @db.form_data(@tense, @mood, random_verb(form), form)
-              cards << GrammarCards::Cards::Conjugation.new(@file_name, form, verb_data)
+              cards << GrammarCards::Cards::Conjugation.new(@file_name, form, random_verb(form))
             end
             cards
           end
