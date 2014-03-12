@@ -1,10 +1,10 @@
 # encoding: utf-8
 require_relative 'deck/deck_helper'
 require_relative 'deck/runner'
-require_relative 'deck/builders/possessive_adjectives'
-require_relative 'deck/builders/numbers'
-require_relative 'deck/builders/conjugations'
-require_relative 'deck/builders/infinitives'
+
+Dir["#{LIB_PATH}/deck/builders/*.rb"].each do |rb|
+  require rb
+end
 
 module GrammarCards
   module Deck

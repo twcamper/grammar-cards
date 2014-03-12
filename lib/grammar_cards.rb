@@ -7,6 +7,8 @@ require 'active_support/number_helper'
 # quiet an ActiveSupport warning
 I18n.enforce_available_locales = true
 
+LIB_PATH = File.expand_path('./grammar_cards', File.dirname(__FILE__))
+
 require_relative 'grammar_cards/words'
 require_relative 'grammar_cards/verbs'
 require_relative 'grammar_cards/numbers'
