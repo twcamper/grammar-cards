@@ -811,7 +811,7 @@ acostarse	to go to bed, lie down
 acostumbrar	to be accustomed to, be in the habit of; to get
 acostumbrarse	to get used to, get accustomed to
 actuar	to act, perform, actuate, operate
-adivinar	to guess, fortell, prophesy; to guess correctly
+adivinar	to guess, fortell, prophesy
 admirar	to admire, respect, look up to
 admitir	to admit, accept, allow, recognize
 adorar	to adore, worship
@@ -1120,7 +1120,7 @@ freír	to fry
 fumar	to smoke
 funcionar	to function; to run, work
 ganar	to win, gain, earn, get, acquire
-gastar	to spend, expend; to use up, consume; to wear away, wear down
+gastar	to spend, expend; to use up, consume; to wear away/down
 generalizar	to generalize
 glorificar	to glorify, praise
 gobernar	to govern
@@ -1184,9 +1184,9 @@ limpiar	to clean
 llamar	to call, to name
 llamarse	to be called, be named
 llegar	to arrive, come, reach; to bring up, bring over; to gather together
-llenar	to fill; to fulfill
-llevar	to carry, bring
-llorar	to cry, weep; to weep for/about, cry about, lament
+llenar	to fill (in|out); to fulfill
+llevar	to take, carry, bring
+llorar	to cry, weep, lament; to weep/cry for/about
 llover	to rain
 lograr	to get, obtain; to achieve, attain
 luchar	to fight, struggle; to wrestle
@@ -1247,7 +1247,7 @@ parecer	to seem, appear
 participar	to participate, take part in; to share in; to inform, notify
 pasar	to pass, pass by, go; to pass on, hand; to spend (time); to happen
 patinar	to skate; to slide, skid
-pedir	to request, ask for
+pedir	to request, ask for, order
 pegar	to stick, glue, hit
 peinar	to comb
 peinarse	to comb one's hair; to do one's hair
@@ -1313,7 +1313,7 @@ regatear	to haggle (over), bargain (over)
 regir	to rule, govern, be in charge of, be at the head of
 registrar	to register, record; to search
 registrarse	to register (oneself)
-regresar	to return, go back
+regresar	to return, come/go/give/bring/take back
 regular	to regulate, adjust, control
 rehusar	to refuse
 reinar	to reign, rule
