@@ -12,10 +12,11 @@ module GrammarCards
 
           VERB_FORMS = [:s1, :s2, :s3, :p1, :p2, :p3]
 
-          def initialize(tense, mood, file_name, db)
-            @tense, @mood, @file_name, @db = tense, mood, file_name, db
-            @infinitives = File.read(File.join(DATA_PATH, file_name)).split
-            @log_file = GrammarCards::Cards::ConjugationLogger::LogFile.new file_name
+          def initialize(tense, mood, verb_type, db)
+            @tense, @mood, @db = tense, mood, db
+            @file_name = "#{tense}#{mood}-#{verb_type}"
+            @infinitives = File.read(File.join(DATA_PATH, verb_type)).split
+            @log_file = GrammarCards::Cards::ConjugationLogger::LogFile.new @file_name
           end
 
           def unused_verbs(form)
