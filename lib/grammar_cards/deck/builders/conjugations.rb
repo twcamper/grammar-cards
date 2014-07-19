@@ -10,7 +10,8 @@ module GrammarCards
         DATA_PATH = File.join(File.expand_path('../data', File.dirname($0)), "lexis", "verbs")
         class Builder
 
-          VERB_FORMS = [:s1, :s2, :s3, :p1, :p2, :p3]
+          VERB_FORMS = [:s1, :s2, :s3, :p1, :p3]
+          # VERB_FORMS = [:s1, :s2, :s3, :p1, :p2, :p3]
 
           def initialize(tense, mood, verb_type, db)
             @tense, @mood, @db = tense, mood, db
