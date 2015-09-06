@@ -21,9 +21,11 @@ module GrammarCards
             when :skip
               card = deck.next
               next
+            when :log
+              next # no op
             end
 
-            case view.show_back
+            case(action = view.show_back)
             when :quit
               break
             when :prev
@@ -35,6 +37,7 @@ module GrammarCards
                 completed += 1
                 card.mark_done
               end
+              card.log if action == :log
               card = deck.next
             end
 

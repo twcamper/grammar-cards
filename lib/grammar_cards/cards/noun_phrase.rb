@@ -4,21 +4,24 @@ module GrammarCards
     class NounPhrase < CardBase
 
       attr_reader :noun_data
-      def initialize(noun_data)
+      def initialize(noun_data, logger)
         @noun_data = noun_data
+        @logger = logger
         @noun   = create_noun(noun_data)
         @article = GrammarCards::Words::DefiniteArticle.new(@noun.gender, noun_data[:num] || :s)
         @done   = false
+        @logged = false
       end
 
-      def mark_done
-        @done = true
-        @done.freeze
-        GrammarCards::Cards::NounPhraseLogger.log self
+      def log
+        unless @logged
+          @logged = true
+          @logger.log self
+        end
       end
 
       def front
-        @noun.english
+        @noun_data[:eng]
       end
 
       def back
@@ -36,7 +39,7 @@ module GrammarCards
         GrammarCards::Words::Noun.new(:esp => noun_data[:esp],
                                       :eng => noun_data[:eng],
                                       :gen => gender,
-                                      :num => :s)
+                                      :num => noun_data[:num])
       end
     end
   end

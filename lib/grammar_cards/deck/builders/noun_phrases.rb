@@ -11,55 +11,44 @@ module GrammarCards
 
         class Builder
           def initialize(options)
-            @deck_size = options[:deck_size]
-            @all_nouns = get_all_nouns(options[:range])
-            @unlogged_nouns = GrammarCards::Cards::NounPhraseLogger.unused_nouns(@all_nouns)
+            @options = options
+            all_nouns = Psych.load_file(NOUN_FILE).select { |item| options[:range].member?(item[:rnk].to_i) }
+            @logger = GrammarCards::Cards::NounPhraseLogger.new
+            @available_nouns = all_nouns - @logger.logged_nouns
+            @deck_size = calculate_deck_size
             @deck = []
           end
 
-          def get_all_nouns(range)
-            Psych.load_file(NOUN_FILE).select { |item| range.member?(item[:rnk].to_i) }
+          def calculate_deck_size
+            if (requested_size = @options[:requested_size])
+              min = requested_size
+              min = @available_nouns.size if @available_nouns.size < requested_size
+              min
+            else
+              @available_nouns.size
+            end
           end
 
           def build
             @deck_size.times do |i|
-              n = random_noun_weighted_by_rank
-              @deck << Cards::NounPhrase.new(n) if n
+              n = random_noun
+              @deck << Cards::NounPhrase.new(n, @logger) if n
             end
             @deck
-          end
-
-          def unused_list
-            unused = @unlogged_nouns - current_deck
-            if unused.empty?
-              all_nouns - current_deck
-            else
-              unused
-            end
           end
 
           def current_deck
             @deck.map {|card| card.noun_data }
           end
 
-          def random_noun_weighted_by_rank
-            list = unused_list
-            return if list.empty?
-            candidate_list = []
-            10.times do
-              candidate_list << list[rand(list.size)]
-            end
-            min = candidate_list.first
-            candidate_list.each do |noun|
-              min = noun if noun[:rnk].to_i < min[:rnk].to_i
-            end
-            min
+          def random_noun
+            unused = @available_nouns - current_deck
+            unused[rand(unused.size)]
           end
-
         end
 
         def build(options = {})
-          Builder.new({:deck_size => 12, :range => 0..5000}.merge(options)).build
+          Builder.new({:range => 0..5000}.merge(options)).build
         end
 
         extend NounPhrases

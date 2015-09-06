@@ -165,6 +165,8 @@ module GrammarCards
           :prev
         when Key::RIGHT, Key::NPAGE, /^[nsf]$/i
           :skip
+        when /^[lw]$/i
+          :log
         end
       end
 
@@ -181,6 +183,8 @@ module GrammarCards
           :prev
         when Key::UP
           :review
+        when /^[lw]$/i
+          :log
         end
       end
 

@@ -20,6 +20,9 @@ module GrammarCards
         @done.freeze
       end
 
+      def log
+      end
+
       def front
       end
 

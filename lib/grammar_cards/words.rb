@@ -12,7 +12,8 @@ module GrammarCards
 
       def spanish
         {:m => {:s => 'el', :p =>'los'},
-         :f =>{:s => 'la', :p => 'las'}}[@gender][@number]
+         :f => {:s => 'la', :p => 'las'},
+         :f_el => {:s => 'el', :p => 'las'}}[@gender][@number]
       end
     end
 

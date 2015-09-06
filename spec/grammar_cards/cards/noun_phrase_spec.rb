@@ -8,7 +8,7 @@ module GrammarCards
       context 'simple front, simple back' do
         before do
           n ={:esp => "sistema", :gen => :m, :eng => "system", :rnk => 100}
-          @card = NounPhrase.new(n)
+          @card = NounPhrase.new(n,nil)
         end
         it "should say 'the system' on the front" do
           expect(@card.front).to eq 'system'
@@ -22,7 +22,7 @@ module GrammarCards
       context "properties" do
         before do
           n = {:esp => "país", :gen => :m, :eng => "country"}
-          @card = NounPhrase.new(n)
+          @card = NounPhrase.new(n,nil)
         end
         it "should know its sequence number" do
           @card.sequence_number = 9
