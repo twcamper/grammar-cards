@@ -7,14 +7,14 @@ module GrammarCards
         extend DeckHelper
 
         DATA_PATH = File.expand_path('../data', File.dirname($0))
-        NOUN_FILE = File.join(DATA_PATH, "lexis", "nouns-from-top-5000.yml")
+        NOUN_FILE = File.join(DATA_PATH, "lexis", "nouns-from-top-5000.freq.yml")
+        DEFAULT_RANGE = 0..5000
 
         class Builder
           def initialize(options)
             @options = options
-            all_nouns = Psych.load_file(NOUN_FILE).select { |item| options[:range].member?(item[:rnk].to_i) }
             @logger = GrammarCards::Cards::NounPhraseLogger.new
-            @available_nouns = all_nouns - @logger.logged_nouns
+            @available_nouns = nouns_in_range - @logger.logged_nouns
             @deck_size = calculate_deck_size
             @deck = []
           end
@@ -31,8 +31,7 @@ module GrammarCards
 
           def build
             @deck_size.times do |i|
-              n = random_noun
-              @deck << Cards::NounPhrase.new(n, @logger) if n
+              @deck << Cards::NounPhrase.new(@available_nouns[i], @logger)
             end
             @deck
           end
@@ -41,14 +40,21 @@ module GrammarCards
             @deck.map {|card| card.noun_data }
           end
 
-          def random_noun
-            unused = @available_nouns - current_deck
-            unused[rand(unused.size)]
+          def nouns_in_range
+            all_nouns = Psych.load_file(NOUN_FILE)
+
+            return all_nouns if @options[:range] == DEFAULT_RANGE
+            filtered = []
+            all_nouns.each do |item|
+              filtered << item if @options[:range].member?(item[:rnk].to_i)
+              break if item[:rnk].to_i > @options[:range].end
+            end
+            filtered
           end
         end
 
         def build(options = {})
-          Builder.new({:range => 0..5000}.merge(options)).build
+          shuffle Builder.new({:range => DEFAULT_RANGE, :requested_size => 16}.merge(options)).build
         end
 
         extend NounPhrases

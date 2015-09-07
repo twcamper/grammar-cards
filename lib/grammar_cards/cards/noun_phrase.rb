@@ -22,10 +22,11 @@ module GrammarCards
 
       def front
         @noun_data[:eng]
+        "%s\n\n(%s)" % [@noun_data[:eng], @noun_data[:rnk]]
       end
 
       def back
-        "%s %s\n\n(%s)" % [@article.spanish, @noun.spanish, @noun_data[:rnk]]
+        "%s %s" % [@article.spanish, @noun.spanish]
       end
 
       private

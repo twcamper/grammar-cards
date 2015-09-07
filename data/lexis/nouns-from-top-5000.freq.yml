@@ -1,0 +1,10002 @@
+---
+- :esp: vez
+  :gen: :f
+  :eng: time (specific occurrence)
+  :rnk: '44'
+- :esp: año
+  :gen: :m
+  :eng: year
+  :rnk: '55'
+- :esp: tiempo
+  :gen: :m
+  :eng: time (general), weather
+  :rnk: '68'
+- :esp: día
+  :gen: :m
+  :eng: day
+  :rnk: '71'
+- :esp: cosa
+  :gen: :f
+  :eng: thing
+  :rnk: '78'
+- :esp: hombre
+  :gen: :m
+  :eng: man, mankind, husband
+  :rnk: '80'
+- :esp: parte
+  :gen: :f
+  :eng: part, portion
+  :rnk: '86'
+- :esp: vida
+  :gen: :f
+  :eng: life
+  :rnk: '88'
+- :esp: momento
+  :gen: :m
+  :eng: moment, time
+  :rnk: '108'
+- :esp: forma
+  :gen: :f
+  :eng: form, shape, way
+  :rnk: '113'
+- :esp: casa
+  :gen: :f
+  :eng: house
+  :rnk: '116'
+- :esp: mundo
+  :gen: :m
+  :eng: world
+  :rnk: '118'
+- :esp: mujer
+  :gen: :f
+  :eng: woman, wife
+  :rnk: '127'
+- :esp: caso
+  :gen: :m
+  :eng: case, occasion
+  :rnk: '130'
+- :esp: país
+  :gen: :m
+  :eng: country
+  :rnk: '133'
+- :esp: lugar
+  :gen: :m
+  :eng: place, position
+  :rnk: '135'
+- :esp: persona
+  :gen: :f
+  :eng: person
+  :rnk: '137'
+- :esp: hora
+  :gen: :f
+  :eng: hour, time (specific)
+  :rnk: '143'
+- :esp: trabajo
+  :gen: :m
+  :eng: work, job, effort
+  :rnk: '145'
+- :esp: punto
+  :gen: :m
+  :eng: point, dot, period
+  :rnk: '147'
+- :esp: mano
+  :gen: :f
+  :eng: hand
+  :rnk: '150'
+- :esp: manera
+  :gen: :f
+  :eng: way, manner
+  :rnk: '152'
+- :esp: fin
+  :gen: :m
+  :eng: end
+  :rnk: '156'
+- :esp: tipo
+  :gen: :m
+  :eng: type, kind
+  :rnk: '157'
+- :esp: gente
+  :gen: :f
+  :eng: people
+  :rnk: '158'
+- :esp: ejemplo
+  :gen: :m
+  :eng: example
+  :rnk: '162'
+- :esp: lado
+  :gen: :m
+  :eng: side
+  :rnk: '165'
+- :esp: hijo
+  :eng: children
+  :num: :p
+  :gen: :m
+  :rnk: '166'
+- :esp: hijo
+  :gen: :m
+  :eng: son
+  :rnk: '166'
+- :esp: problema
+  :gen: :m
+  :eng: problem
+  :rnk: '169'
+- :esp: cuenta
+  :gen: :f
+  :eng: bill, account
+  :rnk: '170'
+- :esp: medio
+  :gen: :m
+  :eng: means, middle
+  :rnk: '171'
+- :esp: palabra
+  :gen: :f
+  :eng: word
+  :rnk: '176'
+- :esp: niño
+  :gen: :m
+  :eng: child, little boy
+  :rnk: '178'
+- :esp: embargo
+  :gen: :m
+  :eng: 'sin embargo: nevertheless'
+  :rnk: '180'
+- :esp: padre
+  :gen: :m
+  :eng: father
+  :rnk: '182'
+- :esp: cambio
+  :gen: :m
+  :eng: change
+  :rnk: '186'
+- :esp: historia
+  :gen: :f
+  :eng: history, story
+  :rnk: '192'
+- :esp: idea
+  :gen: :f
+  :eng: idea
+  :rnk: '193'
+- :esp: agua
+  :gen: :f_el
+  :eng: water
+  :rnk: '194'
+- :esp: noche
+  :gen: :f
+  :eng: night, evening
+  :rnk: '196'
+- :esp: ciudad
+  :gen: :f
+  :eng: city
+  :rnk: '197'
+- :esp: modo
+  :gen: :m
+  :eng: way, manner
+  :rnk: '198'
+- :esp: nombre
+  :gen: :m
+  :eng: name, noun
+  :rnk: '199'
+- :esp: familia
+  :gen: :f
+  :eng: family
+  :rnk: '201'
+- :esp: realidad
+  :gen: :f
+  :eng: reality, actuality
+  :rnk: '202'
+- :esp: obra
+  :gen: :f
+  :eng: work, book, deed
+  :rnk: '206'
+- :esp: verdad
+  :gen: :f
+  :eng: truth
+  :rnk: '209'
+- :esp: mes
+  :gen: :m
+  :eng: month
+  :rnk: '210'
+- :esp: razón
+  :gen: :f
+  :eng: reason
+  :rnk: '212'
+- :esp: grupo
+  :gen: :m
+  :eng: group
+  :rnk: '216'
+- :esp: relación
+  :gen: :f
+  :eng: relationship, relation
+  :rnk: '230'
+- :esp: cuerpo
+  :gen: :m
+  :eng: body
+  :rnk: '232'
+- :esp: hecho
+  :gen: :m
+  :eng: fact, happening
+  :rnk: '235'
+- :esp: principio
+  :gen: :m
+  :eng: beginning, principle
+  :rnk: '237'
+- :esp: señor
+  :gen: :m
+  :eng: sir, Mr., lord
+  :rnk: '240'
+- :esp: pueblo
+  :gen: :m
+  :eng: people, village
+  :rnk: '241'
+- :esp: tarde
+  :gen: :f
+  :eng: afternoon, evening
+  :rnk: '242'
+- :esp: ojo
+  :gen: :m
+  :eng: eye
+  :rnk: '247'
+- :esp: calle
+  :gen: :f
+  :eng: street
+  :rnk: '248'
+- :esp: libro
+  :gen: :m
+  :eng: book
+  :rnk: '253'
+- :esp: fuerza
+  :gen: :f
+  :eng: strength, force, power
+  :rnk: '255'
+- :esp: luz
+  :gen: :f
+  :eng: light
+  :rnk: '256'
+- :esp: santo
+  :gen: :m
+  :eng: saint
+  :rnk: '258'
+- :esp: frente
+  :gen: :a
+  :eng: 'al frente: facing; frente a: across from'
+  :rnk: '260'
+- :esp: amigo
+  :gen: :m
+  :eng: friend
+  :rnk: '262'
+- :esp: sentido
+  :gen: :m
+  :eng: sense, feeling
+  :rnk: '265'
+- :esp: paso
+  :gen: :m
+  :eng: step, pace
+  :rnk: '267'
+- :esp: situación
+  :gen: :f
+  :eng: situation
+  :rnk: '268'
+- :esp: gracia
+  :gen: :f
+  :eng: thank you, grace, favor
+  :rnk: '272'
+- :esp: siglo
+  :gen: :m
+  :eng: century, age
+  :rnk: '273'
+- :esp: dios
+  :gen: :m
+  :eng: god, divinity
+  :rnk: '274'
+- :esp: tierra
+  :gen: :f
+  :eng: earth, land, ground
+  :rnk: '276'
+- :esp: papel
+  :gen: :m
+  :eng: paper, role, part
+  :rnk: '277'
+- :esp: madre
+  :gen: :f
+  :eng: mother
+  :rnk: '278'
+- :esp: tema
+  :gen: :m
+  :eng: theme, subject, topic
+  :rnk: '283'
+- :esp: clase
+  :gen: :f
+  :eng: kind, class, order
+  :rnk: '288'
+- :esp: dinero
+  :gen: :m
+  :eng: money
+  :rnk: '291'
+- :esp: campo
+  :gen: :m
+  :eng: field, country
+  :rnk: '295'
+- :esp: cabeza
+  :gen: :f
+  :eng: head (part of body)
+  :rnk: '298'
+- :esp: orden
+  :eng: order; sequence
+  :gen: :m
+  :rnk: '302'
+- :esp: orden
+  :eng: religious order
+  :gen: :f
+  :rnk: '302'
+- :esp: don
+  :gen: :m
+  :eng: courtesy title, Mr., gift
+  :rnk: '303'
+- :esp: semana
+  :gen: :f
+  :eng: week
+  :rnk: '304'
+- :esp: final
+  :gen: :a
+  :eng: 'al final: finally, in the end'
+  :rnk: '307'
+- :esp: interés
+  :gen: :m
+  :eng: interest
+  :rnk: '308'
+- :esp: vista
+  :gen: :f
+  :eng: view, sight
+  :rnk: '310'
+- :esp: acuerdo
+  :gen: :m
+  :eng: 'accord; de acuerdo: in agreement'
+  :rnk: '313'
+- :esp: número
+  :gen: :m
+  :eng: number
+  :rnk: '315'
+- :esp: fondo
+  :gen: :m
+  :eng: bottom, end
+  :rnk: '318'
+- :esp: camino
+  :gen: :m
+  :eng: road, route, path
+  :rnk: '319'
+- :esp: voz
+  :gen: :f
+  :eng: voice
+  :rnk: '320'
+- :esp: estudio
+  :gen: :m
+  :eng: study, learning
+  :rnk: '321'
+- :esp: valor
+  :gen: :m
+  :eng: value, worth
+  :rnk: '326'
+- :esp: medida
+  :gen: :f
+  :eng: 'measure; a medida que: to the extent'
+  :rnk: '333'
+- :esp: centro
+  :gen: :m
+  :eng: center, middle, downtown
+  :rnk: '339'
+- :esp: necesidad
+  :gen: :f
+  :eng: necessity, need
+  :rnk: '340'
+- :esp: condición
+  :gen: :f
+  :eng: condition
+  :rnk: '341'
+- :esp: falta
+  :gen: :f
+  :eng: "[also carencia] lack, shortage"
+  :rnk: '344'
+- :esp: edad
+  :gen: :f
+  :eng: age
+  :rnk: '350'
+- :esp: estado
+  :gen: :m
+  :eng: state, condition, status
+  :rnk: '351'
+- :esp: ser
+  :gen: :m
+  :eng: being
+  :rnk: '352'
+- :esp: puerta
+  :gen: :f
+  :eng: door
+  :rnk: '354'
+- :esp: cara
+  :gen: :f
+  :eng: face, expression
+  :rnk: '356'
+- :esp: "época"
+  :gen: :f
+  :eng: time, age, period
+  :rnk: '358'
+- :esp: color
+  :gen: :m
+  :eng: color
+  :rnk: '359'
+- :esp: experiencia
+  :gen: :f
+  :eng: experience
+  :rnk: '361'
+- :esp: movimiento
+  :gen: :m
+  :eng: movement
+  :rnk: '362'
+- :esp: pesar
+  :gen: :m
+  :eng: sorrow
+  :rnk: '366'
+- :esp: posibilidad
+  :gen: :f
+  :eng: possibility
+  :rnk: '367'
+- :esp: juego
+  :gen: :m
+  :eng: game, play, sport
+  :rnk: '371'
+- :esp: aire
+  :gen: :m
+  :eng: air, wind, appearance
+  :rnk: '374'
+- :esp: guerra
+  :gen: :f
+  :eng: war, warfare
+  :rnk: '377'
+- :esp: resultado
+  :gen: :m
+  :eng: result, outcome
+  :rnk: '379'
+- :esp: ley
+  :gen: :f
+  :eng: law, bill, rule
+  :rnk: '384'
+- :esp: aspecto
+  :gen: :m
+  :eng: aspect, appearance
+  :rnk: '385'
+- :esp: pie
+  :gen: :m
+  :eng: foot, base
+  :rnk: '386'
+- :esp: especie
+  :gen: :f
+  :eng: kind, sort, species
+  :rnk: '388'
+- :esp: servicio
+  :gen: :m
+  :eng: service, helpfulness
+  :rnk: '390'
+- :esp: actividad
+  :gen: :f
+  :eng: activity, action
+  :rnk: '393'
+- :esp: cuestión
+  :gen: :f
+  :eng: question, matter
+  :rnk: '398'
+- :esp: duda
+  :gen: :f
+  :eng: doubt
+  :rnk: '399'
+- :esp: diferencia
+  :gen: :f
+  :eng: difference
+  :rnk: '400'
+- :esp: mañana
+  :gen: :f
+  :eng: morning, tomorrow
+  :rnk: '401'
+- :esp: cantidad
+  :gen: :f
+  :eng: quantity, amount
+  :rnk: '404'
+- :esp: acción
+  :gen: :f
+  :eng: action, act, deed
+  :rnk: '405'
+- :esp: sociedad
+  :gen: :f
+  :eng: society
+  :rnk: '408'
+- :esp: peso
+  :gen: :m
+  :eng: peso (money), weight, load
+  :rnk: '417'
+- :esp: efecto
+  :gen: :m
+  :eng: effect
+  :rnk: '418'
+- :esp: objeto
+  :gen: :m
+  :eng: object, thing
+  :rnk: '419'
+- :esp: amor
+  :gen: :m
+  :eng: love
+  :rnk: '423'
+- :esp: muerte
+  :gen: :f
+  :eng: death
+  :rnk: '424'
+- :esp: partido
+  :gen: :m
+  :eng: party, group, sports match
+  :rnk: '425'
+- :esp: derecho
+  :gen: :m
+  :eng: right, justice, law
+  :rnk: '427'
+- :esp: poder
+  :gen: :m
+  :eng: power
+  :rnk: '428'
+- :esp: importancia
+  :gen: :f
+  :eng: importance
+  :rnk: '429'
+- :esp: sistema
+  :gen: :m
+  :eng: system
+  :rnk: '430'
+- :esp: viaje
+  :gen: :m
+  :eng: travel, trip
+  :rnk: '431'
+- :esp: suelo
+  :gen: :m
+  :eng: ground, floor
+  :rnk: '432'
+- :esp: respecto
+  :gen: :m
+  :eng: 'respect, con respecto a: with regards to'
+  :rnk: '433'
+- :esp: conocimiento
+  :gen: :m
+  :eng: knowledge
+  :rnk: '434'
+- :esp: libertad
+  :gen: :f
+  :eng: freedom, liberty
+  :rnk: '435'
+- :esp: atención
+  :gen: :f
+  :eng: attention
+  :rnk: '441'
+- :esp: esfuerzo
+  :gen: :m
+  :eng: effort, endeavor
+  :rnk: '444'
+- :esp: resto
+  :gen: :m
+  :eng: rest, remainder, leftover
+  :rnk: '447'
+- :esp: zona
+  :gen: :f
+  :eng: area, zone
+  :rnk: '449'
+- :esp: ladrón
+  :gen: :m
+  :eng: thief
+  :rnk: '449'
+- :esp: miedo
+  :gen: :m
+  :eng: "[also temor] fear"
+  :rnk: '450'
+- :esp: proceso
+  :gen: :m
+  :eng: process, procedure
+  :rnk: '452'
+- :esp: minuto
+  :gen: :m
+  :eng: minute
+  :rnk: '459'
+- :esp: mesa
+  :gen: :f
+  :eng: table, board
+  :rnk: '461'
+- :esp: ocasión
+  :gen: :f
+  :eng: opportunity, occasion
+  :rnk: '463'
+- :esp: programa
+  :gen: :m
+  :eng: program, plan
+  :rnk: '467'
+- :esp: favor
+  :gen: :m
+  :eng: favor, benefit
+  :rnk: '468'
+- :esp: respuesta
+  :gen: :f
+  :eng: answer, reply
+  :rnk: '472'
+- :esp: línea
+  :gen: :f
+  :eng: line, course
+  :rnk: '473'
+- :esp: espacio
+  :gen: :m
+  :eng: space, room
+  :rnk: '474'
+- :esp: nivel
+  :gen: :m
+  :eng: level
+  :rnk: '475'
+- :esp: gobierno
+  :gen: :m
+  :eng: government
+  :rnk: '476'
+- :esp: cabo
+  :gen: :m
+  :eng: end, bit
+  :rnk: '477'
+- :esp: pregunta
+  :gen: :f
+  :eng: question
+  :rnk: '481'
+- :esp: imagen
+  :gen: :f
+  :eng: image, picture
+  :rnk: '484'
+- :esp: carrera
+  :gen: :f
+  :eng: career, course, race
+  :rnk: '485'
+- :esp: figura
+  :gen: :f
+  :eng: figure
+  :rnk: '495'
+- :esp: animal
+  :gen: :m
+  :eng: animal
+  :rnk: '497'
+- :esp: base
+  :gen: :f
+  :eng: base, basis
+  :rnk: '498'
+- :esp: posición
+  :gen: :f
+  :eng: position
+  :rnk: '503'
+- :esp: motivo
+  :gen: :m
+  :eng: motive, cause
+  :rnk: '504'
+- :esp: prueba
+  :gen: :f
+  :eng: proof, trial, test
+  :rnk: '505'
+- :esp: política
+  :gen: :f
+  :eng: politics, policy
+  :rnk: '506'
+- :esp: dato
+  :gen: :m
+  :eng: data, fact
+  :rnk: '513'
+- :esp: empresa
+  :gen: :f
+  :eng: firm, company, venture
+  :rnk: '517'
+- :esp: asunto
+  :gen: :m
+  :eng: matter, issue, affair
+  :rnk: '518'
+- :esp: presencia
+  :gen: :f
+  :eng: presence, appearance
+  :rnk: '519'
+- :esp: cultura
+  :gen: :f
+  :eng: culture
+  :rnk: '521'
+- :esp: serie
+  :gen: :f
+  :eng: series
+  :rnk: '522'
+- :esp: carácter
+  :gen: :m
+  :eng: personality, nature
+  :rnk: '530'
+- :esp: mayoría
+  :gen: :f
+  :eng: majority
+  :rnk: '531'
+- :esp: escuela
+  :gen: :f
+  :eng: school
+  :rnk: '532'
+- :esp: autor
+  :gen: :a
+  :eng: writer, author
+  :rnk: '538'
+- :esp: hermano
+  :gen: :m
+  :eng: brother
+  :rnk: '539'
+- :esp: hermano
+  :eng: siblings
+  :num: :p
+  :gen: :m
+  :rnk: '539'
+- :esp: función
+  :gen: :f
+  :eng: function, meeting
+  :rnk: '543'
+- :esp: causa
+  :gen: :f
+  :eng: cause
+  :rnk: '546'
+- :esp: decisión
+  :gen: :f
+  :eng: decision
+  :rnk: '549'
+- :esp: música
+  :gen: :f
+  :eng: music
+  :rnk: '550'
+- :esp: expresión
+  :gen: :f
+  :eng: expression
+  :rnk: '555'
+- :esp: río
+  :gen: :m
+  :eng: river
+  :rnk: '559'
+- :esp: seguridad
+  :gen: :f
+  :eng: security, safety
+  :rnk: '560'
+- :esp: término
+  :gen: :m
+  :eng: term (language), end
+  :rnk: '561'
+- :esp: metro
+  :gen: :m
+  :eng: meter (unit of measure), subway
+  :rnk: '563'
+- :esp: médico
+  :gen: :a
+  :eng: doctor
+  :rnk: '564'
+- :esp: arte
+  :gen: :m
+  :eng: art, skill
+  :rnk: '567'
+- :esp: consecuencia
+  :gen: :f
+  :eng: consequence
+  :rnk: '570'
+- :esp: acto
+  :gen: :m
+  :eng: act, action
+  :rnk: '572'
+- :esp: pena
+  :gen: :f
+  :eng: "(valer la pena) trouble (be of worth)"
+  :rnk: '575'
+- :esp: segundo
+  :gen: :m
+  :eng: second
+  :rnk: '577'
+- :esp: altura
+  :gen: :f
+  :eng: height, altitude
+  :rnk: '578'
+- :esp: deseo
+  :gen: :m
+  :eng: desire, wish
+  :rnk: '579'
+- :esp: joven
+  :gen: :c
+  :eng: teenager, young person
+  :rnk: '581'
+- :esp: sueño
+  :gen: :m
+  :eng: dream, sleep
+  :rnk: '583'
+- :esp: tarea
+  :gen: :f
+  :eng: task, job
+  :rnk: '585'
+- :esp: carta
+  :gen: :f
+  :eng: letter, playing card
+  :rnk: '586'
+- :esp: propiedad
+  :gen: :f
+  :eng: property
+  :rnk: '588'
+- :esp: producto
+  :gen: :m
+  :eng: product
+  :rnk: '589'
+- :esp: gusto
+  :gen: :m
+  :eng: pleasure, taste, preference
+  :rnk: '593'
+- :esp: ayuda
+  :gen: :f
+  :eng: help, aid
+  :rnk: '594'
+- :esp: lengua
+  :gen: :f
+  :eng: language, tongue, strip of land
+  :rnk: '596'
+- :esp: plan
+  :gen: :m
+  :eng: plan
+  :rnk: '598'
+- :esp: vuelta
+  :gen: :f
+  :eng: return, turn
+  :rnk: '600'
+- :esp: proyecto
+  :gen: :m
+  :eng: project, plan
+  :rnk: '604'
+- :esp: memoria
+  :gen: :f
+  :eng: memory
+  :rnk: '605'
+- :esp: origen
+  :gen: :m
+  :eng: origin, cause
+  :rnk: '606'
+- :esp: elemento
+  :gen: :m
+  :eng: element
+  :rnk: '607'
+- :esp: mercado
+  :gen: :m
+  :eng: market
+  :rnk: '609'
+- :esp: curso
+  :gen: :m
+  :eng: course, direction
+  :rnk: '610'
+- :esp: sangre
+  :gen: :f
+  :eng: blood
+  :rnk: '613'
+- :esp: interior
+  :gen: :m
+  :eng: interior, inside
+  :rnk: '614'
+- :esp: uso
+  :gen: :m
+  :eng: use
+  :rnk: '619'
+- :esp: brazo
+  :gen: :m
+  :eng: arm
+  :rnk: '620'
+- :esp: profesor
+  :gen: :a
+  :eng: professor, teacher
+  :rnk: '621'
+- :esp: futuro
+  :gen: :m
+  :eng: future
+  :rnk: '623'
+- :esp: oportunidad
+  :gen: :f
+  :eng: opportunity, chance
+  :rnk: '624'
+- :esp: mitad
+  :gen: :f
+  :eng: half, middle
+  :rnk: '625'
+- :esp: recuerdo
+  :gen: :m
+  :eng: memory, keepsake
+  :rnk: '628'
+- :esp: opinión
+  :gen: :f
+  :eng: opinion, view
+  :rnk: '632'
+- :esp: boca
+  :gen: :f
+  :eng: mouth, entrance, opening
+  :rnk: '635'
+- :esp: dirección
+  :gen: :f
+  :eng: direction, address
+  :rnk: '636'
+- :esp: pieza
+  :gen: :f
+  :eng: piece, part
+  :rnk: '639'
+- :esp: actitud
+  :gen: :f
+  :eng: attitude
+  :rnk: '644'
+- :esp: mar
+  :gen: :a
+  :eng: sea
+  :rnk: '645'
+- :esp: entrada
+  :gen: :f
+  :eng: entrance, admission ticket
+  :rnk: '647'
+- :esp: contacto
+  :gen: :m
+  :eng: contact
+  :rnk: '648'
+- :esp: corazón
+  :gen: :m
+  :eng: heart, core
+  :rnk: '649'
+- :esp: capital
+  :eng: capital city
+  :gen: :f
+  :rnk: '651'
+- :esp: capital
+  :eng: investment money
+  :gen: :m
+  :rnk: '651'
+- :esp: título
+  :gen: :m
+  :eng: title, heading
+  :rnk: '653'
+- :esp: cuarto
+  :gen: :m
+  :eng: room, chamber
+  :rnk: '655'
+- :esp: material
+  :gen: :m
+  :eng: material, element
+  :rnk: '656'
+- :esp: golpe
+  :gen: :m
+  :eng: hit, strike, punch
+  :rnk: '657'
+- :esp: comunicación
+  :gen: :f
+  :eng: communication
+  :rnk: '659'
+- :esp: enfermedad
+  :gen: :f
+  :eng: illness, sickness
+  :rnk: '666'
+- :esp: bien
+  :gen: :m
+  :eng: goods, property, benefit
+  :rnk: '667'
+- :esp: materia
+  :gen: :f
+  :eng: matter, subject
+  :rnk: '668'
+- :esp: sitio
+  :gen: :m
+  :eng: place, space
+  :rnk: '672'
+- :esp: naturaleza
+  :gen: :f
+  :eng: nature
+  :rnk: '674'
+- :esp: capacidad
+  :gen: :f
+  :eng: capacity
+  :rnk: '675'
+- :esp: distancia
+  :gen: :f
+  :eng: distance
+  :rnk: '678'
+- :esp: información
+  :gen: :f
+  :eng: information
+  :rnk: '682'
+- :esp: ambiente
+  :gen: :m
+  :eng: environment, atmosphere
+  :rnk: '683'
+- :esp: desarrollo
+  :gen: :m
+  :eng: development
+  :rnk: '685'
+- :esp: sol
+  :gen: :m
+  :eng: sun
+  :rnk: '686'
+- :esp: compañero
+  :gen: :m
+  :eng: companion, classmate
+  :rnk: '693'
+- :esp: salida
+  :gen: :f
+  :eng: exit, escape, outcome
+  :rnk: '694'
+- :esp: conciencia
+  :gen: :f
+  :eng: conscience, consciousness
+  :rnk: '696'
+- :esp: costumbre
+  :gen: :f
+  :eng: habit, custom, usage
+  :rnk: '700'
+- :esp: paz
+  :gen: :f
+  :eng: peace
+  :rnk: '702'
+- :esp: noticia
+  :gen: :f
+  :eng: news
+  :rnk: '703'
+- :esp: circunstancia
+  :gen: :f
+  :eng: circumstance
+  :rnk: '704'
+- :esp: dolor
+  :gen: :m
+  :eng: pain, ache, sorrow
+  :rnk: '705'
+- :esp: estilo
+  :gen: :m
+  :eng: style
+  :rnk: '707'
+- :esp: precio
+  :gen: :m
+  :eng: price, cost, value
+  :rnk: '708'
+- :esp: planta
+  :gen: :f
+  :eng: plant, floor
+  :rnk: '711'
+- :esp: personaje
+  :gen: :m
+  :eng: character (e.g. movie)
+  :rnk: '712'
+- :esp: "éxito"
+  :gen: :m
+  :eng: success
+  :rnk: '714'
+- :esp: hija
+  :gen: :f
+  :eng: daughter
+  :rnk: '715'
+- :esp: edificio
+  :gen: :m
+  :eng: building
+  :rnk: '717'
+- :esp: autoridad
+  :gen: :f
+  :eng: authority
+  :rnk: '718'
+- :esp: piedra
+  :gen: :f
+  :eng: stone, rock
+  :rnk: '719'
+- :esp: conjunto
+  :gen: :m
+  :eng: group, set
+  :rnk: '721'
+- :esp: suerte
+  :gen: :f
+  :eng: luck, fortune
+  :rnk: '725'
+- :esp: espíritu
+  :gen: :m
+  :eng: spirit, ghost
+  :rnk: '731'
+- :esp: miembro
+  :gen: :m
+  :eng: member, limb
+  :rnk: '732'
+- :esp: recurso
+  :gen: :m
+  :eng: resource, recourse, means
+  :rnk: '735'
+- :esp: pared
+  :gen: :f
+  :eng: interior wall
+  :rnk: '736'
+- :esp: equipo
+  :gen: :m
+  :eng: team, equipment, outfit
+  :rnk: '737'
+- :esp: error
+  :gen: :m
+  :eng: error, mistake
+  :rnk: '738'
+- :esp: dificultad
+  :gen: :f
+  :eng: difficulty, obstacle
+  :rnk: '741'
+- :esp: voluntad
+  :gen: :f
+  :eng: will, willpower, intention
+  :rnk: '745'
+- :esp: reunión
+  :gen: :f
+  :eng: meeting, reunion
+  :rnk: '746'
+- :esp: modelo
+  :gen: :c
+  :eng: model, pattern
+  :rnk: '747'
+- :esp: fecha
+  :gen: :f
+  :eng: date, day
+  :rnk: '749'
+- :esp: propósito
+  :gen: :m
+  :eng: intention, purpose
+  :rnk: '752'
+- :esp: cuidado
+  :gen: :m
+  :eng: care, carefulness
+  :rnk: '754'
+- :esp: puesto
+  :gen: :m
+  :eng: job, place, position
+  :rnk: '755'
+- :esp: grado
+  :gen: :m
+  :eng: degree, grade
+  :rnk: '756'
+- :esp: lucha
+  :gen: :f
+  :eng: fight, struggle, wrestle
+  :rnk: '758'
+- :esp: jefe
+  :gen: :a
+  :eng: leader, boss, manager
+  :rnk: '761'
+- :esp: periódico
+  :gen: :m
+  :eng: newspaper, periodical
+  :rnk: '765'
+- :esp: par
+  :gen: :a
+  :eng: pair, couple
+  :rnk: '768'
+- :esp: público
+  :gen: :m
+  :eng: public, audience
+  :rnk: '769'
+- :esp: calidad
+  :gen: :f
+  :eng: quality
+  :rnk: '772'
+- :esp: ciencia
+  :gen: :f
+  :eng: science, knowledge
+  :rnk: '775'
+- :esp: tamaño
+  :gen: :m
+  :eng: size, dimension
+  :rnk: '776'
+- :esp: doctor
+  :gen: :a
+  :eng: doctor
+  :rnk: '778'
+- :esp: cuadro
+  :gen: :m
+  :eng: painting, picture
+  :rnk: '779'
+- :esp: caballo
+  :gen: :m
+  :eng: horse
+  :rnk: '780'
+- :esp: responsabilidad
+  :gen: :f
+  :eng: responsibility
+  :rnk: '781'
+- :esp: detalle
+  :gen: :m
+  :eng: detail
+  :rnk: '784'
+- :esp: marcha
+  :gen: :f
+  :eng: march, progress
+  :rnk: '785'
+- :esp: carne
+  :gen: :f
+  :eng: meat, flesh
+  :rnk: '787'
+- :esp: pensamiento
+  :gen: :m
+  :eng: thought, thinking
+  :rnk: '789'
+- :esp: cargo
+  :gen: :m
+  :eng: position, charge, fee
+  :rnk: '791'
+- :esp: santa
+  :gen: :f
+  :eng: saint
+  :rnk: '793'
+- :esp: construcción
+  :gen: :f
+  :eng: construction
+  :rnk: '794'
+- :esp: juicio
+  :gen: :m
+  :eng: judgment
+  :rnk: '795'
+- :esp: terreno
+  :gen: :m
+  :eng: ground, earth, terrain
+  :rnk: '796'
+- :esp: piso
+  :gen: :m
+  :eng: floor, story
+  :rnk: '797'
+- :esp: compañía
+  :gen: :f
+  :eng: company
+  :rnk: '798'
+- :esp: texto
+  :gen: :m
+  :eng: text
+  :rnk: '800'
+- :esp: fuente
+  :gen: :f
+  :eng: source, fountain
+  :rnk: '801'
+- :esp: presente
+  :gen: :m
+  :eng: present
+  :rnk: '802'
+- :esp: revista
+  :gen: :f
+  :eng: magazine, journal
+  :rnk: '804'
+- :esp: esperanza
+  :gen: :f
+  :eng: hope
+  :rnk: '805'
+- :esp: máquina
+  :gen: :f
+  :eng: machine
+  :rnk: '806'
+- :esp: frase
+  :gen: :f
+  :eng: phrase
+  :rnk: '809'
+- :esp: sala
+  :gen: :f
+  :eng: room, hall
+  :rnk: '811'
+- :esp: instrumento
+  :gen: :m
+  :eng: instrument
+  :rnk: '813'
+- :esp: defensa
+  :gen: :f
+  :eng: defense, plea
+  :rnk: '815'
+- :esp: director
+  :gen: :a
+  :eng: director, manager, principal
+  :rnk: '816'
+- :esp: explicación
+  :gen: :f
+  :eng: explanation
+  :rnk: '818'
+- :esp: artículo
+  :gen: :m
+  :eng: article, product, item
+  :rnk: '819'
+- :esp: radio
+  :eng: AM/FM communications or programming
+  :gen: :f
+  :rnk: '824'
+- :esp: radio
+  :eng: radio; set
+  :gen: :m
+  :rnk: '824'
+- :esp: película
+  :gen: :f
+  :eng: movie, film
+  :rnk: '826'
+- :esp: elección
+  :gen: :f
+  :eng: election, choice
+  :rnk: '827'
+- :esp: visita
+  :gen: :f
+  :eng: visit, visitor, guest
+  :rnk: '828'
+- :esp: apoyo
+  :gen: :m
+  :eng: support, backing
+  :rnk: '830'
+- :esp: presidente
+  :gen: :m
+  :eng: president
+  :rnk: '831'
+- :esp: arma
+  :gen: :f_el
+  :eng: weapon
+  :rnk: '832'
+- :esp: "árbol"
+  :gen: :m
+  :eng: tree
+  :rnk: '833'
+- :esp: encuentro
+  :gen: :m
+  :eng: meeting, game, skirmish
+  :rnk: '836'
+- :esp: corriente
+  :gen: :f
+  :eng: current, flow
+  :rnk: '838'
+- :esp: lectura
+  :gen: :f
+  :eng: reading
+  :rnk: '839'
+- :esp: existencia
+  :gen: :f
+  :eng: existence, life
+  :rnk: '840'
+- :esp: lenguaje
+  :gen: :m
+  :eng: language, speech
+  :rnk: '841'
+- :esp: destino
+  :gen: :m
+  :eng: destination, destiny
+  :rnk: '844'
+- :esp: educación
+  :gen: :f
+  :eng: education
+  :rnk: '845'
+- :esp: operación
+  :gen: :f
+  :eng: operation
+  :rnk: '848'
+- :esp: nota
+  :gen: :f
+  :eng: note, grade
+  :rnk: '853'
+- :esp: teatro
+  :gen: :m
+  :eng: theater, drama
+  :rnk: '861'
+- :esp: negocio
+  :gen: :m
+  :eng: business, transaction
+  :rnk: '864'
+- :esp: letra
+  :gen: :f
+  :eng: letter, handwriting, lyrics
+  :rnk: '865'
+- :esp: sentimiento
+  :gen: :m
+  :eng: feeling, sentiment
+  :rnk: '867'
+- :esp: solución
+  :gen: :f
+  :eng: solution, answer
+  :rnk: '871'
+- :esp: comida
+  :gen: :f
+  :eng: food, meal
+  :rnk: '873'
+- :esp: impresión
+  :gen: :f
+  :eng: impression, printing
+  :rnk: '874'
+- :esp: plano
+  :gen: :m
+  :eng: plane, map, level
+  :rnk: '875'
+- :esp: intención
+  :gen: :f
+  :eng: intention
+  :rnk: '876'
+- :esp: ritmo
+  :gen: :m
+  :eng: rhythm
+  :rnk: '877'
+- :esp: banco
+  :gen: :m
+  :eng: financial bank, bench
+  :rnk: '881'
+- :esp: piel
+  :gen: :f
+  :eng: skin, hide, fur
+  :rnk: '884'
+- :esp: control
+  :gen: :m
+  :eng: control
+  :rnk: '889'
+- :esp: investigación
+  :gen: :f
+  :eng: investigation
+  :rnk: '890'
+- :esp: conversación
+  :gen: :f
+  :eng: conversation
+  :rnk: '892'
+- :esp: verano
+  :gen: :m
+  :eng: summer
+  :rnk: '893'
+- :esp: respeto
+  :gen: :m
+  :eng: respect, regard
+  :rnk: '894'
+- :esp: norte
+  :gen: :m
+  :eng: north
+  :rnk: '895'
+- :esp: tradición
+  :gen: :f
+  :eng: tradition
+  :rnk: '898'
+- :esp: población
+  :gen: :f
+  :eng: population
+  :rnk: '900'
+- :esp: pareja
+  :gen: :f
+  :eng: couple, pair
+  :rnk: '901'
+- :esp: pasado
+  :gen: :m
+  :eng: past
+  :rnk: '902'
+- :esp: diario
+  :gen: :m
+  :eng: newspaper
+  :rnk: '903'
+- :esp: generación
+  :gen: :f
+  :eng: generation
+  :rnk: '906'
+- :esp: visión
+  :gen: :f
+  :eng: vision
+  :rnk: '908'
+- :esp: peligro
+  :gen: :m
+  :eng: danger, menace
+  :rnk: '913'
+- :esp: oro
+  :gen: :m
+  :eng: gold
+  :rnk: '914'
+- :esp: vino
+  :gen: :m
+  :eng: wine
+  :rnk: '917'
+- :esp: etapa
+  :gen: :f
+  :eng: stage, period
+  :rnk: '921'
+- :esp: silencio
+  :gen: :m
+  :eng: silence
+  :rnk: '923'
+- :esp: artista
+  :gen: :c
+  :eng: artist, performer
+  :rnk: '928'
+- :esp: labor
+  :gen: :f
+  :eng: labor, work, task
+  :rnk: '930'
+- :esp: cielo
+  :gen: :m
+  :eng: sky, heaven, ceiling
+  :rnk: '932'
+- :esp: práctica
+  :gen: :f
+  :eng: practice, skill
+  :rnk: '933'
+- :esp: límite
+  :gen: :m
+  :eng: limit
+  :rnk: '934'
+- :esp: masa
+  :gen: :f
+  :eng: mass, dough, bulk, crowd
+  :rnk: '935'
+- :esp: formación
+  :gen: :f
+  :eng: formation, education
+  :rnk: '938'
+- :esp: perro
+  :gen: :m
+  :eng: dog
+  :rnk: '939'
+- :esp: izquierda
+  :gen: :f
+  :eng: left
+  :rnk: '940'
+- :esp: energía
+  :gen: :f
+  :eng: energy, power
+  :rnk: '946'
+- :esp: confianza
+  :gen: :f
+  :eng: confidence, trust
+  :rnk: '947'
+- :esp: flor
+  :gen: :f
+  :eng: flower
+  :rnk: '950'
+- :esp: esposa
+  :gen: :f
+  :eng: wife
+  :rnk: '951'
+- :esp: revolución
+  :gen: :f
+  :eng: revolution
+  :rnk: '957'
+- :esp: maestro
+  :gen: :m
+  :eng: teacher, master
+  :rnk: '961'
+- :esp: fenómeno
+  :gen: :m
+  :eng: phenomenon
+  :rnk: '966'
+- :esp: presión
+  :gen: :f
+  :eng: pressure
+  :rnk: '967'
+- :esp: alumno
+  :gen: :m
+  :eng: student, pupil
+  :rnk: '969'
+- :esp: teoría
+  :gen: :f
+  :eng: theory
+  :rnk: '970'
+- :esp: tono
+  :gen: :m
+  :eng: tone
+  :rnk: '972'
+- :esp: salud
+  :gen: :f
+  :eng: health
+  :rnk: '973'
+- :esp: señora
+  :gen: :f
+  :eng: Mrs., lady, madam
+  :rnk: '976'
+- :esp: vía
+  :gen: :f
+  :eng: road, way
+  :rnk: '982'
+- :esp: alma
+  :gen: :f_el
+  :eng: soul
+  :rnk: '984'
+- :esp: madera
+  :gen: :f
+  :eng: wood
+  :rnk: '987'
+- :esp: fiesta
+  :gen: :f
+  :eng: party, feast
+  :rnk: '988'
+- :esp: calor
+  :gen: :m
+  :eng: heat, warmth
+  :rnk: '989'
+- :esp: hogar
+  :gen: :m
+  :eng: home, hearth
+  :rnk: '992'
+- :esp: mente
+  :gen: :f
+  :eng: mind
+  :rnk: '993'
+- :esp: preocupación
+  :gen: :f
+  :eng: worry, concern
+  :rnk: '995'
+- :esp: concepto
+  :gen: :m
+  :eng: concept
+  :rnk: '997'
+- :esp: teléfono
+  :gen: :m
+  :eng: phone, telephone
+  :rnk: '999'
+- :esp: hoja
+  :gen: :f
+  :eng: sheet, leaf
+  :rnk: '1000'
+- :esp: escritor
+  :gen: :a
+  :eng: writer
+  :rnk: '1011'
+- :esp: intento
+  :gen: :m
+  :eng: attempt, try
+  :rnk: '1012'
+- :esp: regla
+  :gen: :f
+  :eng: rule, ruler, regulation
+  :rnk: '1014'
+- :esp: riesgo
+  :gen: :m
+  :eng: risk
+  :rnk: '1016'
+- :esp: policía
+  :gen: :c
+  :eng: police, police force, police officer
+  :rnk: '1017'
+- :esp: estudiante
+  :gen: :c
+  :eng: student
+  :rnk: '1019'
+- :esp: plaza
+  :gen: :f
+  :eng: square, marketplace
+  :rnk: '1020'
+- :esp: llamada
+  :gen: :f
+  :eng: call, knock
+  :rnk: '1022'
+- :esp: sensación
+  :gen: :f
+  :eng: sensation, feeling
+  :rnk: '1023'
+- :esp: enemigo
+  :gen: :m
+  :eng: enemy
+  :rnk: '1024'
+- :esp: unidad
+  :gen: :f
+  :eng: unit, unity
+  :rnk: '1025'
+- :esp: idioma
+  :gen: :m
+  :eng: language
+  :rnk: '1027'
+- :esp: raíz
+  :gen: :f
+  :eng: root
+  :rnk: '1028'
+- :esp: compromiso
+  :gen: :m
+  :eng: compromise, engagement
+  :rnk: '1029'
+- :esp: comentario
+  :gen: :m
+  :eng: remark, comment
+  :rnk: '1030'
+- :esp: carga
+  :gen: :f
+  :eng: load, charge, cargo
+  :rnk: '1031'
+- :esp: marido
+  :gen: :m
+  :eng: husband
+  :rnk: '1032'
+- :esp: derecha
+  :gen: :f
+  :eng: right, right hand
+  :rnk: '1035'
+- :esp: extremo
+  :gen: :m
+  :eng: edge, border, end
+  :rnk: '1036'
+- :esp: individuo
+  :gen: :m
+  :eng: individual, person
+  :rnk: '1037'
+- :esp: contenido
+  :gen: :m
+  :eng: contents, content
+  :rnk: '1038'
+- :esp: obligación
+  :gen: :f
+  :eng: obligation
+  :rnk: '1040'
+- :esp: corte
+  :eng: court
+  :gen: :f
+  :rnk: '1041'
+- :esp: corte
+  :eng: cut
+  :gen: :m
+  :rnk: '1041'
+- :esp: total
+  :gen: :m
+  :eng: sum, total
+  :rnk: '1043'
+- :esp: daño
+  :gen: :m
+  :eng: harm, injury, damage
+  :rnk: '1045'
+- :esp: mensaje
+  :gen: :m
+  :eng: message
+  :rnk: '1047'
+- :esp: lista
+  :gen: :f
+  :eng: list, roster, roll
+  :rnk: '1049'
+- :esp: región
+  :gen: :f
+  :eng: region
+  :rnk: '1050'
+- :esp: niña
+  :gen: :f
+  :eng: child, young girl
+  :rnk: '1052'
+- :esp: culpa
+  :gen: :f
+  :eng: blame, fault
+  :rnk: '1053'
+- :esp: discusión
+  :gen: :f
+  :eng: discussion, argument
+  :rnk: '1055'
+- :esp: pelo
+  :gen: :m
+  :eng: "[also cabello] hair"
+  :rnk: '1056'
+- :esp: fe
+  :gen: :f
+  :eng: faith
+  :rnk: '1060'
+- :esp: referencia
+  :gen: :f
+  :eng: reference, allusion
+  :rnk: '1063'
+- :esp: sur
+  :gen: :m
+  :eng: south
+  :rnk: '1064'
+- :esp: gesto
+  :gen: :m
+  :eng: gesture
+  :rnk: '1065'
+- :esp: perspectiva
+  :gen: :f
+  :eng: perspective
+  :rnk: '1066'
+- :esp: colegio
+  :gen: :m
+  :eng: high school, college
+  :rnk: '1073'
+- :esp: venta
+  :gen: :f
+  :eng: sale
+  :rnk: '1075'
+- :esp: documento
+  :gen: :m
+  :eng: document
+  :rnk: '1076'
+- :esp: televisión
+  :gen: :f
+  :eng: TV, television
+  :rnk: '1078'
+- :esp: chico
+  :gen: :m
+  :eng: "[also muchacho] boy"
+  :rnk: '1079'
+- :esp: novela
+  :gen: :f
+  :eng: novel
+  :rnk: '1080'
+- :esp: alcance
+  :gen: :m
+  :eng: reach, scope
+  :rnk: '1083'
+- :esp: crisis
+  :gen: :f
+  :eng: crisis
+  :rnk: '1085'
+- :esp: literatura
+  :gen: :f
+  :eng: literature
+  :rnk: '1090'
+- :esp: batalla
+  :gen: :f
+  :eng: battle
+  :rnk: '1091'
+- :esp: dueño
+  :gen: :m
+  :eng: owner, landlord
+  :rnk: '1093'
+- :esp: vecino
+  :gen: :m
+  :eng: neighbor
+  :rnk: '1095'
+- :esp: sector
+  :gen: :m
+  :eng: sector, area, section
+  :rnk: '1096'
+- :esp: pintura
+  :gen: :f
+  :eng: painting, paint
+  :rnk: '1097'
+- :esp: accidente
+  :gen: :m
+  :eng: accident, irregularity
+  :rnk: '1098'
+- :esp: influencia
+  :gen: :f
+  :eng: influence
+  :rnk: '1102'
+- :esp: empleado
+  :gen: :m
+  :eng: employee
+  :rnk: '1104'
+- :esp: moneda
+  :gen: :f
+  :eng: coins, currency
+  :rnk: '1107'
+- :esp: facilidad
+  :gen: :f
+  :eng: ease, facility
+  :rnk: '1108'
+- :esp: matrimonio
+  :gen: :m
+  :eng: marriage, married couple
+  :rnk: '1109'
+- :esp: iglesia
+  :gen: :f
+  :eng: church
+  :rnk: '1111'
+- :esp: oficina
+  :gen: :f
+  :eng: office
+  :rnk: '1113'
+- :esp: institución
+  :gen: :f
+  :eng: institution
+  :rnk: '1115'
+- :esp: frío
+  :gen: :m
+  :eng: cold
+  :rnk: '1120'
+- :esp: reacción
+  :gen: :f
+  :eng: reaction
+  :rnk: '1122'
+- :esp: acontecimiento
+  :gen: :m
+  :eng: event, happening
+  :rnk: '1125'
+- :esp: costa
+  :gen: :f
+  :eng: coast
+  :rnk: '1126'
+- :esp: método
+  :gen: :m
+  :eng: method
+  :rnk: '1129'
+- :esp: comunidad
+  :gen: :f
+  :eng: community
+  :rnk: '1130'
+- :esp: coche
+  :gen: :m
+  :eng: car, carriage
+  :rnk: '1131'
+- :esp: página
+  :gen: :f
+  :eng: page
+  :rnk: '1135'
+- :esp: frecuencia
+  :gen: :f
+  :eng: frequency
+  :rnk: '1137'
+- :esp: conclusión
+  :gen: :f
+  :eng: conclusion, end
+  :rnk: '1138'
+- :esp: escena
+  :gen: :f
+  :eng: scene, stage, setting
+  :rnk: '1139'
+- :esp: estructura
+  :gen: :f
+  :eng: structure
+  :rnk: '1141'
+- :esp: beneficio
+  :gen: :m
+  :eng: benefit, profit
+  :rnk: '1142'
+- :esp: alimento
+  :gen: :m
+  :eng: food, nourishment
+  :rnk: '1143'
+- :esp: velocidad
+  :gen: :f
+  :eng: "[also rapidez] speed, velocity"
+  :rnk: '1145'
+- :esp: barrio
+  :gen: :m
+  :eng: neighborhood, district
+  :rnk: '1146'
+- :esp: análisis
+  :gen: :m
+  :eng: analysis
+  :rnk: '1148'
+- :esp: frontera
+  :gen: :f
+  :eng: border, frontier
+  :rnk: '1150'
+- :esp: temor
+  :gen: :m
+  :eng: "[also miedo] fear"
+  :rnk: '1154'
+- :esp: ataque
+  :gen: :m
+  :eng: attack, raid
+  :rnk: '1157'
+- :esp: cine
+  :gen: :m
+  :eng: cinema, US movie theater
+  :rnk: '1159'
+- :esp: rama
+  :gen: :f
+  :eng: branch, bough, limb
+  :rnk: '1160'
+- :esp: comienzo
+  :gen: :m
+  :eng: start, beginning
+  :rnk: '1162'
+- :esp: barco
+  :gen: :m
+  :eng: boat
+  :rnk: '1164'
+- :esp: partida
+  :gen: :f
+  :eng: game, match, departure
+  :rnk: '1165'
+- :esp: aparato
+  :gen: :m
+  :eng: apparatus, device
+  :rnk: '1168'
+- :esp: extranjero
+  :gen: :m
+  :eng: foreigner
+  :rnk: '1171'
+- :esp: cámara
+  :gen: :f
+  :eng: camera, chamber
+  :rnk: '1172'
+- :esp: creación
+  :gen: :f
+  :eng: creation
+  :rnk: '1173'
+- :esp: gana
+  :gen: :f
+  :eng: desire
+  :rnk: '1177'
+- :esp: moda
+  :gen: :f
+  :eng: fashion, form
+  :rnk: '1180'
+- :esp: ruido
+  :gen: :m
+  :eng: noise
+  :rnk: '1184'
+- :esp: cama
+  :gen: :f
+  :eng: bed (furniture)
+  :rnk: '1185'
+- :esp: técnica
+  :gen: :f
+  :eng: technique, skill
+  :rnk: '1187'
+- :esp: consejo
+  :gen: :m
+  :eng: advice, council, counsel
+  :rnk: '1188'
+- :esp: violencia
+  :gen: :f
+  :eng: violence
+  :rnk: '1190'
+- :esp: sonido
+  :gen: :m
+  :eng: sound
+  :rnk: '1192'
+- :esp: estrella
+  :gen: :f
+  :eng: star
+  :rnk: '1194'
+- :esp: mirada
+  :gen: :f
+  :eng: gaze, look
+  :rnk: '1197'
+- :esp: pierna
+  :gen: :f
+  :eng: leg
+  :rnk: '1201'
+- :esp: hambre
+  :gen: :f_el
+  :eng: hunger, starvation
+  :rnk: '1204'
+- :esp: placer
+  :gen: :m
+  :eng: pleasure
+  :rnk: '1205'
+- :esp: profesión
+  :gen: :f
+  :eng: profession, occupation
+  :rnk: '1206'
+- :esp: objetivo
+  :gen: :m
+  :eng: objective
+  :rnk: '1210'
+- :esp: honor
+  :gen: :m
+  :eng: honor, honesty
+  :rnk: '1211'
+- :esp: montaña
+  :gen: :f
+  :eng: mountain
+  :rnk: '1212'
+- :esp: instante
+  :gen: :m
+  :eng: instant, moment
+  :rnk: '1215'
+- :esp: viento
+  :gen: :m
+  :eng: wind, scent
+  :rnk: '1216'
+- :esp: lluvia
+  :gen: :f
+  :eng: rain
+  :rnk: '1217'
+- :esp: ejército
+  :gen: :m
+  :eng: army
+  :rnk: '1218'
+- :esp: tren
+  :gen: :m
+  :eng: train, convoy
+  :rnk: '1220'
+- :esp: círculo
+  :gen: :m
+  :eng: circle, club
+  :rnk: '1222'
+- :esp: ventaja
+  :gen: :f
+  :eng: advantage, benefit
+  :rnk: '1226'
+- :esp: isla
+  :gen: :f
+  :eng: island
+  :rnk: '1229'
+- :esp: torno
+  :gen: :m
+  :eng: 'en torno a: about, regarding'
+  :rnk: '1230'
+- :esp: amistad
+  :gen: :f
+  :eng: friendship
+  :rnk: '1232'
+- :esp: cadena
+  :gen: :f
+  :eng: chain
+  :rnk: '1236'
+- :esp: político
+  :gen: :a
+  :eng: politician
+  :rnk: '1237'
+- :esp: rey
+  :gen: :m
+  :eng: king
+  :rnk: '1238'
+- :esp: "ánimo"
+  :gen: :m
+  :eng: zest, spirit, heart
+  :rnk: '1240'
+- :esp: trato
+  :gen: :m
+  :eng: treatment, manner, agreement
+  :rnk: '1241'
+- :esp: ejercicio
+  :gen: :m
+  :eng: exercise, practice
+  :rnk: '1242'
+- :esp: organización
+  :gen: :f
+  :eng: organization
+  :rnk: '1243'
+- :esp: secretario
+  :gen: :a
+  :eng: secretary
+  :rnk: '1245'
+- :esp: dedo
+  :gen: :m
+  :eng: finger, toe, digit
+  :rnk: '1248'
+- :esp: gasto
+  :gen: :m
+  :eng: expense, expenditure
+  :rnk: '1249'
+- :esp: café
+  :gen: :m
+  :eng: coffee, café
+  :rnk: '1250'
+- :esp: diálogo
+  :gen: :m
+  :eng: dialogue, conversation
+  :rnk: '1251'
+- :esp: discurso
+  :gen: :m
+  :eng: lecture, discourse, talk
+  :rnk: '1254'
+- :esp: hermana
+  :gen: :f
+  :eng: sister
+  :rnk: '1256'
+- :esp: caja
+  :gen: :f
+  :eng: bank, box, safe
+  :rnk: '1258'
+- :esp: juez
+  :gen: :c
+  :eng: judge
+  :rnk: '1259'
+- :esp: particular
+  :gen: :m
+  :eng: particular, detail, individual
+  :rnk: '1260'
+- :esp: poeta
+  :gen: :c
+  :eng: poet
+  :rnk: '1262'
+- :esp: sorpresa
+  :gen: :f
+  :eng: surprise
+  :rnk: '1264'
+- :esp: ventana
+  :gen: :f
+  :eng: window
+  :rnk: '1265'
+- :esp: característica
+  :gen: :f
+  :eng: characteristic, aspect
+  :rnk: '1266'
+- :esp: suma
+  :gen: :f
+  :eng: sum, amount, summary
+  :rnk: '1271'
+- :esp: volumen
+  :gen: :m
+  :eng: volume
+  :rnk: '1274'
+- :esp: estación
+  :gen: :f
+  :eng: station, season
+  :rnk: '1275'
+- :esp: argumento
+  :gen: :m
+  :eng: argument, plot
+  :rnk: '1279'
+- :esp: categoría
+  :gen: :f
+  :eng: category
+  :rnk: '1280'
+- :esp: plata
+  :gen: :f
+  :eng: silver, money
+  :rnk: '1281'
+- :esp: conflicto
+  :gen: :m
+  :eng: conflict
+  :rnk: '1282'
+- :esp: avión
+  :gen: :m
+  :eng: plane, airplane, aircraft
+  :rnk: '1283'
+- :esp: ropa
+  :gen: :f
+  :eng: clothes, clothing
+  :rnk: '1285'
+- :esp: examen
+  :gen: :m
+  :eng: examination, exam
+  :rnk: '1286'
+- :esp: habitante
+  :gen: :m
+  :eng: inhabitant
+  :rnk: '1287'
+- :esp: justicia
+  :gen: :f
+  :eng: justice, fairness
+  :rnk: '1290'
+- :esp: criterio
+  :gen: :m
+  :eng: criterion
+  :rnk: '1292'
+- :esp: plazo
+  :gen: :m
+  :eng: deadline, installment
+  :rnk: '1295'
+- :esp: kilómetro
+  :gen: :m
+  :eng: kilometer
+  :rnk: '1297'
+- :esp: hospital
+  :gen: :m
+  :eng: hospital
+  :rnk: '1298'
+- :esp: satisfacción
+  :gen: :f
+  :eng: satisfaction
+  :rnk: '1299'
+- :esp: silla
+  :gen: :f
+  :eng: chair, seat
+  :rnk: '1307'
+- :esp: juventud
+  :gen: :f
+  :eng: youth
+  :rnk: '1311'
+- :esp: acceso
+  :gen: :m
+  :eng: access, entry
+  :rnk: '1315'
+- :esp: marco
+  :gen: :m
+  :eng: frame, mark, setting
+  :rnk: '1316'
+- :esp: prensa
+  :gen: :f
+  :eng: press
+  :rnk: '1318'
+- :esp: excepción
+  :gen: :f
+  :eng: exception
+  :rnk: '1319'
+- :esp: ausencia
+  :gen: :f
+  :eng: absence
+  :rnk: '1321'
+- :esp: sombra
+  :gen: :f
+  :eng: shade, shadow
+  :rnk: '1324'
+- :esp: profundidad
+  :gen: :f
+  :eng: depth, profundity
+  :rnk: '1330'
+- :esp: leche
+  :gen: :f
+  :eng: milk
+  :rnk: '1334'
+- :esp: consideración
+  :gen: :f
+  :eng: consideration, regard
+  :rnk: '1335'
+- :esp: premio
+  :gen: :m
+  :eng: prize, reward
+  :rnk: '1337'
+- :esp: nacimiento
+  :gen: :m
+  :eng: birth, origin
+  :rnk: '1339'
+- :esp: invierno
+  :gen: :m
+  :eng: winter
+  :rnk: '1340'
+- :esp: comportamiento
+  :gen: :m
+  :eng: behavior, conduct
+  :rnk: '1343'
+- :esp: crítica
+  :gen: :f
+  :eng: criticism, critique
+  :rnk: '1344'
+- :esp: fuego
+  :gen: :m
+  :eng: fire, gunfire
+  :rnk: '1346'
+- :esp: tendencia
+  :gen: :f
+  :eng: tendency, style
+  :rnk: '1347'
+- :esp: norma
+  :gen: :f
+  :eng: standard, pattern, norm
+  :rnk: '1349'
+- :esp: rueda
+  :gen: :f
+  :eng: wheel
+  :rnk: '1352'
+- :esp: puente
+  :gen: :m
+  :eng: bridge
+  :rnk: '1353'
+- :esp: rasgo
+  :gen: :m
+  :eng: feature, trait
+  :rnk: '1355'
+- :esp: cuento
+  :gen: :m
+  :eng: story, tale
+  :rnk: '1357'
+- :esp: signo
+  :gen: :m
+  :eng: sign, mark, symbol
+  :rnk: '1359'
+- :esp: señal
+  :gen: :f
+  :eng: sign, mark, token
+  :rnk: '1360'
+- :esp: campaña
+  :gen: :f
+  :eng: campaign
+  :rnk: '1362'
+- :esp: puerto
+  :gen: :m
+  :eng: port, harbor
+  :rnk: '1364'
+- :esp: aventura
+  :gen: :f
+  :eng: adventure
+  :rnk: '1366'
+- :esp: marca
+  :gen: :f
+  :eng: mark, brand, trademark
+  :rnk: '1370'
+- :esp: ilusión
+  :gen: :f
+  :eng: illusion, hope, dream
+  :rnk: '1372'
+- :esp: compra
+  :gen: :f
+  :eng: shopping, buy, purchase
+  :rnk: '1374'
+- :esp: inteligencia
+  :gen: :f
+  :eng: intelligence
+  :rnk: '1375'
+- :esp: virtud
+  :gen: :f
+  :eng: virtue, quality
+  :rnk: '1378'
+- :esp: remedio
+  :gen: :m
+  :eng: alternative, cure, solution
+  :rnk: '1379'
+- :esp: territorio
+  :gen: :m
+  :eng: territory
+  :rnk: '1382'
+- :esp: facultad
+  :gen: :f
+  :eng: faculty, ability
+  :rnk: '1383'
+- :esp: fotografía
+  :gen: :f
+  :eng: photograph
+  :rnk: '1385'
+- :esp: techo
+  :gen: :m
+  :eng: roof
+  :rnk: '1386'
+- :esp: conducta
+  :gen: :f
+  :eng: conduct, behavior
+  :rnk: '1388'
+- :esp: salto
+  :gen: :m
+  :eng: jump, hop, skip
+  :rnk: '1391'
+- :esp: pan
+  :gen: :m
+  :eng: bread
+  :rnk: '1392'
+- :esp: disposición
+  :gen: :f
+  :eng: disposal, disposition
+  :rnk: '1398'
+- :esp: general
+  :gen: :m
+  :eng: general
+  :rnk: '1400'
+- :esp: disciplina
+  :gen: :f
+  :eng: discipline, subject
+  :rnk: '1401'
+- :esp: personal
+  :gen: :m
+  :eng: personnel, staff, staffing
+  :rnk: '1404'
+- :esp: columna
+  :gen: :f
+  :eng: column, spine
+  :rnk: '1406'
+- :esp: indio
+  :gen: :m
+  :eng: Indian
+  :rnk: '1411'
+- :esp: gato
+  :gen: :m
+  :eng: cat
+  :rnk: '1412'
+- :esp: margen
+  :gen: :a
+  :eng: edge, margin, border, brink
+  :rnk: '1413'
+- :esp: resistencia
+  :gen: :f
+  :eng: resistance, opposition
+  :rnk: '1415'
+- :esp: pérdida
+  :gen: :f
+  :eng: loss
+  :rnk: '1417'
+- :esp: tratamiento
+  :gen: :m
+  :eng: treatment, processing
+  :rnk: '1418'
+- :esp: entrevista
+  :gen: :f
+  :eng: interview, meeting
+  :rnk: '1419'
+- :esp: espectáculo
+  :gen: :m
+  :eng: spectacle, show
+  :rnk: '1420'
+- :esp: personalidad
+  :gen: :f
+  :eng: personality, celebrity
+  :rnk: '1421'
+- :esp: representación
+  :gen: :f
+  :eng: representation
+  :rnk: '1425'
+- :esp: régimen
+  :gen: :m
+  :eng: regime, diet
+  :rnk: '1426'
+- :esp: punta
+  :gen: :f
+  :eng: tip, point
+  :rnk: '1427'
+- :esp: alegría
+  :gen: :f
+  :eng: joy, happiness
+  :rnk: '1429'
+- :esp: misión
+  :gen: :f
+  :eng: mission, task
+  :rnk: '1432'
+- :esp: empleo
+  :gen: :m
+  :eng: work, job, occupation
+  :rnk: '1436'
+- :esp: participación
+  :gen: :f
+  :eng: participation, involvement
+  :rnk: '1438'
+- :esp: período
+  :gen: :m
+  :eng: period, time
+  :rnk: '1440'
+- :esp: busca
+  :gen: :f
+  :eng: search, hunt
+  :rnk: '1441'
+- :esp: superficie
+  :gen: :f
+  :eng: surface, area
+  :rnk: '1442'
+- :esp: pasión
+  :gen: :f
+  :eng: passion, desire
+  :rnk: '1445'
+- :esp: vehículo
+  :gen: :m
+  :eng: vehicle, car
+  :rnk: '1446'
+- :esp: capítulo
+  :gen: :m
+  :eng: chapter
+  :rnk: '1450'
+- :esp: fracaso
+  :gen: :m
+  :eng: failure, collapse
+  :rnk: '1451'
+- :esp: experto
+  :gen: :m
+  :eng: expert
+  :rnk: '1452'
+- :esp: inquietud
+  :gen: :f
+  :eng: restlessness, anxiety
+  :rnk: '1453'
+- :esp: organismo
+  :gen: :m
+  :eng: organization, organism, human body
+  :rnk: '1458'
+- :esp: canción
+  :gen: :f
+  :eng: song
+  :rnk: '1459'
+- :esp: religión
+  :gen: :f
+  :eng: religion
+  :rnk: '1460'
+- :esp: departamento
+  :gen: :m
+  :eng: department, apartment
+  :rnk: '1462'
+- :esp: periodista
+  :gen: :c
+  :eng: journalist
+  :rnk: '1464'
+- :esp: interpretación
+  :gen: :f
+  :eng: interpretation, interpreting
+  :rnk: '1468'
+- :esp: belleza
+  :gen: :f
+  :eng: beauty
+  :rnk: '1472'
+- :esp: universidad
+  :gen: :f
+  :eng: university, college
+  :rnk: '1473'
+- :esp: riqueza
+  :gen: :f
+  :eng: riches, wealth
+  :rnk: '1474'
+- :esp: rato
+  :gen: :m
+  :eng: moment, while, time
+  :rnk: '1478'
+- :esp: equilibrio
+  :gen: :m
+  :eng: balance
+  :rnk: '1487'
+- :esp: fruto
+  :gen: :m
+  :eng: fruit, result
+  :rnk: '1490'
+- :esp: representante
+  :gen: :c
+  :eng: representative
+  :rnk: '1491'
+- :esp: exceso
+  :gen: :m
+  :eng: excess
+  :rnk: '1495'
+- :esp: capa
+  :gen: :f
+  :eng: layer, coat
+  :rnk: '1496'
+- :esp: defecto
+  :gen: :m
+  :eng: defect
+  :rnk: '1497'
+- :esp: fábrica
+  :gen: :f
+  :eng: factory, manufacture
+  :rnk: '1498'
+- :esp: espalda
+  :gen: :f
+  :eng: back (body)
+  :rnk: '1499'
+- :esp: género
+  :gen: :m
+  :eng: sort, gender, genre
+  :rnk: '1501'
+- :esp: economía
+  :gen: :f
+  :eng: economy, economics, thriftiness
+  :rnk: '1504'
+- :esp: bosque
+  :gen: :m
+  :eng: forest
+  :rnk: '1506'
+- :esp: paisaje
+  :gen: :m
+  :eng: landscape
+  :rnk: '1508'
+- :esp: llamado
+  :gen: :m
+  :eng: call, calling
+  :rnk: '1510'
+- :esp: paciente
+  :gen: :c
+  :eng: patient
+  :rnk: '1511'
+- :esp: tensión
+  :gen: :f
+  :eng: tension, stress, strain
+  :rnk: '1514'
+- :esp: ministro
+  :gen: :a
+  :eng: government secretary, minister
+  :rnk: '1519'
+- :esp: impulso
+  :gen: :m
+  :eng: impulse, momentum
+  :rnk: '1520'
+- :esp: comercio
+  :gen: :m
+  :eng: commerce, trade
+  :rnk: '1522'
+- :esp: espera
+  :gen: :f
+  :eng: wait
+  :rnk: '1525'
+- :esp: reserva
+  :gen: :f
+  :eng: reservation, reserve
+  :rnk: '1527'
+- :esp: competencia
+  :gen: :f
+  :eng: competition, contest
+  :rnk: '1529'
+- :esp: observación
+  :gen: :f
+  :eng: observation
+  :rnk: '1535'
+- :esp: vacío
+  :gen: :m
+  :eng: emptiness, void
+  :rnk: '1538'
+- :esp: cifra
+  :gen: :f
+  :eng: figure, number, amount
+  :rnk: '1540'
+- :esp: escala
+  :gen: :f
+  :eng: scale, ladder, rank
+  :rnk: '1542'
+- :esp: procedimiento
+  :gen: :m
+  :eng: procedure, proceedings
+  :rnk: '1544'
+- :esp: fórmula
+  :gen: :f
+  :eng: formula
+  :rnk: '1546'
+- :esp: "ámbito"
+  :gen: :m
+  :eng: sphere, space
+  :rnk: '1547'
+- :esp: informe
+  :gen: :m
+  :eng: report
+  :rnk: '1548'
+- :esp: dimensión
+  :gen: :f
+  :eng: dimension, size
+  :rnk: '1549'
+- :esp: cliente
+  :gen: :c
+  :eng: client, customer
+  :rnk: '1550'
+- :esp: manifestación
+  :gen: :f
+  :eng: protest, manifestation
+  :rnk: '1551'
+- :esp: pico
+  :gen: :m
+  :eng: 'y pico: and a bit; beak, peak'
+  :rnk: '1553'
+- :esp: sensibilidad
+  :gen: :f
+  :eng: sensitivity
+  :rnk: '1554'
+- :esp: regreso
+  :gen: :m
+  :eng: "[also retorno] return"
+  :rnk: '1557'
+- :esp: temperatura
+  :gen: :f
+  :eng: temperature
+  :rnk: '1558'
+- :esp: bomba
+  :gen: :f
+  :eng: bomb, explosion, pump
+  :rnk: '1562'
+- :esp: "órgano"
+  :gen: :m
+  :eng: organ
+  :rnk: '1563'
+- :esp: avance
+  :gen: :m
+  :eng: "[also adelanto] advance, progress"
+  :rnk: '1565'
+- :esp: humanidad
+  :gen: :f
+  :eng: humanity, mankind
+  :rnk: '1566'
+- :esp: firma
+  :gen: :f
+  :eng: company, signature, signing
+  :rnk: '1567'
+- :esp: soldado
+  :gen: :a
+  :eng: soldier
+  :rnk: '1568'
+- :esp: clima
+  :gen: :m
+  :eng: climate
+  :rnk: '1576'
+- :esp: emoción
+  :gen: :f
+  :eng: emotion, excitement
+  :rnk: '1577'
+- :esp: automóvil
+  :gen: :m
+  :eng: automobile
+  :rnk: '1578'
+- :esp: mal
+  :gen: :m
+  :eng: evil
+  :rnk: '1580'
+- :esp: habilidad
+  :gen: :f
+  :eng: ability, skill, talent
+  :rnk: '1582'
+- :esp: identidad
+  :gen: :f
+  :eng: identity
+  :rnk: '1583'
+- :esp: desgracia
+  :gen: :f
+  :eng: misfortune, bad luck
+  :rnk: '1584'
+- :esp: deber
+  :gen: :m
+  :eng: duty, obligation
+  :rnk: '1588'
+- :esp: cola
+  :gen: :f
+  :eng: line, queue, tail
+  :rnk: '1589'
+- :esp: progreso
+  :gen: :m
+  :eng: progress
+  :rnk: '1591'
+- :esp: muestra
+  :gen: :f
+  :eng: proof, sample, sign
+  :rnk: '1594'
+- :esp: hábito
+  :gen: :m
+  :eng: habit
+  :rnk: '1596'
+- :esp: mecanismo
+  :gen: :m
+  :eng: mechanism
+  :rnk: '1599'
+- :esp: vivienda
+  :gen: :f
+  :eng: housing, dwelling
+  :rnk: '1600'
+- :esp: "área"
+  :gen: :f_el
+  :eng: area, zone
+  :rnk: '1602'
+- :esp: mezcla
+  :gen: :f
+  :eng: mixture, blend
+  :rnk: '1606'
+- :esp: habitación
+  :gen: :f
+  :eng: room, bedroom, habitat
+  :rnk: '1610'
+- :esp: instrucción
+  :gen: :f
+  :eng: instruction
+  :rnk: '1611'
+- :esp: versión
+  :gen: :f
+  :eng: version, account
+  :rnk: '1613'
+- :esp: lujo
+  :gen: :m
+  :eng: luxury
+  :rnk: '1614'
+- :esp: intervención
+  :gen: :f
+  :eng: intervention
+  :rnk: '1615'
+- :esp: llegada
+  :gen: :f
+  :eng: arrival
+  :rnk: '1616'
+- :esp: alrededor
+  :gen: :m
+  :eng: surrounding area, vicinity
+  :rnk: '1617'
+- :esp: testigo
+  :gen: :m
+  :eng: witness
+  :rnk: '1618'
+- :esp: dominio
+  :gen: :m
+  :eng: power, control
+  :rnk: '1619'
+- :esp: raza
+  :gen: :f
+  :eng: race, lineage
+  :rnk: '1620'
+- :esp: descubrimiento
+  :gen: :m
+  :eng: discovery
+  :rnk: '1622'
+- :esp: vacacion
+  :eng: vacation
+  :num: :p
+  :gen: :f
+  :rnk: '1623'
+- :esp: provincia
+  :gen: :f
+  :eng: province, region
+  :rnk: '1624'
+- :esp: saber
+  :gen: :m
+  :eng: knowledge
+  :rnk: '1625'
+- :esp: claridad
+  :gen: :f
+  :eng: clearness, clarity
+  :rnk: '1630'
+- :esp: arena
+  :gen: :f
+  :eng: sand
+  :rnk: '1635'
+- :esp: postura
+  :gen: :f
+  :eng: posture, position, attitude
+  :rnk: '1636'
+- :esp: salón
+  :gen: :m
+  :eng: hall, room
+  :rnk: '1637'
+- :esp: escenario
+  :gen: :m
+  :eng: stage, setting, scene
+  :rnk: '1638'
+- :esp: largo
+  :gen: :m
+  :eng: length
+  :rnk: '1640'
+- :esp: hotel
+  :gen: :m
+  :eng: hotel
+  :rnk: '1643'
+- :esp: oficio
+  :gen: :m
+  :eng: job, occupation, function
+  :rnk: '1644'
+- :esp: fila
+  :gen: :f
+  :eng: line, row, file
+  :rnk: '1647'
+- :esp: patrón
+  :gen: :m
+  :eng: employer, landlord, patron saint
+  :rnk: '1648'
+- :esp: pecho
+  :gen: :m
+  :eng: chest, breast
+  :rnk: '1649'
+- :esp: tienda
+  :gen: :f
+  :eng: shop, store, tent
+  :rnk: '1650'
+- :esp: protección
+  :gen: :f
+  :eng: protection
+  :rnk: '1652'
+- :esp: funcionario
+  :gen: :m
+  :eng: civil servant
+  :rnk: '1653'
+- :esp: transporte
+  :gen: :m
+  :eng: transportation, transport
+  :rnk: '1657'
+- :esp: red
+  :gen: :f
+  :eng: network, net, system
+  :rnk: '1658'
+- :esp: caída
+  :gen: :f
+  :eng: fall, drop, falling
+  :rnk: '1659'
+- :esp: valle
+  :gen: :m
+  :eng: valley
+  :rnk: '1663'
+- :esp: vuelo
+  :gen: :m
+  :eng: flight
+  :rnk: '1665'
+- :esp: sexo
+  :gen: :m
+  :eng: sex
+  :rnk: '1667'
+- :esp: iniciativa
+  :gen: :f
+  :eng: initiative
+  :rnk: '1668'
+- :esp: concentración
+  :gen: :f
+  :eng: concentration, gathering
+  :rnk: '1670'
+- :esp: grito
+  :gen: :m
+  :eng: cry, shout, scream
+  :rnk: '1671'
+- :esp: esencia
+  :gen: :f
+  :eng: essence
+  :rnk: '1672'
+- :esp: cocina
+  :gen: :f
+  :eng: kitchen
+  :rnk: '1673'
+- :esp: reflejo
+  :gen: :m
+  :eng: reflection (reflected image)
+  :rnk: '1675'
+- :esp: definición
+  :gen: :f
+  :eng: definition
+  :rnk: '1676'
+- :esp: abogado
+  :gen: :a
+  :eng: lawyer
+  :rnk: '1680'
+- :esp: sesión
+  :gen: :f
+  :eng: session, meeting
+  :rnk: '1683'
+- :esp: reloj
+  :gen: :m
+  :eng: clock, watch
+  :rnk: '1685'
+- :esp: muchacho
+  :gen: :m
+  :eng: "[also chico] boy"
+  :rnk: '1687'
+- :esp: exposición
+  :gen: :f
+  :eng: exhibition, display
+  :rnk: '1689'
+- :esp: ingreso
+  :gen: :m
+  :eng: entrance, admission, income
+  :rnk: '1690'
+- :esp: dibujo
+  :gen: :m
+  :eng: drawing, sketch
+  :rnk: '1692'
+- :esp: hueso
+  :gen: :m
+  :eng: bone
+  :rnk: '1695'
+- :esp: militar
+  :gen: :m
+  :eng: soldier, military person
+  :rnk: '1697'
+- :esp: motor
+  :gen: :m
+  :eng: engine, motor
+  :rnk: '1698'
+- :esp: oposición
+  :gen: :f
+  :eng: opposition
+  :rnk: '1699'
+- :esp: patio
+  :gen: :m
+  :eng: courtyard, playground, yard
+  :rnk: '1700'
+- :esp: fruta
+  :gen: :f
+  :eng: fruit
+  :rnk: '1701'
+- :esp: ideal
+  :gen: :m
+  :eng: ideal, goal
+  :rnk: '1702'
+- :esp: actor
+  :gen: :m
+  :eng: actor
+  :rnk: '1705'
+- :esp: confusión
+  :gen: :f
+  :eng: confusion
+  :rnk: '1706'
+- :esp: traje
+  :gen: :m
+  :eng: suit, dress, costume
+  :rnk: '1710'
+- :esp: exigencia
+  :gen: :f
+  :eng: requirement, demand
+  :rnk: '1711'
+- :esp: víctima
+  :gen: :f
+  :eng: victim, casualty
+  :rnk: '1712'
+- :esp: playa
+  :gen: :f
+  :eng: beach, seaside
+  :rnk: '1713'
+- :esp: trabajador
+  :gen: :a
+  :eng: "[also obrero] worker, laborer"
+  :rnk: '1714'
+- :esp: hierro
+  :gen: :m
+  :eng: iron
+  :rnk: '1716'
+- :esp: tela
+  :gen: :f
+  :eng: cloth, fabric
+  :rnk: '1719'
+- :esp: producción
+  :gen: :f
+  :eng: "[also elaboración] production"
+  :rnk: '1721'
+- :esp: símbolo
+  :gen: :m
+  :eng: symbol
+  :rnk: '1723'
+- :esp: medicina
+  :gen: :f
+  :eng: medicine
+  :rnk: '1725'
+- :esp: búsqueda
+  :gen: :f
+  :eng: search
+  :rnk: '1727'
+- :esp: tranquilidad
+  :gen: :f
+  :eng: tranquility, peace
+  :rnk: '1729'
+- :esp: espejo
+  :gen: :m
+  :eng: mirror, reflection
+  :rnk: '1730'
+- :esp: comprensión
+  :gen: :f
+  :eng: understanding
+  :rnk: '1732'
+- :esp: cerebro
+  :gen: :m
+  :eng: brain
+  :rnk: '1734'
+- :esp: tiro
+  :gen: :m
+  :eng: throw, shot
+  :rnk: '1737'
+- :esp: abuelo
+  :gen: :m
+  :eng: grandfather
+  :rnk: '1740'
+- :esp: declaración
+  :gen: :f
+  :eng: declaration, statement
+  :rnk: '1746'
+- :esp: sujeto
+  :gen: :m
+  :eng: subject, individual
+  :rnk: '1748'
+- :esp: enseñanza
+  :gen: :f
+  :eng: teaching, instruction
+  :rnk: '1751'
+- :esp: permiso
+  :gen: :m
+  :eng: permission, permit
+  :rnk: '1753'
+- :esp: evolución
+  :gen: :f
+  :eng: evolution, development
+  :rnk: '1754'
+- :esp: tío
+  :gen: :m
+  :eng: uncle, guy
+  :rnk: '1755'
+- :esp: moral
+  :gen: :f
+  :eng: morals, ethics
+  :rnk: '1756'
+- :esp: parque
+  :gen: :m
+  :eng: park
+  :rnk: '1760'
+- :esp: ingeniero
+  :gen: :a
+  :eng: engineer
+  :rnk: '1761'
+- :esp: borde
+  :gen: :m
+  :eng: edge
+  :rnk: '1763'
+- :esp: entusiasmo
+  :gen: :m
+  :eng: enthusiasm
+  :rnk: '1765'
+- :esp: independencia
+  :gen: :f
+  :eng: independence
+  :rnk: '1767'
+- :esp: mentira
+  :gen: :f
+  :eng: lie
+  :rnk: '1768'
+- :esp: sueldo
+  :gen: :m
+  :eng: salary, pay
+  :rnk: '1770'
+- :esp: comparación
+  :gen: :f
+  :eng: comparison
+  :rnk: '1772'
+- :esp: seno
+  :gen: :m
+  :eng: breast, bosom, cavity
+  :rnk: '1776'
+- :esp: canto
+  :gen: :m
+  :eng: singing, chant
+  :rnk: '1778'
+- :esp: potencia
+  :gen: :f
+  :eng: power, potential
+  :rnk: '1779'
+- :esp: oficial
+  :gen: :c
+  :eng: official, officer
+  :rnk: '1781'
+- :esp: fortuna
+  :gen: :f
+  :eng: fortune, fate
+  :rnk: '1782'
+- :esp: crimen
+  :gen: :m
+  :eng: crime, murder
+  :rnk: '1783'
+- :esp: ciudadano
+  :gen: :m
+  :eng: citizen
+  :rnk: '1787'
+- :esp: baño
+  :gen: :m
+  :eng: bathroom, bath, swim
+  :rnk: '1789'
+- :esp: reconocimiento
+  :gen: :m
+  :eng: recognition, acknowledgment
+  :rnk: '1794'
+- :esp: exterior
+  :gen: :m
+  :eng: exterior, outside
+  :rnk: '1795'
+- :esp: crédito
+  :gen: :m
+  :eng: credit, reputation
+  :rnk: '1799'
+- :esp: alternativa
+  :gen: :f
+  :eng: alternative
+  :rnk: '1800'
+- :esp: canal
+  :gen: :m
+  :eng: channel, canal
+  :rnk: '1804'
+- :esp: agente
+  :gen: :c
+  :eng: agent
+  :rnk: '1806'
+- :esp: pago
+  :gen: :m
+  :eng: payment
+  :rnk: '1807'
+- :esp: filosofía
+  :gen: :f
+  :eng: philosophy
+  :rnk: '1808'
+- :esp: lector
+  :gen: :m
+  :eng: reader, lecturer
+  :rnk: '1810'
+- :esp: triunfo
+  :gen: :m
+  :eng: triumph, victory
+  :rnk: '1813'
+- :esp: amiga
+  :gen: :f
+  :eng: friend
+  :rnk: '1817'
+- :esp: carretera
+  :gen: :f
+  :eng: highway, road
+  :rnk: '1818'
+- :esp: victoria
+  :gen: :f
+  :eng: victory, triumph
+  :rnk: '1821'
+- :esp: pájaro
+  :gen: :m
+  :eng: "[also ave] bird"
+  :rnk: '1824'
+- :esp: biblioteca
+  :gen: :f
+  :eng: library
+  :rnk: '1825'
+- :esp: reflexión
+  :gen: :f
+  :eng: reflection, thought
+  :rnk: '1826'
+- :esp: vocación
+  :gen: :f
+  :eng: vocation, calling
+  :rnk: '1829'
+- :esp: continente
+  :gen: :m
+  :eng: continent
+  :rnk: '1831'
+- :esp: tabla
+  :gen: :f
+  :eng: chart, board, table, plank
+  :rnk: '1833'
+- :esp: ensayo
+  :gen: :m
+  :eng: essay, rehearsal
+  :rnk: '1835'
+- :esp: plato
+  :gen: :m
+  :eng: plate, dish
+  :rnk: '1836'
+- :esp: jardín
+  :gen: :m
+  :eng: garden
+  :rnk: '1837'
+- :esp: imaginación
+  :gen: :f
+  :eng: imagination, fantasy
+  :rnk: '1838'
+- :esp: poesía
+  :gen: :f
+  :eng: poetry, poem
+  :rnk: '1841'
+- :esp: guardia
+  :gen: :c
+  :eng: guard, watch, lookout
+  :rnk: '1842'
+- :esp: privilegio
+  :gen: :m
+  :eng: privilege
+  :rnk: '1843'
+- :esp: monte
+  :gen: :m
+  :eng: mountain
+  :rnk: '1844'
+- :esp: precisión
+  :gen: :f
+  :eng: precision
+  :rnk: '1847'
+- :esp: sacrificio
+  :gen: :m
+  :eng: sacrifice
+  :rnk: '1848'
+- :esp: hilo
+  :gen: :m
+  :eng: thread, yarn, wire
+  :rnk: '1851'
+- :esp: aparición
+  :gen: :f
+  :eng: appearance, apparition
+  :rnk: '1854'
+- :esp: poema
+  :gen: :m
+  :eng: poem
+  :rnk: '1855'
+- :esp: curiosidad
+  :gen: :f
+  :eng: curiosity, quaintness
+  :rnk: '1857'
+- :esp: diente
+  :gen: :m
+  :eng: tooth, cog
+  :rnk: '1859'
+- :esp: primo
+  :gen: :m
+  :eng: cousin
+  :rnk: '1860'
+- :esp: apariencia
+  :gen: :f
+  :eng: appearance, aspect
+  :rnk: '1863'
+- :esp: novedad
+  :gen: :f
+  :eng: latest news, newness
+  :rnk: '1864'
+- :esp: castigo
+  :gen: :m
+  :eng: punishment, penalty
+  :rnk: '1867'
+- :esp: carro
+  :gen: :m
+  :eng: car, cart
+  :rnk: '1871'
+- :esp: aumento
+  :gen: :m
+  :eng: increase, rise
+  :rnk: '1873'
+- :esp: pobreza
+  :gen: :f
+  :eng: poverty, lack, scarcity
+  :rnk: '1874'
+- :esp: dólar
+  :gen: :m
+  :eng: dollar
+  :rnk: '1878'
+- :esp: local
+  :gen: :m
+  :eng: place, quarters
+  :rnk: '1880'
+- :esp: industria
+  :gen: :f
+  :eng: industry, factory
+  :rnk: '1884'
+- :esp: caballero
+  :gen: :m
+  :eng: gentleman, knight
+  :rnk: '1885'
+- :esp: especialista
+  :gen: :c
+  :eng: specialist
+  :rnk: '1886'
+- :esp: temporada
+  :gen: :f
+  :eng: season, period, time
+  :rnk: '1887'
+- :esp: humor
+  :gen: :m
+  :eng: mood, humor
+  :rnk: '1889'
+- :esp: nación
+  :gen: :f
+  :eng: nation
+  :rnk: '1891'
+- :esp: felicidad
+  :gen: :f
+  :eng: happiness
+  :rnk: '1892'
+- :esp: amante
+  :gen: :c
+  :eng: lover
+  :rnk: '1893'
+- :esp: cálculo
+  :gen: :m
+  :eng: calculation, calculus
+  :rnk: '1897'
+- :esp: composición
+  :gen: :f
+  :eng: composition, make-up, essay
+  :rnk: '1898'
+- :esp: rapidez
+  :gen: :f
+  :eng: "[also velocidad] speed, velocity"
+  :rnk: '1899'
+- :esp: huevo
+  :gen: :m
+  :eng: egg
+  :rnk: '1900'
+- :esp: crecimiento
+  :gen: :m
+  :eng: growth, increase
+  :rnk: '1902'
+- :esp: clave
+  :gen: :f
+  :eng: key
+  :rnk: '1903'
+- :esp: tragedia
+  :gen: :f
+  :eng: tragedy
+  :rnk: '1905'
+- :esp: colección
+  :gen: :f
+  :eng: collection
+  :rnk: '1906'
+- :esp: chica
+  :gen: :f
+  :eng: girl, female
+  :rnk: '1907'
+- :esp: prestigio
+  :gen: :m
+  :eng: prestige
+  :rnk: '1908'
+- :esp: sección
+  :gen: :f
+  :eng: section, cut
+  :rnk: '1910'
+- :esp: bolsa
+  :gen: :f
+  :eng: bag, purse, stock exchange
+  :rnk: '1915'
+- :esp: cinta
+  :gen: :f
+  :eng: tape, ribbon, film, strip
+  :rnk: '1916'
+- :esp: cuello
+  :gen: :m
+  :eng: neck, collar
+  :rnk: '1920'
+- :esp: continuación
+  :gen: :f
+  :eng: continuation, follow-up
+  :rnk: '1921'
+- :esp: actuación
+  :gen: :f
+  :eng: performance, acting
+  :rnk: '1924'
+- :esp: factor
+  :gen: :m
+  :eng: factor, cause, influence
+  :rnk: '1925'
+- :esp: esquina
+  :gen: :f
+  :eng: corner
+  :rnk: '1926'
+- :esp: hombro
+  :gen: :m
+  :eng: shoulder
+  :rnk: '1927'
+- :esp: infancia
+  :gen: :f
+  :eng: infancy, childhood
+  :rnk: '1928'
+- :esp: descanso
+  :gen: :m
+  :eng: rest, interval, break
+  :rnk: '1930'
+- :esp: zapato
+  :gen: :m
+  :eng: shoe
+  :rnk: '1932'
+- :esp: parecer
+  :gen: :m
+  :eng: opinion, looks
+  :rnk: '1933'
+- :esp: familiar
+  :gen: :m
+  :eng: relative
+  :rnk: '1934'
+- :esp: mérito
+  :gen: :m
+  :eng: worth, merit
+  :rnk: '1935'
+- :esp: muro
+  :gen: :m
+  :eng: outer wall, rampart
+  :rnk: '1942'
+- :esp: montón
+  :gen: :m
+  :eng: lot of, heap, pile
+  :rnk: '1946'
+- :esp: disco
+  :gen: :m
+  :eng: disc, disk, record
+  :rnk: '1948'
+- :esp: demanda
+  :gen: :f
+  :eng: petition, request, demand
+  :rnk: '1950'
+- :esp: mueble
+  :gen: :m
+  :eng: piece of furniture
+  :rnk: '1952'
+- :esp: desastre
+  :gen: :m
+  :eng: disaster
+  :rnk: '1953'
+- :esp: secreto
+  :gen: :m
+  :eng: secret
+  :rnk: '1954'
+- :esp: angustia
+  :gen: :f
+  :eng: anguish, distress
+  :rnk: '1957'
+- :esp: nube
+  :gen: :f
+  :eng: cloud
+  :rnk: '1961'
+- :esp: miseria
+  :gen: :f
+  :eng: misery, wretchedness
+  :rnk: '1963'
+- :esp: significado
+  :gen: :m
+  :eng: meaning
+  :rnk: '1966'
+- :esp: fama
+  :gen: :f
+  :eng: reputation, fame
+  :rnk: '1967'
+- :esp: palacio
+  :gen: :m
+  :eng: palace
+  :rnk: '1968'
+- :esp: oído
+  :gen: :m
+  :eng: hearing, ear
+  :rnk: '1969'
+- :esp: polvo
+  :gen: :m
+  :eng: dust, powder
+  :rnk: '1971'
+- :esp: sacerdote
+  :gen: :m
+  :eng: priest
+  :rnk: '1974'
+- :esp: lección
+  :gen: :f
+  :eng: lesson
+  :rnk: '1977'
+- :esp: rosa
+  :gen: :f
+  :eng: rose
+  :rnk: '1978'
+- :esp: olor
+  :gen: :m
+  :eng: smell, odor, fragrance
+  :rnk: '1986'
+- :esp: contrato
+  :gen: :m
+  :eng: contract, agreement
+  :rnk: '1989'
+- :esp: presentación
+  :gen: :f
+  :eng: presentation, introduction
+  :rnk: '1990'
+- :esp: cárcel
+  :gen: :f
+  :eng: jail, prison
+  :rnk: '1991'
+- :esp: división
+  :gen: :f
+  :eng: division
+  :rnk: '1992'
+- :esp: revés
+  :gen: :m
+  :eng: 'al revés: backwards, upside down, inside out'
+  :rnk: '1993'
+- :esp: cualidad
+  :gen: :f
+  :eng: quality, attribute
+  :rnk: '1997'
+- :esp: "índice"
+  :gen: :m
+  :eng: index, forefinger
+  :rnk: '2000'
+- :esp: atmósfera
+  :gen: :f
+  :eng: atmosphere, environment
+  :rnk: '2003'
+- :esp: planeta
+  :gen: :m
+  :eng: planet
+  :rnk: '2004'
+- :esp: orgullo
+  :gen: :m
+  :eng: pride
+  :rnk: '2006'
+- :esp: jornada
+  :gen: :f
+  :eng: working day, shift
+  :rnk: '2007'
+- :esp: palo
+  :gen: :m
+  :eng: stick, pole
+  :rnk: '2012'
+- :esp: diseño
+  :gen: :m
+  :eng: design
+  :rnk: '2013'
+- :esp: lógica
+  :gen: :f
+  :eng: logic
+  :rnk: '2015'
+- :esp: herencia
+  :gen: :f
+  :eng: inheritance, legacy
+  :rnk: '2016'
+- :esp: deporte
+  :gen: :m
+  :eng: sport
+  :rnk: '2019'
+- :esp: reina
+  :gen: :f
+  :eng: queen
+  :rnk: '2020'
+- :esp: bandera
+  :gen: :f
+  :eng: flag
+  :rnk: '2021'
+- :esp: maravilla
+  :gen: :f
+  :eng: wonder, marvel
+  :rnk: '2023'
+- :esp: banda
+  :gen: :f
+  :eng: musical band, sash
+  :rnk: '2025'
+- :esp: cristal
+  :gen: :m
+  :eng: glass, crystal, window
+  :rnk: '2026'
+- :esp: anécdota
+  :gen: :f
+  :eng: anecdote
+  :rnk: '2028'
+- :esp: leyenda
+  :gen: :f
+  :eng: legend
+  :rnk: '2031'
+- :esp: muerto
+  :gen: :m
+  :eng: dead person
+  :rnk: '2032'
+- :esp: azúcar
+  :gen: :m
+  :eng: sugar
+  :rnk: '2033'
+- :esp: inclinación
+  :gen: :f
+  :eng: slope, incline, tendency
+  :rnk: '2035'
+- :esp: rostro
+  :gen: :m
+  :eng: face, countenance
+  :rnk: '2040'
+- :esp: separación
+  :gen: :f
+  :eng: separation
+  :rnk: '2041'
+- :esp: eco
+  :gen: :m
+  :eng: echo, response
+  :rnk: '2042'
+- :esp: cita
+  :gen: :f
+  :eng: appointment, date, quotation
+  :rnk: '2045'
+- :esp: actualidad
+  :gen: :f
+  :eng: present time
+  :rnk: '2046'
+- :esp: fantasía
+  :gen: :f
+  :eng: fantasy, fancy
+  :rnk: '2050'
+- :esp: promesa
+  :gen: :f
+  :eng: promise
+  :rnk: '2051'
+- :esp: pata
+  :gen: :f
+  :eng: leg, paw
+  :rnk: '2052'
+- :esp: foto
+  :gen: :f
+  :eng: photo, picture
+  :rnk: '2054'
+- :esp: administración
+  :gen: :f
+  :eng: administration
+  :rnk: '2055'
+- :esp: civilización
+  :gen: :f
+  :eng: civilization
+  :rnk: '2057'
+- :esp: ocupación
+  :gen: :f
+  :eng: occupation, use
+  :rnk: '2059'
+- :esp: asiento
+  :gen: :m
+  :eng: seat, chair
+  :rnk: '2061'
+- :esp: pista
+  :gen: :f
+  :eng: clue, track, trace
+  :rnk: '2065'
+- :esp: testimonio
+  :gen: :m
+  :eng: testimony, evidence
+  :rnk: '2066'
+- :esp: regalo
+  :gen: :m
+  :eng: gift, present
+  :rnk: '2067'
+- :esp: contradicción
+  :gen: :f
+  :eng: contradiction
+  :rnk: '2073'
+- :esp: metal
+  :gen: :m
+  :eng: metal
+  :rnk: '2075'
+- :esp: aceite
+  :gen: :m
+  :eng: oil
+  :rnk: '2076'
+- :esp: código
+  :gen: :m
+  :eng: code
+  :rnk: '2078'
+- :esp: unión
+  :gen: :f
+  :eng: union
+  :rnk: '2081'
+- :esp: extensión
+  :gen: :f
+  :eng: extension, area, expanse
+  :rnk: '2082'
+- :esp: duro
+  :gen: :m
+  :eng: money
+  :rnk: '2083'
+- :esp: varón
+  :gen: :m
+  :eng: male, man
+  :rnk: '2088'
+- :esp: evidencia
+  :gen: :f
+  :eng: evidence, certainty
+  :rnk: '2091'
+- :esp: dignidad
+  :gen: :f
+  :eng: dignity
+  :rnk: '2092'
+- :esp: escándalo
+  :gen: :m
+  :eng: scandal
+  :rnk: '2093'
+- :esp: colega
+  :gen: :c
+  :eng: colleague
+  :rnk: '2094'
+- :esp: horario
+  :gen: :m
+  :eng: schedule, timetable
+  :rnk: '2095'
+- :esp: orilla
+  :gen: :f
+  :eng: shore, edge
+  :rnk: '2096'
+- :esp: copia
+  :gen: :f
+  :eng: copy
+  :rnk: '2098'
+- :esp: huella
+  :gen: :f
+  :eng: trace, track, footstep
+  :rnk: '2099'
+- :esp: ejemplar
+  :gen: :m
+  :eng: copy, issue
+  :rnk: '2101'
+- :esp: cura
+  :eng: cure
+  :gen: :f
+  :rnk: '2103'
+- :esp: cura
+  :eng: priest
+  :gen: :m
+  :rnk: '2103'
+- :esp: garantía
+  :gen: :f
+  :eng: guarantee, warranty
+  :rnk: '2106'
+- :esp: vaso
+  :gen: :m
+  :eng: drinking glass, vase
+  :rnk: '2107'
+- :esp: perfil
+  :gen: :m
+  :eng: profile, outline
+  :rnk: '2108'
+- :esp: proporción
+  :gen: :f
+  :eng: proportion
+  :rnk: '2109'
+- :esp: ceremonia
+  :gen: :f
+  :eng: ceremony
+  :rnk: '2111'
+- :esp: vidrio
+  :gen: :m
+  :eng: glass, pane
+  :rnk: '2112'
+- :esp: ruta
+  :gen: :f
+  :eng: route
+  :rnk: '2113'
+- :esp: anuncio
+  :gen: :m
+  :eng: advertisement, announcement
+  :rnk: '2114'
+- :esp: soledad
+  :gen: :f
+  :eng: loneliness, solitude
+  :rnk: '2116'
+- :esp: tesis
+  :gen: :f
+  :eng: thesis, exposition
+  :rnk: '2117'
+- :esp: rincón
+  :gen: :m
+  :eng: corner, nook
+  :rnk: '2118'
+- :esp: nariz
+  :gen: :f
+  :eng: nose
+  :rnk: '2119'
+- :esp: bolsillo
+  :gen: :m
+  :eng: pocket
+  :rnk: '2121'
+- :esp: asociación
+  :gen: :f
+  :eng: association
+  :rnk: '2123'
+- :esp: mando
+  :gen: :m
+  :eng: command, authority
+  :rnk: '2125'
+- :esp: sabor
+  :gen: :m
+  :eng: taste, flavor, sensation
+  :rnk: '2126'
+- :esp: década
+  :gen: :f
+  :eng: decade
+  :rnk: '2127'
+- :esp: preparación
+  :gen: :f
+  :eng: preparation, training
+  :rnk: '2128'
+- :esp: afecto
+  :gen: :m
+  :eng: affection, fondness
+  :rnk: '2132'
+- :esp: protesta
+  :gen: :f
+  :eng: objection, protest
+  :rnk: '2134'
+- :esp: patria
+  :gen: :f
+  :eng: native land, fatherland
+  :rnk: '2135'
+- :esp: consumo
+  :gen: :m
+  :eng: consumption
+  :rnk: '2136'
+- :esp: selva
+  :gen: :f
+  :eng: forest, jungle
+  :rnk: '2138'
+- :esp: deuda
+  :gen: :f
+  :eng: debt
+  :rnk: '2139'
+- :esp: horizonte
+  :gen: :m
+  :eng: horizon
+  :rnk: '2140'
+- :esp: talento
+  :gen: :m
+  :eng: talent, skill
+  :rnk: '2143'
+- :esp: gas
+  :gen: :m
+  :eng: gas
+  :rnk: '2144'
+- :esp: té
+  :gen: :m
+  :eng: tea
+  :rnk: '2145'
+- :esp: gloria
+  :gen: :f
+  :eng: glory, fame
+  :rnk: '2146'
+- :esp: candidato
+  :gen: :m
+  :eng: candidate
+  :rnk: '2149'
+- :esp: llave
+  :gen: :f
+  :eng: key, faucet, wrench
+  :rnk: '2150'
+- :esp: inconveniente
+  :gen: :m
+  :eng: inconvenience, drawback
+  :rnk: '2151'
+- :esp: afán
+  :gen: :m
+  :eng: eagerness, zeal, effort
+  :rnk: '2152'
+- :esp: comisión
+  :gen: :f
+  :eng: commission, committee
+  :rnk: '2155'
+- :esp: posesión
+  :gen: :f
+  :eng: possession
+  :rnk: '2158'
+- :esp: dama
+  :gen: :f
+  :eng: lady, dame
+  :rnk: '2159'
+- :esp: onda
+  :gen: :f
+  :eng: wave, ripple
+  :rnk: '2160'
+- :esp: botella
+  :gen: :f
+  :eng: bottle, flask
+  :rnk: '2161'
+- :esp: torre
+  :gen: :f
+  :eng: tower
+  :rnk: '2162'
+- :esp: combinación
+  :gen: :f
+  :eng: combination
+  :rnk: '2164'
+- :esp: cadáver
+  :gen: :m
+  :eng: corpse, body
+  :rnk: '2165'
+- :esp: paquete
+  :gen: :m
+  :eng: package, packet
+  :rnk: '2166'
+- :esp: apellido
+  :gen: :m
+  :eng: last name
+  :rnk: '2167'
+- :esp: conferencia
+  :gen: :f
+  :eng: conference, lecture
+  :rnk: '2171'
+- :esp: propuesta
+  :gen: :f
+  :eng: proposal, proposition
+  :rnk: '2173'
+- :esp: intensidad
+  :gen: :f
+  :eng: intensity, force
+  :rnk: '2174'
+- :esp: explosión
+  :gen: :f
+  :eng: explosion
+  :rnk: '2175'
+- :esp: odio
+  :gen: :m
+  :eng: hatred
+  :rnk: '2177'
+- :esp: universo
+  :gen: :m
+  :eng: universe
+  :rnk: '2179'
+- :esp: milagro
+  :gen: :m
+  :eng: miracle
+  :rnk: '2181'
+- :esp: entrega
+  :gen: :f
+  :eng: delivery
+  :rnk: '2182'
+- :esp: mapa
+  :gen: :m
+  :eng: map
+  :rnk: '2185'
+- :esp: héroe
+  :gen: :m
+  :eng: hero
+  :rnk: '2186'
+- :esp: tráfico
+  :gen: :m
+  :eng: traffic, trade
+  :rnk: '2188'
+- :esp: terror
+  :gen: :m
+  :eng: terror, horror
+  :rnk: '2189'
+- :esp: casualidad
+  :gen: :f
+  :eng: chance, coincidence
+  :rnk: '2190'
+- :esp: risa
+  :gen: :f
+  :eng: laugh, chuckle
+  :rnk: '2192'
+- :esp: cuerda
+  :gen: :f
+  :eng: cord, rope
+  :rnk: '2193'
+- :esp: consulta
+  :gen: :f
+  :eng: consultation, advice
+  :rnk: '2194'
+- :esp: edición
+  :gen: :f
+  :eng: edition, publication
+  :rnk: '2195'
+- :esp: rayo
+  :gen: :m
+  :eng: ray, beam, lightning
+  :rnk: '2197'
+- :esp: tía
+  :gen: :f
+  :eng: aunt
+  :rnk: '2199'
+- :esp: adulto
+  :gen: :m
+  :eng: adult, grown-up
+  :rnk: '2200'
+- :esp: voto
+  :gen: :m
+  :eng: vote
+  :rnk: '2201'
+- :esp: calma
+  :gen: :f
+  :eng: calm, lull
+  :rnk: '2202'
+- :esp: oferta
+  :gen: :f
+  :eng: offer, bid, supply
+  :rnk: '2205'
+- :esp: vergüenza
+  :gen: :f
+  :eng: embarrassment
+  :rnk: '2206'
+- :esp: ave
+  :gen: :m
+  :eng: "[also pájaro] bird"
+  :rnk: '2207'
+- :esp: rodilla
+  :gen: :f
+  :eng: knee
+  :rnk: '2208'
+- :esp: paseo
+  :gen: :m
+  :eng: walk, ride
+  :rnk: '2209'
+- :esp: registro
+  :gen: :m
+  :eng: register, record
+  :rnk: '2214'
+- :esp: pintor
+  :gen: :a
+  :eng: painter
+  :rnk: '2218'
+- :esp: delito
+  :gen: :m
+  :eng: crime, offense
+  :rnk: '2219'
+- :esp: vestido
+  :gen: :m
+  :eng: dress
+  :rnk: '2220'
+- :esp: relato
+  :gen: :m
+  :eng: tale, story
+  :rnk: '2221'
+- :esp: baile
+  :gen: :m
+  :eng: dance, ball
+  :rnk: '2222'
+- :esp: misterio
+  :gen: :m
+  :eng: mystery
+  :rnk: '2223'
+- :esp: ciclo
+  :gen: :m
+  :eng: cycle
+  :rnk: '2225'
+- :esp: síntoma
+  :gen: :m
+  :eng: symptom
+  :rnk: '2228'
+- :esp: amenaza
+  :gen: :f
+  :eng: threat
+  :rnk: '2229'
+- :esp: recorrido
+  :gen: :m
+  :eng: journey, itinerary, route
+  :rnk: '2231'
+- :esp: concepción
+  :gen: :f
+  :eng: conception
+  :rnk: '2232'
+- :esp: tristeza
+  :gen: :f
+  :eng: sadness
+  :rnk: '2233'
+- :esp: vaca
+  :gen: :f
+  :eng: cow
+  :rnk: '2234'
+- :esp: criatura
+  :gen: :f
+  :eng: creature, child
+  :rnk: '2235'
+- :esp: creencia
+  :gen: :f
+  :eng: belief
+  :rnk: '2236'
+- :esp: núcleo
+  :gen: :m
+  :eng: nucleus, core
+  :rnk: '2238'
+- :esp: perdón
+  :gen: :m
+  :eng: forgiveness, pardon
+  :rnk: '2240'
+- :esp: madrugada
+  :gen: :f
+  :eng: "[also alba] dawn, daybreak"
+  :rnk: '2241'
+- :esp: obrero
+  :gen: :a
+  :eng: "[also trabajador] worker, laborer"
+  :rnk: '2243'
+- :esp: cariño
+  :gen: :m
+  :eng: love, affection
+  :rnk: '2246'
+- :esp: "ángel"
+  :gen: :m
+  :eng: angel
+  :rnk: '2248'
+- :esp: rigor
+  :gen: :m
+  :eng: harshness, rigor
+  :rnk: '2249'
+- :esp: contraste
+  :gen: :m
+  :eng: contrast
+  :rnk: '2251'
+- :esp: turno
+  :gen: :m
+  :eng: 'turn, shift; en turno a: around'
+  :rnk: '2252'
+- :esp: reino
+  :gen: :m
+  :eng: kingdom, reign
+  :rnk: '2255'
+- :esp: funcionamiento
+  :gen: :m
+  :eng: functioning, operation
+  :rnk: '2258'
+- :esp: auto
+  :gen: :m
+  :eng: auto, car
+  :rnk: '2259'
+- :esp: ala
+  :gen: :f_el
+  :eng: wing, flank
+  :rnk: '2260'
+- :esp: debate
+  :gen: :m
+  :eng: debate
+  :rnk: '2261'
+- :esp: aplicación
+  :gen: :f
+  :eng: application
+  :rnk: '2263'
+- :esp: laboratorio
+  :gen: :m
+  :eng: laboratory
+  :rnk: '2264'
+- :esp: vendedor
+  :gen: :a
+  :eng: salesperson
+  :rnk: '2266'
+- :esp: copa
+  :gen: :f
+  :eng: cup, glass, top of a tree
+  :rnk: '2267'
+- :esp: tratado
+  :gen: :m
+  :eng: treaty, treatise
+  :rnk: '2270'
+- :esp: rechazo
+  :gen: :m
+  :eng: rejection, refusal
+  :rnk: '2275'
+- :esp: totalidad
+  :gen: :f
+  :eng: whole, totality
+  :rnk: '2276'
+- :esp: papá
+  :gen: :m
+  :eng: dad
+  :rnk: '2281'
+- :esp: mamá
+  :gen: :f
+  :eng: mom
+  :rnk: '2286'
+- :esp: vela
+  :gen: :f
+  :eng: candle, sail, vigil
+  :rnk: '2287'
+- :esp: establecimiento
+  :gen: :m
+  :eng: establishment
+  :rnk: '2289'
+- :esp: matiz
+  :gen: :m
+  :eng: shade, tint, nuance
+  :rnk: '2291'
+- :esp: meta
+  :gen: :f
+  :eng: goal, aim, purpose
+  :rnk: '2293'
+- :esp: comodidad
+  :gen: :f
+  :eng: comfort, convenience
+  :rnk: '2296'
+- :esp: pariente
+  :gen: :c
+  :eng: relative
+  :rnk: '2297'
+- :esp: distribución
+  :gen: :f
+  :eng: distribution
+  :rnk: '2299'
+- :esp: invitación
+  :gen: :f
+  :eng: invitation
+  :rnk: '2300'
+- :esp: destrucción
+  :gen: :f
+  :eng: destruction
+  :rnk: '2301'
+- :esp: opción
+  :gen: :f
+  :eng: option, choice
+  :rnk: '2305'
+- :esp: máximo
+  :gen: :m
+  :eng: maximum
+  :rnk: '2308'
+- :esp: tarjeta
+  :gen: :f
+  :eng: card
+  :rnk: '2309'
+- :esp: fase
+  :gen: :f
+  :eng: phase, stage
+  :rnk: '2310'
+- :esp: tropa
+  :gen: :f
+  :eng: troops, forces
+  :rnk: '2312'
+- :esp: socio
+  :gen: :m
+  :eng: member, partner
+  :rnk: '2314'
+- :esp: guía
+  :gen: :c
+  :eng: guide, leader
+  :rnk: '2318'
+- :esp: hielo
+  :gen: :m
+  :eng: ice
+  :rnk: '2321'
+- :esp: primavera
+  :gen: :f
+  :eng: spring, spring-like
+  :rnk: '2325'
+- :esp: simpatía
+  :gen: :f
+  :eng: sympathy, affinity
+  :rnk: '2327'
+- :esp: centímetro
+  :gen: :m
+  :eng: centimeter
+  :rnk: '2329'
+- :esp: pantalla
+  :gen: :f
+  :eng: screen, monitor
+  :rnk: '2330'
+- :esp: toro
+  :gen: :m
+  :eng: bull
+  :rnk: '2331'
+- :esp: cultivo
+  :gen: :m
+  :eng: cultivation, crop
+  :rnk: '2333'
+- :esp: horror
+  :gen: :m
+  :eng: horror, atrocity
+  :rnk: '2334'
+- :esp: bienestar
+  :gen: :m
+  :eng: wellbeing, welfare
+  :rnk: '2335'
+- :esp: paciencia
+  :gen: :f
+  :eng: patience
+  :rnk: '2336'
+- :esp: convicción
+  :gen: :f
+  :eng: conviction
+  :rnk: '2339'
+- :esp: uniforme
+  :gen: :m
+  :eng: uniform
+  :rnk: '2341'
+- :esp: media
+  :gen: :f
+  :eng: 'average; a m.: halfways'
+  :rnk: '2342'
+- :esp: mínimo
+  :gen: :m
+  :eng: minimum
+  :rnk: '2343'
+- :esp: compañera
+  :gen: :f
+  :eng: female companion
+  :rnk: '2346'
+- :esp: drama
+  :gen: :m
+  :eng: drama
+  :rnk: '2350'
+- :esp: doble
+  :gen: :m
+  :eng: double
+  :rnk: '2354'
+- :esp: episodio
+  :gen: :m
+  :eng: episode, incident
+  :rnk: '2355'
+- :esp: afirmación
+  :gen: :f
+  :eng: statement, assertion
+  :rnk: '2357'
+- :esp: bar
+  :gen: :m
+  :eng: snack bar, café
+  :rnk: '2359'
+- :esp: liberación
+  :gen: :f
+  :eng: liberation
+  :rnk: '2361'
+- :esp: estancia
+  :gen: :f
+  :eng: stay, stance, ranch
+  :rnk: '2364'
+- :esp: variedad
+  :gen: :f
+  :eng: variety
+  :rnk: '2368'
+- :esp: capitán
+  :gen: :m
+  :eng: captain, chief
+  :rnk: '2370'
+- :esp: droga
+  :gen: :f
+  :eng: drug
+  :rnk: '2371'
+- :esp: taller
+  :gen: :m
+  :eng: workshop, shop
+  :rnk: '2373'
+- :esp: desorden
+  :gen: :m
+  :eng: disorder, mess
+  :rnk: '2374'
+- :esp: esclavo
+  :gen: :m
+  :eng: slave
+  :rnk: '2377'
+- :esp: manejo
+  :gen: :m
+  :eng: handling, management
+  :rnk: '2385'
+- :esp: lágrima
+  :gen: :f
+  :eng: tear, teardrop
+  :rnk: '2386'
+- :esp: colaboración
+  :gen: :f
+  :eng: collaboration
+  :rnk: '2387'
+- :esp: "ángulo"
+  :gen: :m
+  :eng: angle
+  :rnk: '2389'
+- :esp: impacto
+  :gen: :m
+  :eng: impact
+  :rnk: '2390'
+- :esp: urgencia
+  :gen: :f
+  :eng: urgency
+  :rnk: '2391'
+- :esp: creador
+  :gen: :m
+  :eng: creator
+  :rnk: '2393'
+- :esp: luna
+  :gen: :f
+  :eng: moon
+  :rnk: '2394'
+- :esp: instalación
+  :gen: :f
+  :eng: installation, facilities
+  :rnk: '2395'
+- :esp: homenaje
+  :gen: :m
+  :eng: homage, tribute
+  :rnk: '2396'
+- :esp: ruina
+  :gen: :f
+  :eng: ruin, collapse
+  :rnk: '2397'
+- :esp: azar
+  :gen: :m
+  :eng: random, chance, hazard
+  :rnk: '2400'
+- :esp: ola
+  :gen: :f
+  :eng: wave, billow
+  :rnk: '2406'
+- :esp: oreja
+  :gen: :f
+  :eng: ear
+  :rnk: '2407'
+- :esp: abuela
+  :gen: :f
+  :eng: grandmother
+  :rnk: '2408'
+- :esp: doña
+  :gen: :f
+  :eng: courtesy title, Mrs.
+  :rnk: '2410'
+- :esp: arco
+  :gen: :m
+  :eng: arch, arc, bow
+  :rnk: '2412'
+- :esp: oriente
+  :gen: :m
+  :eng: East
+  :rnk: '2413'
+- :esp: rumbo
+  :gen: :m
+  :eng: direction, course, bearing
+  :rnk: '2414'
+- :esp: ejecución
+  :gen: :f
+  :eng: performance, execution
+  :rnk: '2415'
+- :esp: caos
+  :gen: :m
+  :eng: chaos
+  :rnk: '2419'
+- :esp: colonia
+  :gen: :f
+  :eng: colony, cologne
+  :rnk: '2420'
+- :esp: alcohol
+  :gen: :m
+  :eng: alcohol
+  :rnk: '2421'
+- :esp: nieve
+  :gen: :f
+  :eng: snow
+  :rnk: '2423'
+- :esp: multitud
+  :gen: :f
+  :eng: multitude
+  :rnk: '2424'
+- :esp: ganado
+  :gen: :m
+  :eng: livestock, cattle
+  :rnk: '2425'
+- :esp: pez
+  :gen: :m
+  :eng: fish (alive)
+  :rnk: '2426'
+- :esp: líder
+  :gen: :c
+  :eng: leader
+  :rnk: '2427'
+- :esp: club
+  :gen: :m
+  :eng: club, society
+  :rnk: '2429'
+- :esp: desierto
+  :gen: :m
+  :eng: desert
+  :rnk: '2431'
+- :esp: escritura
+  :gen: :f
+  :eng: writing, scripture
+  :rnk: '2432'
+- :esp: danza
+  :gen: :f
+  :eng: dance
+  :rnk: '2434'
+- :esp: concierto
+  :gen: :m
+  :eng: concert, concerto
+  :rnk: '2435'
+- :esp: partidario
+  :gen: :m
+  :eng: supporter, partisan
+  :rnk: '2436'
+- :esp: templo
+  :gen: :m
+  :eng: temple, church
+  :rnk: '2437'
+- :esp: líquido
+  :gen: :m
+  :eng: liquid
+  :rnk: '2438'
+- :esp: debilidad
+  :gen: :f
+  :eng: weakness
+  :rnk: '2439'
+- :esp: ambición
+  :gen: :f
+  :eng: ambition
+  :rnk: '2440'
+- :esp: locura
+  :gen: :f
+  :eng: madness, insanity
+  :rnk: '2441'
+- :esp: comerciante
+  :gen: :c
+  :eng: merchant, businessman
+  :rnk: '2442'
+- :esp: camisa
+  :gen: :f
+  :eng: shirt
+  :rnk: '2443'
+- :esp: pluma
+  :gen: :f
+  :eng: pen, feather
+  :rnk: '2444'
+- :esp: pelota
+  :gen: :f
+  :eng: ball
+  :rnk: '2445'
+- :esp: pasaje
+  :gen: :m
+  :eng: fare, passage, lane
+  :rnk: '2446'
+- :esp: limpieza
+  :gen: :f
+  :eng: cleanliness, purity
+  :rnk: '2447'
+- :esp: admiración
+  :gen: :f
+  :eng: admiration
+  :rnk: '2448'
+- :esp: fantasma
+  :gen: :m
+  :eng: ghost, phantom
+  :rnk: '2449'
+- :esp: transformación
+  :gen: :f
+  :eng: transformation
+  :rnk: '2450'
+- :esp: caza
+  :gen: :f
+  :eng: hunting (game)
+  :rnk: '2451'
+- :esp: almacén
+  :gen: :m
+  :eng: warehouse, store
+  :rnk: '2455'
+- :esp: expectativa
+  :gen: :f
+  :eng: expectation, hope, prospect
+  :rnk: '2456'
+- :esp: ruptura
+  :gen: :f
+  :eng: break-up, rupture
+  :rnk: '2457'
+- :esp: inversión
+  :gen: :f
+  :eng: investment, outlay
+  :rnk: '2458'
+- :esp: herida
+  :gen: :f
+  :eng: wound, injury
+  :rnk: '2460'
+- :esp: hipótesis
+  :gen: :f
+  :eng: hypothesis
+  :rnk: '2461'
+- :esp: giro
+  :gen: :m
+  :eng: turn, draft, expression
+  :rnk: '2465'
+- :esp: esquema
+  :gen: :m
+  :eng: outline, diagram, plan
+  :rnk: '2466'
+- :esp: mito
+  :gen: :m
+  :eng: myth
+  :rnk: '2467'
+- :esp: oscuridad
+  :gen: :f
+  :eng: darkness
+  :rnk: '2468'
+- :esp: pensión
+  :gen: :f
+  :eng: boarding house
+  :rnk: '2469'
+- :esp: desaparición
+  :gen: :f
+  :eng: disappearance
+  :rnk: '2470'
+- :esp: bloque
+  :gen: :m
+  :eng: block
+  :rnk: '2480'
+- :esp: cierre
+  :gen: :m
+  :eng: zipper, closing
+  :rnk: '2481'
+- :esp: broma
+  :gen: :f
+  :eng: joke
+  :rnk: '2482'
+- :esp: tumba
+  :gen: :f
+  :eng: tomb, grave
+  :rnk: '2485'
+- :esp: despacho
+  :gen: :m
+  :eng: office, study
+  :rnk: '2487'
+- :esp: viuda
+  :gen: :f
+  :eng: widow
+  :rnk: '2488'
+- :esp: pantalón
+  :gen: :m
+  :eng: pants, trousers
+  :rnk: '2489'
+- :esp: intercambio
+  :gen: :m
+  :eng: exchange, interchange
+  :rnk: '2490'
+- :esp: mancha
+  :gen: :f
+  :eng: stain, spot
+  :rnk: '2491'
+- :esp: retrato
+  :gen: :m
+  :eng: portrait, photograph
+  :rnk: '2492'
+- :esp: lata
+  :gen: :f
+  :eng: tin can
+  :rnk: '2493'
+- :esp: combate
+  :gen: :m
+  :eng: combat, battle, fight
+  :rnk: '2494'
+- :esp: instancia
+  :gen: :f
+  :eng: instance
+  :rnk: '2495'
+- :esp: roca
+  :gen: :f
+  :eng: rock
+  :rnk: '2497'
+- :esp: herramienta
+  :gen: :f
+  :eng: tool
+  :rnk: '2498'
+- :esp: panorama
+  :gen: :m
+  :eng: panorama, landscape
+  :rnk: '2500'
+- :esp: camión
+  :gen: :m
+  :eng: truck, van, tanker
+  :rnk: '2503'
+- :esp: olvido
+  :gen: :m
+  :eng: forgetfulness, omission
+  :rnk: '2504'
+- :esp: estrategia
+  :gen: :f
+  :eng: strategy
+  :rnk: '2505'
+- :esp: muchacha
+  :gen: :f
+  :eng: girl
+  :rnk: '2506'
+- :esp: propaganda
+  :gen: :f
+  :eng: advertising, propaganda
+  :rnk: '2508'
+- :esp: misa
+  :gen: :f
+  :eng: religious mass
+  :rnk: '2510'
+- :esp: inicio
+  :gen: :m
+  :eng: beginning, start
+  :rnk: '2512'
+- :esp: fútbol
+  :gen: :m
+  :eng: soccer
+  :rnk: '2513'
+- :esp: esfera
+  :gen: :f
+  :eng: sphere, globe
+  :rnk: '2514'
+- :esp: arquitectura
+  :gen: :f
+  :eng: architecture
+  :rnk: '2516'
+- :esp: especialidad
+  :gen: :f
+  :eng: specialty, specialized field
+  :rnk: '2517'
+- :esp: músico
+  :gen: :a
+  :eng: musician
+  :rnk: '2518'
+- :esp: eje
+  :gen: :m
+  :eng: axis, shaft, crux
+  :rnk: '2521'
+- :esp: abandono
+  :gen: :m
+  :eng: abandonment, desertion
+  :rnk: '2524'
+- :esp: museo
+  :gen: :m
+  :eng: museum
+  :rnk: '2525'
+- :esp: propietario
+  :gen: :m
+  :eng: owner
+  :rnk: '2526'
+- :esp: trozo
+  :gen: :m
+  :eng: piece, chunk
+  :rnk: '2527'
+- :esp: armonía
+  :gen: :f
+  :eng: harmony
+  :rnk: '2529'
+- :esp: pacto
+  :gen: :m
+  :eng: pact, agreement
+  :rnk: '2530'
+- :esp: selección
+  :gen: :f
+  :eng: selection, choice
+  :rnk: '2533'
+- :esp: protagonista
+  :gen: :c
+  :eng: protagonist, main character
+  :rnk: '2536'
+- :esp: ferrocarril
+  :gen: :m
+  :eng: railway
+  :rnk: '2537'
+- :esp: intimidad
+  :gen: :f
+  :eng: private life, intimacy
+  :rnk: '2540'
+- :esp: nave
+  :gen: :f
+  :eng: spacecraft, ship
+  :rnk: '2542'
+- :esp: oración
+  :gen: :f
+  :eng: prayer
+  :rnk: '2543'
+- :esp: cansancio
+  :gen: :m
+  :eng: tiredness, weariness
+  :rnk: '2544'
+- :esp: tejido
+  :gen: :m
+  :eng: fabric, tissue
+  :rnk: '2547'
+- :esp: trampa
+  :gen: :f
+  :eng: 'trick, trap; hacer trampa: to cheat'
+  :rnk: '2548'
+- :esp: descripción
+  :gen: :f
+  :eng: description
+  :rnk: '2550'
+- :esp: pecado
+  :gen: :m
+  :eng: sin
+  :rnk: '2551'
+- :esp: injusticia
+  :gen: :f
+  :eng: injustice
+  :rnk: '2554'
+- :esp: adiós
+  :gen: :m
+  :eng: goodbye
+  :rnk: '2557'
+- :esp: tabaco
+  :gen: :m
+  :eng: tobacco, cigarette, cigar
+  :rnk: '2560'
+- :esp: suceso
+  :gen: :m
+  :eng: event, incident
+  :rnk: '2563'
+- :esp: antecedente
+  :gen: :m
+  :eng: antecedent
+  :rnk: '2567'
+- :esp: barrera
+  :gen: :f
+  :eng: barrier, obstacle
+  :rnk: '2568'
+- :esp: tribunal
+  :gen: :m
+  :eng: court
+  :rnk: '2571'
+- :esp: invasión
+  :gen: :f
+  :eng: invasion
+  :rnk: '2573'
+- :esp: dependencia
+  :gen: :f
+  :eng: dependence, dependency
+  :rnk: '2575'
+- :esp: democracia
+  :gen: :f
+  :eng: democracy
+  :rnk: '2576'
+- :esp: limitación
+  :gen: :f
+  :eng: limitation
+  :rnk: '2581'
+- :esp: invitado
+  :gen: :m
+  :eng: guest
+  :rnk: '2583'
+- :esp: pescado
+  :gen: :m
+  :eng: fish (cooked)
+  :rnk: '2584'
+- :esp: obstáculo
+  :gen: :m
+  :eng: obstacle
+  :rnk: '2588'
+- :esp: aspiración
+  :gen: :f
+  :eng: ambition, aspiration
+  :rnk: '2589'
+- :esp: corredor
+  :gen: :a
+  :eng: broker, corridor, runner
+  :rnk: '2591'
+- :esp: resumen
+  :gen: :m
+  :eng: summary
+  :rnk: '2593'
+- :esp: basura
+  :gen: :f
+  :eng: garbage, rubbish
+  :rnk: '2594'
+- :esp: escalera
+  :gen: :f
+  :eng: stairs, ladder
+  :rnk: '2595'
+- :esp: gravedad
+  :gen: :f
+  :eng: seriousness, gravity
+  :rnk: '2596'
+- :esp: fundamento
+  :gen: :m
+  :eng: foundation, ground
+  :rnk: '2597'
+- :esp: sustancia
+  :gen: :f
+  :eng: substance, essence
+  :rnk: '2598'
+- :esp: derrota
+  :gen: :f
+  :eng: defeat, loss
+  :rnk: '2601'
+- :esp: sospecha
+  :gen: :f
+  :eng: suspicion
+  :rnk: '2602'
+- :esp: huelga
+  :gen: :f
+  :eng: strike, protest
+  :rnk: '2604'
+- :esp: abuso
+  :gen: :m
+  :eng: abuse, misuse
+  :rnk: '2605'
+- :esp: arreglo
+  :gen: :m
+  :eng: arrangement
+  :rnk: '2607'
+- :esp: sal
+  :gen: :f
+  :eng: salt
+  :rnk: '2608'
+- :esp: dosis
+  :gen: :f
+  :eng: dose
+  :rnk: '2609'
+- :esp: acento
+  :gen: :m
+  :eng: accent, stress
+  :rnk: '2610'
+- :esp: aviso
+  :gen: :m
+  :eng: warning
+  :rnk: '2611'
+- :esp: lazo
+  :gen: :m
+  :eng: bow, knot, tie, lasso
+  :rnk: '2612'
+- :esp: entorno
+  :gen: :m
+  :eng: environment, surroundings
+  :rnk: '2614'
+- :esp: nieto
+  :gen: :m
+  :eng: grandchild
+  :rnk: '2615'
+- :esp: príncipe
+  :gen: :m
+  :eng: prince
+  :rnk: '2616'
+- :esp: mediodía
+  :gen: :m
+  :eng: noon, midday
+  :rnk: '2618'
+- :esp: gota
+  :gen: :f
+  :eng: drop
+  :rnk: '2619'
+- :esp: cajón
+  :gen: :m
+  :eng: drawer
+  :rnk: '2620'
+- :esp: señorita
+  :gen: :f
+  :eng: young woman
+  :rnk: '2622'
+- :esp: preferencia
+  :gen: :f
+  :eng: preference
+  :rnk: '2623'
+- :esp: pozo
+  :gen: :m
+  :eng: well, shaft
+  :rnk: '2625'
+- :esp: rumor
+  :gen: :m
+  :eng: rumor, murmur
+  :rnk: '2626'
+- :esp: concurso
+  :gen: :m
+  :eng: competition, gathering
+  :rnk: '2628'
+- :esp: tesoro
+  :gen: :m
+  :eng: treasure, thesaurus
+  :rnk: '2629'
+- :esp: presupuesto
+  :gen: :m
+  :eng: budget
+  :rnk: '2630'
+- :esp: vigilancia
+  :gen: :f
+  :eng: surveillance, vigilance
+  :rnk: '2632'
+- :esp: presa
+  :gen: :f
+  :eng: dam, prisoner
+  :rnk: '2635'
+- :esp: estómago
+  :gen: :m
+  :eng: stomach
+  :rnk: '2636'
+- :esp: bola
+  :gen: :f
+  :eng: ball, sphere
+  :rnk: '2639'
+- :esp: determinación
+  :gen: :f
+  :eng: determination
+  :rnk: '2640'
+- :esp: reforma
+  :gen: :f
+  :eng: reform, improvement
+  :rnk: '2641'
+- :esp: verso
+  :gen: :m
+  :eng: verse, poem
+  :rnk: '2643'
+- :esp: requisito
+  :gen: :m
+  :eng: prerequisite, requirement
+  :rnk: '2644'
+- :esp: adolescente
+  :gen: :c
+  :eng: adolescent
+  :rnk: '2645'
+- :esp: kilo
+  :gen: :m
+  :eng: kilogram
+  :rnk: '2648'
+- :esp: conquista
+  :gen: :f
+  :eng: conquest
+  :rnk: '2650'
+- :esp: filósofo
+  :gen: :m
+  :eng: philosopher
+  :rnk: '2653'
+- :esp: genio
+  :gen: :m
+  :eng: genius, disposition
+  :rnk: '2654'
+- :esp: sucesión
+  :gen: :f
+  :eng: succession, series
+  :rnk: '2655'
+- :esp: componente
+  :gen: :m
+  :eng: component, ingredient
+  :rnk: '2656'
+- :esp: sufrimiento
+  :gen: :m
+  :eng: suffering
+  :rnk: '2658'
+- :esp: entidad
+  :gen: :f
+  :eng: entity
+  :rnk: '2660'
+- :esp: saludo
+  :gen: :m
+  :eng: greeting
+  :rnk: '2661'
+- :esp: certeza
+  :gen: :f
+  :eng: certainty
+  :rnk: '2663'
+- :esp: depósito
+  :gen: :m
+  :eng: deposit, sediment
+  :rnk: '2664'
+- :esp: pasillo
+  :gen: :m
+  :eng: hall, corridor
+  :rnk: '2666'
+- :esp: solidaridad
+  :gen: :f
+  :eng: solidarity, togetherness
+  :rnk: '2668'
+- :esp: papa
+  :eng: Pope
+  :gen: :m
+  :rnk: '2669'
+- :esp: papa
+  :eng: potato
+  :gen: :f
+  :rnk: '2669'
+- :esp: geografía
+  :gen: :f
+  :eng: geography
+  :rnk: '2670'
+- :esp: juguete
+  :gen: :m
+  :eng: toy
+  :rnk: '2672'
+- :esp: chiste
+  :gen: :m
+  :eng: joke, funny story
+  :rnk: '2674'
+- :esp: aprendizaje
+  :gen: :m
+  :eng: learning, apprenticeship
+  :rnk: '2675'
+- :esp: esposo
+  :gen: :m
+  :eng: husband, spouse
+  :rnk: '2676'
+- :esp: boda
+  :gen: :f
+  :eng: marriage, wedding
+  :rnk: '2677'
+- :esp: fresco
+  :gen: :m
+  :eng: freshness, coolness
+  :rnk: '2679'
+- :esp: lago
+  :gen: :m
+  :eng: lake
+  :rnk: '2680'
+- :esp: orientación
+  :gen: :f
+  :eng: orientation, direction
+  :rnk: '2683'
+- :esp: madurez
+  :gen: :f
+  :eng: maturity, ripeness
+  :rnk: '2684'
+- :esp: demostración
+  :gen: :f
+  :eng: demonstration
+  :rnk: '2687'
+- :esp: cumplimiento
+  :gen: :m
+  :eng: fulfillment, compliment
+  :rnk: '2691'
+- :esp: respaldo
+  :gen: :m
+  :eng: support, backing, back
+  :rnk: '2692'
+- :esp: incendio
+  :gen: :m
+  :eng: fire, conflagration
+  :rnk: '2695'
+- :esp: joya
+  :gen: :f
+  :eng: jewel, treasure
+  :rnk: '2698'
+- :esp: cementerio
+  :gen: :m
+  :eng: cemetery, graveyard
+  :rnk: '2700'
+- :esp: publicación
+  :gen: :f
+  :eng: publication
+  :rnk: '2702'
+- :esp: variación
+  :gen: :f
+  :eng: variation
+  :rnk: '2703'
+- :esp: promoción
+  :gen: :f
+  :eng: promotion
+  :rnk: '2706'
+- :esp: sentencia
+  :gen: :f
+  :eng: legal sentence, judgment
+  :rnk: '2709'
+- :esp: resolución
+  :gen: :f
+  :eng: resolution
+  :rnk: '2711'
+- :esp: coincidencia
+  :gen: :f
+  :eng: coincidence
+  :rnk: '2713'
+- :esp: estímulo
+  :gen: :m
+  :eng: stimulus, encouragement
+  :rnk: '2714'
+- :esp: barra
+  :gen: :f
+  :eng: bar, rod, rail
+  :rnk: '2721'
+- :esp: novia
+  :gen: :f
+  :eng: girlfriend, bride
+  :rnk: '2726'
+- :esp: piano
+  :gen: :m
+  :eng: piano
+  :rnk: '2727'
+- :esp: pretensión
+  :gen: :f
+  :eng: pretension, claim
+  :rnk: '2728'
+- :esp: habla
+  :gen: :f_el
+  :eng: speech, talking
+  :rnk: '2729'
+- :esp: novio
+  :gen: :m
+  :eng: boyfriend, groom
+  :rnk: '2730'
+- :esp: espectador
+  :gen: :m
+  :eng: spectator, onlooker
+  :rnk: '2732'
+- :esp: bota
+  :gen: :f
+  :eng: boot, wineskin
+  :rnk: '2735'
+- :esp: pretexto
+  :gen: :m
+  :eng: pretext, excuse
+  :rnk: '2737'
+- :esp: fiebre
+  :gen: :f
+  :eng: fever, excitement
+  :rnk: '2739'
+- :esp: síntesis
+  :gen: :f
+  :eng: synthesis
+  :rnk: '2742'
+- :esp: nervio
+  :gen: :m
+  :eng: nerve
+  :rnk: '2744'
+- :esp: científico
+  :gen: :a
+  :eng: scientist
+  :rnk: '2745'
+- :esp: grano
+  :gen: :m
+  :eng: grain, kernel
+  :rnk: '2748'
+- :esp: asistencia
+  :gen: :f
+  :eng: attendance, assistance
+  :rnk: '2751'
+- :esp: sonrisa
+  :gen: :f
+  :eng: smile
+  :rnk: '2754'
+- :esp: león
+  :gen: :m
+  :eng: lion
+  :rnk: '2756'
+- :esp: aceptación
+  :gen: :f
+  :eng: acceptance, approval
+  :rnk: '2758'
+- :esp: labio
+  :gen: :m
+  :eng: lip
+  :rnk: '2759'
+- :esp: visitante
+  :gen: :c
+  :eng: visitor
+  :rnk: '2760'
+- :esp: traslado
+  :gen: :m
+  :eng: transfer
+  :rnk: '2763'
+- :esp: tentación
+  :gen: :f
+  :eng: temptation
+  :rnk: '2765'
+- :esp: porvenir
+  :gen: :m
+  :eng: future, time to come
+  :rnk: '2766'
+- :esp: atracción
+  :gen: :f
+  :eng: attraction
+  :rnk: '2768'
+- :esp: corona
+  :gen: :f
+  :eng: crown
+  :rnk: '2772'
+- :esp: docena
+  :gen: :f
+  :eng: dozen
+  :rnk: '2774'
+- :esp: perfección
+  :gen: :f
+  :eng: perfection
+  :rnk: '2776'
+- :esp: humedad
+  :gen: :f
+  :eng: humidity
+  :rnk: '2777'
+- :esp: cosecha
+  :gen: :f
+  :eng: harvest, crop
+  :rnk: '2778'
+- :esp: desesperación
+  :gen: :f
+  :eng: desperation, exasperation
+  :rnk: '2780'
+- :esp: curva
+  :gen: :f
+  :eng: curve
+  :rnk: '2781'
+- :esp: amo
+  :gen: :m
+  :eng: master, boss
+  :rnk: '2787'
+- :esp: humo
+  :gen: :m
+  :eng: smoke
+  :rnk: '2789'
+- :esp: realización
+  :gen: :f
+  :eng: fulfillment, realization
+  :rnk: '2790'
+- :esp: cuartel
+  :gen: :m
+  :eng: quarters, barracks
+  :rnk: '2791'
+- :esp: tránsito
+  :gen: :m
+  :eng: traffic, transit
+  :rnk: '2792'
+- :esp: "énfasis"
+  :gen: :m
+  :eng: emphasis
+  :rnk: '2794'
+- :esp: empresario
+  :gen: :m
+  :eng: manager, entrepreneur
+  :rnk: '2796'
+- :esp: saco
+  :gen: :m
+  :eng: sack, bag, plunder
+  :rnk: '2798'
+- :esp: cruz
+  :gen: :f
+  :eng: cross, burden
+  :rnk: '2800'
+- :esp: pausa
+  :gen: :f
+  :eng: pause
+  :rnk: '2802'
+- :esp: vicio
+  :gen: :m
+  :eng: vice, bad habit, defect
+  :rnk: '2805'
+- :esp: impuesto
+  :gen: :m
+  :eng: tax
+  :rnk: '2806'
+- :esp: arquitecto
+  :gen: :a
+  :eng: architect
+  :rnk: '2808'
+- :esp: cruce
+  :gen: :m
+  :eng: crossing, intersection
+  :rnk: '2809'
+- :esp: convivencia
+  :gen: :f
+  :eng: coexistence, living together
+  :rnk: '2811'
+- :esp: cable
+  :gen: :m
+  :eng: cable, wiring
+  :rnk: '2812'
+- :esp: bondad
+  :gen: :f
+  :eng: goodness, kindness
+  :rnk: '2814'
+- :esp: experimento
+  :gen: :m
+  :eng: experiment
+  :rnk: '2815'
+- :esp: crónica
+  :gen: :f
+  :eng: account, chronicle
+  :rnk: '2817'
+- :esp: dictadura
+  :gen: :f
+  :eng: dictatorship
+  :rnk: '2824'
+- :esp: eficacia
+  :gen: :f
+  :eng: efficiency, effectiveness
+  :rnk: '2825'
+- :esp: vapor
+  :gen: :m
+  :eng: vapor, steam
+  :rnk: '2827'
+- :esp: bebida
+  :gen: :f
+  :eng: drink, beverage
+  :rnk: '2828'
+- :esp: charla
+  :gen: :f
+  :eng: talk, chat
+  :rnk: '2830'
+- :esp: gestión
+  :gen: :f
+  :eng: management, step, negotiation
+  :rnk: '2831'
+- :esp: cartera
+  :gen: :f
+  :eng: wallet, satchel
+  :rnk: '2834'
+- :esp: circulación
+  :gen: :f
+  :eng: circulation, traffic
+  :rnk: '2837'
+- :esp: denuncia
+  :gen: :f
+  :eng: accusation
+  :rnk: '2838'
+- :esp: tormenta
+  :gen: :f
+  :eng: storm
+  :rnk: '2841'
+- :esp: foco
+  :gen: :m
+  :eng: focus
+  :rnk: '2843'
+- :esp: residencia
+  :gen: :f
+  :eng: residence
+  :rnk: '2844'
+- :esp: cuero
+  :gen: :m
+  :eng: leather, skin
+  :rnk: '2848'
+- :esp: hierba
+  :gen: :f
+  :eng: herb, grass, weed
+  :rnk: '2850'
+- :esp: manzana
+  :gen: :f
+  :eng: apple, city block
+  :rnk: '2853'
+- :esp: pedazo
+  :gen: :m
+  :eng: piece, bit
+  :rnk: '2855'
+- :esp: sabiduría
+  :gen: :f
+  :eng: wisdom, knowledge
+  :rnk: '2856'
+- :esp: cigarrillo
+  :gen: :m
+  :eng: cigarette
+  :rnk: '2858'
+- :esp: magnitud
+  :gen: :f
+  :eng: magnitude, extent
+  :rnk: '2863'
+- :esp: botón
+  :gen: :m
+  :eng: button
+  :rnk: '2865'
+- :esp: igualdad
+  :gen: :f
+  :eng: equality
+  :rnk: '2867'
+- :esp: noción
+  :gen: :f
+  :eng: notion, idea
+  :rnk: '2871'
+- :esp: semilla
+  :gen: :f
+  :eng: seed
+  :rnk: '2875'
+- :esp: avenida
+  :gen: :f
+  :eng: avenue
+  :rnk: '2876'
+- :esp: diablo
+  :gen: :m
+  :eng: devil
+  :rnk: '2878'
+- :esp: hueco
+  :gen: :m
+  :eng: hole, cavity
+  :rnk: '2880'
+- :esp: colaborador
+  :gen: :m
+  :eng: collaborator
+  :rnk: '2881'
+- :esp: capricho
+  :gen: :m
+  :eng: caprice, whim
+  :rnk: '2882'
+- :esp: guitarra
+  :gen: :f
+  :eng: guitar
+  :rnk: '2885'
+- :esp: agencia
+  :gen: :f
+  :eng: agency, branch
+  :rnk: '2886'
+- :esp: rabia
+  :gen: :f
+  :eng: rage
+  :rnk: '2887'
+- :esp: monumento
+  :gen: :m
+  :eng: monument
+  :rnk: '2889'
+- :esp: correspondencia
+  :gen: :f
+  :eng: correspondence, connection
+  :rnk: '2893'
+- :esp: barro
+  :gen: :m
+  :eng: clay, mud
+  :rnk: '2894'
+- :esp: fuga
+  :gen: :f
+  :eng: flight, escape
+  :rnk: '2895'
+- :esp: identificación
+  :gen: :f
+  :eng: identification
+  :rnk: '2897'
+- :esp: contexto
+  :gen: :m
+  :eng: context
+  :rnk: '2898'
+- :esp: sombrero
+  :gen: :m
+  :eng: hat, sombrero
+  :rnk: '2899'
+- :esp: ayudante
+  :gen: :c
+  :eng: helper, assistant
+  :rnk: '2901'
+- :esp: maniobra
+  :gen: :f
+  :eng: maneuver, operation
+  :rnk: '2903'
+- :esp: prejuicio
+  :gen: :m
+  :eng: prejudice
+  :rnk: '2906'
+- :esp: recomendación
+  :gen: :f
+  :eng: recommendation
+  :rnk: '2908'
+- :esp: instinto
+  :gen: :m
+  :eng: instinct
+  :rnk: '2914'
+- :esp: precaución
+  :gen: :f
+  :eng: caution, forethought
+  :rnk: '2918'
+- :esp: robo
+  :gen: :m
+  :eng: theft, robbery
+  :rnk: '2919'
+- :esp: cabello
+  :gen: :m
+  :eng: "[also pelo] hair"
+  :rnk: '2920'
+- :esp: utilidad
+  :gen: :f
+  :eng: usefulness, utility
+  :rnk: '2921'
+- :esp: queja
+  :gen: :f
+  :eng: complaint
+  :rnk: '2922'
+- :esp: celo
+  :gen: :m
+  :eng: jealousy, zeal
+  :rnk: '2924'
+- :esp: publicidad
+  :gen: :f
+  :eng: advertising, publicity
+  :rnk: '2925'
+- :esp: "índole"
+  :gen: :f
+  :eng: nature, temperament
+  :rnk: '2927'
+- :esp: choque
+  :gen: :m
+  :eng: crash, collision
+  :rnk: '2930'
+- :esp: tecnología
+  :gen: :f
+  :eng: technology
+  :rnk: '2931'
+- :esp: tubo
+  :gen: :m
+  :eng: tube, pipe
+  :rnk: '2932'
+- :esp: mercancía
+  :gen: :f
+  :eng: goods, merchandise
+  :rnk: '2935'
+- :esp: tronco
+  :gen: :m
+  :eng: trunk, torso
+  :rnk: '2936'
+- :esp: culto
+  :gen: :m
+  :eng: worship, cult
+  :rnk: '2937'
+- :esp: palma
+  :gen: :f
+  :eng: palm tree, palm
+  :rnk: '2938'
+- :esp: prenda
+  :gen: :f
+  :eng: piece of clothing
+  :rnk: '2939'
+- :esp: coro
+  :gen: :m
+  :eng: choir, chorus
+  :rnk: '2940'
+- :esp: túnel
+  :gen: :m
+  :eng: tunnel
+  :rnk: '2942'
+- :esp: cercanía
+  :gen: :f
+  :eng: nearness, proximity
+  :rnk: '2943'
+- :esp: cuchillo
+  :gen: :m
+  :eng: knife
+  :rnk: '2945'
+- :esp: desprecio
+  :gen: :m
+  :eng: contempt, disdain
+  :rnk: '2946'
+- :esp: plástico
+  :gen: :m
+  :eng: plastic
+  :rnk: '2947'
+- :esp: complejo
+  :gen: :m
+  :eng: complex
+  :rnk: '2948'
+- :esp: naranja
+  :gen: :f
+  :eng: orange (fruit)
+  :rnk: '2950'
+- :esp: cuota
+  :gen: :f
+  :eng: quota, share, dues
+  :rnk: '2955'
+- :esp: mosca
+  :gen: :f
+  :eng: fly (insect)
+  :rnk: '2956'
+- :esp: doctrina
+  :gen: :f
+  :eng: doctrine, teachings
+  :rnk: '2959'
+- :esp: laguna
+  :gen: :f
+  :eng: lagoon
+  :rnk: '2961'
+- :esp: distinción
+  :gen: :f
+  :eng: distinction
+  :rnk: '2962'
+- :esp: tribu
+  :gen: :f
+  :eng: tribe
+  :rnk: '2963'
+- :esp: refugio
+  :gen: :m
+  :eng: shelter, refuge
+  :rnk: '2964'
+- :esp: cena
+  :gen: :f
+  :eng: dinner
+  :rnk: '2971'
+- :esp: incertidumbre
+  :gen: :f
+  :eng: uncertainty
+  :rnk: '2972'
+- :esp: ahorro
+  :gen: :m
+  :eng: saving, thrift
+  :rnk: '2977'
+- :esp: prisión
+  :gen: :f
+  :eng: prison, imprisonment
+  :rnk: '2980'
+- :esp: investigador
+  :gen: :a
+  :eng: researcher, investigator
+  :rnk: '2981'
+- :esp: técnico
+  :gen: :a
+  :eng: technician
+  :rnk: '2982'
+- :esp: paraíso
+  :gen: :m
+  :eng: paradise
+  :rnk: '2983'
+- :esp: postre
+  :gen: :a
+  :eng: 'dessert; a la postre: in the end'
+  :rnk: '2985'
+- :esp: alimentación
+  :gen: :f
+  :eng: feeding, food
+  :rnk: '2989'
+- :esp: miel
+  :gen: :f
+  :eng: honey
+  :rnk: '2990'
+- :esp: desafío
+  :gen: :m
+  :eng: challenge, provocation
+  :rnk: '2992'
+- :esp: aeropuerto
+  :gen: :m
+  :eng: airport
+  :rnk: '2993'
+- :esp: abrigo
+  :gen: :m
+  :eng: overcoat, shelter
+  :rnk: '2996'
+- :esp: sello
+  :gen: :m
+  :eng: stamp, seal
+  :rnk: '2999'
+- :esp: campana
+  :gen: :f
+  :eng: bell
+  :rnk: '3000'
+- :esp: incidente
+  :gen: :m
+  :eng: incident
+  :rnk: '3003'
+- :esp: fragmento
+  :gen: :m
+  :eng: fragment, passage
+  :rnk: '3004'
+- :esp: mina
+  :gen: :f
+  :eng: mine
+  :rnk: '3013'
+- :esp: restaurante
+  :gen: :m
+  :eng: restaurant
+  :rnk: '3014'
+- :esp: porcentaje
+  :gen: :m
+  :eng: percentage
+  :rnk: '3015'
+- :esp: conductor
+  :gen: :a
+  :eng: driver, conductor
+  :rnk: '3016'
+- :esp: magia
+  :gen: :f
+  :eng: magic
+  :rnk: '3019'
+- :esp: comedor
+  :gen: :m
+  :eng: dining room
+  :rnk: '3021'
+- :esp: seriedad
+  :gen: :f
+  :eng: seriousness
+  :rnk: '3022'
+- :esp: gallina
+  :gen: :f
+  :eng: hen, coward
+  :rnk: '3023'
+- :esp: espada
+  :gen: :f
+  :eng: sword
+  :rnk: '3024'
+- :esp: excelencia
+  :gen: :f
+  :eng: excellence
+  :rnk: '3026'
+- :esp: músculo
+  :gen: :m
+  :eng: muscle
+  :rnk: '3029'
+- :esp: persecución
+  :gen: :f
+  :eng: pursuit, persecution
+  :rnk: '3031'
+- :esp: imperio
+  :gen: :m
+  :eng: empire, fortune
+  :rnk: '3032'
+- :esp: casco
+  :gen: :m
+  :eng: helmet
+  :rnk: '3033'
+- :esp: pelea
+  :gen: :f
+  :eng: fight, quarrel
+  :rnk: '3034'
+- :esp: retorno
+  :gen: :m
+  :eng: "[also regreso] return"
+  :rnk: '3035'
+- :esp: vera
+  :gen: :f
+  :eng: 'de veras: really, for real'
+  :rnk: '3038'
+- :esp: latín
+  :gen: :m
+  :eng: Latin
+  :rnk: '3040'
+- :esp: rutina
+  :gen: :f
+  :eng: routine
+  :rnk: '3042'
+- :esp: mejora
+  :gen: :f
+  :eng: improvement
+  :rnk: '3044'
+- :esp: domicilio
+  :gen: :m
+  :eng: residence, address
+  :rnk: '3045'
+- :esp: porquería
+  :gen: :f
+  :eng: filth, junk
+  :rnk: '3046'
+- :esp: susto
+  :gen: :m
+  :eng: fright, scare
+  :rnk: '3048'
+- :esp: amanecer
+  :gen: :m
+  :eng: daybreak, dawn
+  :rnk: '3051'
+- :esp: célula
+  :gen: :f
+  :eng: cell (biology)
+  :rnk: '3052'
+- :esp: crítico
+  :gen: :m
+  :eng: critic
+  :rnk: '3054'
+- :esp: inspiración
+  :gen: :f
+  :eng: inspiration, inhalation
+  :rnk: '3055'
+- :esp: ladrillo
+  :gen: :m
+  :eng: brick
+  :rnk: '3056'
+- :esp: proyección
+  :gen: :f
+  :eng: projection, screening
+  :rnk: '3057'
+- :esp: lana
+  :gen: :f
+  :eng: wool
+  :rnk: '3060'
+- :esp: infierno
+  :gen: :m
+  :eng: hell, inferno
+  :rnk: '3062'
+- :esp: acero
+  :gen: :m
+  :eng: steel
+  :rnk: '3064'
+- :esp: preso
+  :gen: :m
+  :eng: prisoner
+  :rnk: '3069'
+- :esp: billete
+  :gen: :m
+  :eng: ticket, bill, note
+  :rnk: '3070'
+- :esp: tontería
+  :gen: :f
+  :eng: "[also estupidez] stupidity, stupid thing"
+  :rnk: '3074'
+- :esp: cauce
+  :gen: :m
+  :eng: riverbed, ditch
+  :rnk: '3075'
+- :esp: ignorancia
+  :gen: :f
+  :eng: ignorance
+  :rnk: '3076'
+- :esp: encanto
+  :gen: :m
+  :eng: charm, spell
+  :rnk: '3078'
+- :esp: sed
+  :gen: :f
+  :eng: thirst
+  :rnk: '3080'
+- :esp: escudo
+  :gen: :m
+  :eng: shield, coat of arms
+  :rnk: '3081'
+- :esp: muñeca
+  :gen: :f
+  :eng: doll, wrist
+  :rnk: '3082'
+- :esp: rango
+  :gen: :m
+  :eng: rank, range
+  :rnk: '3085'
+- :esp: invento
+  :gen: :m
+  :eng: invention
+  :rnk: '3086'
+- :esp: recinto
+  :gen: :m
+  :eng: grounds, precincts
+  :rnk: '3088'
+- :esp: tinta
+  :gen: :f
+  :eng: ink
+  :rnk: '3089'
+- :esp: garganta
+  :gen: :f
+  :eng: throat, gorge
+  :rnk: '3090'
+- :esp: viajero
+  :gen: :m
+  :eng: traveler, passenger
+  :rnk: '3091'
+- :esp: asesino
+  :gen: :m
+  :eng: killer, assassin
+  :rnk: '3092'
+- :esp: rito
+  :gen: :m
+  :eng: rite, ritual
+  :rnk: '3093'
+- :esp: atractivo
+  :gen: :m
+  :eng: attraction, charm
+  :rnk: '3094'
+- :esp: frustración
+  :gen: :f
+  :eng: frustration
+  :rnk: '3096'
+- :esp: cemento
+  :gen: :m
+  :eng: cement, concrete
+  :rnk: '3098'
+- :esp: catástrofe
+  :gen: :f
+  :eng: catastrophe
+  :rnk: '3099'
+- :esp: dulce
+  :gen: :m
+  :eng: candy, sweets
+  :rnk: '3100'
+- :esp: recuperación
+  :gen: :f
+  :eng: recovery, recuperation
+  :rnk: '3101'
+- :esp: almuerzo
+  :gen: :m
+  :eng: lunch
+  :rnk: '3104'
+- :esp: uña
+  :gen: :f
+  :eng: nail, fingernail, toenail
+  :rnk: '3106'
+- :esp: costo
+  :gen: :m
+  :eng: price, cost, expense
+  :rnk: '3110'
+- :esp: manifiesto
+  :gen: :m
+  :eng: 'poner de manifiesto: to show'
+  :rnk: '3111'
+- :esp: repetición
+  :gen: :f
+  :eng: repetition
+  :rnk: '3113'
+- :esp: patrimonio
+  :gen: :m
+  :eng: patrimony, inheritance
+  :rnk: '3114'
+- :esp: estatua
+  :gen: :f
+  :eng: statue
+  :rnk: '3116'
+- :esp: decadencia
+  :gen: :f
+  :eng: decline, decay
+  :rnk: '3117'
+- :esp: enfermero
+  :gen: :a
+  :eng: nurse
+  :rnk: '3122'
+- :esp: aficionado
+  :gen: :m
+  :eng: fan, devotee
+  :rnk: '3125'
+- :esp: agujero
+  :gen: :m
+  :eng: hole, opening
+  :rnk: '3128'
+- :esp: arroz
+  :gen: :m
+  :eng: rice
+  :rnk: '3130'
+- :esp: cerveza
+  :gen: :f
+  :eng: beer, ale
+  :rnk: '3134'
+- :esp: escasez
+  :gen: :f
+  :eng: scarcity, shortage
+  :rnk: '3135'
+- :esp: ministerio
+  :gen: :m
+  :eng: ministry
+  :rnk: '3136'
+- :esp: transición
+  :gen: :f
+  :eng: transition
+  :rnk: '3139'
+- :esp: negativa
+  :gen: :f
+  :eng: negative, denial
+  :rnk: '3142'
+- :esp: falda
+  :gen: :f
+  :eng: skirt
+  :rnk: '3143'
+- :esp: cantante
+  :gen: :c
+  :eng: singer
+  :rnk: '3147'
+- :esp: constancia
+  :gen: :f
+  :eng: perseverance
+  :rnk: '3148'
+- :esp: anillo
+  :gen: :m
+  :eng: ring
+  :rnk: '3150'
+- :esp: balance
+  :gen: :m
+  :eng: outcome, balance
+  :rnk: '3151'
+- :esp: entendimiento
+  :gen: :m
+  :eng: understanding
+  :rnk: '3152'
+- :esp: transcurso
+  :gen: :m
+  :eng: passing, course, lapse
+  :rnk: '3155'
+- :esp: desayuno
+  :gen: :m
+  :eng: breakfast
+  :rnk: '3157'
+- :esp: alfombra
+  :gen: :f
+  :eng: rug, carpet mat
+  :rnk: '3158'
+- :esp: historiador
+  :gen: :a
+  :eng: historian
+  :rnk: '3159'
+- :esp: ficción
+  :gen: :f
+  :eng: fiction
+  :rnk: '3165'
+- :esp: jugador
+  :gen: :m
+  :eng: player, gambler
+  :rnk: '3168'
+- :esp: cartel
+  :gen: :m
+  :eng: poster
+  :rnk: '3169'
+- :esp: desconfianza
+  :gen: :f
+  :eng: distrust
+  :rnk: '3170'
+- :esp: respiración
+  :gen: :f
+  :eng: respiration, breath
+  :rnk: '3171'
+- :esp: caña
+  :gen: :f
+  :eng: cane, reed
+  :rnk: '3173'
+- :esp: prisionero
+  :gen: :m
+  :eng: prisoner
+  :rnk: '3176'
+- :esp: turista
+  :gen: :c
+  :eng: tourist
+  :rnk: '3177'
+- :esp: abundancia
+  :gen: :f
+  :eng: abundance
+  :rnk: '3178'
+- :esp: asistente
+  :gen: :c
+  :eng: assistant
+  :rnk: '3180'
+- :esp: queso
+  :gen: :m
+  :eng: cheese
+  :rnk: '3182'
+- :esp: indicio
+  :gen: :m
+  :eng: indication, sign
+  :rnk: '3184'
+- :esp: cerro
+  :gen: :m
+  :eng: hill
+  :rnk: '3187'
+- :esp: galería
+  :gen: :f
+  :eng: gallery, balcony
+  :rnk: '3191'
+- :esp: engaño
+  :gen: :m
+  :eng: deceit, falsehood, hoax
+  :rnk: '3192'
+- :esp: continuidad
+  :gen: :f
+  :eng: continuity
+  :rnk: '3195'
+- :esp: receta
+  :gen: :f
+  :eng: recipe, prescription
+  :rnk: '3196'
+- :esp: conveniencia
+  :gen: :f
+  :eng: convenience, usefulness
+  :rnk: '3197'
+- :esp: carencia
+  :gen: :f
+  :eng: "[also falta] lack, shortage"
+  :rnk: '3199'
+- :esp: cerdo
+  :gen: :m
+  :eng: pig, sow, slob
+  :rnk: '3200'
+- :esp: empeño
+  :gen: :m
+  :eng: insistence, determination
+  :rnk: '3203'
+- :esp: agresión
+  :gen: :f
+  :eng: aggression, attack
+  :rnk: '3204'
+- :esp: fortaleza
+  :gen: :f
+  :eng: fortress, strength
+  :rnk: '3205'
+- :esp: balcón
+  :gen: :m
+  :eng: balcony
+  :rnk: '3207'
+- :esp: observador
+  :gen: :m
+  :eng: observer
+  :rnk: '3208'
+- :esp: renta
+  :gen: :f
+  :eng: income
+  :rnk: '3210'
+- :esp: justificación
+  :gen: :f
+  :eng: justification
+  :rnk: '3211'
+- :esp: enfrentamiento
+  :gen: :m
+  :eng: confrontation
+  :rnk: '3212'
+- :esp: junta
+  :gen: :f
+  :eng: meeting, conference, seam
+  :rnk: '3213'
+- :esp: trayectoria
+  :gen: :f
+  :eng: trajectory, path
+  :rnk: '3215'
+- :esp: indiferencia
+  :gen: :f
+  :eng: indifference
+  :rnk: '3217'
+- :esp: taza
+  :gen: :f
+  :eng: cup, bowl
+  :rnk: '3218'
+- :esp: vínculo
+  :gen: :m
+  :eng: tie, bond, link
+  :rnk: '3219'
+- :esp: cuaderno
+  :gen: :m
+  :eng: notebook, workbook
+  :rnk: '3220'
+- :esp: pánico
+  :gen: :m
+  :eng: panic
+  :rnk: '3227'
+- :esp: cañón
+  :gen: :m
+  :eng: canyon, cannon
+  :rnk: '3229'
+- :esp: pollo
+  :gen: :m
+  :eng: chicken
+  :rnk: '3231'
+- :esp: trascendencia
+  :gen: :f
+  :eng: transcendent nature, significance
+  :rnk: '3233'
+- :esp: corrupción
+  :gen: :f
+  :eng: corruption
+  :rnk: '3236'
+- :esp: confesión
+  :gen: :f
+  :eng: confession, admission
+  :rnk: '3237'
+- :esp: corbata
+  :gen: :f
+  :eng: tie, sash
+  :rnk: '3238'
+- :esp: macho
+  :gen: :m
+  :eng: male, manliness
+  :rnk: '3239'
+- :esp: secuencia
+  :gen: :f
+  :eng: sequence
+  :rnk: '3241'
+- :esp: cáncer
+  :gen: :m
+  :eng: cancer
+  :rnk: '3242'
+- :esp: archivo
+  :gen: :m
+  :eng: archive, file, filing cabinet
+  :rnk: '3244'
+- :esp: trámite
+  :gen: :m
+  :eng: procedure, step, requirement
+  :rnk: '3246'
+- :esp: raya
+  :gen: :f
+  :eng: line, ray, stripe
+  :rnk: '3249'
+- :esp: televisor
+  :gen: :m
+  :eng: television set
+  :rnk: '3250'
+- :esp: estabilidad
+  :gen: :f
+  :eng: stability
+  :rnk: '3251'
+- :esp: grandeza
+  :gen: :f
+  :eng: greatness, size
+  :rnk: '3252'
+- :esp: prisa
+  :gen: :f
+  :eng: hurry
+  :rnk: '3253'
+- :esp: matemática
+  :gen: :f
+  :eng: mathematics
+  :rnk: '3257'
+- :esp: demonio
+  :gen: :m
+  :eng: demon, devil
+  :rnk: '3258'
+- :esp: manga
+  :gen: :f
+  :eng: sleeve
+  :rnk: '3266'
+- :esp: seda
+  :gen: :f
+  :eng: silk
+  :rnk: '3271'
+- :esp: envidia
+  :gen: :f
+  :eng: envy
+  :rnk: '3272'
+- :esp: emergencia
+  :gen: :f
+  :eng: emergency
+  :rnk: '3273'
+- :esp: grasa
+  :gen: :f
+  :eng: grease, fat
+  :rnk: '3275'
+- :esp: alcalde
+  :gen: :m
+  :eng: mayor
+  :rnk: '3277'
+- :esp: congreso
+  :gen: :m
+  :eng: congress
+  :rnk: '3280'
+- :esp: aplauso
+  :gen: :m
+  :eng: applause, praise, acclaim
+  :rnk: '3282'
+- :esp: prima
+  :gen: :f
+  :eng: female cousin, down payment
+  :rnk: '3283'
+- :esp: ansiedad
+  :gen: :f
+  :eng: anxiety
+  :rnk: '3284'
+- :esp: dirigente
+  :gen: :c
+  :eng: leader, director, manager
+  :rnk: '3285'
+- :esp: ascenso
+  :gen: :m
+  :eng: promotion, climb
+  :rnk: '3286'
+- :esp: finalidad
+  :gen: :f
+  :eng: purpose, aim
+  :rnk: '3287'
+- :esp: nostalgia
+  :gen: :f
+  :eng: nostalgia, homesickness
+  :rnk: '3290'
+- :esp: mención
+  :gen: :f
+  :eng: mention
+  :rnk: '3291'
+- :esp: afición
+  :gen: :f
+  :eng: fondness, interest
+  :rnk: '3292'
+- :esp: lástima
+  :gen: :f
+  :eng: shame, pity
+  :rnk: '3294'
+- :esp: lápiz
+  :gen: :m
+  :eng: pencil
+  :rnk: '3296'
+- :esp: nido
+  :gen: :m
+  :eng: nest
+  :rnk: '3298'
+- :esp: orquesta
+  :gen: :f
+  :eng: orchestra, dance band
+  :rnk: '3301'
+- :esp: conexión
+  :gen: :f
+  :eng: connection, relationship
+  :rnk: '3302'
+- :esp: vigor
+  :gen: :m
+  :eng: force, strength, vigor
+  :rnk: '3306'
+- :esp: salario
+  :gen: :m
+  :eng: salary, wages
+  :rnk: '3307'
+- :esp: filo
+  :gen: :m
+  :eng: cutting edge
+  :rnk: '3309'
+- :esp: maíz
+  :gen: :m
+  :eng: corn, maize
+  :rnk: '3314'
+- :esp: autonomía
+  :gen: :f
+  :eng: autonomy, range
+  :rnk: '3317'
+- :esp: ama
+  :gen: :c
+  :eng: housekeeper, housewife
+  :rnk: '3321'
+- :esp: beso
+  :gen: :m
+  :eng: kiss
+  :rnk: '3322'
+- :esp: cintura
+  :gen: :f
+  :eng: waist
+  :rnk: '3323'
+- :esp: pauta
+  :gen: :f
+  :eng: guideline, rule, standard
+  :rnk: '3325'
+- :esp: recepción
+  :gen: :f
+  :eng: reception, waiting-room
+  :rnk: '3327'
+- :esp: bala
+  :gen: :f
+  :eng: bullet, shot
+  :rnk: '3328'
+- :esp: suicidio
+  :gen: :m
+  :eng: suicide
+  :rnk: '3329'
+- :esp: placa
+  :gen: :f
+  :eng: plaque, plate, badge
+  :rnk: '3330'
+- :esp: asesinato
+  :gen: :m
+  :eng: murder, assassination
+  :rnk: '3333'
+- :esp: mentalidad
+  :gen: :f
+  :eng: mindset, mind
+  :rnk: '3334'
+- :esp: jerarquía
+  :gen: :f
+  :eng: hierarchy, rank
+  :rnk: '3335'
+- :esp: duración
+  :gen: :f
+  :eng: duration, length
+  :rnk: '3336'
+- :esp: hallazgo
+  :gen: :m
+  :eng: finding, discovery
+  :rnk: '3337'
+- :esp: proximidad
+  :gen: :f
+  :eng: proximity
+  :rnk: '3338'
+- :esp: estadística
+  :gen: :f
+  :eng: statistic
+  :rnk: '3339'
+- :esp: castillo
+  :gen: :m
+  :eng: castle
+  :rnk: '3343'
+- :esp: traducción
+  :gen: :f
+  :eng: translation
+  :rnk: '3344'
+- :esp: diversión
+  :gen: :f
+  :eng: fun, entertainment
+  :rnk: '3345'
+- :esp: introducción
+  :gen: :f
+  :eng: introduction
+  :rnk: '3346'
+- :esp: lámpara
+  :gen: :f
+  :eng: lamp
+  :rnk: '3347'
+- :esp: dicho
+  :gen: :m
+  :eng: saying, proverb
+  :rnk: '3348'
+- :esp: audiencia
+  :gen: :f
+  :eng: audience, hearing
+  :rnk: '3353'
+- :esp: pasajero
+  :gen: :m
+  :eng: passenger
+  :rnk: '3354'
+- :esp: costado
+  :gen: :m
+  :eng: side, flank
+  :rnk: '3356'
+- :esp: otoño
+  :gen: :m
+  :eng: autumn
+  :rnk: '3357'
+- :esp: feria
+  :gen: :f
+  :eng: fair, festival
+  :rnk: '3358'
+- :esp: exilio
+  :gen: :m
+  :eng: exile
+  :rnk: '3359'
+- :esp: portador
+  :gen: :m
+  :eng: bearer, carrier
+  :rnk: '3362'
+- :esp: obispo
+  :gen: :m
+  :eng: bishop
+  :rnk: '3363'
+- :esp: apertura
+  :gen: :f
+  :eng: opening, beginning
+  :rnk: '3368'
+- :esp: ideología
+  :gen: :f
+  :eng: ideology
+  :rnk: '3369'
+- :esp: cazador
+  :gen: :a
+  :eng: hunter
+  :rnk: '3376'
+- :esp: seguro
+  :gen: :m
+  :eng: insurance
+  :rnk: '3377'
+- :esp: ingenio
+  :gen: :m
+  :eng: ingenuity, talent, wit
+  :rnk: '3378'
+- :esp: hembra
+  :gen: :f
+  :eng: female, woman
+  :rnk: '3379'
+- :esp: bando
+  :gen: :m
+  :eng: faction, side
+  :rnk: '3380'
+- :esp: dormitorio
+  :gen: :m
+  :eng: bedroom, dormitory
+  :rnk: '3382'
+- :esp: plenitud
+  :gen: :f
+  :eng: fullness, abundance
+  :rnk: '3383'
+- :esp: coraje
+  :gen: :m
+  :eng: courage, toughness
+  :rnk: '3385'
+- :esp: plomo
+  :gen: :m
+  :eng: lead, bullet
+  :rnk: '3386'
+- :esp: descendiente
+  :gen: :c
+  :eng: descendant
+  :rnk: '3387'
+- :esp: república
+  :gen: :f
+  :eng: republic
+  :rnk: '3389'
+- :esp: sierra
+  :gen: :f
+  :eng: mountain range, saw
+  :rnk: '3390'
+- :esp: guante
+  :gen: :m
+  :eng: glove
+  :rnk: '3392'
+- :esp: cartón
+  :gen: :m
+  :eng: cardboard, carton, sketch
+  :rnk: '3393'
+- :esp: adolescencia
+  :gen: :f
+  :eng: adolescence
+  :rnk: '3397'
+- :esp: complicación
+  :gen: :f
+  :eng: complication
+  :rnk: '3400'
+- :esp: taxi
+  :gen: :m
+  :eng: taxi, cab
+  :rnk: '3402'
+- :esp: porción
+  :gen: :f
+  :eng: part, portion, share
+  :rnk: '3403'
+- :esp: timbre
+  :gen: :m
+  :eng: doorbell, bell, seal, stamp
+  :rnk: '3404'
+- :esp: monstruo
+  :gen: :m
+  :eng: monster, monstrosity
+  :rnk: '3405'
+- :esp: bebé
+  :gen: :m
+  :eng: baby
+  :rnk: '3406'
+- :esp: trayecto
+  :gen: :m
+  :eng: trajectory, course, path
+  :rnk: '3407'
+- :esp: globo
+  :gen: :m
+  :eng: balloon, globe
+  :rnk: '3408'
+- :esp: celebración
+  :gen: :f
+  :eng: celebration
+  :rnk: '3409'
+- :esp: quehacer
+  :gen: :m
+  :eng: task, job, chore
+  :rnk: '3410'
+- :esp: obsesión
+  :gen: :f
+  :eng: mania, obsession
+  :rnk: '3412'
+- :esp: bronce
+  :gen: :m
+  :eng: bronze
+  :rnk: '3413'
+- :esp: licencia
+  :gen: :f
+  :eng: license, permission
+  :rnk: '3415'
+- :esp: motivación
+  :gen: :f
+  :eng: motivation
+  :rnk: '3416'
+- :esp: depresión
+  :gen: :f
+  :eng: depression, slump
+  :rnk: '3419'
+- :esp: pulmón
+  :gen: :m
+  :eng: lung
+  :rnk: '3420'
+- :esp: fibra
+  :gen: :f
+  :eng: fiber, grain
+  :rnk: '3424'
+- :esp: petróleo
+  :gen: :m
+  :eng: oil, petroleum
+  :rnk: '3427'
+- :esp: permanencia
+  :gen: :f
+  :eng: permanence, tenure
+  :rnk: '3429'
+- :esp: horno
+  :gen: :m
+  :eng: oven, furnace
+  :rnk: '3432'
+- :esp: logro
+  :gen: :m
+  :eng: success, achievement
+  :rnk: '3433'
+- :esp: vientre
+  :gen: :m
+  :eng: womb, belly
+  :rnk: '3434'
+- :esp: petición
+  :gen: :f
+  :eng: request, petition
+  :rnk: '3435'
+- :esp: civil
+  :gen: :c
+  :eng: civilian
+  :rnk: '3436'
+- :esp: reparto
+  :gen: :m
+  :eng: distribution, delivery
+  :rnk: '3437'
+- :esp: advertencia
+  :gen: :f
+  :eng: warning, notice
+  :rnk: '3438'
+- :esp: previsión
+  :gen: :f
+  :eng: forecast, precaution
+  :rnk: '3440'
+- :esp: mandato
+  :gen: :m
+  :eng: mandate, order, command
+  :rnk: '3443'
+- :esp: timidez
+  :gen: :f
+  :eng: shyness, timidity
+  :rnk: '3447'
+- :esp: toque
+  :gen: :m
+  :eng: touch, ringing, warning
+  :rnk: '3448'
+- :esp: máscara
+  :gen: :f
+  :eng: mask
+  :rnk: '3449'
+- :esp: venganza
+  :gen: :f
+  :eng: revenge, vengeance
+  :rnk: '3450'
+- :esp: barba
+  :gen: :f
+  :eng: beard
+  :rnk: '3451'
+- :esp: alarma
+  :gen: :f
+  :eng: alarm
+  :rnk: '3452'
+- :esp: aliento
+  :gen: :m
+  :eng: breath, courage, spirit
+  :rnk: '3454'
+- :esp: pureza
+  :gen: :f
+  :eng: purity, chastity
+  :rnk: '3455'
+- :esp: comedia
+  :gen: :f
+  :eng: comedy, play, pretense
+  :rnk: '3457'
+- :esp: aldea
+  :gen: :f
+  :eng: small village
+  :rnk: '3458'
+- :esp: párrafo
+  :gen: :m
+  :eng: paragraph
+  :rnk: '3461'
+- :esp: brillo
+  :gen: :m
+  :eng: shine, twinkling, sparkle
+  :rnk: '3463'
+- :esp: rastro
+  :gen: :m
+  :eng: track, sign, flea market
+  :rnk: '3465'
+- :esp: adorno
+  :gen: :m
+  :eng: decoration, adornment
+  :rnk: '3468'
+- :esp: mono
+  :gen: :m
+  :eng: monkey
+  :rnk: '3471'
+- :esp: razonamiento
+  :gen: :m
+  :eng: reasoning
+  :rnk: '3472'
+- :esp: pastor
+  :gen: :a
+  :eng: shepherd, pastor
+  :rnk: '3474'
+- :esp: tramo
+  :gen: :m
+  :eng: section, stretch, plot
+  :rnk: '3475'
+- :esp: reto
+  :gen: :m
+  :eng: challenge, defiance
+  :rnk: '3476'
+- :esp: pesadilla
+  :gen: :f
+  :eng: nightmare
+  :rnk: '3479'
+- :esp: centenar
+  :gen: :m
+  :eng: hundred
+  :rnk: '3480'
+- :esp: molestia
+  :gen: :f
+  :eng: bother, nuisance, trouble
+  :rnk: '3481'
+- :esp: paja
+  :gen: :f
+  :eng: straw, thatching
+  :rnk: '3483'
+- :esp: concesión
+  :gen: :f
+  :eng: awarding, concession
+  :rnk: '3486'
+- :esp: nudo
+  :gen: :m
+  :eng: knot
+  :rnk: '3488'
+- :esp: utilización
+  :gen: :f
+  :eng: use, utilization
+  :rnk: '3491'
+- :esp: tapa
+  :gen: :f
+  :eng: cover, lid
+  :rnk: '3492'
+- :esp: traición
+  :gen: :f
+  :eng: treason, betrayal
+  :rnk: '3493'
+- :esp: pesca
+  :gen: :f
+  :eng: fishing
+  :rnk: '3495'
+- :esp: malestar
+  :gen: :m
+  :eng: discomfort, unease, unrest
+  :rnk: '3496'
+- :esp: rata
+  :gen: :f
+  :eng: rat
+  :rnk: '3497'
+- :esp: defensor
+  :gen: :m
+  :eng: defender
+  :rnk: '3499'
+- :esp: auxilio
+  :gen: :m
+  :eng: help, aid, assistance
+  :rnk: '3500'
+- :esp: cobre
+  :gen: :m
+  :eng: copper
+  :rnk: '3503'
+- :esp: intuición
+  :gen: :f
+  :eng: intuition
+  :rnk: '3509'
+- :esp: invención
+  :gen: :f
+  :eng: invention, contrivance
+  :rnk: '3510'
+- :esp: vena
+  :gen: :f
+  :eng: vein
+  :rnk: '3512'
+- :esp: freno
+  :gen: :m
+  :eng: brake
+  :rnk: '3513'
+- :esp: interrupción
+  :gen: :f
+  :eng: interruption
+  :rnk: '3518'
+- :esp: condena
+  :gen: :f
+  :eng: sentence in prison, penalty
+  :rnk: '3519'
+- :esp: inocencia
+  :gen: :f
+  :eng: innocence
+  :rnk: '3520'
+- :esp: relieve
+  :gen: :m
+  :eng: 'relief; poner de relieve: to emphasize'
+  :rnk: '3521'
+- :esp: semejanza
+  :gen: :f
+  :eng: similarity, likeness
+  :rnk: '3522'
+- :esp: cumbre
+  :gen: :f
+  :eng: summit, top
+  :rnk: '3523'
+- :esp: colmo
+  :gen: :m
+  :eng: 'climax; para colmo: to top it all'
+  :rnk: '3525'
+- :esp: administrador
+  :gen: :a
+  :eng: administrator, manager
+  :rnk: '3527'
+- :esp: decreto
+  :gen: :m
+  :eng: decree, order
+  :rnk: '3529'
+- :esp: ironía
+  :gen: :f
+  :eng: irony
+  :rnk: '3531'
+- :esp: seña
+  :gen: :f
+  :eng: sign, mark, seal
+  :rnk: '3533'
+- :esp: ritual
+  :gen: :m
+  :eng: ritual, rite
+  :rnk: '3534'
+- :esp: escritorio
+  :gen: :m
+  :eng: desk, bureau
+  :rnk: '3539'
+- :esp: solicitud
+  :gen: :f
+  :eng: request, application
+  :rnk: '3540'
+- :esp: víspera
+  :gen: :f
+  :eng: eve
+  :rnk: '3541'
+- :esp: insecto
+  :gen: :m
+  :eng: insect
+  :rnk: '3542'
+- :esp: ridículo
+  :gen: :m
+  :eng: ridicule
+  :rnk: '3543'
+- :esp: ira
+  :gen: :f
+  :eng: rage, wrath
+  :rnk: '3545'
+- :esp: ceniza
+  :gen: :f
+  :eng: ash
+  :rnk: '3546'
+- :esp: monja
+  :gen: :f
+  :eng: nun
+  :rnk: '3548'
+- :esp: parto
+  :gen: :m
+  :eng: birth
+  :rnk: '3550'
+- :esp: circuito
+  :gen: :m
+  :eng: circuit, circumference, track
+  :rnk: '3554'
+- :esp: oveja
+  :gen: :f
+  :eng: sheep, ewe
+  :rnk: '3556'
+- :esp: dueña
+  :gen: :f
+  :eng: landlady, owner
+  :rnk: '3557'
+- :esp: ubicación
+  :gen: :f
+  :eng: position, location
+  :rnk: '3559'
+- :esp: hacienda
+  :gen: :f
+  :eng: ranch
+  :rnk: '3561'
+- :esp: antigüedad
+  :gen: :f
+  :eng: antiquity, seniority
+  :rnk: '3562'
+- :esp: puño
+  :gen: :m
+  :eng: fist, handle, cuff
+  :rnk: '3563'
+- :esp: excusa
+  :gen: :f
+  :eng: excuse
+  :rnk: '3564'
+- :esp: trama
+  :gen: :f
+  :eng: plot, theme
+  :rnk: '3566'
+- :esp: alteración
+  :gen: :f
+  :eng: alteration, change
+  :rnk: '3569'
+- :esp: acusación
+  :gen: :f
+  :eng: accusation, charge
+  :rnk: '3573'
+- :esp: salvación
+  :gen: :f
+  :eng: salvation, rescue
+  :rnk: '3575'
+- :esp: fundador
+  :gen: :m
+  :eng: founder
+  :rnk: '3577'
+- :esp: original
+  :gen: :m
+  :eng: original
+  :rnk: '3581'
+- :esp: maquinaria
+  :gen: :f
+  :eng: machinery
+  :rnk: '3582'
+- :esp: tortura
+  :gen: :f
+  :eng: torture
+  :rnk: '3585'
+- :esp: humano
+  :gen: :m
+  :eng: human
+  :rnk: '3586'
+- :esp: insistencia
+  :gen: :f
+  :eng: insistence, persistence
+  :rnk: '3587'
+- :esp: sobrino
+  :gen: :m
+  :eng: nephew
+  :rnk: '3593'
+- :esp: apunte
+  :gen: :m
+  :eng: note, annotation
+  :rnk: '3599'
+- :esp: antepasado
+  :gen: :m
+  :eng: ancestor
+  :rnk: '3600'
+- :esp: sillón
+  :gen: :m
+  :eng: armchair, seat
+  :rnk: '3604'
+- :esp: colectivo
+  :gen: :m
+  :eng: collective, group
+  :rnk: '3606'
+- :esp: dieta
+  :gen: :f
+  :eng: diet
+  :rnk: '3607'
+- :esp: teniente
+  :gen: :m
+  :eng: lieutenant, deputy mayor
+  :rnk: '3608'
+- :esp: polo
+  :gen: :m
+  :eng: pole, polo, polo shirt
+  :rnk: '3609'
+- :esp: abismo
+  :gen: :m
+  :eng: abyss, large gap
+  :rnk: '3612'
+- :esp: algodón
+  :gen: :m
+  :eng: cotton
+  :rnk: '3613'
+- :esp: harina
+  :gen: :f
+  :eng: flour
+  :rnk: '3614'
+- :esp: exactitud
+  :gen: :f
+  :eng: accuracy
+  :rnk: '3615'
+- :esp: provecho
+  :gen: :m
+  :eng: benefit, use
+  :rnk: '3617'
+- :esp: prudencia
+  :gen: :f
+  :eng: prudence, moderation
+  :rnk: '3621'
+- :esp: insulto
+  :gen: :m
+  :eng: insult
+  :rnk: '3622'
+- :esp: flujo
+  :gen: :m
+  :eng: flow, tide, discharge
+  :rnk: '3624'
+- :esp: aguja
+  :gen: :f
+  :eng: needle, spire, stylus
+  :rnk: '3625'
+- :esp: planteamiento
+  :gen: :m
+  :eng: proposal, exposition
+  :rnk: '3626'
+- :esp: cortina
+  :gen: :f
+  :eng: curtain, screen
+  :rnk: '3630'
+- :esp: reproducción
+  :gen: :f
+  :eng: reproduction
+  :rnk: '3637'
+- :esp: expansión
+  :gen: :f
+  :eng: expansion, spreading
+  :rnk: '3638'
+- :esp: umbral
+  :gen: :m
+  :eng: threshold, outset
+  :rnk: '3639'
+- :esp: alusión
+  :gen: :f
+  :eng: allusion, hint
+  :rnk: '3640'
+- :esp: descenso
+  :gen: :m
+  :eng: decline, descent, lowering
+  :rnk: '3641'
+- :esp: océano
+  :gen: :m
+  :eng: ocean
+  :rnk: '3646'
+- :esp: proposición
+  :gen: :f
+  :eng: proposition
+  :rnk: '3647'
+- :esp: absurdo
+  :gen: :m
+  :eng: absurdity, nonsense
+  :rnk: '3648'
+- :esp: parada
+  :gen: :f
+  :eng: transportation stop
+  :rnk: '3649'
+- :esp: titular
+  :gen: :m
+  :eng: headline, holder
+  :rnk: '3655'
+- :esp: calendario
+  :gen: :m
+  :eng: calendar
+  :rnk: '3656'
+- :esp: interlocutor
+  :gen: :m
+  :eng: participant in a dialog
+  :rnk: '3657'
+- :esp: disgusto
+  :gen: :m
+  :eng: disgust, annoyance
+  :rnk: '3660'
+- :esp: conservación
+  :gen: :f
+  :eng: conservation
+  :rnk: '3661'
+- :esp: elaboración
+  :gen: :f
+  :eng: "[also producción] production"
+  :rnk: '3663'
+- :esp: correo
+  :gen: :m
+  :eng: mail, post office
+  :rnk: '3665'
+- :esp: circo
+  :gen: :m
+  :eng: circus
+  :rnk: '3666'
+- :esp: adversario
+  :gen: :m
+  :eng: adversary
+  :rnk: '3667'
+- :esp: cubierta
+  :gen: :f
+  :eng: covering, top, lid
+  :rnk: '3668'
+- :esp: aniversario
+  :gen: :m
+  :eng: anniversary
+  :rnk: '3669'
+- :esp: franja
+  :gen: :f
+  :eng: strip, stripe, fringe
+  :rnk: '3670'
+- :esp: pila
+  :gen: :f
+  :eng: baptismal font, battery, heap
+  :rnk: '3672'
+- :esp: goma
+  :gen: :f
+  :eng: rubber
+  :rnk: '3677'
+- :esp: ancho
+  :gen: :m
+  :eng: width
+  :rnk: '3679'
+- :esp: uva
+  :gen: :f
+  :eng: grape
+  :rnk: '3682'
+- :esp: "ética"
+  :gen: :f
+  :eng: ethics
+  :rnk: '3683'
+- :esp: inscripción
+  :gen: :f
+  :eng: inscription, registration
+  :rnk: '3684'
+- :esp: adquisición
+  :gen: :f
+  :eng: acquisition
+  :rnk: '3687'
+- :esp: sentir
+  :gen: :m
+  :eng: feeling
+  :rnk: '3690'
+- :esp: renuncia
+  :gen: :f
+  :eng: resignation, renunciation
+  :rnk: '3693'
+- :esp: préstamo
+  :gen: :m
+  :eng: loan, borrowing
+  :rnk: '3694'
+- :esp: dedicación
+  :gen: :f
+  :eng: dedication, devotion
+  :rnk: '3698'
+- :esp: instituto
+  :gen: :m
+  :eng: institute
+  :rnk: '3699'
+- :esp: paloma
+  :gen: :f
+  :eng: dove
+  :rnk: '3700'
+- :esp: devoción
+  :gen: :f
+  :eng: devotion
+  :rnk: '3702'
+- :esp: espina
+  :gen: :f
+  :eng: thorn, spine
+  :rnk: '3708'
+- :esp: aprobación
+  :gen: :f
+  :eng: approval, consent
+  :rnk: '3709'
+- :esp: fachada
+  :gen: :f
+  :eng: front of a building
+  :rnk: '3710'
+- :esp: jugo
+  :gen: :m
+  :eng: juice
+  :rnk: '3712'
+- :esp: discípulo
+  :gen: :m
+  :eng: disciple
+  :rnk: '3714'
+- :esp: coronel
+  :gen: :m
+  :eng: colonel
+  :rnk: '3715'
+- :esp: modificación
+  :gen: :f
+  :eng: modification, alteration
+  :rnk: '3717'
+- :esp: acumulación
+  :gen: :f
+  :eng: accumulation
+  :rnk: '3718'
+- :esp: mantenimiento
+  :gen: :m
+  :eng: maintenance, sustenance
+  :rnk: '3720'
+- :esp: cabecera
+  :gen: :f
+  :eng: head, header
+  :rnk: '3723'
+- :esp: revelación
+  :gen: :f
+  :eng: revelation
+  :rnk: '3724'
+- :esp: peseta
+  :gen: :f
+  :eng: peseta (money)
+  :rnk: '3725'
+- :esp: cuna
+  :gen: :f
+  :eng: cradle, birth, lineage
+  :rnk: '3726'
+- :esp: "ácido"
+  :gen: :m
+  :eng: acid
+  :rnk: '3729'
+- :esp: incapacidad
+  :gen: :f
+  :eng: inability, incompetence
+  :rnk: '3730'
+- :esp: villa
+  :gen: :f
+  :eng: village, town
+  :rnk: '3731'
+- :esp: lecho
+  :gen: :m
+  :eng: bed
+  :rnk: '3732'
+- :esp: alquiler
+  :gen: :m
+  :eng: rent, rental
+  :rnk: '3733'
+- :esp: redacción
+  :gen: :f
+  :eng: editing, wording, essay
+  :rnk: '3735'
+- :esp: ficha
+  :gen: :f
+  :eng: index card, chip, token
+  :rnk: '3736'
+- :esp: inseguridad
+  :gen: :f
+  :eng: insecurity
+  :rnk: '3738'
+- :esp: coma
+  :eng: comma
+  :gen: :f
+  :rnk: '3739'
+- :esp: coma
+  :eng: coma
+  :gen: :m
+  :rnk: '3739'
+- :esp: agricultura
+  :gen: :f
+  :eng: agriculture, farming
+  :rnk: '3741'
+- :esp: naturalidad
+  :gen: :f
+  :eng: ease, spontaneity
+  :rnk: '3742'
+- :esp: serenidad
+  :gen: :f
+  :eng: serenity, calm
+  :rnk: '3743'
+- :esp: pistola
+  :gen: :f
+  :eng: gun, pistol
+  :rnk: '3745'
+- :esp: diputado
+  :gen: :m
+  :eng: deputy, member
+  :rnk: '3749'
+- :esp: duelo
+  :gen: :m
+  :eng: grief, affliction
+  :rnk: '3751'
+- :esp: comandante
+  :gen: :m
+  :eng: commander, commanding officer
+  :rnk: '3755'
+- :esp: "ópera"
+  :gen: :f
+  :eng: opera
+  :rnk: '3757'
+- :esp: réplica
+  :gen: :f
+  :eng: answer, retort, copy
+  :rnk: '3758'
+- :esp: pulso
+  :gen: :m
+  :eng: pulse, pulsation
+  :rnk: '3762'
+- :esp: explotación
+  :gen: :f
+  :eng: exploitation, cultivation
+  :rnk: '3764'
+- :esp: bestia
+  :gen: :f
+  :eng: beast, brute
+  :rnk: '3765'
+- :esp: abrazo
+  :gen: :m
+  :eng: hug, embrace
+  :rnk: '3767'
+- :esp: asalto
+  :gen: :m
+  :eng: assault, robbery
+  :rnk: '3768'
+- :esp: reposo
+  :gen: :m
+  :eng: rest, peace
+  :rnk: '3769'
+- :esp: lámina
+  :gen: :f
+  :eng: sheet of metal
+  :rnk: '3770'
+- :esp: pasta
+  :gen: :f
+  :eng: pasta, dough
+  :rnk: '3771'
+- :esp: polémica
+  :gen: :f
+  :eng: polemics, argument
+  :rnk: '3774'
+- :esp: chocolate
+  :gen: :m
+  :eng: chocolate
+  :rnk: '3776'
+- :esp: generosidad
+  :gen: :f
+  :eng: generosity
+  :rnk: '3777'
+- :esp: realismo
+  :gen: :m
+  :eng: realism
+  :rnk: '3780'
+- :esp: acorde
+  :gen: :m
+  :eng: agreement, accord
+  :rnk: '3783'
+- :esp: sugerencia
+  :gen: :f
+  :eng: suggestion
+  :rnk: '3784'
+- :esp: cumpleaños
+  :gen: :m
+  :eng: birthday
+  :rnk: '3785'
+- :esp: ronda
+  :gen: :f
+  :eng: round
+  :rnk: '3786'
+- :esp: capilla
+  :gen: :f
+  :eng: chapel
+  :rnk: '3788'
+- :esp: expediente
+  :gen: :m
+  :eng: dossier, proceedings
+  :rnk: '3791'
+- :esp: tolerancia
+  :gen: :f
+  :eng: tolerance
+  :rnk: '3792'
+- :esp: sopa
+  :gen: :f
+  :eng: soup
+  :rnk: '3795'
+- :esp: rival
+  :gen: :c
+  :eng: rival
+  :rnk: '3796'
+- :esp: ternura
+  :gen: :f
+  :eng: tenderness
+  :rnk: '3797'
+- :esp: variante
+  :gen: :f
+  :eng: variant, difference
+  :rnk: '3798'
+- :esp: molde
+  :gen: :m
+  :eng: mold, cast, pattern
+  :rnk: '3800'
+- :esp: espectro
+  :gen: :m
+  :eng: ghost, specter
+  :rnk: '3802'
+- :esp: recorte
+  :gen: :m
+  :eng: clipping, cutting, trimming
+  :rnk: '3804'
+- :esp: reglamento
+  :gen: :m
+  :eng: regulations, rules
+  :rnk: '3805'
+- :esp: vitalidad
+  :gen: :f
+  :eng: vitality, health
+  :rnk: '3807'
+- :esp: adaptación
+  :gen: :f
+  :eng: adaptation
+  :rnk: '3809'
+- :esp: etiqueta
+  :gen: :f
+  :eng: label, etiquette
+  :rnk: '3810'
+- :esp: muralla
+  :gen: :f
+  :eng: city wall
+  :rnk: '3812'
+- :esp: represión
+  :gen: :f
+  :eng: repression
+  :rnk: '3814'
+- :esp: reducción
+  :gen: :f
+  :eng: reduction
+  :rnk: '3815'
+- :esp: difusión
+  :gen: :f
+  :eng: spread, diffusion
+  :rnk: '3816'
+- :esp: encargo
+  :gen: :m
+  :eng: job, order, errand
+  :rnk: '3818'
+- :esp: oeste
+  :gen: :m
+  :eng: West
+  :rnk: '3821'
+- :esp: pescador
+  :gen: :a
+  :eng: fisherman
+  :rnk: '3824'
+- :esp: diagnóstico
+  :gen: :m
+  :eng: diagnosis
+  :rnk: '3825'
+- :esp: cuadra
+  :gen: :f
+  :eng: city block
+  :rnk: '3826'
+- :esp: rienda
+  :gen: :f
+  :eng: rein, restraint
+  :rnk: '3829'
+- :esp: crueldad
+  :gen: :f
+  :eng: cruelty, harshness
+  :rnk: '3830'
+- :esp: ansia
+  :gen: :f_el
+  :eng: anxiety, anguish
+  :rnk: '3832'
+- :esp: cúpula
+  :gen: :f
+  :eng: cupola, dome
+  :rnk: '3833'
+- :esp: llama
+  :gen: :f
+  :eng: flame, llama
+  :rnk: '3835'
+- :esp: vegetación
+  :gen: :f
+  :eng: vegetation
+  :rnk: '3837'
+- :esp: lema
+  :gen: :m
+  :eng: motto, slogan
+  :rnk: '3838'
+- :esp: bote
+  :gen: :m
+  :eng: small boat
+  :rnk: '3840'
+- :esp: perfume
+  :gen: :m
+  :eng: perfume
+  :rnk: '3843'
+- :esp: central
+  :gen: :f
+  :eng: headquarters
+  :rnk: '3844'
+- :esp: pertenencia
+  :gen: :f
+  :eng: membership, property
+  :rnk: '3846'
+- :esp: casita
+  :gen: :f
+  :eng: cottage
+  :rnk: '3849'
+- :esp: alianza
+  :gen: :f
+  :eng: alliance
+  :rnk: '3851'
+- :esp: ratón
+  :gen: :m
+  :eng: mouse, rat
+  :rnk: '3856'
+- :esp: hazaña
+  :gen: :f
+  :eng: deed, heroic feat
+  :rnk: '3857'
+- :esp: dureza
+  :gen: :f
+  :eng: hardness, toughness
+  :rnk: '3858'
+- :esp: sábana
+  :gen: :f
+  :eng: bed sheet
+  :rnk: '3859'
+- :esp: revisión
+  :gen: :f
+  :eng: checking revision
+  :rnk: '3860'
+- :esp: retirada
+  :gen: :f
+  :eng: retreat, withdrawal
+  :rnk: '3861'
+- :esp: aroma
+  :gen: :m
+  :eng: aroma
+  :rnk: '3863'
+- :esp: optimismo
+  :gen: :m
+  :eng: optimism
+  :rnk: '3864'
+- :esp: mate
+  :gen: :m
+  :eng: mate (beverage)
+  :rnk: '3865'
+- :esp: evento
+  :gen: :m
+  :eng: event
+  :rnk: '3867'
+- :esp: físico
+  :gen: :a
+  :eng: physicist
+  :rnk: '3868'
+- :esp: pasto
+  :gen: :m
+  :eng: grass, pasture
+  :rnk: '3870'
+- :esp: gallo
+  :gen: :m
+  :eng: rooster
+  :rnk: '3872'
+- :esp: rendimiento
+  :gen: :m
+  :eng: yield, output, efficiency
+  :rnk: '3874'
+- :esp: lentitud
+  :gen: :f
+  :eng: slowness
+  :rnk: '3875'
+- :esp: aula
+  :gen: :f_el
+  :eng: classroom
+  :rnk: '3876'
+- :esp: himno
+  :gen: :m
+  :eng: hymn, anthem
+  :rnk: '3881'
+- :esp: sindicato
+  :gen: :m
+  :eng: trade union
+  :rnk: '3882'
+- :esp: mariposa
+  :gen: :f
+  :eng: butterfly, wing nut
+  :rnk: '3883'
+- :esp: fidelidad
+  :gen: :f
+  :eng: faithfulness, accuracy
+  :rnk: '3885'
+- :esp: retraso
+  :gen: :m
+  :eng: delay
+  :rnk: '3886'
+- :esp: desplazamiento
+  :gen: :m
+  :eng: movement, removal
+  :rnk: '3887'
+- :esp: compatriota
+  :gen: :c
+  :eng: fellow countryman
+  :rnk: '3891'
+- :esp: localidad
+  :gen: :f
+  :eng: town, locality
+  :rnk: '3894'
+- :esp: lobo
+  :gen: :m
+  :eng: wolf
+  :rnk: '3898'
+- :esp: asamblea
+  :gen: :f
+  :eng: assembly
+  :rnk: '3899'
+- :esp: pañuelo
+  :gen: :m
+  :eng: handkerchief, shawl
+  :rnk: '3900'
+- :esp: temblor
+  :gen: :m
+  :eng: tremor, shudder, shiver
+  :rnk: '3902'
+- :esp: gira
+  :gen: :f
+  :eng: tour
+  :rnk: '3903'
+- :esp: manto
+  :gen: :m
+  :eng: cloak
+  :rnk: '3904'
+- :esp: asombro
+  :gen: :m
+  :eng: amazement, astonishment
+  :rnk: '3906'
+- :esp: gobernador
+  :gen: :m
+  :eng: governor
+  :rnk: '3907'
+- :esp: amplitud
+  :gen: :f
+  :eng: breadth, extent, range
+  :rnk: '3908'
+- :esp: carbón
+  :gen: :m
+  :eng: coal, charcoal
+  :rnk: '3909'
+- :esp: campamento
+  :gen: :m
+  :eng: camp, camping
+  :rnk: '3910'
+- :esp: excursión
+  :gen: :f
+  :eng: excursion
+  :rnk: '3916'
+- :esp: tomate
+  :gen: :m
+  :eng: tomato
+  :rnk: '3920'
+- :esp: cinturón
+  :gen: :m
+  :eng: belt
+  :rnk: '3922'
+- :esp: bulto
+  :gen: :m
+  :eng: bulk, shape
+  :rnk: '3925'
+- :esp: vocabulario
+  :gen: :m
+  :eng: vocabulary
+  :rnk: '3927'
+- :esp: especulación
+  :gen: :f
+  :eng: speculation, conjecture
+  :rnk: '3928'
+- :esp: manual
+  :gen: :m
+  :eng: manual, handbook
+  :rnk: '3929'
+- :esp: disparo
+  :gen: :m
+  :eng: shot, discharge
+  :rnk: '3932'
+- :esp: residuo
+  :gen: :m
+  :eng: residue, waste
+  :rnk: '3934'
+- :esp: vanidad
+  :gen: :f
+  :eng: vanity, conceit
+  :rnk: '3935'
+- :esp: renovación
+  :gen: :f
+  :eng: renewal, renovation
+  :rnk: '3937'
+- :esp: peste
+  :gen: :f
+  :eng: plague, pestilence, pest
+  :rnk: '3943'
+- :esp: expedición
+  :gen: :f
+  :eng: expedition
+  :rnk: '3944'
+- :esp: mecánica
+  :gen: :f
+  :eng: mechanics, mechanism
+  :rnk: '3949'
+- :esp: electricidad
+  :gen: :f
+  :eng: electricity
+  :rnk: '3950'
+- :esp: ascensor
+  :gen: :m
+  :eng: elevator
+  :rnk: '3954'
+- :esp: bicicleta
+  :gen: :f
+  :eng: bicycle
+  :rnk: '3955'
+- :esp: aporte
+  :gen: :m
+  :eng: contribution
+  :rnk: '3957'
+- :esp: beca
+  :gen: :f
+  :eng: scholarship, grant
+  :rnk: '3959'
+- :esp: trigo
+  :gen: :m
+  :eng: wheat
+  :rnk: '3961'
+- :esp: plataforma
+  :gen: :f
+  :eng: platform, springboard
+  :rnk: '3965'
+- :esp: maestra
+  :gen: :f
+  :eng: teacher
+  :rnk: '3966'
+- :esp: clínica
+  :gen: :f
+  :eng: clinic
+  :rnk: '3967'
+- :esp: heredero
+  :gen: :m
+  :eng: heir, heiress
+  :rnk: '3968'
+- :esp: estadio
+  :gen: :m
+  :eng: stadium
+  :rnk: '3970'
+- :esp: desfile
+  :gen: :m
+  :eng: parade, line, formation
+  :rnk: '3973'
+- :esp: buque
+  :gen: :m
+  :eng: large ship
+  :rnk: '3974'
+- :esp: parentesco
+  :gen: :m
+  :eng: kinship
+  :rnk: '3975'
+- :esp: fallo
+  :gen: :m
+  :eng: mistake, blunder, fault
+  :rnk: '3976'
+- :esp: rebeldía
+  :gen: :f
+  :eng: rebelliousness, defiance
+  :rnk: '3977'
+- :esp: corrección
+  :gen: :f
+  :eng: correction, amendment
+  :rnk: '3979'
+- :esp: chispa
+  :gen: :f
+  :eng: spark
+  :rnk: '3980'
+- :esp: virgen
+  :gen: :f
+  :eng: virgin
+  :rnk: '3981'
+- :esp: supervivencia
+  :gen: :f
+  :eng: survival
+  :rnk: '3983'
+- :esp: caridad
+  :gen: :f
+  :eng: charity
+  :rnk: '3984'
+- :esp: comunión
+  :gen: :f
+  :eng: communion
+  :rnk: '3986'
+- :esp: embajador
+  :gen: :a
+  :eng: ambassador
+  :rnk: '3987'
+- :esp: tercio
+  :gen: :m
+  :eng: third (one-third)
+  :rnk: '3988'
+- :esp: iluminación
+  :gen: :f
+  :eng: illumination, lighting
+  :rnk: '3989'
+- :esp: censura
+  :gen: :f
+  :eng: censorship, criticism
+  :rnk: '3990'
+- :esp: disputa
+  :gen: :f
+  :eng: dispute, argument, quarrel
+  :rnk: '3991'
+- :esp: esplendor
+  :gen: :m
+  :eng: splendor
+  :rnk: '3992'
+- :esp: perjuicio
+  :gen: :m
+  :eng: damage, loss
+  :rnk: '3994'
+- :esp: medalla
+  :gen: :f
+  :eng: medal, medallion
+  :rnk: '3995'
+- :esp: lealtad
+  :gen: :f
+  :eng: loyalty, faithfulness
+  :rnk: '3996'
+- :esp: divorcio
+  :gen: :m
+  :eng: divorce
+  :rnk: '3997'
+- :esp: enfoque
+  :gen: :m
+  :eng: focus, approach
+  :rnk: '3999'
+- :esp: firmeza
+  :gen: :f
+  :eng: firmness
+  :rnk: '4001'
+- :esp: colina
+  :gen: :f
+  :eng: hill, slope
+  :rnk: '4003'
+- :esp: parcela
+  :gen: :f
+  :eng: piece of property
+  :rnk: '4004'
+- :esp: jaula
+  :gen: :f
+  :eng: cage, crate, playpen
+  :rnk: '4005'
+- :esp: ajuste
+  :gen: :m
+  :eng: adjustment, settlement
+  :rnk: '4006'
+- :esp: entierro
+  :gen: :m
+  :eng: burial
+  :rnk: '4008'
+- :esp: servidor
+  :gen: :a
+  :eng: servant
+  :rnk: '4010'
+- :esp: superioridad
+  :gen: :f
+  :eng: superiority
+  :rnk: '4011'
+- :esp: turismo
+  :gen: :m
+  :eng: tourism
+  :rnk: '4012'
+- :esp: barbaridad
+  :gen: :f
+  :eng: atrocity
+  :rnk: '4013'
+- :esp: rollo
+  :gen: :m
+  :eng: roll, coil
+  :rnk: '4014'
+- :esp: triángulo
+  :gen: :m
+  :eng: triangle
+  :rnk: '4016'
+- :esp: aislamiento
+  :gen: :m
+  :eng: isolation
+  :rnk: '4017'
+- :esp: alivio
+  :gen: :m
+  :eng: relief, unburdening
+  :rnk: '4018'
+- :esp: entrenamiento
+  :gen: :m
+  :eng: training
+  :rnk: '4019'
+- :esp: truco
+  :gen: :m
+  :eng: trick, ruse
+  :rnk: '4020'
+- :esp: disparate
+  :gen: :m
+  :eng: nonsense, blunder
+  :rnk: '4022'
+- :esp: cocinero
+  :gen: :a
+  :eng: cook
+  :rnk: '4023'
+- :esp: fotógrafo
+  :gen: :a
+  :eng: photographer
+  :rnk: '4027'
+- :esp: imposición
+  :gen: :f
+  :eng: imposition
+  :rnk: '4028'
+- :esp: consuelo
+  :gen: :m
+  :eng: comfort, consolation
+  :rnk: '4031'
+- :esp: transmisión
+  :gen: :f
+  :eng: broadcast, transmission
+  :rnk: '4034'
+- :esp: sendero
+  :gen: :m
+  :eng: foot path
+  :rnk: '4036'
+- :esp: desacuerdo
+  :gen: :m
+  :eng: disagreement
+  :rnk: '4038'
+- :esp: academia
+  :gen: :f
+  :eng: academy
+  :rnk: '4039'
+- :esp: catedral
+  :gen: :f
+  :eng: cathedral
+  :rnk: '4041'
+- :esp: vanguardia
+  :gen: :f
+  :eng: vanguard, forefront
+  :rnk: '4043'
+- :esp: embarazo
+  :gen: :m
+  :eng: pregnancy
+  :rnk: '4051'
+- :esp: imposibilidad
+  :gen: :f
+  :eng: impossibility
+  :rnk: '4052'
+- :esp: reportaje
+  :gen: :m
+  :eng: news report
+  :rnk: '4056'
+- :esp: tambor
+  :gen: :m
+  :eng: drum
+  :rnk: '4057'
+- :esp: fundación
+  :gen: :f
+  :eng: foundation
+  :rnk: '4058'
+- :esp: transparencia
+  :gen: :f
+  :eng: transparency, slide
+  :rnk: '4059'
+- :esp: elegancia
+  :gen: :f
+  :eng: elegance, style
+  :rnk: '4060'
+- :esp: criminal
+  :gen: :c
+  :eng: criminal
+  :rnk: '4061'
+- :esp: elogio
+  :gen: :m
+  :eng: praise, eulogy, compliment
+  :rnk: '4062'
+- :esp: manta
+  :gen: :f
+  :eng: blanket
+  :rnk: '4063'
+- :esp: alerta
+  :gen: :f
+  :eng: alert
+  :rnk: '4068'
+- :esp: sinceridad
+  :gen: :f
+  :eng: sincerity
+  :rnk: '4069'
+- :esp: cátedra
+  :gen: :f
+  :eng: academic chair
+  :rnk: '4070'
+- :esp: repertorio
+  :gen: :m
+  :eng: repertoire, list, index
+  :rnk: '4072'
+- :esp: plancha
+  :gen: :f
+  :eng: electric iron, plate, sheet
+  :rnk: '4073'
+- :esp: terraza
+  :gen: :f
+  :eng: terrace, balcony
+  :rnk: '4074'
+- :esp: gala
+  :gen: :f
+  :eng: gala (performance/dinner)
+  :rnk: '4075'
+- :esp: era
+  :gen: :f
+  :eng: era, age
+  :rnk: '4076'
+- :esp: arranque
+  :gen: :m
+  :eng: start, outburst, kick-start
+  :rnk: '4077'
+- :esp: patada
+  :gen: :f
+  :eng: kick, punt
+  :rnk: '4078'
+- :esp: lapso
+  :gen: :m
+  :eng: lapse
+  :rnk: '4080'
+- :esp: sudor
+  :gen: :m
+  :eng: sweat, perspiration
+  :rnk: '4081'
+- :esp: apetito
+  :gen: :m
+  :eng: appetite
+  :rnk: '4082'
+- :esp: indicación
+  :gen: :f
+  :eng: indication
+  :rnk: '4084'
+- :esp: aliado
+  :gen: :m
+  :eng: ally
+  :rnk: '4086'
+- :esp: presidencia
+  :gen: :f
+  :eng: presidency
+  :rnk: '4087'
+- :esp: consejero
+  :gen: :a
+  :eng: advisor, counselor
+  :rnk: '4089'
+- :esp: consigna
+  :gen: :f
+  :eng: watchword, motto, slogan
+  :rnk: '4091'
+- :esp: cortesía
+  :gen: :f
+  :eng: courtesy
+  :rnk: '4092'
+- :esp: atributo
+  :gen: :m
+  :eng: attribute, quality
+  :rnk: '4094'
+- :esp: furia
+  :gen: :f
+  :eng: fury, rage
+  :rnk: '4095'
+- :esp: estatura
+  :gen: :f
+  :eng: stature, height
+  :rnk: '4098'
+- :esp: vejez
+  :gen: :f
+  :eng: old age
+  :rnk: '4099'
+- :esp: terremoto
+  :gen: :m
+  :eng: earthquake
+  :rnk: '4100'
+- :esp: tira
+  :gen: :f
+  :eng: strip, strap
+  :rnk: '4102'
+- :esp: emisor
+  :gen: :m
+  :eng: transmitter, emitter
+  :rnk: '4103'
+- :esp: integridad
+  :gen: :f
+  :eng: integrity
+  :rnk: '4105'
+- :esp: autorización
+  :gen: :f
+  :eng: authorization
+  :rnk: '4106'
+- :esp: seminario
+  :gen: :m
+  :eng: seminar, seminary
+  :rnk: '4108'
+- :esp: marea
+  :gen: :f
+  :eng: wave, tide, ebb
+  :rnk: '4109'
+- :esp: resentimiento
+  :gen: :m
+  :eng: resentment
+  :rnk: '4110'
+- :esp: delincuente
+  :gen: :c
+  :eng: delinquent
+  :rnk: '4111'
+- :esp: esqueleto
+  :gen: :m
+  :eng: skeleton, framework
+  :rnk: '4121'
+- :esp: indignación
+  :gen: :f
+  :eng: indignation
+  :rnk: '4122'
+- :esp: escultura
+  :gen: :f
+  :eng: sculpture, carving
+  :rnk: '4125'
+- :esp: infinidad
+  :gen: :f
+  :eng: infinity, countless
+  :rnk: '4127'
+- :esp: pilar
+  :gen: :m
+  :eng: pillar, column
+  :rnk: '4128'
+- :esp: percepción
+  :gen: :f
+  :eng: perception
+  :rnk: '4136'
+- :esp: minoría
+  :gen: :f
+  :eng: minority
+  :rnk: '4137'
+- :esp: deterioro
+  :gen: :m
+  :eng: deterioration, damage
+  :rnk: '4138'
+- :esp: sanción
+  :gen: :f
+  :eng: sanction, approval, penalty
+  :rnk: '4141'
+- :esp: maleta
+  :gen: :f
+  :eng: suitcase, case
+  :rnk: '4146'
+- :esp: faena
+  :gen: :f
+  :eng: task, job, performance
+  :rnk: '4147'
+- :esp: serpiente
+  :gen: :f
+  :eng: snake
+  :rnk: '4150'
+- :esp: agitación
+  :gen: :f
+  :eng: agitation, excitement
+  :rnk: '4153'
+- :esp: ganancia
+  :gen: :f
+  :eng: gain, profit
+  :rnk: '4155'
+- :esp: pino
+  :gen: :m
+  :eng: pine tree
+  :rnk: '4157'
+- :esp: llanto
+  :gen: :m
+  :eng: crying, weeping
+  :rnk: '4163'
+- :esp: ida
+  :gen: :f
+  :eng: departure, first half of a trip
+  :rnk: '4164'
+- :esp: falla
+  :gen: :f
+  :eng: flaw, failure
+  :rnk: '4167'
+- :esp: contribución
+  :gen: :f
+  :eng: contribution
+  :rnk: '4168'
+- :esp: burla
+  :gen: :f
+  :eng: mockery, joke, trick
+  :rnk: '4169'
+- :esp: seguidor
+  :gen: :m
+  :eng: follower, supporter, fan
+  :rnk: '4170'
+- :esp: perla
+  :gen: :f
+  :eng: pearl
+  :rnk: '4172'
+- :esp: integración
+  :gen: :f
+  :eng: integration
+  :rnk: '4174'
+- :esp: siesta
+  :gen: :f
+  :eng: siesta, afternoon nap
+  :rnk: '4176'
+- :esp: bigote
+  :gen: :m
+  :eng: mustache
+  :rnk: '4182'
+- :esp: niñez
+  :gen: :f
+  :eng: childhood, infancy
+  :rnk: '4184'
+- :esp: leña
+  :gen: :f
+  :eng: firewood
+  :rnk: '4185'
+- :esp: atardecer
+  :gen: :m
+  :eng: evening, dusk
+  :rnk: '4186'
+- :esp: interrogante
+  :gen: :c
+  :eng: question, interrogator
+  :rnk: '4190'
+- :esp: lente
+  :gen: :a
+  :eng: lens
+  :rnk: '4193'
+- :esp: lente
+  :eng: "(eye)glasses"
+  :num: :p
+  :gen: :m
+  :rnk: '4193'
+- :esp: compás
+  :gen: :m
+  :eng: rhythm, time, compass
+  :rnk: '4194'
+- :esp: llanura
+  :gen: :f
+  :eng: plain, prairie, plainness
+  :rnk: '4196'
+- :esp: collar
+  :gen: :m
+  :eng: collar, necklace
+  :rnk: '4197'
+- :esp: veneno
+  :gen: :m
+  :eng: poison, venom
+  :rnk: '4198'
+- :esp: mármol
+  :gen: :m
+  :eng: marble
+  :rnk: '4199'
+- :esp: biografía
+  :gen: :f
+  :eng: biography
+  :rnk: '4200'
+- :esp: rebelión
+  :gen: :f
+  :eng: rebellion
+  :rnk: '4202'
+- :esp: hígado
+  :gen: :m
+  :eng: liver
+  :rnk: '4203'
+- :esp: tablero
+  :gen: :m
+  :eng: board, panel
+  :rnk: '4207'
+- :esp: imitación
+  :gen: :f
+  :eng: imitation
+  :rnk: '4209'
+- :esp: adelanto
+  :gen: :m
+  :eng: "[also avance] advance, progress"
+  :rnk: '4210'
+- :esp: intervalo
+  :gen: :m
+  :eng: interval, gap
+  :rnk: '4214'
+- :esp: trago
+  :gen: :m
+  :eng: swig, drink
+  :rnk: '4215'
+- :esp: fracción
+  :gen: :f
+  :eng: fraction
+  :rnk: '4216'
+- :esp: convento
+  :gen: :m
+  :eng: convent, monastery
+  :rnk: '4217'
+- :esp: arroyo
+  :gen: :m
+  :eng: brook, stream, gutter
+  :rnk: '4218'
+- :esp: enlace
+  :gen: :m
+  :eng: link, connection, bond
+  :rnk: '4220'
+- :esp: diccionario
+  :gen: :m
+  :eng: dictionary
+  :rnk: '4223'
+- :esp: afuera
+  :eng: outskirts, suburbs
+  :num: :p
+  :gen: :f
+  :rnk: '4225'
+- :esp: ceja
+  :gen: :f
+  :eng: eyebrow, brow
+  :rnk: '4227'
+- :esp: constitución
+  :gen: :f
+  :eng: constitution
+  :rnk: '4231'
+- :esp: clasificación
+  :gen: :f
+  :eng: classification
+  :rnk: '4233'
+- :esp: lío
+  :gen: :m
+  :eng: mess, problem, bad situation
+  :rnk: '4235'
+- :esp: sede
+  :gen: :f
+  :eng: headquarters, seat
+  :rnk: '4236'
+- :esp: litro
+  :gen: :m
+  :eng: liter
+  :rnk: '4239'
+- :esp: bandeja
+  :gen: :f
+  :eng: tray
+  :rnk: '4240'
+- :esp: aproximación
+  :gen: :f
+  :eng: approximation
+  :rnk: '4241'
+- :esp: trapo
+  :gen: :m
+  :eng: rag, cloth
+  :rnk: '4244'
+- :esp: conocedor
+  :gen: :m
+  :eng: expert, judge, connoisseur
+  :rnk: '4245'
+- :esp: altar
+  :gen: :m
+  :eng: altar
+  :rnk: '4247'
+- :esp: acierto
+  :gen: :m
+  :eng: good aim, guess, hit
+  :rnk: '4248'
+- :esp: piloto
+  :gen: :a
+  :eng: pilot, driver
+  :rnk: '4249'
+- :esp: computadora
+  :gen: :f
+  :eng: computer
+  :rnk: '4253'
+- :esp: alambre
+  :gen: :m
+  :eng: wire
+  :rnk: '4255'
+- :esp: mango
+  :gen: :m
+  :eng: handle, mango
+  :rnk: '4256'
+- :esp: rosario
+  :gen: :m
+  :eng: rosary, beads, string
+  :rnk: '4258'
+- :esp: reconstrucción
+  :gen: :f
+  :eng: reconstruction
+  :rnk: '4259'
+- :esp: parroquia
+  :gen: :f
+  :eng: parish
+  :rnk: '4260'
+- :esp: comprador
+  :gen: :m
+  :eng: buyer
+  :rnk: '4266'
+- :esp: piedad
+  :gen: :f
+  :eng: pity, mercy
+  :rnk: '4267'
+- :esp: niebla
+  :gen: :f
+  :eng: fog
+  :rnk: '4274'
+- :esp: verbo
+  :gen: :m
+  :eng: verb
+  :rnk: '4278'
+- :esp: cadera
+  :gen: :f
+  :eng: hip
+  :rnk: '4279'
+- :esp: procesión
+  :gen: :f
+  :eng: procession
+  :rnk: '4280'
+- :esp: encuesta
+  :gen: :f
+  :eng: poll, survey, inquiry
+  :rnk: '4281'
+- :esp: cría
+  :gen: :f
+  :eng: breeding, raising
+  :rnk: '4282'
+- :esp: narración
+  :gen: :f
+  :eng: narration, account
+  :rnk: '4283'
+- :esp: ramo
+  :gen: :m
+  :eng: bunch of flowers, branch
+  :rnk: '4284'
+- :esp: traidor
+  :gen: :m
+  :eng: traitor
+  :rnk: '4286'
+- :esp: catálogo
+  :gen: :m
+  :eng: catalog
+  :rnk: '4287'
+- :esp: protector
+  :gen: :m
+  :eng: protector, defender
+  :rnk: '4288'
+- :esp: amparo
+  :gen: :m
+  :eng: protection, shelter
+  :rnk: '4289'
+- :esp: farmacia
+  :gen: :f
+  :eng: pharmacy, drugstore
+  :rnk: '4290'
+- :esp: cima
+  :gen: :f
+  :eng: summit, peak, top
+  :rnk: '4291'
+- :esp: riñón
+  :gen: :m
+  :eng: kidney
+  :rnk: '4292'
+- :esp: finca
+  :gen: :f
+  :eng: property, estate
+  :rnk: '4294'
+- :esp: calificación
+  :gen: :f
+  :eng: evaluation, qualification
+  :rnk: '4295'
+- :esp: caudal
+  :gen: :m
+  :eng: volume, abundance
+  :rnk: '4296'
+- :esp: trastorno
+  :gen: :m
+  :eng: confusion, trouble, upheaval
+  :rnk: '4298'
+- :esp: jovencito
+  :gen: :m
+  :eng: young person
+  :rnk: '4300'
+- :esp: incorporación
+  :gen: :f
+  :eng: inclusion, incorporation
+  :rnk: '4301'
+- :esp: corral
+  :gen: :m
+  :eng: corral, yard
+  :rnk: '4302'
+- :esp: fatiga
+  :gen: :f
+  :eng: fatigue
+  :rnk: '4303'
+- :esp: bruja
+  :gen: :f
+  :eng: witch, hag
+  :rnk: '4305'
+- :esp: exploración
+  :gen: :f
+  :eng: exploration
+  :rnk: '4306'
+- :esp: ilustración
+  :gen: :f
+  :eng: illustration
+  :rnk: '4309'
+- :esp: cómplice
+  :gen: :c
+  :eng: accomplice
+  :rnk: '4310'
+- :esp: melodía
+  :gen: :f
+  :eng: melody
+  :rnk: '4311'
+- :esp: productor
+  :gen: :m
+  :eng: producer
+  :rnk: '4312'
+- :esp: portero
+  :gen: :a
+  :eng: porter, doorkeeper, goalkeeper
+  :rnk: '4315'
+- :esp: conejo
+  :gen: :m
+  :eng: rabbit
+  :rnk: '4316'
+- :esp: densidad
+  :gen: :f
+  :eng: density, thickness
+  :rnk: '4318'
+- :esp: apuesta
+  :gen: :f
+  :eng: wager, bet
+  :rnk: '4320'
+- :esp: nacionalidad
+  :gen: :f
+  :eng: nationality
+  :rnk: '4321'
+- :esp: mozo
+  :gen: :m
+  :eng: waiter, youth, bellboy
+  :rnk: '4324'
+- :esp: cuerno
+  :gen: :m
+  :eng: horn, antler
+  :rnk: '4326'
+- :esp: talla
+  :gen: :f
+  :eng: size (of clothing), stature
+  :rnk: '4330'
+- :esp: comisario
+  :gen: :m
+  :eng: commissioner, delegate
+  :rnk: '4332'
+- :esp: acercamiento
+  :gen: :m
+  :eng: approach, approximation
+  :rnk: '4334'
+- :esp: contorno
+  :gen: :m
+  :eng: outline, perimeter, edge
+  :rnk: '4339'
+- :esp: egoísmo
+  :gen: :m
+  :eng: selfishness
+  :rnk: '4340'
+- :esp: compensación
+  :gen: :f
+  :eng: compensation
+  :rnk: '4342'
+- :esp: prohibición
+  :gen: :f
+  :eng: prohibition
+  :rnk: '4343'
+- :esp: laberinto
+  :gen: :m
+  :eng: maze, labyrinth
+  :rnk: '4348'
+- :esp: eternidad
+  :gen: :f
+  :eng: eternity
+  :rnk: '4352'
+- :esp: pastilla
+  :gen: :f
+  :eng: pill, capsule
+  :rnk: '4354'
+- :esp: mierda
+  :gen: :f
+  :eng: shit, crap, excrement
+  :rnk: '4355'
+- :esp: contienda
+  :gen: :f
+  :eng: contest, dispute
+  :rnk: '4356'
+- :esp: chorro
+  :gen: :m
+  :eng: stream, jet, spurt
+  :rnk: '4361'
+- :esp: clavo
+  :gen: :m
+  :eng: nail, tack, peg
+  :rnk: '4363'
+- :esp: sequía
+  :gen: :f
+  :eng: drought
+  :rnk: '4364'
+- :esp: dinámica
+  :gen: :f
+  :eng: dynamics
+  :rnk: '4365'
+- :esp: ocio
+  :gen: :m
+  :eng: leisure time
+  :rnk: '4366'
+- :esp: normalidad
+  :gen: :f
+  :eng: normality
+  :rnk: '4367'
+- :esp: resonancia
+  :gen: :f
+  :eng: resonance, repercussion
+  :rnk: '4369'
+- :esp: chaqueta
+  :gen: :f
+  :eng: jacket
+  :rnk: '4372'
+- :esp: asco
+  :gen: :m
+  :eng: disgust
+  :rnk: '4375'
+- :esp: pleito
+  :gen: :m
+  :eng: litigation, suit, dispute
+  :rnk: '4378'
+- :esp: sencillez
+  :gen: :f
+  :eng: simplicity
+  :rnk: '4380'
+- :esp: estupidez
+  :gen: :f
+  :eng: "[also tontería] stupidity, stupid thing"
+  :rnk: '4382'
+- :esp: senador
+  :gen: :a
+  :eng: senator
+  :rnk: '4386'
+- :esp: rencor
+  :gen: :m
+  :eng: grudge, spite
+  :rnk: '4387'
+- :esp: probabilidad
+  :gen: :f
+  :eng: probability
+  :rnk: '4393'
+- :esp: gobernante
+  :gen: :c
+  :eng: ruler, leader
+  :rnk: '4396'
+- :esp: merced
+  :gen: :f
+  :eng: favor, mercy
+  :rnk: '4397'
+- :esp: tonelada
+  :gen: :f
+  :eng: ton
+  :rnk: '4399'
+- :esp: rebelde
+  :gen: :c
+  :eng: rebel, insurgent
+  :rnk: '4400'
+- :esp: anhelo
+  :gen: :m
+  :eng: longing, yearning
+  :rnk: '4401'
+- :esp: princesa
+  :gen: :f
+  :eng: princess
+  :rnk: '4402'
+- :esp: embajada
+  :gen: :f
+  :eng: embassy
+  :rnk: '4404'
+- :esp: amargura
+  :gen: :f
+  :eng: bitterness, sorrow
+  :rnk: '4408'
+- :esp: validez
+  :gen: :f
+  :eng: validity
+  :rnk: '4410'
+- :esp: tacto
+  :gen: :m
+  :eng: sense of touch, feel
+  :rnk: '4411'
+- :esp: codo
+  :gen: :m
+  :eng: elbow
+  :rnk: '4412'
+- :esp: chimenea
+  :gen: :f
+  :eng: chimney, fireplace
+  :rnk: '4415'
+- :esp: abanico
+  :gen: :m
+  :eng: range/variety, handheld fan
+  :rnk: '4422'
+- :esp: camiseta
+  :gen: :f
+  :eng: T-shirt
+  :rnk: '4427'
+- :esp: corteza
+  :gen: :f
+  :eng: bark, crust, rind, peel
+  :rnk: '4430'
+- :esp: cordillera
+  :gen: :f
+  :eng: mountain range
+  :rnk: '4432'
+- :esp: longitud
+  :gen: :f
+  :eng: length, longitude
+  :rnk: '4434'
+- :esp: psicología
+  :gen: :f
+  :eng: psychology
+  :rnk: '4437'
+- :esp: exageración
+  :gen: :f
+  :eng: exaggeration
+  :rnk: '4442'
+- :esp: apreciación
+  :gen: :f
+  :eng: appreciation, assessment
+  :rnk: '4443'
+- :esp: estallido
+  :gen: :m
+  :eng: crash, outbreak, explosion
+  :rnk: '4445'
+- :esp: talón
+  :gen: :m
+  :eng: heel, check, coupon, stub
+  :rnk: '4447'
+- :esp: colchón
+  :gen: :m
+  :eng: mattress
+  :rnk: '4449'
+- :esp: tinte
+  :gen: :m
+  :eng: tint, dye
+  :rnk: '4451'
+- :esp: imprenta
+  :gen: :f
+  :eng: printing house
+  :rnk: '4453'
+- :esp: bastón
+  :gen: :m
+  :eng: walking cane
+  :rnk: '4454'
+- :esp: humillación
+  :gen: :f
+  :eng: humiliation
+  :rnk: '4456'
+- :esp: trance
+  :gen: :m
+  :eng: trance, fix, enrapture
+  :rnk: '4457'
+- :esp: volante
+  :gen: :m
+  :eng: steering wheel
+  :rnk: '4458'
+- :esp: noble
+  :gen: :c
+  :eng: nobleman, noble
+  :rnk: '4463'
+- :esp: reclamo
+  :gen: :m
+  :eng: claim, complaint, protest
+  :rnk: '4465'
+- :esp: asesor
+  :gen: :a
+  :eng: adviser, consultant
+  :rnk: '4466'
+- :esp: novelista
+  :gen: :c
+  :eng: novelist
+  :rnk: '4468'
+- :esp: herido
+  :gen: :m
+  :eng: wounded (person)
+  :rnk: '4469'
+- :esp: grueso
+  :gen: :m
+  :eng: bulk, mass
+  :rnk: '4474'
+- :esp: grabación
+  :gen: :f
+  :eng: recording
+  :rnk: '4476'
+- :esp: frasco
+  :gen: :m
+  :eng: bottle, jar, flask
+  :rnk: '4477'
+- :esp: verdura
+  :gen: :f
+  :eng: vegetables, greenery
+  :rnk: '4480'
+- :esp: violación
+  :gen: :f
+  :eng: violation, rape
+  :rnk: '4481'
+- :esp: innovación
+  :gen: :f
+  :eng: innovation
+  :rnk: '4482'
+- :esp: tertulia
+  :gen: :f
+  :eng: get-together, meeting of friends
+  :rnk: '4483'
+- :esp: carcajada
+  :gen: :f
+  :eng: hearty laughter, guffaw
+  :rnk: '4484'
+- :esp: cancha
+  :gen: :f
+  :eng: playing field, court
+  :rnk: '4485'
+- :esp: aburrimiento
+  :gen: :m
+  :eng: boredom
+  :rnk: '4488'
+- :esp: exportación
+  :gen: :f
+  :eng: export, exportation
+  :rnk: '4493'
+- :esp: tranvía
+  :gen: :m
+  :eng: trolley, tram, streetcar
+  :rnk: '4502'
+- :esp: cordón
+  :gen: :m
+  :eng: cord, yarn, braid
+  :rnk: '4504'
+- :esp: prioridad
+  :gen: :f
+  :eng: priority
+  :rnk: '4505'
+- :esp: modalidad
+  :gen: :f
+  :eng: mode, manner
+  :rnk: '4506'
+- :esp: desenlace
+  :gen: :m
+  :eng: outcome, result
+  :rnk: '4507'
+- :esp: bailarín
+  :gen: :a
+  :eng: dancer
+  :rnk: '4508'
+- :esp: artefacto
+  :gen: :m
+  :eng: artifact, device
+  :rnk: '4509'
+- :esp: trono
+  :gen: :m
+  :eng: throne
+  :rnk: '4510'
+- :esp: adjetivo
+  :gen: :m
+  :eng: adjective
+  :rnk: '4511'
+- :esp: gama
+  :gen: :f
+  :eng: range, musical scale
+  :rnk: '4512'
+- :esp: gabinete
+  :gen: :m
+  :eng: cabinet, den, office
+  :rnk: '4514'
+- :esp: peón
+  :gen: :m
+  :eng: unskilled laborer, field hand
+  :rnk: '4519'
+- :esp: inspector
+  :gen: :a
+  :eng: inspector
+  :rnk: '4521'
+- :esp: "órbita"
+  :gen: :f
+  :eng: orbit, socket, field
+  :rnk: '4522'
+- :esp: autopista
+  :gen: :f
+  :eng: freeway, motorway
+  :rnk: '4523'
+- :esp: prosa
+  :gen: :f
+  :eng: prose
+  :rnk: '4524'
+- :esp: paréntesis
+  :gen: :m
+  :eng: parenthesis, digression
+  :rnk: '4525'
+- :esp: fabricación
+  :gen: :f
+  :eng: manufacture, production
+  :rnk: '4526'
+- :esp: lesión
+  :gen: :f
+  :eng: injury, wound, harm
+  :rnk: '4527'
+- :esp: mejilla
+  :gen: :f
+  :eng: cheek
+  :rnk: '4528'
+- :esp: muelle
+  :gen: :m
+  :eng: wharf, dock
+  :rnk: '4530'
+- :esp: velo
+  :gen: :m
+  :eng: veil
+  :rnk: '4531'
+- :esp: decoración
+  :gen: :f
+  :eng: decoration
+  :rnk: '4532'
+- :esp: rancho
+  :gen: :m
+  :eng: ranch, farm
+  :rnk: '4533'
+- :esp: negociación
+  :gen: :f
+  :eng: negotiation
+  :rnk: '4538'
+- :esp: euforia
+  :gen: :f
+  :eng: euphoria, elation
+  :rnk: '4539'
+- :esp: convencimiento
+  :gen: :m
+  :eng: convincing
+  :rnk: '4540'
+- :esp: desconcierto
+  :gen: :m
+  :eng: disorder, chaos
+  :rnk: '4543'
+- :esp: economista
+  :gen: :a
+  :eng: economist
+  :rnk: '4544'
+- :esp: sobra
+  :gen: :f
+  :eng: excess, surplus, leftover
+  :rnk: '4547'
+- :esp: tasa
+  :gen: :f
+  :eng: rate, fee, levy
+  :rnk: '4550'
+- :esp: balanza
+  :gen: :f
+  :eng: balance, (measuring) scale
+  :rnk: '4551'
+- :esp: factura
+  :gen: :f
+  :eng: invoice, bill
+  :rnk: '4552'
+- :esp: hormiga
+  :gen: :f
+  :eng: ant
+  :rnk: '4553'
+- :esp: oso
+  :gen: :m
+  :eng: bear
+  :rnk: '4555'
+- :esp: trazo
+  :gen: :m
+  :eng: line, stroke
+  :rnk: '4556'
+- :esp: gusano
+  :gen: :m
+  :eng: worm, caterpillar
+  :rnk: '4559'
+- :esp: manía
+  :gen: :f
+  :eng: obsession, mania
+  :rnk: '4562'
+- :esp: disculpa
+  :gen: :f
+  :eng: apology, excuse
+  :rnk: '4563'
+- :esp: metáfora
+  :gen: :f
+  :eng: metaphor
+  :rnk: '4568'
+- :esp: penetración
+  :gen: :f
+  :eng: penetration, insight
+  :rnk: '4569'
+- :esp: delirio
+  :gen: :m
+  :eng: delirium, nonsense
+  :rnk: '4574'
+- :esp: librería
+  :gen: :f
+  :eng: bookstore
+  :rnk: '4577'
+- :esp: documentación
+  :gen: :f
+  :eng: documentation
+  :rnk: '4578'
+- :esp: decena
+  :gen: :f
+  :eng: ten (of something)
+  :rnk: '4580'
+- :esp: tigre
+  :gen: :m
+  :eng: tiger
+  :rnk: '4582'
+- :esp: senda
+  :gen: :f
+  :eng: path, lane
+  :rnk: '4585'
+- :esp: temperamento
+  :gen: :m
+  :eng: temperament, personality
+  :rnk: '4586'
+- :esp: dicha
+  :gen: :f
+  :eng: fortune, happiness, luck
+  :rnk: '4590'
+- :esp: acta
+  :gen: :f_el
+  :eng: meeting proceedings, minutes
+  :rnk: '4592'
+- :esp: cera
+  :gen: :f
+  :eng: wax
+  :rnk: '4593'
+- :esp: tanque
+  :gen: :m
+  :eng: tank, large container
+  :rnk: '4594'
+- :esp: batería
+  :gen: :f
+  :eng: battery, gun deck
+  :rnk: '4597'
+- :esp: crema
+  :gen: :f
+  :eng: cream
+  :rnk: '4598'
+- :esp: entretenimiento
+  :gen: :m
+  :eng: entertainment
+  :rnk: '4600'
+- :esp: pala
+  :gen: :f
+  :eng: shovel
+  :rnk: '4601'
+- :esp: servidumbre
+  :gen: :f
+  :eng: staff of servants, servitude
+  :rnk: '4602'
+- :esp: psicólogo
+  :gen: :a
+  :eng: psychologist
+  :rnk: '4604'
+- :esp: actriz
+  :gen: :f
+  :eng: actress
+  :rnk: '4606'
+- :esp: burro
+  :gen: :m
+  :eng: donkey
+  :rnk: '4610'
+- :esp: procedencia
+  :gen: :f
+  :eng: origin, source
+  :rnk: '4611'
+- :esp: fiscal
+  :gen: :c
+  :eng: district attorney, prosecutor
+  :rnk: '4612'
+- :esp: participante
+  :gen: :m
+  :eng: participant
+  :rnk: '4616'
+- :esp: rescate
+  :gen: :m
+  :eng: rescue, ransom
+  :rnk: '4617'
+- :esp: apuro
+  :gen: :m
+  :eng: trouble, predicament
+  :rnk: '4618'
+- :esp: cautela
+  :gen: :f
+  :eng: caution
+  :rnk: '4621'
+- :esp: táctica
+  :gen: :f
+  :eng: tactics, strategy
+  :rnk: '4623'
+- :esp: descuido
+  :gen: :m
+  :eng: neglect, oversight
+  :rnk: '4624'
+- :esp: matanza
+  :gen: :f
+  :eng: slaughter, carnage
+  :rnk: '4626'
+- :esp: escrito
+  :gen: :m
+  :eng: manuscript, writing
+  :rnk: '4629'
+- :esp: pinta
+  :gen: :f
+  :eng: appearance, look, aspect
+  :rnk: '4630'
+- :esp: caldo
+  :gen: :m
+  :eng: broth, soup
+  :rnk: '4637'
+- :esp: agonía
+  :gen: :f
+  :eng: agony, grief
+  :rnk: '4638'
+- :esp: tregua
+  :gen: :f
+  :eng: truce, rest
+  :rnk: '4640'
+- :esp: vestuario
+  :gen: :m
+  :eng: wardrobe, changing room
+  :rnk: '4641'
+- :esp: bodega
+  :gen: :f
+  :eng: cellar, pantry, warehouse
+  :rnk: '4643'
+- :esp: antena
+  :gen: :f
+  :eng: antenna
+  :rnk: '4644'
+- :esp: maldad
+  :gen: :f
+  :eng: evil, wickedness
+  :rnk: '4646'
+- :esp: obediencia
+  :gen: :f
+  :eng: obedience
+  :rnk: '4647'
+- :esp: ocurrencia
+  :gen: :f
+  :eng: idea, witty remark
+  :rnk: '4648'
+- :esp: complemento
+  :gen: :m
+  :eng: complement, supplement
+  :rnk: '4650'
+- :esp: editor
+  :gen: :a
+  :eng: editor, publisher
+  :rnk: '4651'
+- :esp: periodismo
+  :gen: :m
+  :eng: journalism
+  :rnk: '4652'
+- :esp: piscina
+  :gen: :f
+  :eng: swimming pool
+  :rnk: '4653'
+- :esp: inyección
+  :gen: :f
+  :eng: shot, injection
+  :rnk: '4658'
+- :esp: reproche
+  :gen: :m
+  :eng: reproach, criticism
+  :rnk: '4660'
+- :esp: consistencia
+  :gen: :f
+  :eng: consistency
+  :rnk: '4661'
+- :esp: nobleza
+  :gen: :f
+  :eng: nobility, uprightness
+  :rnk: '4662'
+- :esp: impotencia
+  :gen: :f
+  :eng: impotence
+  :rnk: '4664'
+- :esp: hostilidad
+  :gen: :f
+  :eng: hostility, enmity
+  :rnk: '4667'
+- :esp: medicamento
+  :gen: :m
+  :eng: medicine, drug
+  :rnk: '4669'
+- :esp: conspiración
+  :gen: :f
+  :eng: conspiracy
+  :rnk: '4673'
+- :esp: detención
+  :gen: :f
+  :eng: detention, arrest
+  :rnk: '4675'
+- :esp: autobús
+  :gen: :m
+  :eng: bus
+  :rnk: '4676'
+- :esp: destreza
+  :gen: :f
+  :eng: skill
+  :rnk: '4679'
+- :esp: entrañas
+  :gen: :f
+  :eng: insides, bowels
+  :rnk: '4681'
+- :esp: gratitud
+  :gen: :f
+  :eng: gratitude
+  :rnk: '4682'
+- :esp: editorial
+  :eng: publisher
+  :gen: :f
+  :rnk: '4685'
+- :esp: editorial
+  :eng: editorial article
+  :gen: :m
+  :rnk: '4685'
+- :esp: bicho
+  :gen: :m
+  :eng: bug, creature
+  :rnk: '4687'
+- :esp: martillo
+  :gen: :m
+  :eng: hammer
+  :rnk: '4688'
+- :esp: cooperación
+  :gen: :f
+  :eng: cooperation
+  :rnk: '4690'
+- :esp: elevación
+  :gen: :f
+  :eng: rise, elevation, increase
+  :rnk: '4691'
+- :esp: atentado
+  :gen: :m
+  :eng: attack, offense
+  :rnk: '4692'
+- :esp: puñado
+  :gen: :m
+  :eng: fistful, small group
+  :rnk: '4693'
+- :esp: sirena
+  :gen: :f
+  :eng: siren, mermaid
+  :rnk: '4696'
+- :esp: espuma
+  :gen: :f
+  :eng: foam, lather
+  :rnk: '4697'
+- :esp: cirujano
+  :gen: :a
+  :eng: surgeon
+  :rnk: '4698'
+- :esp: vereda
+  :gen: :f
+  :eng: path, sidewalk
+  :rnk: '4700'
+- :esp: reivindicación
+  :gen: :f
+  :eng: claim, demand, redemption
+  :rnk: '4702'
+- :esp: infección
+  :gen: :f
+  :eng: infection
+  :rnk: '4703'
+- :esp: chiquillo
+  :gen: :m
+  :eng: kid, youngster
+  :rnk: '4704'
+- :esp: distracción
+  :gen: :f
+  :eng: distraction, amusement
+  :rnk: '4705'
+- :esp: ingrediente
+  :gen: :m
+  :eng: ingredient
+  :rnk: '4708'
+- :esp: pugna
+  :gen: :f
+  :eng: battle, struggle
+  :rnk: '4712'
+- :esp: torta
+  :gen: :f
+  :eng: cake
+  :rnk: '4715'
+- :esp: intérprete
+  :gen: :c
+  :eng: performer, interpreter
+  :rnk: '4716'
+- :esp: araña
+  :gen: :f
+  :eng: spider
+  :rnk: '4717'
+- :esp: facción
+  :gen: :f
+  :eng: face feature, faction
+  :rnk: '4718'
+- :esp: diplomático
+  :gen: :a
+  :eng: diplomat
+  :rnk: '4722'
+- :esp: exhibición
+  :gen: :f
+  :eng: exhibition, showing
+  :rnk: '4723'
+- :esp: escaparate
+  :gen: :m
+  :eng: showcase, display window
+  :rnk: '4725'
+- :esp: sargento
+  :gen: :m
+  :eng: sergeant
+  :rnk: '4727'
+- :esp: estética
+  :gen: :f
+  :eng: aesthetics
+  :rnk: '4730'
+- :esp: caballería
+  :gen: :f
+  :eng: cavalry, knighthood
+  :rnk: '4731'
+- :esp: padrino
+  :gen: :m
+  :eng: godparent, sponsor
+  :rnk: '4732'
+- :esp: diversidad
+  :gen: :f
+  :eng: diversity, variety
+  :rnk: '4733'
+- :esp: banquete
+  :gen: :m
+  :eng: banquet, feast
+  :rnk: '4734'
+- :esp: andar
+  :gen: :m
+  :eng: walk, gait, pace
+  :rnk: '4737'
+- :esp: gigante
+  :gen: :c
+  :eng: giant
+  :rnk: '4738'
+- :esp: pabellón
+  :gen: :m
+  :eng: pavilion, sports hall
+  :rnk: '4740'
+- :esp: abeja
+  :gen: :f
+  :eng: bee
+  :rnk: '4741'
+- :esp: violín
+  :gen: :m
+  :eng: violin
+  :rnk: '4745'
+- :esp: astro
+  :gen: :m
+  :eng: star
+  :rnk: '4746'
+- :esp: dictador
+  :gen: :m
+  :eng: dictator
+  :rnk: '4747'
+- :esp: roce
+  :gen: :m
+  :eng: brush, graze
+  :rnk: '4748'
+- :esp: prolongación
+  :gen: :f
+  :eng: extension
+  :rnk: '4749'
+- :esp: cráneo
+  :gen: :m
+  :eng: skull, cranium
+  :rnk: '4750'
+- :esp: agradecimiento
+  :gen: :m
+  :eng: gratitude, gratefulness
+  :rnk: '4755'
+- :esp: audacia
+  :gen: :f
+  :eng: boldness, audacity
+  :rnk: '4757'
+- :esp: cólera
+  :eng: rage
+  :gen: :f
+  :rnk: '4758'
+- :esp: cólera
+  :eng: cholera
+  :gen: :m
+  :rnk: '4758'
+- :esp: resignación
+  :gen: :f
+  :eng: resignation, acceptance
+  :rnk: '4759'
+- :esp: legislación
+  :gen: :f
+  :eng: legislation
+  :rnk: '4760'
+- :esp: caramelo
+  :gen: :m
+  :eng: piece of candy, caramel
+  :rnk: '4762'
+- :esp: pólvora
+  :gen: :f
+  :eng: gunpowder, powder
+  :rnk: '4763'
+- :esp: rol
+  :gen: :m
+  :eng: role
+  :rnk: '4764'
+- :esp: idiota
+  :gen: :c
+  :eng: idiot, dunce
+  :rnk: '4769'
+- :esp: bahía
+  :gen: :f
+  :eng: bay
+  :rnk: '4770'
+- :esp: latitud
+  :gen: :f
+  :eng: latitude
+  :rnk: '4771'
+- :esp: buey
+  :gen: :m
+  :eng: ox
+  :rnk: '4772'
+- :esp: vaivén
+  :gen: :m
+  :eng: swinging, rocking
+  :rnk: '4773'
+- :esp: equivocación
+  :gen: :f
+  :eng: mistake, misconception
+  :rnk: '4774'
+- :esp: comunismo
+  :gen: :m
+  :eng: communism
+  :rnk: '4775'
+- :esp: partícula
+  :gen: :f
+  :eng: particle
+  :rnk: '4776'
+- :esp: intermedio
+  :gen: :m
+  :eng: means, interval
+  :rnk: '4777'
+- :esp: limosna
+  :gen: :f
+  :eng: alms, charity
+  :rnk: '4779'
+- :esp: equivalente
+  :gen: :m
+  :eng: equivalent
+  :rnk: '4780'
+- :esp: flecha
+  :gen: :f
+  :eng: arrow, dart
+  :rnk: '4781'
+- :esp: desilusión
+  :gen: :f
+  :eng: disappointment, letdown
+  :rnk: '4784'
+- :esp: pato
+  :gen: :m
+  :eng: duck
+  :rnk: '4786'
+- :esp: grieta
+  :gen: :f
+  :eng: crack, opening, slit
+  :rnk: '4788'
+- :esp: jinete
+  :gen: :m
+  :eng: rider, horseman
+  :rnk: '4789'
+- :esp: agricultor
+  :gen: :a
+  :eng: farmer
+  :rnk: '4794'
+- :esp: garra
+  :gen: :f
+  :eng: claw, fang
+  :rnk: '4795'
+- :esp: soporte
+  :gen: :m
+  :eng: support, endorsement
+  :rnk: '4797'
+- :esp: concurrencia
+  :gen: :f
+  :eng: coming together, participation
+  :rnk: '4798'
+- :esp: pirámide
+  :gen: :f
+  :eng: pyramid
+  :rnk: '4799'
+- :esp: fósforo
+  :gen: :m
+  :eng: match, match stick
+  :rnk: '4803'
+- :esp: profeta
+  :gen: :m
+  :eng: prophet
+  :rnk: '4804'
+- :esp: muslo
+  :gen: :m
+  :eng: thigh
+  :rnk: '4807'
+- :esp: retiro
+  :gen: :m
+  :eng: withdrawal, retreat
+  :rnk: '4809'
+- :esp: comando
+  :gen: :m
+  :eng: command, order
+  :rnk: '4810'
+- :esp: emisión
+  :gen: :f
+  :eng: broadcast, emission
+  :rnk: '4812'
+- :esp: tenor
+  :gen: :m
+  :eng: meaning, sense
+  :rnk: '4814'
+- :esp: recompensa
+  :gen: :f
+  :eng: reward, recompense
+  :rnk: '4815'
+- :esp: complicidad
+  :gen: :f
+  :eng: involvement, complicity
+  :rnk: '4816'
+- :esp: recelo
+  :gen: :m
+  :eng: mistrust, suspicion
+  :rnk: '4817'
+- :esp: vibración
+  :gen: :f
+  :eng: vibration
+  :rnk: '4818'
+- :esp: restricción
+  :gen: :f
+  :eng: restriction
+  :rnk: '4819'
+- :esp: vara
+  :gen: :f
+  :eng: rod, stick
+  :rnk: '4822'
+- :esp: clientela
+  :gen: :f
+  :eng: customers, clients
+  :rnk: '4823'
+- :esp: soberanía
+  :gen: :f
+  :eng: sovereignty
+  :rnk: '4824'
+- :esp: frialdad
+  :gen: :f
+  :eng: coldness, indifference
+  :rnk: '4827'
+- :esp: inspección
+  :gen: :f
+  :eng: inspection
+  :rnk: '4829'
+- :esp: inicial
+  :gen: :f
+  :eng: initial (letters)
+  :rnk: '4830'
+- :esp: incidencia
+  :gen: :f
+  :eng: ocurrence, impact
+  :rnk: '4832'
+- :esp: retroceso
+  :gen: :m
+  :eng: movement backwards
+  :rnk: '4833'
+- :esp: micrófono
+  :gen: :m
+  :eng: microphone
+  :rnk: '4834'
+- :esp: ventanilla
+  :gen: :f
+  :eng: vehicle window
+  :rnk: '4836'
+- :esp: extinción
+  :gen: :f
+  :eng: extinction
+  :rnk: '4838'
+- :esp: infinito
+  :gen: :m
+  :eng: infinite, infinity
+  :rnk: '4839'
+- :esp: campeón
+  :gen: :m
+  :eng: champion
+  :rnk: '4840'
+- :esp: oxígeno
+  :gen: :m
+  :eng: oxygen
+  :rnk: '4844'
+- :esp: rigidez
+  :gen: :f
+  :eng: rigidity
+  :rnk: '4845'
+- :esp: despedida
+  :gen: :f
+  :eng: goodbye, farewell
+  :rnk: '4848'
+- :esp: encaje
+  :gen: :m
+  :eng: lace
+  :rnk: '4850'
+- :esp: repercusión
+  :gen: :f
+  :eng: repercussion, impact
+  :rnk: '4852'
+- :esp: ganador
+  :gen: :m
+  :eng: winner
+  :rnk: '4855'
+- :esp: emperador
+  :gen: :m
+  :eng: emperor
+  :rnk: '4856'
+- :esp: cometa
+  :eng: kite
+  :gen: :f
+  :rnk: '4857'
+- :esp: cometa
+  :eng: comet
+  :gen: :m
+  :rnk: '4857'
+- :esp: precedente
+  :gen: :m
+  :eng: precedent
+  :rnk: '4858'
+- :esp: mosaico
+  :gen: :m
+  :eng: mosaic
+  :rnk: '4861'
+- :esp: significación
+  :gen: :f
+  :eng: meaning, significance
+  :rnk: '4862'
+- :esp: contestación
+  :gen: :f
+  :eng: answer
+  :rnk: '4863'
+- :esp: asilo
+  :gen: :m
+  :eng: asylum, shelter
+  :rnk: '4865'
+- :esp: incremento
+  :gen: :m
+  :eng: increase, raise
+  :rnk: '4866'
+- :esp: lomo
+  :gen: :m
+  :eng: back, loin, spine
+  :rnk: '4868'
+- :esp: navegación
+  :gen: :f
+  :eng: navigation, shipping
+  :rnk: '4870'
+- :esp: edificación
+  :gen: :f
+  :eng: construction, building
+  :rnk: '4871'
+- :esp: abstracción
+  :gen: :f
+  :eng: abstraction
+  :rnk: '4872'
+- :esp: mortal
+  :gen: :c
+  :eng: mortal
+  :rnk: '4879'
+- :esp: cabina
+  :gen: :f
+  :eng: cabin, cockpit
+  :rnk: '4882'
+- :esp: guerrero
+  :gen: :a
+  :eng: warrior, soldier
+  :rnk: '4885'
+- :esp: acera
+  :gen: :f
+  :eng: sidewalk
+  :rnk: '4886'
+- :esp: centavo
+  :gen: :m
+  :eng: cent
+  :rnk: '4892'
+- :esp: molino
+  :gen: :m
+  :eng: mill, windmill
+  :rnk: '4893'
+- :esp: decepción
+  :gen: :f
+  :eng: disappointment, disenchantment
+  :rnk: '4895'
+- :esp: ente
+  :gen: :m
+  :eng: entity, being, firm
+  :rnk: '4898'
+- :esp: inundación
+  :gen: :f
+  :eng: flood, deluge
+  :rnk: '4902'
+- :esp: diligencia
+  :gen: :f
+  :eng: diligence
+  :rnk: '4903'
+- :esp: complejidad
+  :gen: :f
+  :eng: complexity
+  :rnk: '4906'
+- :esp: vecindad
+  :gen: :f
+  :eng: nearness, vicinity
+  :rnk: '4910'
+- :esp: cabra
+  :gen: :f
+  :eng: goat
+  :rnk: '4912'
+- :esp: olfato
+  :gen: :m
+  :eng: sense of smell
+  :rnk: '4913'
+- :esp: denominación
+  :gen: :f
+  :eng: name, denomination
+  :rnk: '4914'
+- :esp: envergadura
+  :gen: :f
+  :eng: breadth, expanse
+  :rnk: '4916'
+- :esp: admirador
+  :gen: :m
+  :eng: admirer
+  :rnk: '4917'
+- :esp: rebaño
+  :gen: :m
+  :eng: herd, flock
+  :rnk: '4919'
+- :esp: vegetal
+  :gen: :m
+  :eng: plant, vegetable
+  :rnk: '4921'
+- :esp: fiera
+  :gen: :f
+  :eng: wild beast
+  :rnk: '4923'
+- :esp: olla
+  :gen: :f
+  :eng: pot, kettle
+  :rnk: '4927'
+- :esp: coco
+  :gen: :m
+  :eng: coconut
+  :rnk: '4929'
+- :esp: sótano
+  :gen: :m
+  :eng: basement
+  :rnk: '4930'
+- :esp: agresividad
+  :gen: :f
+  :eng: aggressiveness
+  :rnk: '4931'
+- :esp: adhesión
+  :gen: :f
+  :eng: adherence
+  :rnk: '4933'
+- :esp: convención
+  :gen: :f
+  :eng: convention, assembly
+  :rnk: '4934'
+- :esp: paraje
+  :gen: :m
+  :eng: place, spot
+  :rnk: '4935'
+- :esp: cohete
+  :gen: :m
+  :eng: rocket
+  :rnk: '4937'
+- :esp: almohada
+  :gen: :f
+  :eng: pillow
+  :rnk: '4939'
+- :esp: eficiencia
+  :gen: :f
+  :eng: efficiency
+  :rnk: '4940'
+- :esp: tejado
+  :gen: :m
+  :eng: roof, housetop
+  :rnk: '4944'
+- :esp: elefante
+  :gen: :m
+  :eng: elephant
+  :rnk: '4945'
+- :esp: navaja
+  :gen: :f
+  :eng: razor, blade, navaja
+  :rnk: '4947'
+- :esp: maldición
+  :gen: :f
+  :eng: damnation, curse
+  :rnk: '4948'
+- :esp: marinero
+  :gen: :a
+  :eng: sailor
+  :rnk: '4949'
+- :esp: bachillerato
+  :gen: :m
+  :eng: high school diploma
+  :rnk: '4950'
+- :esp: desequilibrio
+  :gen: :m
+  :eng: imbalance, unsteadiness
+  :rnk: '4953'
+- :esp: desperdicio
+  :gen: :m
+  :eng: waste, refuse, garbage
+  :rnk: '4957'
+- :esp: ampliación
+  :gen: :f
+  :eng: enlargement, extension
+  :rnk: '4959'
+- :esp: recipiente
+  :gen: :m
+  :eng: container, recipient, tank
+  :rnk: '4960'
+- :esp: despliegue
+  :gen: :m
+  :eng: deployment, display
+  :rnk: '4963'
+- :esp: libra
+  :gen: :f
+  :eng: pound (money/weight)
+  :rnk: '4964'
+- :esp: incursión
+  :gen: :f
+  :eng: invasion, incursion
+  :rnk: '4965'
+- :esp: toalla
+  :gen: :f
+  :eng: towel
+  :rnk: '4967'
+- :esp: tenis
+  :gen: :m
+  :eng: tennis
+  :rnk: '4968'
+- :esp: descarga
+  :gen: :f
+  :eng: unloading, discharge
+  :rnk: '4971'
+- :esp: higiene
+  :gen: :f
+  :eng: hygiene
+  :rnk: '4973'
+- :esp: cuenca
+  :gen: :f
+  :eng: socket, basin, bowl
+  :rnk: '4975'
+- :esp: cal
+  :gen: :f
+  :eng: lime, whitewash
+  :rnk: '4977'
+- :esp: pionero
+  :gen: :m
+  :eng: pioneer
+  :rnk: '4980'
+- :esp: volcán
+  :gen: :m
+  :eng: volcano
+  :rnk: '4981'
+- :esp: puta
+  :gen: :f
+  :eng: whore, prostitute
+  :rnk: '4982'
+- :esp: diamante
+  :gen: :m
+  :eng: diamond
+  :rnk: '4984'
+- :esp: delicadeza
+  :gen: :f
+  :eng: gentleness, tenderness
+  :rnk: '4986'
+- :esp: expulsión
+  :gen: :f
+  :eng: expulsion, ejection
+  :rnk: '4988'
+- :esp: enigma
+  :gen: :m
+  :eng: enigma, mystery
+  :rnk: '4989'
+- :esp: hectárea
+  :gen: :f
+  :eng: hectare
+  :rnk: '4991'
+- :esp: inmigrante
+  :gen: :c
+  :eng: immigrant
+  :rnk: '4993'
+- :esp: prevención
+  :gen: :f
+  :eng: prevention, warning
+  :rnk: '4995'
+- :esp: cerco
+  :gen: :m
+  :eng: fence, circle, ring
+  :rnk: '4996'
+- :esp: penumbra
+  :gen: :f
+  :eng: semidarkness, twilight
+  :rnk: '4997'
+- :esp: jugada
+  :gen: :f
+  :eng: move, play
+  :rnk: '4998'
+- :esp: estampa
+  :gen: :f
+  :eng: print, engraving, illustration
+  :rnk: '4999'
+- :esp: cueva
+  :gen: :f
+  :eng: cave
+  :rnk: '5000'
