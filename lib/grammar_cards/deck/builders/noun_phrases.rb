@@ -13,7 +13,7 @@ module GrammarCards
         class Builder
           def initialize(options)
             @options = options
-            @logger = GrammarCards::Cards::NounPhraseLogger.new
+            @logger = GrammarCards::Cards::NounPhraseLogger.new(@options[:ignore_log])
             @available_nouns = nouns_in_range - @logger.logged_nouns
             @deck_size = calculate_deck_size
             @deck = []
@@ -54,7 +54,9 @@ module GrammarCards
         end
 
         def build(options = {})
-          shuffle Builder.new({:range => DEFAULT_RANGE, :requested_size => 16}.merge(options)).build
+          shuffle Builder.new({:range => DEFAULT_RANGE,
+                               :requested_size => 16,
+                               :ignore_log => false}.merge(options)).build
         end
 
         extend NounPhrases
